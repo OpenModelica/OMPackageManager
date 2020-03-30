@@ -1,0 +1,172 @@
+ {
+  "Buildings": {
+    "names": ["Buildings"],
+    "github": "lbl-srg/modelica-buildings",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=5.1.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "FastBuildings": {
+    "names": ["FastBuildings"],
+    "github": "open-ideas/FastBuildings",
+    "ignore-tags": ["master"],
+    "branches": {"master": "master"},
+    "support": [
+      ["0.0.0-master", "support"],
+      ["prerelease", "noSupport"],
+      [">=0.0.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "HanserModelica": {
+    "names": ["HanserModelica"],
+    "github": "christiankral/HanserModelica",
+    "branches": {"master": "master"},
+    "support": [
+      ["0.0.0-master", "support"],
+      ["prerelease", "noSupport"],
+      [">=0.0.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "KeyWordIO": {
+    "names": ["KeyWordIO"],
+    "github": "christiankral/KeyWordIO",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.9.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "MessagePack": {
+    "names": ["MessagePack"],
+    "github": "modelica-3rdparty/msgpack-modelica",
+    "branches": {"master": "master"},
+    "support": [
+      ["0.1.1-master", "fullSupport"],
+      [">=0.1.0", "support"],
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Modelica": {
+    "names": ["Modelica","ModelicaReference","ModelicaTest","ModelicaTestOverdetermined","Complex","ObsoleteModelica3","ObsoleteModelica4"],
+    "github": "modelica/ModelicaStandardLibrary",
+    "branches": {
+      "maint/2.2.1": "v2.2.1+maint",
+      "maint/2.2.2": "v2.2.2+maint",
+      "maint/3.1": "v3.1.0+maint"
+    },
+    "ignore-tags": [
+      "v2.1", "v2.2", "v2.2.1", "v2.2.2", "v3.1",
+      "v3.2.3+build.3-rc.1",
+      "v3.2.3+build.3-beta.1",
+      "v3.2.3+build.4-beta.1"
+    ],
+    "standard": [
+      [">=3.4.0", "latest"],
+      [">=3.3.0", "3.3"],
+      [">=3.2.0", "3.2"],
+      [">=3.1.0", "3.1"],
+      [">=2.0.0", "2.x"],
+      [">=1.0.0", "1.x"],
+      ["*", "latest"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=4.0.0", "support"],
+      [">=3.2.3", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ModelicaByExample": {
+    "names": ["ModelicaByExample"],
+    "github": "mtiller/ModelicaBook",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.6.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "OpenIPSL": {
+    "names": ["OpenIPSL"],
+    "github": "OpenIPSL/OpenIPSL",
+    "ignore-tags": [
+      "v0.8.1", "v0.8.0", "v0.8", "Tuto_ModProd_2016"
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.5.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "PNlib": {
+    "names": ["PNlib"],
+    "github": "AMIT-FHBielefeld/PNlib",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.2.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "PlanarMechanics": {
+    "names": ["PlanarMechanics"],
+    "github": "dzimmer/PlanarMechanics",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.4.1", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ScalableTestSuite": {
+    "names": ["ScalableTestSuite"],
+    "github": "casella/ScalableTestSuite",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.11.5", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "SolarTherm": {
+    "names": ["SolarTherm"],
+    "github": "SolarTherm/SolarTherm",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.2.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
+  "SystemDynamics": {
+    "names": ["SystemDynamics"],
+    "github": "modelica-3rdparty/SystemDynamics",
+    "branches": {"master": "master"},
+    "support": [
+      ["2.1.1-master", "fullSupport"],
+      ["prerelease", "noSupport"],
+      [">=2.1.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "VehicleInterfaces": {
+    "names": ["VehicleInterfaces"],
+    "github": "modelica/VehicleInterfaces",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.2.5", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "iPSL": {
+    "names": ["iPSL"],
+    "github": "itesla/iPSL",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.1.1", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  }
+}

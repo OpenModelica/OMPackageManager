@@ -1,0 +1,1460 @@
+{
+"libs": {
+"Buildings": {
+"git": "https://github.com/lbl-srg/modelica-buildings.git",
+"versions": {
+"1.4.0-build1": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0"
+],
+"path": "Buildings 1.4",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "50a9cce934ad199cb4f8e6ed50f5fd88e9b07105",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.0"
+},
+"version": "1.4.0-build1"
+},
+"1.5.0+build.1": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0"
+],
+"path": "Buildings 1.5",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "6b865480883b813cd87159b56d83c8ee220f30c9",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.0"
+},
+"version": "1.5.0+build.1"
+},
+"1.5.0+build.2": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0"
+],
+"path": "Buildings 1.5",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "e3ede45ffb40b1c703c9e517ddd0e42ff3691689",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.0"
+},
+"version": "1.5.0+build.2"
+},
+"1.5.0+build.3": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0"
+],
+"path": "Buildings 1.5",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "5734e67c306f0cfc46e7e1794da265e16bb22dfa",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.0"
+},
+"version": "1.5.0+build.3"
+},
+"1.6.0+build.1": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0",
+"1.5.0"
+],
+"path": "Buildings 1.6",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "bca6399e7f5504ae13529183f7707f3634622f21",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "1.6.0+build.1"
+},
+"2.0.0": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0",
+"1.5.0",
+"1.6.0"
+],
+"path": "Buildings 2.0.0",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "78fb55211a60ebcd0196810966a33bc7b1fc7b41",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1",
+"Modelica_StateGraph2": "2.0.2"
+},
+"version": "2.0.0"
+},
+"2.0.0-rc.1": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0",
+"1.5.0",
+"1.6.0"
+],
+"path": "Buildings 2.0.0",
+"provides": [
+"1.2.0",
+"1.3.0"
+],
+"sha": "135345b7870757f9406797343ec6e1af58833592",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.1",
+"Modelica_StateGraph2": "2.0.2"
+},
+"version": "2.0.0-rc.1"
+},
+"2.1.0": {
+"convertFromVersion": [
+"0.12.0",
+"1.0.0",
+"1.1.0",
+"1.4.0",
+"1.5.0",
+"1.6.0"
+],
+"path": "Buildings 2.1.0",
+"provides": [
+"1.2.0",
+"1.3.0",
+"2.0.0"
+],
+"sha": "da3ebf02eee3b88e9f53c4c6d5ae720ed0aa9bda",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1",
+"Modelica_StateGraph2": "2.0.2"
+},
+"version": "2.1.0"
+},
+"3.0.0": {
+"convertFromVersion": [
+"2.0.0",
+"2.1.0"
+],
+"path": "Buildings",
+"sha": "15ed829ec502f4b99e4875bf96f1e64a71476192",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1",
+"Modelica_StateGraph2": "2.0.2"
+},
+"version": "3.0.0"
+},
+"4.0.0": {
+"convertFromVersion": [
+"3.0.0",
+"4.0.0"
+],
+"path": "Buildings",
+"sha": "d913573fc82c0938cfd3cc99f6939087494f37c3",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "4.0.0"
+},
+"5.0.0": {
+"convertFromVersion": [
+"4.0.0",
+"5.0.0"
+],
+"path": "Buildings",
+"sha": "6546b7ce4c41fcf33335bd031ad89565b2c05d13",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "5.0.0"
+},
+"5.0.1": {
+"convertFromVersion": [
+"4.0.0",
+"5.0.0"
+],
+"path": "Buildings",
+"sha": "67577bd29c67f873532f99d2c68216043950e407",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "5.0.1"
+},
+"5.1.0": {
+"convertFromVersion": [
+"4.0.0"
+],
+"path": "Buildings",
+"provides": [
+"5.0.0",
+"5.0.1"
+],
+"sha": "daa95e7b246cce84a72f1679324c257943ac36c9",
+"support": "support",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "5.1.0"
+},
+"6.0.0": {
+"convertFromVersion": [
+"5.0.0",
+"5.0.1",
+"5.1.0"
+],
+"path": "Buildings",
+"sha": "2904a675d2f7b31b97348af5506723367c43a704",
+"support": "support",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "6.0.0"
+}
+}
+},
+"Complex": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"1.0.0": {
+"path": "Complex.mo",
+"sha": "df6b7669fcd35d121138b2ef28f19cdf33d691e8",
+"support": "obsolete",
+"version": "1.0.0"
+},
+"3.2.1+build.2": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0"
+],
+"sha": "c73cd536acab3d89f2ff08493dadbf902b70559c",
+"support": "obsolete",
+"version": "3.2.1+build.2"
+},
+"3.2.1+build.3": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0"
+],
+"sha": "1319803bdce948ee1696909d9303d86420ab4d2a",
+"support": "obsolete",
+"version": "3.2.1+build.3"
+},
+"3.2.1+build.4": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0"
+],
+"sha": "8bd8d4bc4e942669930b3d538f9ff2e99531f5dc",
+"support": "obsolete",
+"version": "3.2.1+build.4"
+},
+"3.2.2": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1"
+],
+"sha": "61c02b119ee5d5c2dd64b1c1ff1cee54cfb375c4",
+"support": "obsolete",
+"version": "3.2.2"
+},
+"3.2.3": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "2da48301b8c3071158aa5ada8693767e6717ca47",
+"support": "support",
+"version": "3.2.3"
+},
+"3.2.3+build.2": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "8f65f621a388379e9de663fc15990bfc9ee9b540",
+"support": "support",
+"version": "3.2.3+build.2"
+},
+"3.2.3+build.3": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "8642c8de8b65ad90905a680932a2cab2b369cf43",
+"support": "support",
+"version": "3.2.3+build.3"
+},
+"3.2.3-beta.1": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "b1a84380293a5d3c9b9f5d304991020f372a42e9",
+"support": "noSupport",
+"version": "3.2.3-beta.1"
+},
+"3.2.3-beta.2": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "eea74432d6006527b41676547ec2326d8bcbb8f2",
+"support": "noSupport",
+"version": "3.2.3-beta.2"
+},
+"3.2.3-beta.3": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "882c43a2aba0300c60cefffa75c60366c8706c30",
+"support": "noSupport",
+"version": "3.2.3-beta.3"
+},
+"3.2.3-rc.1": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "467a0b68f7f3fb455cda84583d6f6b20db9f45a8",
+"support": "noSupport",
+"version": "3.2.3-rc.1"
+},
+"3.2.3-rc.2": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "04edf76bec1b8bd961838848c3ab2d5e49b76ef3",
+"support": "noSupport",
+"version": "3.2.3-rc.2"
+},
+"4.0.0-alpha.1": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "ece73c200b08eb11a3d8f228a61dc24740a3a845",
+"support": "noSupport",
+"version": "4.0.0-alpha.1"
+},
+"4.0.0-beta.1": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "90a93b3a716b8827ccfbc878b24fb405e3aa3da4",
+"support": "noSupport",
+"version": "4.0.0-beta.1"
+},
+"4.0.0-beta.2": {
+"path": "Complex.mo",
+"provides": [
+"1.0.0",
+"1.1.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "00d6dfcf59d351f81fc1c6c5fc27095fa15073c6",
+"support": "noSupport",
+"version": "4.0.0-beta.2"
+}
+}
+},
+"Modelica": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"1.3.1": {
+"path": "",
+"sha": "7366c28985d642838fadbe8fae46305e9c62b98f",
+"support": "obsolete",
+"version": "1.3.1"
+},
+"1.5.0": {
+"path": "",
+"sha": "4461da7d2969d2b22b10d3cb8b8eb73cbfead78b",
+"support": "obsolete",
+"version": "1.5.0"
+},
+"1.6.0": {
+"path": "",
+"sha": "6a90d1a8931b29d0d60547f5b3329191ecfe2bfd",
+"support": "obsolete",
+"version": "1.6.0"
+},
+"2.2.1+maint": {
+"convertFromVersion": [
+"1.6.0",
+"2.1.0-Beta1"
+],
+"path": "Modelica",
+"provides": [
+"2.1.0",
+"2.2.0"
+],
+"sha": "ab5bae673ab67aebab2434ab5a47416f4d0f24cb",
+"support": "obsolete",
+"version": "2.2.1+maint"
+},
+"2.2.2+maint": {
+"convertFromVersion": [
+"1.6.0",
+"2.1.0-Beta1"
+],
+"path": "Modelica",
+"provides": [
+"2.1.0",
+"2.2.0",
+"2.2.1"
+],
+"sha": "d442bcd461b8db9873e33b6141bdbd37bcff9de8",
+"support": "obsolete",
+"version": "2.2.2+maint"
+},
+"3.0.0": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"sha": "0e3e5511a0d322956a442f90aaa9376cab9724b9",
+"support": "obsolete",
+"version": "3.0.0"
+},
+"3.0.1": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0"
+],
+"sha": "84eec06fa53007ad81d3471da6ee6cb6d7287cf6",
+"support": "obsolete",
+"version": "3.0.1"
+},
+"3.1.0+maint": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1"
+],
+"sha": "af2a3e1597d648d6826665c89cf9eaf5c2a632bc",
+"support": "obsolete",
+"uses": {
+"ModelicaServices": "1.0.0"
+},
+"version": "3.1.0+maint"
+},
+"3.2.0": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0"
+],
+"sha": "df6b7669fcd35d121138b2ef28f19cdf33d691e8",
+"support": "obsolete",
+"uses": {
+"Complex": "1.0.0",
+"ModelicaServices": "1.1.0"
+},
+"version": "3.2.0"
+},
+"3.2.1+build.2": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0"
+],
+"sha": "c73cd536acab3d89f2ff08493dadbf902b70559c",
+"support": "obsolete",
+"uses": {
+"Complex": "3.2.1",
+"ModelicaServices": "3.2.1"
+},
+"version": "3.2.1+build.2"
+},
+"3.2.1+build.3": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0"
+],
+"sha": "1319803bdce948ee1696909d9303d86420ab4d2a",
+"support": "obsolete",
+"uses": {
+"Complex": "3.2.1",
+"ModelicaServices": "3.2.1"
+},
+"version": "3.2.1+build.3"
+},
+"3.2.1+build.4": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0"
+],
+"sha": "8bd8d4bc4e942669930b3d538f9ff2e99531f5dc",
+"support": "obsolete",
+"uses": {
+"Complex": "3.2.1",
+"ModelicaServices": "3.2.1"
+},
+"version": "3.2.1+build.4"
+},
+"3.2.2": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1"
+],
+"sha": "61c02b119ee5d5c2dd64b1c1ff1cee54cfb375c4",
+"support": "fullSupport",
+"uses": {
+"Complex": "3.2.2",
+"ModelicaServices": "3.2.2"
+},
+"version": "3.2.2"
+},
+"3.2.3": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "2da48301b8c3071158aa5ada8693767e6717ca47",
+"support": "support",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3"
+},
+"3.2.3+build.2": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "8f65f621a388379e9de663fc15990bfc9ee9b540",
+"support": "support",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3+build.2"
+},
+"3.2.3+build.3": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "8642c8de8b65ad90905a680932a2cab2b369cf43",
+"support": "support",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3+build.3"
+},
+"3.2.3-beta.1": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "b1a84380293a5d3c9b9f5d304991020f372a42e9",
+"support": "noSupport",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3-beta.1"
+},
+"3.2.3-beta.2": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "eea74432d6006527b41676547ec2326d8bcbb8f2",
+"support": "noSupport",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3-beta.2"
+},
+"3.2.3-beta.3": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "882c43a2aba0300c60cefffa75c60366c8706c30",
+"support": "noSupport",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3-beta.3"
+},
+"3.2.3-rc.1": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "467a0b68f7f3fb455cda84583d6f6b20db9f45a8",
+"support": "noSupport",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3-rc.1"
+},
+"3.2.3-rc.2": {
+"convertFromVersion": [
+"2.1.0",
+"2.2.0",
+"2.2.1",
+"2.2.2"
+],
+"path": "Modelica",
+"provides": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2"
+],
+"sha": "04edf76bec1b8bd961838848c3ab2d5e49b76ef3",
+"support": "noSupport",
+"uses": {
+"Complex": "3.2.3",
+"ModelicaServices": "3.2.3"
+},
+"version": "3.2.3-rc.2"
+},
+"4.0.0-alpha.1": {
+"convertFromVersion": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2",
+"3.2.3"
+],
+"path": "Modelica",
+"sha": "ece73c200b08eb11a3d8f228a61dc24740a3a845",
+"support": "noSupport",
+"uses": {
+"Complex": "4.0.0",
+"ModelicaServices": "4.0.0"
+},
+"version": "4.0.0-alpha.1"
+},
+"4.0.0-beta.1": {
+"convertFromVersion": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2",
+"3.2.3"
+],
+"path": "Modelica",
+"sha": "90a93b3a716b8827ccfbc878b24fb405e3aa3da4",
+"support": "noSupport",
+"uses": {
+"Complex": "4.0.0",
+"ModelicaServices": "4.0.0"
+},
+"version": "4.0.0-beta.1"
+},
+"4.0.0-beta.2": {
+"convertFromVersion": [
+"3.0.0",
+"3.0.1",
+"3.1.0",
+"3.2.0",
+"3.2.1",
+"3.2.2",
+"3.2.3"
+],
+"path": "Modelica",
+"sha": "00d6dfcf59d351f81fc1c6c5fc27095fa15073c6",
+"support": "noSupport",
+"uses": {
+"Complex": "4.0.0",
+"ModelicaServices": "4.0.0"
+},
+"version": "4.0.0-beta.2"
+}
+}
+},
+"ModelicaReference": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"3.0.0": {
+"path": "ModelicaReference",
+"sha": "0e3e5511a0d322956a442f90aaa9376cab9724b9",
+"support": "obsolete",
+"version": "3.0.0"
+},
+"3.0.1": {
+"path": "ModelicaReference",
+"sha": "84eec06fa53007ad81d3471da6ee6cb6d7287cf6",
+"support": "obsolete",
+"version": "3.0.1"
+},
+"3.1.0+maint": {
+"path": "ModelicaReference",
+"sha": "af2a3e1597d648d6826665c89cf9eaf5c2a632bc",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.1.0"
+},
+"version": "3.1.0+maint"
+},
+"3.2.0": {
+"path": "ModelicaReference",
+"sha": "df6b7669fcd35d121138b2ef28f19cdf33d691e8",
+"support": "obsolete",
+"version": "3.2.0"
+},
+"3.2.1+build.2": {
+"path": "ModelicaReference",
+"sha": "c73cd536acab3d89f2ff08493dadbf902b70559c",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.2"
+},
+"3.2.1+build.3": {
+"path": "ModelicaReference",
+"sha": "1319803bdce948ee1696909d9303d86420ab4d2a",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.3"
+},
+"3.2.1+build.4": {
+"path": "ModelicaReference",
+"sha": "8bd8d4bc4e942669930b3d538f9ff2e99531f5dc",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.4"
+},
+"3.2.2": {
+"path": "ModelicaReference",
+"sha": "61c02b119ee5d5c2dd64b1c1ff1cee54cfb375c4",
+"support": "obsolete",
+"version": "3.2.2"
+},
+"3.2.3": {
+"path": "ModelicaReference",
+"sha": "2da48301b8c3071158aa5ada8693767e6717ca47",
+"support": "support",
+"version": "3.2.3"
+},
+"3.2.3+build.2": {
+"path": "ModelicaReference",
+"sha": "8f65f621a388379e9de663fc15990bfc9ee9b540",
+"support": "support",
+"version": "3.2.3+build.2"
+},
+"3.2.3+build.3": {
+"path": "ModelicaReference",
+"sha": "8642c8de8b65ad90905a680932a2cab2b369cf43",
+"support": "support",
+"version": "3.2.3+build.3"
+},
+"3.2.3-beta.3": {
+"path": "ModelicaReference",
+"sha": "882c43a2aba0300c60cefffa75c60366c8706c30",
+"support": "noSupport",
+"version": "3.2.3-beta.3"
+},
+"3.2.3-rc.1": {
+"path": "ModelicaReference",
+"sha": "467a0b68f7f3fb455cda84583d6f6b20db9f45a8",
+"support": "noSupport",
+"version": "3.2.3-rc.1"
+},
+"3.2.3-rc.2": {
+"path": "ModelicaReference",
+"sha": "04edf76bec1b8bd961838848c3ab2d5e49b76ef3",
+"support": "noSupport",
+"version": "3.2.3-rc.2"
+},
+"4.0.0-alpha.1": {
+"path": "ModelicaReference",
+"sha": "ece73c200b08eb11a3d8f228a61dc24740a3a845",
+"support": "noSupport",
+"version": "4.0.0-alpha.1"
+},
+"4.0.0-beta.1": {
+"path": "ModelicaReference",
+"sha": "90a93b3a716b8827ccfbc878b24fb405e3aa3da4",
+"support": "noSupport",
+"version": "4.0.0-beta.1"
+},
+"4.0.0-beta.2": {
+"path": "ModelicaReference",
+"sha": "00d6dfcf59d351f81fc1c6c5fc27095fa15073c6",
+"support": "noSupport",
+"version": "4.0.0-beta.2"
+}
+}
+},
+"ModelicaTest": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"1.1.0": {
+"convertFromVersion": [
+"1.0.0"
+],
+"path": "ModelicaTest",
+"sha": "df6b7669fcd35d121138b2ef28f19cdf33d691e8",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.0"
+},
+"version": "1.1.0"
+},
+"3.2.1+build.2": {
+"path": "ModelicaTest",
+"sha": "c73cd536acab3d89f2ff08493dadbf902b70559c",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.2"
+},
+"3.2.1+build.3": {
+"path": "ModelicaTest",
+"sha": "1319803bdce948ee1696909d9303d86420ab4d2a",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.3"
+},
+"3.2.1+build.4": {
+"path": "ModelicaTest",
+"sha": "8bd8d4bc4e942669930b3d538f9ff2e99531f5dc",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.4"
+},
+"3.2.2": {
+"path": "ModelicaTest",
+"sha": "61c02b119ee5d5c2dd64b1c1ff1cee54cfb375c4",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "3.2.2"
+},
+"3.2.3": {
+"path": "ModelicaTest",
+"sha": "2da48301b8c3071158aa5ada8693767e6717ca47",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3"
+},
+"3.2.3+build.2": {
+"path": "ModelicaTest",
+"sha": "8f65f621a388379e9de663fc15990bfc9ee9b540",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3+build.2"
+},
+"3.2.3+build.3": {
+"path": "ModelicaTest",
+"sha": "8642c8de8b65ad90905a680932a2cab2b369cf43",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3+build.3"
+},
+"3.2.3-beta.1": {
+"path": "ModelicaTest",
+"sha": "b1a84380293a5d3c9b9f5d304991020f372a42e9",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.1"
+},
+"3.2.3-beta.2": {
+"path": "ModelicaTest",
+"sha": "eea74432d6006527b41676547ec2326d8bcbb8f2",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.2"
+},
+"3.2.3-beta.3": {
+"path": "ModelicaTest",
+"sha": "882c43a2aba0300c60cefffa75c60366c8706c30",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.3"
+},
+"3.2.3-rc.1": {
+"path": "ModelicaTest",
+"sha": "467a0b68f7f3fb455cda84583d6f6b20db9f45a8",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-rc.1"
+},
+"3.2.3-rc.2": {
+"path": "ModelicaTest",
+"sha": "04edf76bec1b8bd961838848c3ab2d5e49b76ef3",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-rc.2"
+},
+"4.0.0-alpha.1": {
+"path": "ModelicaTest",
+"sha": "ece73c200b08eb11a3d8f228a61dc24740a3a845",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-alpha.1"
+},
+"4.0.0-beta.1": {
+"path": "ModelicaTest",
+"sha": "90a93b3a716b8827ccfbc878b24fb405e3aa3da4",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-beta.1"
+},
+"4.0.0-beta.2": {
+"path": "ModelicaTest",
+"sha": "00d6dfcf59d351f81fc1c6c5fc27095fa15073c6",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-beta.2"
+}
+}
+},
+"ModelicaTestOverdetermined": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"3.2.2": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "61c02b119ee5d5c2dd64b1c1ff1cee54cfb375c4",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "3.2.2"
+},
+"3.2.3": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "2da48301b8c3071158aa5ada8693767e6717ca47",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3"
+},
+"3.2.3+build.2": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "8f65f621a388379e9de663fc15990bfc9ee9b540",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3+build.2"
+},
+"3.2.3+build.3": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "8642c8de8b65ad90905a680932a2cab2b369cf43",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3+build.3"
+},
+"3.2.3-beta.1": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "b1a84380293a5d3c9b9f5d304991020f372a42e9",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.1"
+},
+"3.2.3-beta.2": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "eea74432d6006527b41676547ec2326d8bcbb8f2",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.2"
+},
+"3.2.3-beta.3": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "882c43a2aba0300c60cefffa75c60366c8706c30",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.3"
+},
+"3.2.3-rc.1": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "467a0b68f7f3fb455cda84583d6f6b20db9f45a8",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-rc.1"
+},
+"3.2.3-rc.2": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "04edf76bec1b8bd961838848c3ab2d5e49b76ef3",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-rc.2"
+},
+"4.0.0-alpha.1": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "ece73c200b08eb11a3d8f228a61dc24740a3a845",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-alpha.1"
+},
+"4.0.0-beta.1": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "90a93b3a716b8827ccfbc878b24fb405e3aa3da4",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-beta.1"
+},
+"4.0.0-beta.2": {
+"path": "ModelicaTestOverdetermined.mo",
+"sha": "00d6dfcf59d351f81fc1c6c5fc27095fa15073c6",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-beta.2"
+}
+}
+},
+"ObsoleteModelica3": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"3.0.0": {
+"path": "ObsoleteModelica3.mo",
+"sha": "0e3e5511a0d322956a442f90aaa9376cab9724b9",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.0.0"
+},
+"version": "3.0.0"
+},
+"3.0.1": {
+"path": "ObsoleteModelica3.mo",
+"sha": "84eec06fa53007ad81d3471da6ee6cb6d7287cf6",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.0.0"
+},
+"version": "3.0.1"
+},
+"3.1.0+maint": {
+"path": "ObsoleteModelica3.mo",
+"sha": "af2a3e1597d648d6826665c89cf9eaf5c2a632bc",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.1.0"
+},
+"version": "3.1.0+maint"
+},
+"3.2.0": {
+"path": "ObsoleteModelica3.mo",
+"sha": "df6b7669fcd35d121138b2ef28f19cdf33d691e8",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.0"
+},
+"version": "3.2.0"
+},
+"3.2.1+build.2": {
+"path": "ObsoleteModelica3.mo",
+"sha": "c73cd536acab3d89f2ff08493dadbf902b70559c",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.2"
+},
+"3.2.1+build.3": {
+"path": "ObsoleteModelica3.mo",
+"sha": "1319803bdce948ee1696909d9303d86420ab4d2a",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.3"
+},
+"3.2.1+build.4": {
+"path": "ObsoleteModelica3.mo",
+"sha": "8bd8d4bc4e942669930b3d538f9ff2e99531f5dc",
+"support": "obsolete",
+"uses": {
+"Modelica": "3.2.1"
+},
+"version": "3.2.1+build.4"
+},
+"3.2.2": {
+"path": "ObsoleteModelica3.mo",
+"sha": "61c02b119ee5d5c2dd64b1c1ff1cee54cfb375c4",
+"support": "fullSupport",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "3.2.2"
+},
+"3.2.3": {
+"path": "ObsoleteModelica3.mo",
+"sha": "2da48301b8c3071158aa5ada8693767e6717ca47",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3"
+},
+"3.2.3+build.2": {
+"path": "ObsoleteModelica3.mo",
+"sha": "8f65f621a388379e9de663fc15990bfc9ee9b540",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3+build.2"
+},
+"3.2.3+build.3": {
+"path": "ObsoleteModelica3.mo",
+"sha": "8642c8de8b65ad90905a680932a2cab2b369cf43",
+"support": "support",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3+build.3"
+},
+"3.2.3-beta.1": {
+"path": "ObsoleteModelica3.mo",
+"sha": "b1a84380293a5d3c9b9f5d304991020f372a42e9",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.2"
+},
+"version": "3.2.3-beta.1"
+},
+"3.2.3-beta.2": {
+"path": "ObsoleteModelica3.mo",
+"sha": "eea74432d6006527b41676547ec2326d8bcbb8f2",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.2"
+},
+"3.2.3-beta.3": {
+"path": "ObsoleteModelica3.mo",
+"sha": "882c43a2aba0300c60cefffa75c60366c8706c30",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-beta.3"
+},
+"3.2.3-rc.1": {
+"path": "ObsoleteModelica3.mo",
+"sha": "467a0b68f7f3fb455cda84583d6f6b20db9f45a8",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-rc.1"
+},
+"3.2.3-rc.2": {
+"path": "ObsoleteModelica3.mo",
+"sha": "04edf76bec1b8bd961838848c3ab2d5e49b76ef3",
+"support": "noSupport",
+"uses": {
+"Modelica": "3.2.3"
+},
+"version": "3.2.3-rc.2"
+}
+}
+},
+"ObsoleteModelica4": {
+"git": "https://github.com/modelica/ModelicaStandardLibrary.git",
+"versions": {
+"4.0.0-alpha.1": {
+"path": "ObsoleteModelica4.mo",
+"sha": "ece73c200b08eb11a3d8f228a61dc24740a3a845",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-alpha.1"
+},
+"4.0.0-beta.1": {
+"path": "ObsoleteModelica4.mo",
+"sha": "90a93b3a716b8827ccfbc878b24fb405e3aa3da4",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-beta.1"
+},
+"4.0.0-beta.2": {
+"path": "ObsoleteModelica4.mo",
+"sha": "00d6dfcf59d351f81fc1c6c5fc27095fa15073c6",
+"support": "noSupport",
+"uses": {
+"Modelica": "4.0.0"
+},
+"version": "4.0.0-beta.2"
+}
+}
+}
+}
+}
