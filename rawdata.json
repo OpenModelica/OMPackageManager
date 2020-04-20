@@ -316,7 +316,7 @@
               "Complex": "3.2.3",
               "Modelica": "3.2.3"
             },
-            "version": "1.1.0"
+            "version": "1.1.0-master"
           }
         },
         "sha": "2713613502a20766404998fb8135e151dbf575fa"
@@ -532,7 +532,7 @@
         "libs": {
           "MessagePack": {
             "path": "MessagePack",
-            "version": "0.1.1"
+            "version": "0.1.1-master"
           }
         },
         "sha": "49636e0f59ea14684384b90a12e065774de8b97b"
@@ -1196,7 +1196,7 @@
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "3.2.2"
+            "version": "3.2.2-beta.1"
           },
           "ModelicaTest": {
             "path": "ModelicaTest",
@@ -1258,7 +1258,7 @@
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "3.2.2"
+            "version": "3.2.2-beta.2"
           },
           "ModelicaTest": {
             "path": "ModelicaTest",
@@ -1789,42 +1789,6 @@
         },
         "sha": "c441f4311937e2e2a2a349db0cc2724cc35deb67"
       },
-      "v0.5.1": {
-        "libs": {
-          "ModelicaByExample": {
-            "path": "ModelicaByExample",
-            "uses": {
-              "Modelica": "3.2.2"
-            },
-            "version": "0.5.0"
-          }
-        },
-        "sha": "562e39e73bfef54889a9ca0d7a31539bd00c6779"
-      },
-      "v0.5.2": {
-        "libs": {
-          "ModelicaByExample": {
-            "path": "ModelicaByExample",
-            "uses": {
-              "Modelica": "3.2.2"
-            },
-            "version": "0.5.0"
-          }
-        },
-        "sha": "6dab3388f3f7cb1ec049bda0f64860c7ef55d6b7"
-      },
-      "v0.5.3": {
-        "libs": {
-          "ModelicaByExample": {
-            "path": "ModelicaByExample",
-            "uses": {
-              "Modelica": "3.2.2"
-            },
-            "version": "0.5.0"
-          }
-        },
-        "sha": "4c1367c563be2ae02a90ca2ad082304fb6aaf029"
-      },
       "v0.6.0": {
         "libs": {
           "ModelicaByExample": {
@@ -1832,7 +1796,7 @@
             "uses": {
               "Modelica": "3.2.2"
             },
-            "version": "0.5.0"
+            "version": "0.6.0"
           }
         },
         "sha": "6044b756548cfb60fd011983b2ab7587fa252089"
@@ -1844,7 +1808,7 @@
             "uses": {
               "Modelica": "3.2.2"
             },
-            "version": "0.5.0"
+            "version": "0.5.0-rc1"
           }
         },
         "sha": "9c00ca81512beaa4f8c41714ac984b058dd8f56a"
@@ -1861,7 +1825,7 @@
               "Complex": "3.2.2",
               "Modelica": "3.2.2"
             },
-            "version": "1.5.0"
+            "version": "1.5.0-FOSSEE1_initial"
           }
         },
         "sha": "633d3f5c64fab3b28a79edf73eca14ee58fb6513"
@@ -1877,13 +1841,10 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.8.1"
+            "version": "0.8.1-Tuto_ENTSOE_WG_Modelica"
           }
         },
         "sha": "4076c9513e989873e69950a16d4c708fda0a1564"
-      },
-      "Tuto_ModProd_2016": {
-        "broken": true
       },
       "Tuto_ModProd_2017": {
         "libs": {
@@ -1893,7 +1854,7 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "1.0.0"
+            "version": "1.0.0-Tuto_ModProd_2017"
           }
         },
         "sha": "cea33e393730230eaf112a892d29852f0b884f72"
@@ -1909,7 +1870,7 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.8.1"
+            "version": "0.8.1-Tuto_PTI_Brazil_17"
           }
         },
         "sha": "dd85536f6d6e94ff0b97d3a2c0d6bf654f9a3b3f"
@@ -1922,7 +1883,7 @@
               "Complex": "3.2.2",
               "Modelica": "3.2.2"
             },
-            "version": "1.0.0"
+            "version": "1.0.0-Tuto_TAMU_2017"
           }
         },
         "sha": "4b27202e6b46ea23f0b3872fac3530697cbbca61"
@@ -1935,7 +1896,7 @@
               "Complex": "3.2.2",
               "Modelica": "3.2.2"
             },
-            "version": "1.0.0"
+            "version": "1.0.0-Tuto_UCD_2017"
           }
         },
         "sha": "af3807091332e254e037cf3186e55f2a475661fc"
@@ -1948,7 +1909,7 @@
               "Complex": "3.2.2",
               "Modelica": "3.2.2"
             },
-            "version": "1.0.0"
+            "version": "1.0.0-Tutorial_CURENT_ERC_2017_08_22"
           }
         },
         "sha": "7b80fe466301c3099984e4132542a85a97d3d4a1"
@@ -1961,7 +1922,7 @@
               "Complex": "3.2.2",
               "Modelica": "3.2.2"
             },
-            "version": "1.0.0"
+            "version": "1.0.0-Tutorial_ModelicaConf2017"
           }
         },
         "sha": "d7e59d51dbbbec6bfa9f37bf2e6dbd58e8431eb6"
@@ -1974,19 +1935,10 @@
               "Complex": "3.2.2",
               "Modelica": "3.2.2"
             },
-            "version": "1.0.0"
+            "version": "1.0.0-Tutorial_NAMUG_2017"
           }
         },
         "sha": "0870f8a902b03b91703c6824475d591082eca3ed"
-      },
-      "v0.8": {
-        "broken": true
-      },
-      "v0.8.0": {
-        "broken": true
-      },
-      "v0.8.1": {
-        "broken": true
       },
       "v1.0.0": {
         "libs": {
@@ -2013,31 +1965,6 @@
           }
         },
         "sha": "4b97ac8de5992289ad6327e3bd6dca4cdb985393"
-      }
-    }
-  },
-  "PNLib": {
-    "refs": {
-      "v1.0": {
-        "broken": true
-      },
-      "v1.1": {
-        "broken": true
-      },
-      "v1.2": {
-        "broken": true
-      },
-      "v1.3": {
-        "broken": true
-      },
-      "v2.0": {
-        "broken": true
-      },
-      "v2.1": {
-        "broken": true
-      },
-      "v2.2": {
-        "broken": true
       }
     }
   },
@@ -2138,7 +2065,7 @@
             "uses": {
               "Modelica": "3.2.2"
             },
-            "version": "2.0.0"
+            "version": "2.1.0"
           }
         },
         "sha": "fb0bb36dfb4e8ae738423ee4e4d8905d88da0c1e"
@@ -2239,7 +2166,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.0.0"
+            "version": "1.1.0"
           }
         },
         "sha": "b521537622d1f796ef8836f2de2e54d2138ca2d1"
@@ -2575,7 +2502,7 @@
             "uses": {
               "Modelica": "3.2.2"
             },
-            "version": "1.10.0"
+            "version": "10.0.0"
           }
         },
         "sha": "87059c2383add5405548ac3b07498e470fb23b1f"
@@ -2591,7 +2518,7 @@
             "uses": {
               "Modelica": "3.2.2"
             },
-            "version": "0.2.0"
+            "version": "0.2.0-master"
           }
         },
         "sha": "0101c3ad79c3c314404e9a3dce24d6c9910b13c1"
@@ -2607,7 +2534,7 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "2.1.1"
+            "version": "2.1.1-master"
           }
         },
         "sha": "2f6bd9382c5aac2aff9148cd9113a418767734b6"
@@ -2676,10 +2603,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "2.0.0-master"
+            "version": "2.0.0-dev"
           }
         },
-        "sha": "9d71634908c5b2720026a02b1d495876d486617c"
+        "sha": "cb3dd6d1c39cda7b742a1dc675300a27598f8a9d"
       },
       "v1.2.1": {
         "libs": {
@@ -2811,27 +2738,10 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.8.1"
+            "version": "0.8.1-Tuto_ModProd_2016"
           }
         },
         "sha": "09cff37e1c6a285458425c6750afcd6f613129e7"
-      },
-      "v0.8": {
-        "libs": {
-          "iPSL": {
-            "path": "iPSL",
-            "provides": [
-              "0.0.0"
-            ],
-            "uses": {
-              "Complex": "3.2.1",
-              "Modelica": "3.2.1",
-              "PowerSystems": "0.7.0"
-            },
-            "version": "0.8.0"
-          }
-        },
-        "sha": "251a7db89416f6c6f38505d08cf0ad6056b2ed4d"
       },
       "v0.8.0": {
         "libs": {
@@ -2876,7 +2786,7 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.8.1"
+            "version": "1.0.0"
           }
         },
         "sha": "5aa9438a3bfda8b2f9d9e7ac830786806aea1f09"
@@ -2892,7 +2802,7 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.8.1"
+            "version": "1.1.0"
           }
         },
         "sha": "129fb0b265ced21117467dde995165c105db1a00"
@@ -2908,7 +2818,7 @@
               "Complex": "3.2.1",
               "Modelica": "3.2.1"
             },
-            "version": "1.1.0"
+            "version": "1.1.1"
           }
         },
         "sha": "e0e3ea079a0398a3b0b094baaa3736350faa525b"

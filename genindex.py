@@ -12,6 +12,10 @@ def main():
     data = rawdata[firstKey]
     for refKey in data["refs"].keys():
       r = data["refs"][refKey]
+      if "broken" in r:
+        continue
+      if "libs" not in r:
+        raise Exception(refKey)
       for libName in r["libs"]:
         lib = r["libs"][libName]
         if libName not in indexdata["libs"]:
@@ -26,6 +30,7 @@ def main():
         entry['sha'] = r['sha']
         entry['path'] = lib['path']
         entry['version'] = lib['version']
+        entry['zipfile'] = "https://github.com/%s/archive/%s.zip" % (repos[firstKey]["github"], r['sha'])
         if 'provides' in lib:
           entry['provides'] = lib['provides']
         if 'uses' in lib:

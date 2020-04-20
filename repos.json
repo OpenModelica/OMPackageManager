@@ -84,6 +84,8 @@
   "ModelicaByExample": {
     "names": ["ModelicaByExample"],
     "github": "mtiller/ModelicaBook",
+    "semverTagOverridesAnnotation": true,
+    "ignore-tags": ["v0.5.1","v0.5.2","v0.5.3"],
     "support": [
       ["prerelease", "noSupport"],
       [">=0.6.0", "fullSupport"],
@@ -105,6 +107,7 @@
   "PNlib": {
     "names": ["PNlib"],
     "github": "AMIT-FHBielefeld/PNlib",
+    "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=2.2.0", "fullSupport"],
@@ -123,6 +126,7 @@
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",
+    "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=1.11.5", "fullSupport"],
@@ -163,6 +167,8 @@
   "iPSL": {
     "names": ["iPSL"],
     "github": "itesla/iPSL",
+    "semverTagOverridesAnnotation": true,
+    "ignore-tags": ["v0.8"],
     "support": [
       ["prerelease", "noSupport"],
       [">=1.1.1", "fullSupport"],
