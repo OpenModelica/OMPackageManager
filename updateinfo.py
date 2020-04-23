@@ -82,7 +82,11 @@ def main():
           if not os.path.exists(repopath):
             pygit2.clone_repository(ghurl, repopath)
           gitrepo = pygit2.Repository(repopath)
-          gitrepo.checkout_tree(gitrepo.get(sha), strategy = pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
+          try:
+            gitrepo.checkout_tree(gitrepo.get(sha), strategy = pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
+          except:
+            print("Failed to checkout %s with SHA %s" % (tagName, sha))
+            raise
 
           provided = {}
           for libname in entry["names"]:

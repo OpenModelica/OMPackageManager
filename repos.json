@@ -52,19 +52,21 @@
     ]
   },
   "Modelica": {
-    "names": ["Modelica","ModelicaReference","ModelicaTest","ModelicaTestOverdetermined","Complex","ObsoleteModelica3","ObsoleteModelica4"],
-    "github": "modelica/ModelicaStandardLibrary",
+    "names": ["Modelica","ModelicaReference","ModelicaServices","ModelicaTest","ModelicaTestOverdetermined","Complex","ObsoleteModelica3","ObsoleteModelica4"],
+    "github": "OpenModelica/OpenModelica-ModelicaStandardLibrary",
     "branches": {
-      "maint/2.2.1": "v2.2.1+maint",
-      "maint/2.2.2": "v2.2.2+maint",
-      "maint/3.1": "v3.1.0+maint"
+      "MA/v1.3.1": "v1.3.1",
+      "MA/v1.5": "v1.5.0",
+      "OM/v1.6": "v1.6.0+om",
+      "MA/maint/2.2.1": "v2.2.1+maint",
+      "OM/maint/2.2.2": "v2.2.2+maint.om",
+      "MA/maint/3.0": "v3.0.0+maint.om",
+      "MA/maint/3.0.1": "v3.0.1+maint.om",
+      "OM/maint/3.1": "v3.1.0+maint.om",
+      "OM/maint/3.2": "v3.2.0+maint.om",
+      "OM/maint/3.2.1": "v3.2.1+maint.om",
+      "OM/maint/3.2.2": "v3.2.2+maint.om"
     },
-    "ignore-tags": [
-      "v2.1", "v2.2", "v2.2.1", "v2.2.2", "v3.1",
-      "v3.2.3+build.3-rc.1",
-      "v3.2.3+build.3-beta.1",
-      "v3.2.3+build.4-beta.1"
-    ],
     "standard": [
       [">=3.4.0", "latest"],
       [">=3.3.0", "3.3"],
