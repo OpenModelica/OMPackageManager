@@ -1,10 +1,66 @@
  {
+  "AdvancedNoise": {
+    "names": ["AdvancedNoise"],
+    "github": "DLR-SR/AdvancedNoise",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
   "Buildings": {
     "names": ["Buildings"],
     "github": "lbl-srg/modelica-buildings",
     "support": [
       ["prerelease", "noSupport"],
       [">=5.1.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "BuildSysPro": {
+    "names": ["BuildSysPro"],
+    "github": "EDF-TREE/BuildSysPro",
+    "ignore-tags": ["v2015.12a", "v2015.12b"],
+    "semverTagOverridesAnnotation": true,
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=3.3.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Chemical": {
+    "names": ["Chemical"],
+    "github": "MarekMatejak/Chemical",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.1.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ConPNlib": {
+    "names": ["ConPNlib"],
+    "github": "lochel/ConPNlib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ElectricalEnergyStorage": {
+    "names": ["ElectricalEnergyStorage"],
+    "github": "modelica-3rdparty/ElectricalEnergyStorage",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "obsolete"]
+    ]
+  },
+  "ExternData": {
+    "names": ["ExternData"],
+    "github": "modelica-3rdparty/ExternData",
+    "ignore-tags": ["v1.0.1"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.5.0", "support"],
       ["*", "obsolete"]
     ]
   },
@@ -31,12 +87,71 @@
       ["*", "obsolete"]
     ]
   },
+  "HelmholtzMedia": {
+    "names": ["HelmholtzMedia"],
+    "github": "thorade/HelmholtzMedia",
+    "ignore-tags": ["v0.1", "v0.2", "v0.3", "v0.4"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.9.8", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "IBPSA": {
+    "names": ["IBPSA"],
+    "github": "ibpsa/modelica-ibpsa",
+    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v1.0.0"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=3.0.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "IDEAS": {
+    "names": ["IDEAS"],
+    "github": "open-ideas/IDEAS",
+    "ignore-tags": ["_LinearisationPaper", "v0.3.0"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.1.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "IdealizedContact": {
+    "names": ["IdealizedContact"],
+    "github": "tbeu/IdealizedContact",
+    "branches": {"master": "master", "maintenance": "maintenance"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "IndustrialControlSystems": {
+    "names": ["IndustrialControlSystems"],
+    "github": "looms-polimi/IndustrialControlSystems",
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
   "KeyWordIO": {
     "names": ["KeyWordIO"],
     "github": "christiankral/KeyWordIO",
     "support": [
       ["prerelease", "noSupport"],
       [">=0.9.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "LibRAS": {
+    "branches": {"master": "master"},
+    "names": ["LibRAS"],
+    "github": "FishSim/LibRAS",
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -83,6 +198,48 @@
       ["*", "obsolete"]
     ]
   },
+  "Modelica_DeviceDrivers": {
+    "names": ["Modelica_DeviceDrivers"],
+    "github": "modelica-3rdparty/Modelica_DeviceDrivers",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.7.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Modelica_LinearSystems2": {
+    "names": ["Modelica_LinearSystems2"],
+    "github": "HansOlsson/Modelica_LinearSystems2",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.3.4", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Modelica_Noise": {
+    "names": ["Modelica_Noise"],
+    "github": "DLR-SR/Noise",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Modelica_StateGraph2": {
+    "names": ["Modelica_StateGraph2"],
+    "github": "HansOlsson/Modelica_StateGraph2",
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+  "Modelica_Synchronous": {
+    "names": ["Modelica_Synchronous"],
+    "github": "modelica/Modelica_Synchronous",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.93.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
   "ModelicaByExample": {
     "names": ["ModelicaByExample"],
     "github": "mtiller/ModelicaBook",
@@ -91,6 +248,36 @@
     "support": [
       ["prerelease", "noSupport"],
       [">=0.6.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ObjectStab": {
+    "names": ["ObjectStab"],
+    "github": "modelica-3rdparty/ObjectStab",
+    "branches": {"master": "master"},
+    "ignore-tags": ["v1.0.3"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "OpenHPL": {
+    "names": ["OpenHPL"],
+    "github": "simulatino/OpenHPL",
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.2.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
+  "OpenHydraulics": {
+    "names": ["OpenHydraulics"],
+    "github": "cparedis/OpenHydraulics",
+    "ignore-tags": [],
+    "semverTagOverridesAnnotation": true,
+    "support": [
+      ["prerelease", "noSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -116,12 +303,53 @@
       ["*", "obsolete"]
     ]
   },
+  "PhotoVoltaics": {
+    "names": ["PhotoVoltaics", "PhotoVoltaics_TGM"],
+    "github": "christiankral/PhotoVoltaics",
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.4.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Physiolibrary": {
+    "names": ["Physiolibrary"],
+    "github": "MarekMatejak/Physiolibrary",
+    "ignore-tags": [],
+    "semverTagOverridesAnnotation": true,
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.3.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "Physiomodel": {
+    "names": ["Physiomodel"],
+    "github": "physiology/Physiomodel",
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "support"],
+      ["*", "obsolete"]
+    ]
+  },
   "PlanarMechanics": {
     "names": ["PlanarMechanics"],
     "github": "dzimmer/PlanarMechanics",
     "support": [
       ["prerelease", "noSupport"],
       [">=1.4.1", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "PowerSystems": {
+    "names": ["PowerSystems"],
+    "github": "modelica-3rdparty/PowerSystems",
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "support"],
       ["*", "obsolete"]
     ]
   },
@@ -153,6 +381,35 @@
       ["2.1.1-master", "fullSupport"],
       ["prerelease", "noSupport"],
       [">=2.1.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "TILMedia": {
+    "names": ["TILMedia"],
+    "github": "ClaRaLibrary/TILMedia",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.4.1", "support"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ThermalSeparation": {
+    "names": ["ThermalSeparation"],
+    "github": "modelica-3rdparty/ThermalSeparation",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ThermoPower": {
+    "names": ["ThermoPower"],
+    "github": "casella/ThermoPower",
+    "ignore-tags": ["release.2.0", "release.2.1"],
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
       ["*", "obsolete"]
     ]
   },

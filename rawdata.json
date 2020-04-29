@@ -1,4 +1,154 @@
 {
+  "AdvancedNoise": {
+    "refs": {
+      "v0.9.0": {
+        "libs": {
+          "AdvancedNoise": {
+            "path": "AdvancedNoise 0.9.0",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Noise": "1.0.0-Beta.1"
+            },
+            "version": "0.9.0"
+          }
+        },
+        "sha": "9064d5dc3e4005a7a9950046457eb439460d62ba"
+      },
+      "v0.9.1": {
+        "libs": {
+          "AdvancedNoise": {
+            "path": "AdvancedNoise 0.9.1",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Noise": "1.0.0-Beta.1"
+            },
+            "version": "0.9.1"
+          }
+        },
+        "sha": "3a291d99575b796296df98379f95c676b8770019"
+      },
+      "v1.0.0": {
+        "libs": {
+          "AdvancedNoise": {
+            "path": "AdvancedNoise 1.0.0",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "bb172f98d01e1b26873b4411b2119285bdcdb7cf"
+      },
+      "v1.0.1-rc1": {
+        "libs": {
+          "AdvancedNoise": {
+            "path": "AdvancedNoise",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1-rc1"
+          }
+        },
+        "sha": "3d5ee54b4086e5c29e7276a7b92d40a3237aed8c"
+      }
+    }
+  },
+  "BuildSysPro": {
+    "refs": {
+      "v2.0.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "2015.12.0-a",
+              "2015.12.0-b",
+              "2015.12.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "d96f906615d6ca6391f59494b54c45b00ca94d83"
+      },
+      "v2.1.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "2.0.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "a6a49bbe0fe728e8161841c147b87d82d031cf2d"
+      },
+      "v3.0.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "2.0.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "d6ab248494c3bc1448250a2aad37bc453bb730f6"
+      },
+      "v3.1.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "2.0.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.1.0"
+          }
+        },
+        "sha": "4ec41c353553c713e5c5d2c0eb647b8c1ce10619"
+      },
+      "v3.2.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "3.1.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.2.0"
+          }
+        },
+        "sha": "d1571025dcc3d11ecf2c8102feaa7ee5766b7e4f"
+      },
+      "v3.3.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "3.2.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.3.0"
+          }
+        },
+        "sha": "db8f2fcefc4c8b13b3d99ef11f0dc45df10bd533"
+      }
+    }
+  },
   "Buildings": {
     "refs": {
       "v1.4_build1": {
@@ -290,6 +440,313 @@
       }
     }
   },
+  "Chemical": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "Chemical": {
+            "path": "Chemical 1.0.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "a5b6ef6b30bf25323c36358c5d942377741721be"
+      },
+      "v1.1.0": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0-alpha"
+            ],
+            "path": "Chemical",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "7bc2e71847454e800ae4182dc6aa1080e0db387c"
+      },
+      "v1.1.0-alpha": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0"
+            ],
+            "path": "Chemical",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.1.0-alpha"
+          }
+        },
+        "sha": "68a9cc032e0ac449d79de0b5eed330dabb5d4ad4"
+      },
+      "v1.1.0-beta": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0"
+            ],
+            "path": "Chemical 1.1.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.1.0-beta"
+          }
+        },
+        "sha": "07c391cd27abe436ca1c2fdfd439f58ab94806e7"
+      },
+      "v1.1.0-gamma": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0-alpha"
+            ],
+            "path": "Chemical",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.1.0-gamma"
+          }
+        },
+        "sha": "f3347cb484fa6e18faaaeab6823ba9ff3a50e061"
+      }
+    }
+  },
+  "ConPNlib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ConPNlib": {
+            "path": "ConPNlib",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "f635b8b4144eb46ff6711b1566c34405df58cda1"
+      },
+      "v1.0": {
+        "libs": {
+          "ConPNlib": {
+            "path": "ConPNlib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "854a28629231c9849b8a30c78b613a34f55666d9"
+      }
+    }
+  },
+  "ElectricalEnergyStorage": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ElectricalEnergyStorage": {
+            "path": "ElectricalEnergyStorage.mo",
+            "provides": [
+              "3.2.0",
+              "3.2.1"
+            ],
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.2.2-master"
+          }
+        },
+        "sha": "72ba3d49aae809280208a991c88134541b8c14f9"
+      }
+    }
+  },
+  "ExternData": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "95a40d57db65b1a6b81865f4470ef2b8ada764c3"
+      },
+      "v1.0.2": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.2"
+          }
+        },
+        "sha": "728f1f758e47b56df67649e02f26183f86c97c19"
+      },
+      "v1.0.3": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.3"
+          }
+        },
+        "sha": "566ca0e5cd4b1964af27d6c9af88f61744703cec"
+      },
+      "v1.0.4": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.4"
+          }
+        },
+        "sha": "4c1ab5471b47c253c768be353a83b99a51affa62"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "676a52a0b1193402b9820540c130d7bfc970a175"
+      },
+      "v2.0.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "7ae4ab47d38bade540e09143b025c8791a5ae967"
+      },
+      "v2.1.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "63e42a8c13e910d853fb0f30c79b342fcebb1e38"
+      },
+      "v2.2.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "sha": "9fff4d13c43d4a8bf699a9510536d20bb5e807cc"
+      },
+      "v2.3.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "d9875bc56bd3f1b86c99a280c7b9818a8aaa89cb"
+      },
+      "v2.3.1": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.3.1"
+          }
+        },
+        "sha": "1836b3e4a71fcd1aa4441fbd19afb12c369c756f"
+      },
+      "v2.3.2": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.3.2"
+          }
+        },
+        "sha": "9bdff533487a7dd57160f93b7e85ff44758e9548"
+      },
+      "v2.3.3": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.3.3"
+          }
+        },
+        "sha": "6ea6341b29871afaa818e61f76bd5fe2be6f2ac9"
+      },
+      "v2.3.4": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.3.4"
+          }
+        },
+        "sha": "b6e92090ce475f9be62605907c26d52cb76a6b6d"
+      },
+      "v2.4.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.4.0"
+          }
+        },
+        "sha": "68427e7962c6c4f67085c53fc0e36ddbb5bab7ec"
+      },
+      "v2.5.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.5.0"
+          }
+        },
+        "sha": "3ebfc8115a306d9e75ece30732b87c6fc602d78d"
+      }
+    }
+  },
   "FastBuildings": {
     "refs": {
       "master": {
@@ -414,6 +871,392 @@
       }
     }
   },
+  "HelmholtzMedia": {
+    "refs": {
+      "v0.5": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.5.0"
+          }
+        },
+        "sha": "c4b4ad0440aac0e982c3f7c69f28f5c801d5d593"
+      },
+      "v0.6": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "33a73b8c6dc5dff1f3cbb8831efe4133aeda6563"
+      },
+      "v0.6.1": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.6.1"
+          }
+        },
+        "sha": "a5124f405ae3c6d08ac1d6d8a3f8c27974552fa8"
+      },
+      "v0.7": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.7.0"
+          }
+        },
+        "sha": "e8e1f3e8fb80ae461346110158f4484af40f47dd"
+      },
+      "v0.7.1": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.7.1"
+          }
+        },
+        "sha": "ec47bab570593854e6efcdb8c5a3e1baab994ed6"
+      },
+      "v0.8": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.8.0"
+          }
+        },
+        "sha": "91a3ceb6f019af71bf339fd4484cfe37def3bec1"
+      },
+      "v0.8.1": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.8.1"
+          }
+        },
+        "sha": "aa151f142b4a5d166f44059895c705388420aa4e"
+      },
+      "v0.8.2": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.8.2"
+          }
+        },
+        "sha": "8447bfba31a346ebf9093aa669245f69c3aab8f5"
+      },
+      "v0.8.3_Helium_beta": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.8.3-Helium-beta"
+          }
+        },
+        "sha": "609c6fb9a5b48e5e7f39ca1c578d549cbc7e237e"
+      },
+      "v0.8.4": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.8.4"
+          }
+        },
+        "sha": "eaa97c167843f1497ef2564799613c80981fdb10"
+      },
+      "v0.9.0": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.0"
+          }
+        },
+        "sha": "e8c05ab5ad8bcd77b44500f7f0e1afbf0296e247"
+      },
+      "v0.9.1": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.1"
+          }
+        },
+        "sha": "71cd3593042d285ed02a51eb1095058c8748d365"
+      },
+      "v0.9.2": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.2"
+          }
+        },
+        "sha": "86859a714097259ce607cd4f4f7cb590bec229c6"
+      },
+      "v0.9.3": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.3"
+          }
+        },
+        "sha": "4258bc5a8d321f03ffe6007c7cf12aed2571c0f1"
+      },
+      "v0.9.4": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.4"
+          }
+        },
+        "sha": "59e46826c6a488e6f9b2d2f67342d7295dccfc8d"
+      },
+      "v0.9.5": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.5"
+          }
+        },
+        "sha": "6abd9b8559f967640bbd495ca307c1e91c8099c0"
+      },
+      "v0.9.6": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.9.6"
+          }
+        },
+        "sha": "ea8b6836dbe62499510f1434526512e56c80784d"
+      },
+      "v0.9.7": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.7"
+          }
+        },
+        "sha": "b512e63764114df1ae9fb9d577d7450f88240a6d"
+      },
+      "v0.9.8": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.9.8"
+          }
+        },
+        "sha": "753273b48975d76f6827bbd1ad69066f10f5c3bd"
+      }
+    }
+  },
+  "IBPSA": {
+    "refs": {
+      "v2.0.0": {
+        "libs": {
+          "IBPSA": {
+            "path": "IBPSA",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "e3102ddbdf39e94a35b1ffc7f831213a2fb21979"
+      },
+      "v3.0.0": {
+        "libs": {
+          "IBPSA": {
+            "path": "IBPSA",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "1ac463c1025c68c50887bb4e2f21520bf0129c5f"
+      }
+    }
+  },
+  "IDEAS": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "f3c33f290ee2799cc604eb55e9eacb9d7ce39b89"
+      },
+      "v2.0.0": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "03b77b430f1689decb9a46992587dc962cbf0326"
+      },
+      "v2.1.0": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "12b341fe9bd34058a07bde92375e0d77e40eb013"
+      }
+    }
+  },
+  "IdealizedContact": {
+    "refs": {
+      "maintenance": {
+        "libs": {
+          "IdealizedContact": {
+            "path": "IdealizedContact",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.0-maintenance"
+          }
+        },
+        "sha": "2a526577a083fc189e0566102943a5173a675b41"
+      },
+      "master": {
+        "libs": {
+          "IdealizedContact": {
+            "path": "IdealizedContact",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.0-master"
+          }
+        },
+        "sha": "ae8b0397ea8207bc4327bea1e81ac09c6d4bcea9"
+      },
+      "v0.1.0": {
+        "libs": {
+          "IdealizedContact": {
+            "path": "IdealizedContact 0.1.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "7ff774f281d6ae88237167fe216880079ba41295"
+      },
+      "v0.2.0": {
+        "broken": true
+      }
+    }
+  },
+  "IndustrialControlSystems": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "IndustrialControlSystems": {
+            "path": "IndustrialControlSystems 1.0",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "6694adcb3ad8329a2a09100adaf34b4250c538a3"
+      },
+      "v1.1.0": {
+        "libs": {
+          "IndustrialControlSystems": {
+            "path": "IndustrialControlSystems",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "d2d882d78be9af6c9b95a349879d4380dd820593"
+      }
+    }
+  },
   "KeyWordIO": {
     "refs": {
       "v0.1.0": {
@@ -523,6 +1366,22 @@
           }
         },
         "sha": "74eeea2df4c54ace14f6eeb13106cdb290f0c5b0"
+      }
+    }
+  },
+  "LibRAS": {
+    "refs": {
+      "master": {
+        "libs": {
+          "LibRAS": {
+            "path": "LibRAS",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "fca9de50a484a2213f3ca1b39e275c237c471688"
       }
     }
   },
@@ -1082,6 +1941,686 @@
       }
     }
   },
+  "Modelica_DeviceDrivers": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "95fcbbc5ec6c5c22eabceda9d4768121af78ee8a"
+      },
+      "v1.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.1",
+            "uses": {
+              "Modelica": "3.2.0",
+              "Modelica_Synchronous": "0.91.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "be63e7b4b803a5e69eeda58b45096b3f8e1c2245"
+      },
+      "v1.1build2": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.1",
+            "uses": {
+              "Modelica": "3.2.0",
+              "Modelica_Synchronous": "0.91.0"
+            },
+            "version": "1.1.0-build2"
+          }
+        },
+        "sha": "b825911b976ddcc3c6722ff701c3889b9837c904"
+      },
+      "v1.1build3": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.1",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.91.0"
+            },
+            "version": "1.1.0-build3"
+          }
+        },
+        "sha": "eafe425b5cd8645b4269f7d16047f70d6ba05dba"
+      },
+      "v1.1build4": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.1",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.1.0-build4"
+          }
+        },
+        "sha": "0efcab000d7459fa6e4450e99092dfd288427090"
+      },
+      "v1.2+build.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.2",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.2.0+build.1"
+          }
+        },
+        "sha": "43886bbead73d448a636e04156c218b69b886926"
+      },
+      "v1.3+build.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.3",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "954c7eb652368033dd9661e2c243bf13440b1cb1"
+      },
+      "v1.3+build.2": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers 1.3",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.3.0+build.2"
+          }
+        },
+        "sha": "1e7470a3ded11770fbc80cba0142e1419e79d821"
+      },
+      "v1.4.0": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.4.0"
+          }
+        },
+        "sha": "dcd2461ea8ff6609e005745961172cf8118b1fa1"
+      },
+      "v1.4.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.4.1"
+          }
+        },
+        "sha": "afb5f681a3dc55facf8467cfb93b414764c6c623"
+      },
+      "v1.4.2": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.4.2"
+          }
+        },
+        "sha": "1b08459658d91b5494bcbb41f113db8048b2c39c"
+      },
+      "v1.4.3": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_Synchronous": "0.92.0"
+            },
+            "version": "1.4.3"
+          }
+        },
+        "sha": "412be4526852e9b1ce7dbed91df34a98653eee13"
+      },
+      "v1.4.4": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "1.4.4"
+          }
+        },
+        "sha": "0114fec559ec6fb8ada76e20cfa2ff59b57dc7d0"
+      },
+      "v1.5.0": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "1.5.0"
+          }
+        },
+        "sha": "bb2b854a5971e993ee244375d8c6f3ae43e79722"
+      },
+      "v1.5.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "1.5.1"
+          }
+        },
+        "sha": "3950818f2f617831126059217e5ef3adbf43514b"
+      },
+      "v1.6.0": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "04aa39cea84fb3e3781724ae868e34ab92266080"
+      },
+      "v1.7.0": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "1.7.0"
+          }
+        },
+        "sha": "963474fe5aac6685d12ef1450d4057728688c2bf"
+      },
+      "v1.7.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "1.7.1"
+          }
+        },
+        "sha": "b55a2d467829bc2a5ff4786879ea5644e915e61d"
+      },
+      "v1.8.0": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.92.2"
+            },
+            "version": "1.8.0"
+          }
+        },
+        "sha": "1306c2fd15e232b9470d9d392deae75bfb0cb58d"
+      },
+      "v1.8.1": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.92.2"
+            },
+            "version": "1.8.1"
+          }
+        },
+        "sha": "8683b41a3f9361aa9e9f63c892ad5ec376b41c51"
+      },
+      "v1.8.2": {
+        "libs": {
+          "Modelica_DeviceDrivers": {
+            "path": "Modelica_DeviceDrivers",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.92.2"
+            },
+            "version": "1.8.2"
+          }
+        },
+        "sha": "61247667adad45a1b769bfa0cd5011e33eafa513"
+      }
+    }
+  },
+  "Modelica_LinearSystems2": {
+    "refs": {
+      "v2.0": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.1.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "d9fbd7d8990369a0a7bdcf0010341881b316a5b6"
+      },
+      "v2.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.1.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "87bdad1715268df894125cae892b50ada3212ebf"
+      },
+      "v2.2": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0",
+              "2.1.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "sha": "2fb09b8995146637df60d4ec7323e24172f1224e"
+      },
+      "v2.3": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "c3402219a11f37d4edbb070351a5bbc15dc2c042"
+      },
+      "v2.3.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.3.1"
+          }
+        },
+        "sha": "d72dec95bf873d8ec1b272315a2ddf854651af18"
+      },
+      "v2.3.2": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1"
+            ],
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.3.2"
+          }
+        },
+        "sha": "d917631ec5e574605aa643a4955d6cb8330a9fdc"
+      },
+      "v2.3.3": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2"
+            ],
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.3.3"
+          }
+        },
+        "sha": "2161ad285e4eb4a3fc777e1b2119a803bf492d78"
+      },
+      "v2.3.4": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "path": "",
+            "provides": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.3"
+            ],
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.3.4"
+          }
+        },
+        "sha": "5d40dc3a19934672217bce300aa1da442d09e151"
+      }
+    }
+  },
+  "Modelica_Noise": {
+    "refs": {
+      "v0.2.0": {
+        "broken": true
+      },
+      "v1.0-beta.1": {
+        "libs": {
+          "Modelica_Noise": {
+            "path": "Modelica_Noise 1.0 Beta.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0-Beta.1"
+          }
+        },
+        "sha": "ed64dc2d2e64200f250e306cce7bc15c743c4e19"
+      }
+    }
+  },
+  "Modelica_StateGraph2": {
+    "refs": {
+      "v2.0": {
+        "libs": {
+          "Modelica_StateGraph2": {
+            "path": "Modelica_StateGraph2 2.0",
+            "uses": {
+              "Modelica": "3.1.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "e2b41dd4c994ebe86863c02cd62aff8e7a3f60cd"
+      },
+      "v2.0.1": {
+        "libs": {
+          "Modelica_StateGraph2": {
+            "path": "Modelica_StateGraph2 2.0.1",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "2.0.1"
+          }
+        },
+        "sha": "289fbd57ff9d8a94fa46e5ee109ebf27da55447c"
+      },
+      "v2.0.2": {
+        "libs": {
+          "Modelica_StateGraph2": {
+            "path": "Modelica_StateGraph2 2.0.2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.0.2"
+          }
+        },
+        "sha": "1b54d15e509a53e2bf139f59d82f173bef341f97"
+      },
+      "v2.0.4": {
+        "libs": {
+          "Modelica_StateGraph2": {
+            "path": "Modelica_StateGraph2",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.0.4"
+          }
+        },
+        "sha": "2bdafc5f14b94575f3c7d3d0eec39cc4a2ccc02b"
+      },
+      "v2.0.5": {
+        "libs": {
+          "Modelica_StateGraph2": {
+            "path": "Modelica_StateGraph2",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.0.5"
+          }
+        },
+        "sha": "5b4f7dccb16dd508215f07886b2a305280cb3a52"
+      }
+    }
+  },
+  "Modelica_Synchronous": {
+    "refs": {
+      "msl4.0.0-development": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "Modelica_Synchronous",
+            "uses": {
+              "Modelica": "4.0.0-dev",
+              "ModelicaServices": "4.0.0-dev"
+            },
+            "version": "4.0.0-dev"
+          }
+        },
+        "sha": "0416c8575321f181c430b11272d9987957ede12b"
+      },
+      "v0.9": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0",
+              "Modelica_LinearSystems2": "2.2.0"
+            },
+            "version": "0.9.0"
+          }
+        },
+        "sha": "e5c8b7f09424058d040ea6f1ef828d11f0e4aaaf"
+      },
+      "v0.91": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.91.0"
+          }
+        },
+        "sha": "4b9130f8c717add5c5f6930ed0595d85e2efa10b"
+      },
+      "v0.92": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.92.0"
+          }
+        },
+        "sha": "f867823c0d89f6e576b9f7baf3c84677edf5b5f3"
+      },
+      "v0.92.1": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.92.1"
+          }
+        },
+        "sha": "c0db5e1e06e921e3d13dd38a28ec49e5fe7905c1"
+      },
+      "v0.93.0": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "Modelica_Synchronous",
+            "uses": {
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.3"
+            },
+            "version": "0.93.0"
+          }
+        },
+        "sha": "9a62642ad632deb12de86d31e3331bafb12cea43"
+      }
+    }
+  },
+  "ObjectStab": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ObjectStab": {
+            "path": "ObjectStab",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.1.0-Dev"
+          }
+        },
+        "sha": "14a178c837390a0411613f85b11372503ee067ea"
+      }
+    }
+  },
+  "OpenHPL": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "3.2.3",
+              "OpenIPSL": "2.0.0-dev"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "55e8213f25df9777c42f8bcbc25a5a7b7bdb9c60"
+      },
+      "v1.0.1": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "3.2.3",
+              "OpenIPSL": "2.0.0-dev"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "074852a2b27ecd432320eeb92eb07b71a05ce03d"
+      },
+      "v1.0.2": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "3.2.3",
+              "OpenIPSL": "2.0.0-dev"
+            },
+            "version": "1.0.2"
+          }
+        },
+        "sha": "0fda8c87ced2773cd1438d5f64772040bafd6000"
+      },
+      "v1.2.0": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "3.2.3",
+              "OpenIPSL": "2.0.0-dev"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "30088920c42fa6de827cc595ff3ec11bffb7d0e5"
+      }
+    }
+  },
+  "OpenHydraulics": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "OpenHydraulics": {
+            "path": "OpenHydraulics",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "0bbdbd64b9f3074050d6dde7cb6394cf95295d37"
+      },
+      "v1.0.1": {
+        "libs": {
+          "OpenHydraulics": {
+            "path": "OpenHydraulics",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "d9353c2b06450ccd4f005b5fc79cdca3068ed350"
+      }
+    }
+  },
   "OpenIPSL": {
     "refs": {
       "FOSSEE1_initial": {
@@ -1351,6 +2890,642 @@
       }
     }
   },
+  "PhotoVoltaics": {
+    "refs": {
+      "v0.1.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "0063143fbc08c0e47084fd40b2d337dd40b424de"
+      },
+      "v0.2.1": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.2.1"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM.mo",
+            "uses": {
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.2.1"
+            },
+            "version": "0.2.1"
+          }
+        },
+        "sha": "74301136d6c2a4fa3f6344d9b7aa86e94d9e31b7"
+      },
+      "v0.3.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.3.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM.mo",
+            "uses": {
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.3.0"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "5de01f3181e796379cc2a76a0a38276a1789094a"
+      },
+      "v0.3.1": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.3.1"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM.mo",
+            "uses": {
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.3.1"
+            },
+            "version": "0.3.1"
+          }
+        },
+        "sha": "20183dd038861e2cb159690e49d16e994947b354"
+      },
+      "v0.3.2": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.3.2"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM.mo",
+            "uses": {
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.3.2"
+            },
+            "version": "0.3.2"
+          }
+        },
+        "sha": "92a5d8fed64dd6fdd142bda4de115a263387ad73"
+      },
+      "v0.4.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.4.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM.mo",
+            "uses": {
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.4.0"
+            },
+            "version": "0.4.0"
+          }
+        },
+        "sha": "74a6d1ed36c97054c309fa56494730ad854018e5"
+      },
+      "v0.5.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics.mo",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.5.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM.mo",
+            "uses": {
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.5.0"
+            },
+            "version": "0.5.0"
+          }
+        },
+        "sha": "c23ce0dc046e440e19581a37bc62aaebdeba56af"
+      },
+      "v0.6.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "3.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.6.0"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "631fe60a39eccc0bc85944cafe35046817b5401b"
+      },
+      "v1.0.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "3.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "0907c07d2b5e235257e3ce210d72e93e96198777"
+      },
+      "v1.0.1": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.1"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "3.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.0.1"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "87162fe1250338a9c1685b780eb46dc363e196a1"
+      },
+      "v1.1.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "3.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.1.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "ece5e550877294d1d886c3864b78c4a00eaf15da"
+      },
+      "v1.1.1": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.1"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "3.0.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "0.0.0-X.X.X"
+            },
+            "version": "0.0.0-X.X.X"
+          }
+        },
+        "sha": "ebfea2527a76b29e9b67bf85c22e0c7a6081d9c5"
+      },
+      "v1.2.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.2.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.2.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "ae21995c5783116b9d3947264fe88881e0e68eaf"
+      },
+      "v1.3.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.3.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.3.0"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "sha": "441dcdb568a0a79539ad046b18504f9ddf609eb2"
+      },
+      "v1.3.1": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.3.1"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.3.0"
+            },
+            "version": "1.3.1"
+          }
+        },
+        "sha": "2a14e123b46e30424bc72489a95489681731baf6"
+      },
+      "v1.3.2": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.3.2"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.2",
+              "PhotoVoltaics": "1.3.2"
+            },
+            "version": "1.3.2"
+          }
+        },
+        "sha": "7b63d0cade63b636c36fd9b244c13c08fa24c82f"
+      },
+      "v1.4.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.4.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.3",
+              "PhotoVoltaics": "1.4.0"
+            },
+            "version": "1.4.0"
+          }
+        },
+        "sha": "2a87c1b24e02a39fc8905e91577774a304d4f471"
+      },
+      "v1.4.1": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.4.1"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.3",
+              "PhotoVoltaics": "1.4.1"
+            },
+            "version": "1.4.1"
+          }
+        },
+        "sha": "1413f797702f0850a249c761142acd16bfb73b48"
+      },
+      "v1.5.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0+X.X"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "5.1.0",
+              "Modelica": "3.2.3",
+              "PhotoVoltaics": "1.0.0+X.X"
+            },
+            "version": "1.0.0+X.X"
+          }
+        },
+        "sha": "fc7b9ac86f491bad8a78a5362ee6602f80ef39d3"
+      },
+      "v1.6.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.6.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "6.0.0",
+              "Modelica": "3.2.3",
+              "PhotoVoltaics": "1.6.0"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "d537eb1c72b7c4175d8d61881a7a3d4410ba7184"
+      }
+    }
+  },
+  "Physiolibrary": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "Physiolibrary": {
+            "path": "Physiolibrary 1.0.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "5613d95112407127b4e8f716f2e6ba7609f4ebd2"
+      },
+      "v1.0.1": {
+        "libs": {
+          "Physiolibrary": {
+            "path": "Physiolibrary 1.0.1",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "254ec6cfaf1981d64def89dc8fb447b5f52eca64"
+      },
+      "v1.1.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "1.0.0"
+            ],
+            "path": "Physiolibrary 1.1.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "3075b23c214b65a510eb58654464f54507901378"
+      },
+      "v1.2.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0"
+            ],
+            "path": "Physiolibrary 1.2.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "8a9233c79f637f11435acf66e3c6cc86b42bdfb1"
+      },
+      "v2.0.0": {
+        "libs": {
+          "Physiolibrary": {
+            "path": "Physiolibrary 2.0.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "df795aaf85738c2ed849cf8d720311d363f5b706"
+      },
+      "v2.0.1": {
+        "libs": {
+          "Physiolibrary": {
+            "path": "Physiolibrary",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "2.0.1"
+          }
+        },
+        "sha": "699ad31ecb8a01dbf4a0449e81fc9a2bbbfba0ec"
+      },
+      "v2.0.2": {
+        "libs": {
+          "Physiolibrary": {
+            "path": "Physiolibrary 2.0.2",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "2.0.2"
+          }
+        },
+        "sha": "668aba132516cf097a8d9087dd4169e38eff0599"
+      },
+      "v2.1.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "2.0.0"
+            ],
+            "path": "Physiolibrary 2.1.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "9bb43a537be70a1e097b55751f49059b7664cf0b"
+      },
+      "v2.1.1": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "0.0.0-BioChem-1.0.1",
+              "0.4980.0",
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "2.0.0"
+            ],
+            "path": "Physiolibrary 2.1.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.1.1"
+          }
+        },
+        "sha": "ff3c7ee77e6ed823c68f75af8126a55aa0500955"
+      },
+      "v2.2.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "0.0.0-BioChem-1.0.1",
+              "0.4980.0",
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "2.0.0",
+              "2.1.0",
+              "2.1.0",
+              "2.1.1",
+              "2.1.2"
+            ],
+            "path": "Physiolibrary 2.2.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "sha": "59b6508e175e3149eb3b2c106f03a7bca6ac35af"
+      },
+      "v2.3.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "0.0.0-BioChem-1.0.1",
+              "0.4980.0",
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "2.0.0",
+              "2.1.0",
+              "2.1.0",
+              "2.1.1",
+              "2.1.2",
+              "2.2.0"
+            ],
+            "path": "Physiolibrary 2.3.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "460247b9f3f545e852dd70551f44277bf3a58f98"
+      },
+      "v2.3.1": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "0.0.0-BioChem-1.0.1",
+              "0.4980.0",
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "2.0.0",
+              "2.1.0",
+              "2.1.0",
+              "2.1.1",
+              "2.1.2",
+              "2.2.0"
+            ],
+            "path": "Physiolibrary",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.3.1"
+          }
+        },
+        "sha": "7597498ffe49fea2723bafdc8a0f275c0dcecb83"
+      }
+    }
+  },
+  "Physiomodel": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "Physiomodel": {
+            "path": "Physiomodel",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Physiolibrary": "2.3.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "07b7343c11601601d1e1ef454077e1c84ee71300"
+      }
+    }
+  },
   "PlanarMechanics": {
     "refs": {
       "v1.2.0": {
@@ -1409,6 +3584,82 @@
           }
         },
         "sha": "7e96a289066e3f9d5b6fa96b4dd2942e0c6c1b51"
+      }
+    }
+  },
+  "PowerSystems": {
+    "refs": {
+      "v0.2": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems 0.2",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "9d837c58260320195d247ca1bfdb6bed8e35041f"
+      },
+      "v0.3": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems 0.3",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "2aad57920f6fa4b83ee969c1bdb1f27737fae83e"
+      },
+      "v0.4.0": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems 0.4.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.4.0"
+          }
+        },
+        "sha": "7b551888089277a0dd979db636d47aba0279e8f0"
+      },
+      "v0.5.0": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems 0.5.0",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.5.0"
+          }
+        },
+        "sha": "fd9cd34be0dcb9f64687cb0a2e02933ae844a95c"
+      },
+      "v0.6.0": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems 0.6.0",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "44ecf8d170c5ce80281b306e706058329e706966"
+      },
+      "v1.0.0": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "3bdc215576fd325ad6e715a9a5c0318593b69fd1"
       }
     }
   },
@@ -1847,6 +4098,104 @@
       }
     }
   },
+  "TILMedia": {
+    "refs": {
+      "master": {
+        "libs": {
+          "TILMedia": {
+            "convertFromVersion": [
+              "2.0.4",
+              "2.1.0",
+              "2.1.1",
+              "2.1.2",
+              "3.0.0",
+              "3.0.1",
+              "3.0.2",
+              "3.1.0",
+              "3.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "3.3.0",
+              "3.3.1",
+              "3.4.0",
+              "3.4.1",
+              "3.4.2",
+              "3.5.0",
+              "3.5.1",
+              "3.6.0"
+            ],
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.4.1-ClaRa"
+          }
+        },
+        "sha": "d46792f6093c686002164f0ef897dc3d02bda00a"
+      }
+    }
+  },
+  "ThermalSeparation": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ThermalSeparation": {
+            "path": "ThermalSeparation",
+            "provides": [
+              "0.1.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_StateGraph2": "2.0.3"
+            },
+            "version": "0.2.0-master"
+          }
+        },
+        "sha": "d7863f613a38bde081de38b47e392ce38f7b53f4"
+      }
+    }
+  },
+  "ThermoPower": {
+    "refs": {
+      "EDF-report-2.0": {
+        "libs": {
+          "ThermoPower": {
+            "path": "ThermoPower",
+            "uses": {
+              "Modelica": "3.1.0"
+            },
+            "version": "3.0.0-EDF-report-2.0"
+          }
+        },
+        "sha": "b8655aaf4e185929dde3a2d6f310a0002a9c6c23"
+      },
+      "master": {
+        "libs": {
+          "ThermoPower": {
+            "path": "ThermoPower",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.1.0-master"
+          }
+        },
+        "sha": "0b6d9c0eb4864c3fa701cc6ea74e505207670d26"
+      },
+      "v3.1-beta.0": {
+        "libs": {
+          "ThermoPower": {
+            "path": "ThermoPower",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "3.1.0-beta.0"
+          }
+        },
+        "sha": "9b5a365357d4d40a42fa235d2f3f45094fa99c27"
+      }
+    }
+  },
   "VehicleInterfaces": {
     "refs": {
       "master": {
@@ -1873,7 +4222,7 @@
             "version": "2.0.0-dev"
           }
         },
-        "sha": "e1e2cd45018afd56d254fa20d457ddf64e6c9d77"
+        "sha": "7ea8de89a60f3e8f955d312ab3e4108659212288"
       },
       "v1.2.1": {
         "libs": {

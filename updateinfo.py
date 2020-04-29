@@ -38,7 +38,11 @@ def main():
   for key in data.keys():
     entry = data[key]
     if "github" in entry:
-      r = g.get_repo(entry["github"])
+      try:
+        r = g.get_repo(entry["github"])
+      except:
+        print("Failed to get github entry: %s" % entry["github"])
+        raise()
 
       if key not in serverdata:
         serverdata[key] = {}
@@ -87,6 +91,7 @@ def main():
           except:
             print("Failed to checkout %s with SHA %s" % (tagName, sha))
             raise
+          omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
           provided = {}
           for libname in entry["names"]:
@@ -151,8 +156,9 @@ def main():
             if len(withConversion)>0:
               libentry["convertFromVersion"] = withConversion
             provided[libname] = libentry
+          errorString = omc.sendExpression("OpenModelica.Scripting.getErrorString()")
           if len(provided) == 0:
-            print("Broken for " + key + " " + tagName)
+            print("Broken for " + key + " " + tagName) # + ":" + errorString)
             thisTag["broken"]=True
             continue
           thisTag["libs"] = provided
