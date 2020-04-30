@@ -10,7 +10,7 @@ pipeline {
   stage('update') {
     agent {
       docker {
-        image 'openmodelica/openmodelica:v1.14.1-minimal'
+        image 'openmodelica/openmodelica:v1.14.1-gui'
         label 'linux'
         args "-v /var/lib/jenkins/gitcache:/var/lib/jenkins/gitcache"
       }
