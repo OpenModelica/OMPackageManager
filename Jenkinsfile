@@ -9,18 +9,19 @@ pipeline {
   stages {
   stage('update') {
     agent {
-      docker {
-        image 'openmodelica/openmodelica:v1.14.1-gui'
+      dockerfile {
+        filename '.CI/OMPython/Dockerfile'
         label 'linux'
         args "-v /var/lib/jenkins/gitcache:/var/lib/jenkins/gitcache"
       }
     }
     environment {
       HOME = '/tmp/dummy'
+      GITHUB_AUTH = credentials('OpenModelica-Hudson')
     }
     steps {
       sh 'mkdir -p /var/lib/jenkins/gitcache/OMPackageManager'
-      sh 'ln -s /var/lib/jenkins/gitcache/OMPackageManager cache'
+      sh 'ln -sf /var/lib/jenkins/gitcache/OMPackageManager cache'
       sh './updateinfo.py'
       sh './genindex.py'
       stash name: 'files', includes: 'index.json, rawdata.json'
