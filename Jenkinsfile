@@ -21,7 +21,7 @@ pipeline {
     }
     steps {
       sh '''
-      mkdir -p /var/lib/jenkins/gitcache/OMPackageManager'
+      mkdir -p /var/lib/jenkins/gitcache/OMPackageManager
       rm -f cache
       ln -s /var/lib/jenkins/gitcache/OMPackageManager cache
       '''
