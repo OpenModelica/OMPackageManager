@@ -1621,6 +1621,19 @@
       }
     }
   },
+  "ManualTracking": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ManualTracking": {
+            "path": "ManualTracking.mo",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "ab15d4cae19b5e4a1148d1d4b2a05c50864599ba"
+      }
+    }
+  },
   "MessagePack": {
     "refs": {
       "master": {
