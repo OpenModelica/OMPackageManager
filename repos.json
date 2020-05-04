@@ -56,6 +56,17 @@
       ["*", "obsolete"]
     ]
   },
+  "BrineProp": {
+    "names": ["BrineProp"],
+    "git": "https://gitext.gfz-potsdam.de/francke/BrineProp.git",
+    "semverTagOverridesAnnotation": true,
+    "zipfile": "https://gitext.gfz-potsdam.de/francke/BrineProp/-/archive/%s/BrineProp.zip",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.5.4", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Buildings": {
     "names": ["Buildings"],
     "github": "lbl-srg/modelica-buildings",

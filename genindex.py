@@ -19,7 +19,10 @@ def main():
       for libName in r["libs"]:
         lib = r["libs"][libName]
         if libName not in indexdata["libs"]:
-          indexdata["libs"][libName] = {"git": "https://github.com/%s.git" % repos[firstKey]["github"], "versions": {}}
+          if "github" in repos[firstKey]:
+            indexdata["libs"][libName] = {"git": "https://github.com/%s.git" % repos[firstKey]["github"], "versions": {}}
+          else:
+            indexdata["libs"][libName] = {"git": repos[firstKey]["git"], "versions": {}}
         libdict = indexdata["libs"][libName]["versions"]
         if lib['version'] in libdict.keys():
           if len(common.VersionNumber(refKey).prerelease)>0:
@@ -30,7 +33,10 @@ def main():
         entry['sha'] = r['sha']
         entry['path'] = lib['path']
         entry['version'] = lib['version']
-        entry['zipfile'] = "https://github.com/%s/archive/%s.zip" % (repos[firstKey]["github"], r['sha'])
+        if "github" in repos[firstKey]:
+          entry['zipfile'] = "https://github.com/%s/archive/%s.zip" % (repos[firstKey]["github"], r['sha'])
+        else:
+          entry['zipfile'] = repos[firstKey]["zipfile"] % r['sha']
         if 'provides' in lib:
           entry['provides'] = lib['provides']
         if 'uses' in lib:

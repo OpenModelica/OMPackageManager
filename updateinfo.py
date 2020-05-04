@@ -6,12 +6,36 @@ from github import Github
 import json
 import pygit2
 import glob
+import re
 
 import common
 
 def removerepo(ghurl, repopath):
   print("Removing repository " + ghurl)
   os.path.rmtree(repopath)
+
+tagregex = re.compile('^refs/tags')
+
+def alltags(gitrepo):
+  return list((remove_prefix(e, "refs/tags/"), str(gitrepo.lookup_reference_dwim(e).target)) for e in filter(lambda r: tagregex.match(r), gitrepo.listall_references()))
+
+def remove_prefix(text, prefix):
+  return text[text.startswith(prefix) and len(prefix):]
+
+def allbranches(gitrepo):
+  return [(remove_prefix(e, "origin/"),str(gitrepo.lookup_reference_dwim(e).target)) for e in gitrepo.branches.remote]
+
+def getgitrepo(url, repopath):
+  if os.path.exists(repopath):
+    gitrepo = pygit2.Repository(repopath)
+    if len(gitrepo.remotes) != 1:
+      removerepo(url, repopath)
+    else:
+      gitrepo.remotes[0].fetch()
+  if not os.path.exists(repopath):
+    pygit2.clone_repository(url, repopath)
+  gitrepo = pygit2.Repository(repopath)
+  return gitrepo
 
 def main():
   gh_auth = os.environ["GITHUB_AUTH"]
@@ -37,12 +61,22 @@ def main():
 
   for key in data.keys():
     entry = data[key]
-    if "github" in entry:
-      try:
-        r = g.get_repo(entry["github"])
-      except:
-        print("Failed to get github entry: %s" % entry["github"])
-        raise()
+    repopath = os.path.join("cache", key)
+    if "github" in entry or "git" in entry:
+      if "github" in entry:
+        try:
+          r = g.get_repo(entry["github"])
+          branches = list((b.name, b.commit.sha) for b in r.get_branches())
+          tags = list((b.name, b.commit.sha) for b in r.get_tags())
+          giturl = "https://github.com/%s.git" % entry["github"]
+        except:
+          print("Failed to get github entry: %s" % entry["github"])
+          raise()
+      else:
+        giturl = entry["git"]
+        gitrepo = getgitrepo(giturl, repopath)
+        branches = allbranches(gitrepo)
+        tags = alltags(gitrepo)
 
       if key not in serverdata:
         serverdata[key] = {}
@@ -52,18 +86,15 @@ def main():
       ignoreTags = set()
       if "ignore-tags" in entry:
         ignoreTags = set(entry["ignore-tags"])
-      branches = list(r.get_branches())
-      tags = list(r.get_tags())
       objects = []
-      for b in branches:
-        if b.name in (entry.get("branches") or []):
-          objects.append((entry["branches"][b.name], b.commit.sha))
-      for t in tags:
-        if t.name not in ignoreTags:
-          objects.append((t.name, t.commit.sha))
+      for (name,sha) in branches:
+        if name in (entry.get("branches") or []):
+          objects.append((entry["branches"][name], sha))
+      for (name,sha) in tags:
+        if name not in ignoreTags:
+          objects.append((name, sha))
 
       tagsDict = serverdata[key]["refs"]
-      repopath = os.path.join("cache", key)
 
       for (tagName, sha) in objects:
         v = common.VersionNumber(tagName)
@@ -76,16 +107,7 @@ def main():
         thisTag = tagsDict[tagName]
 
         if ("sha" not in thisTag) or (thisTag["sha"] != sha):
-          ghurl = "https://github.com/%s.git" % entry["github"]
-          if os.path.exists(repopath):
-            gitrepo = pygit2.Repository(repopath)
-            if len(gitrepo.remotes) != 1:
-              removerepo(ghurl, repopath)
-            else:
-              gitrepo.remotes[0].fetch()
-          if not os.path.exists(repopath):
-            pygit2.clone_repository(ghurl, repopath)
-          gitrepo = pygit2.Repository(repopath)
+          gitrepo = getgitrepo(giturl, repopath)
           try:
             gitrepo.checkout_tree(gitrepo.get(sha), strategy = pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
           except:
