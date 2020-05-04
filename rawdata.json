@@ -2362,7 +2362,20 @@
   "Modelica_Noise": {
     "refs": {
       "v0.2.0": {
-        "broken": true
+        "broken": true,
+        "libs": {
+          "Noise": {
+            "path": "Noise 0.2.0",
+            "uses": {
+              "Design": "1.0.3",
+              "Modelica": "3.2.1",
+              "Modelica_LinearSystems2": "2.3.1",
+              "Modelica_StateGraph2": "2.0.2"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "e5f4c012d98f82b605477020d2dc792ad70d2114"
       },
       "v1.0-beta.1": {
         "libs": {
@@ -4222,7 +4235,7 @@
             "version": "2.0.0-dev"
           }
         },
-        "sha": "7ea8de89a60f3e8f955d312ab3e4108659212288"
+        "sha": "f278f7c83ae6e0c49a172295606943b3d1628c77"
       },
       "v1.2.1": {
         "libs": {
