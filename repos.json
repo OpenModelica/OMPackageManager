@@ -133,6 +133,16 @@
       ["*", "obsolete"]
     ]
   },
+  "DeployStructLib": {
+    "names": ["DeployStructLib"],
+    "github": "ATAEngineering/DeployStructLib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "DriveControl": {
     "names": ["DriveControl"],
     "github": "AHaumer/DriveControl",

@@ -1021,6 +1021,28 @@
       }
     }
   },
+  "DeployStructLib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "DeployStructLib": {
+            "path": "DeployStructLib",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "ef1faa77179742cc7d2b7694aa49d85380481585"
+      },
+      "v1.0": {
+        "libs": {
+          "DeployStructLib": {
+            "path": "DeployStructLib",
+            "version": "1.0.0"
+          }
+        },
+        "sha": "ef1faa77179742cc7d2b7694aa49d85380481585"
+      }
+    }
+  },
   "DriveControl": {
     "refs": {
       "master": {
