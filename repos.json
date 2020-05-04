@@ -151,6 +151,16 @@
       ["*", "obsolete"]
     ]
   },
+  "DisHeatLib": {
+    "names": ["DisHeatLib"],
+    "github": "AIT-IES/DisHeatLib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.2.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "DriveControl": {
     "names": ["DriveControl"],
     "github": "AHaumer/DriveControl",

@@ -1066,6 +1066,26 @@
       }
     }
   },
+  "DisHeatLib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "DisHeatLib": {
+            "path": "DisHeatLib",
+            "provides": [
+              "1.1.0"
+            ],
+            "uses": {
+              "IBPSA": "3.0.0",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0-master"
+          }
+        },
+        "sha": "e525d93b42ab303d700f796c374342464ff8a8c5"
+      }
+    }
+  },
   "DriveControl": {
     "refs": {
       "master": {
