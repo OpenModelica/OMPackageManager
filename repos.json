@@ -223,6 +223,15 @@
       ["*", "obsolete"]
     ]
   },
+  "FailureModes": {
+    "names": ["FailureModes"],
+    "github": "casella/FailureModes",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.2.1", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "FastBuildings": {
     "names": ["FastBuildings"],
     "github": "open-ideas/FastBuildings",

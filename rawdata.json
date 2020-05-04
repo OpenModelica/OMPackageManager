@@ -1790,6 +1790,46 @@
       }
     }
   },
+  "FailureModes": {
+    "refs": {
+      "v1.1.0": {
+        "libs": {
+          "FailureModes": {
+            "path": "FailureModes",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "e27e9fd91bb52ba6d9417641724cd654734c01ad"
+      },
+      "v1.2.0": {
+        "libs": {
+          "FailureModes": {
+            "path": "FailureModes",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "576f703ff2b874f0d6151ca497899c36a432787b"
+      },
+      "v1.2.1": {
+        "libs": {
+          "FailureModes": {
+            "path": "FailureModes",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.2.1"
+          }
+        },
+        "sha": "eee9db6698c5cba2f7972d523f25db49ad54aa64"
+      }
+    }
+  },
   "FastBuildings": {
     "refs": {
       "master": {
