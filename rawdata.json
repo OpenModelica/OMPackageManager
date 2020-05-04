@@ -561,7 +561,7 @@
               "Modelica": "3.2.2",
               "Modelica_StateGraph2": "2.0.2"
             },
-            "version": "0.1.0"
+            "version": "0.1.1"
           }
         },
         "sha": "976f01e7c71e5307be35f1d65538efc3e5071311"
@@ -576,7 +576,7 @@
               "Modelica": "3.2.2",
               "Modelica_StateGraph2": "2.0.2"
             },
-            "version": "0.1.0"
+            "version": "1.0.0"
           }
         },
         "sha": "fffe3d891d2785fa676b94324d3f939c833fae5e"
@@ -1872,7 +1872,7 @@
               "ModelManagement": "1.1.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.6.0"
+            "version": "0.6.2"
           }
         },
         "sha": "0a180687231d36540e1695523d3de6bbe10b28c5"
@@ -1900,7 +1900,7 @@
               "ModelManagement": "1.1.1",
               "Modelica": "3.2.1"
             },
-            "version": "0.5.0"
+            "version": "0.6.4"
           }
         },
         "sha": "b070aab3d9e47ee31158005644206513928e9107"

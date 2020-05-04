@@ -71,6 +71,7 @@
     "names": ["BuildingControlLib"],
     "github": "TechnicalBuildingSystems/BuildingControlLib",
     "branches": {"master": "master"},
+    "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "experimental"],
@@ -247,6 +248,7 @@
   "FaultTriggering": {
     "names": ["FaultTriggering"],
     "github": "DLR-SR/FaultTriggering",
+    "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=0.6.6", "experimental"],
