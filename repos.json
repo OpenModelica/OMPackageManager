@@ -103,6 +103,16 @@
       ["*", "obsolete"]
     ]
   },
+  "FCSys": {
+    "names": ["FCSys","FCSysTest"],
+    "github": "kdavies4/FCSys",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.2.6", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "FractionalOrder": {
     "names": ["FractionalOrder"],
     "github": "DLR-SR/FractionalOrder",

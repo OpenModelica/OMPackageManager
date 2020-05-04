@@ -967,6 +967,257 @@
       }
     }
   },
+  "FCSys": {
+    "refs": {
+      "diss": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-diss"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-diss"
+          }
+        },
+        "sha": "eaf8e7af9142803d8fb7e3b8675ed0795aa915ff"
+      },
+      "master": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2.6",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.6-master"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "cb4b17f34313b9d8f2d4223d5365684b4dc1ab65"
+      },
+      "show": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.2-show"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-show"
+          }
+        },
+        "sha": "6143054e866b61042a0070824d14130d57cd6b6d"
+      },
+      "v0.1.0": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.0"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "89bcc5cd8bce921b8cbf2462202a43904e3ffee1"
+      },
+      "v0.1.1": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.1"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.1"
+          }
+        },
+        "sha": "bac66e5cf865c0cbe835ee801d255abcf7df4870"
+      },
+      "v0.1.2": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.2"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.2"
+          }
+        },
+        "sha": "6143054e866b61042a0070824d14130d57cd6b6d"
+      },
+      "v0.2.0": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.0"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "4e270efb84206a6e2e7eff314c1036e6bb38dbab"
+      },
+      "v0.2.1": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.1"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.1"
+          }
+        },
+        "sha": "04e0af29d4c2de88ecb4594722a99371ad872806"
+      },
+      "v0.2.2": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.2"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.2"
+          }
+        },
+        "sha": "d27764f4d55f3eec6cbf118bcadad5d50d64ec27"
+      },
+      "v0.2.3": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.3"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.3"
+          }
+        },
+        "sha": "882a4216fb1745ee834492740a58ab62d12040d3"
+      },
+      "v0.2.4": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2.4",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.4"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.4"
+          }
+        },
+        "sha": "7641f3bb4084ebc4f051022588711e93478d0902"
+      },
+      "v0.2.5": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2.5",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.5"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.5"
+          }
+        },
+        "sha": "04d7287f861829ec72886b24fbe941d31ade8c7c"
+      },
+      "v0.2.6": {
+        "libs": {
+          "FCSys": {
+            "path": "FCSys 0.2.6",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.6"
+          },
+          "FCSysTest": {
+            "path": "FCSysTest",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.6"
+          }
+        },
+        "sha": "cb4b17f34313b9d8f2d4223d5365684b4dc1ab65"
+      }
+    }
+  },
   "FastBuildings": {
     "refs": {
       "master": {
