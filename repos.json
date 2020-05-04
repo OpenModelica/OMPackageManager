@@ -63,6 +63,15 @@
       ["*", "obsolete"]
     ]
   },
+  "ElectroMechanicalDrives": {
+    "names": ["ElectroMechanicalDrives"],
+    "github": "christiankral/ElectroMechanicalDrives",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.2.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "EMOTH": {
     "names": ["EMOTH"],
     "github": "AHaumer/EMOTH",

@@ -599,6 +599,190 @@
       }
     }
   },
+  "ElectroMechanicalDrives": {
+    "refs": {
+      "v0.12.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.12.0"
+          }
+        },
+        "sha": "233b4da553f873b1061c2d377b34fd59446d1f45"
+      },
+      "v0.13.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.13.0"
+          }
+        },
+        "sha": "73108e42baefbf7517680fbae80ff473e945b17a"
+      },
+      "v0.14.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.14.0"
+          }
+        },
+        "sha": "c65af37a106c6264bdb795fbf5f3507c186e9073"
+      },
+      "v1.0.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "d8ab2b0f466046b76b2742aae6ea76af144fbfdb"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "f4dacb0804997770a5cbdbd52d4eb90e3367ff75"
+      },
+      "v1.2.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "aafe8118f53e4931e6613da4929605de514084e8"
+      },
+      "v1.3.1": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.3.1"
+          }
+        },
+        "sha": "5622905cefccbf78998af8caf1589316c394fea8"
+      },
+      "v1.5.1": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.5.1"
+          }
+        },
+        "sha": "07fbf861902c5aa015cf3d25902a1a8d4ef16ba8"
+      },
+      "v1.6.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "561a2c002f83b5c62d2706696421374fefae2c03"
+      },
+      "v2.0.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "ce43041a7f278625df7c92b404edfae25c7dbe0a"
+      },
+      "v2.0.1": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.1"
+          }
+        },
+        "sha": "f41991f30765ee94faf1ebb317dd3b1e9b136d25"
+      },
+      "v2.0.3": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.3"
+          }
+        },
+        "sha": "362dbdca4d664460a085ce32d25d758db6dce21a"
+      },
+      "v2.1.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "4ec0c244c85b72d52ef8a91b0ccac96e4f7c9493"
+      },
+      "v2.1.1": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.1.1"
+          }
+        },
+        "sha": "6655a15c297e810505c59b0f412fbdca5f1a0497"
+      },
+      "v2.2.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "sha": "6adf07109289eeb5994ce7cfa6966cf6aab49670"
+      }
+    }
+  },
   "ExternData": {
     "refs": {
       "v1.0.0": {
