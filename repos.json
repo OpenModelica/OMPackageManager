@@ -103,6 +103,15 @@
       ["*", "obsolete"]
     ]
   },
+  "FractionalOrder": {
+    "names": ["FractionalOrder"],
+    "github": "DLR-SR/FractionalOrder",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "HanserModelica": {
     "names": ["HanserModelica"],
     "github": "christiankral/HanserModelica",

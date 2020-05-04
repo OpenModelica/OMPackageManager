@@ -983,6 +983,22 @@
       }
     }
   },
+  "FractionalOrder": {
+    "refs": {
+      "master": {
+        "libs": {
+          "FractionalOrder": {
+            "path": "FractionalOrder.mo",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "99918820e346c362c3ad52d782c8215e5deeac4c"
+      }
+    }
+  },
   "HanserModelica": {
     "refs": {
       "master": {
