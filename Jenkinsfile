@@ -20,8 +20,11 @@ pipeline {
       GITHUB_AUTH = credentials('OpenModelica-Hudson')
     }
     steps {
-      sh 'mkdir -p /var/lib/jenkins/gitcache/OMPackageManager'
-      sh 'ln -sf /var/lib/jenkins/gitcache/OMPackageManager cache'
+      sh '''
+      mkdir -p /var/lib/jenkins/gitcache/OMPackageManager'
+      rm -f cache
+      ln -s /var/lib/jenkins/gitcache/OMPackageManager cache
+      '''
       sh './updateinfo.py'
       sh './genindex.py'
       stash name: 'files', includes: 'index.json, rawdata.json'
