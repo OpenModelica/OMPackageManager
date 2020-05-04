@@ -519,6 +519,70 @@
       }
     }
   },
+  "BuildingControlLib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "BuildingControlLib": {
+            "path": "BuildingControlLib",
+            "uses": {
+              "AixLib": "0.4.0",
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "Modelica_StateGraph2": "2.0.2"
+            },
+            "version": "0.1.0-master"
+          }
+        },
+        "sha": "fffe3d891d2785fa676b94324d3f939c833fae5e"
+      },
+      "v0.1.0": {
+        "libs": {
+          "BuildingControlLib": {
+            "path": "BuildingControlLib",
+            "uses": {
+              "AixLib": "0.4.0",
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "Modelica_StateGraph2": "2.0.2"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "78b9327b9eaa47d346ac19033b74450a7f014883"
+      },
+      "v0.1.1": {
+        "libs": {
+          "BuildingControlLib": {
+            "path": "BuildingControlLib",
+            "uses": {
+              "AixLib": "0.4.0",
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "Modelica_StateGraph2": "2.0.2"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "976f01e7c71e5307be35f1d65538efc3e5071311"
+      },
+      "v1.0.0": {
+        "libs": {
+          "BuildingControlLib": {
+            "path": "BuildingControlLib",
+            "uses": {
+              "AixLib": "0.4.0",
+              "Buildings": "4.0.0",
+              "Modelica": "3.2.2",
+              "Modelica_StateGraph2": "2.0.2"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "fffe3d891d2785fa676b94324d3f939c833fae5e"
+      }
+    }
+  },
   "Buildings": {
     "refs": {
       "v1.4_build1": {
@@ -2074,9 +2138,6 @@
           }
         },
         "sha": "7ff774f281d6ae88237167fe216880079ba41295"
-      },
-      "v0.2.0": {
-        "broken": true
       }
     }
   },
@@ -3232,7 +3293,6 @@
   "Modelica_Noise": {
     "refs": {
       "v0.2.0": {
-        "broken": true,
         "libs": {
           "Noise": {
             "path": "Noise 0.2.0",
