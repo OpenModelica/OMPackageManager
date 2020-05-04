@@ -5157,6 +5157,30 @@
         },
         "sha": "0b6d9c0eb4864c3fa701cc6ea74e505207670d26"
       },
+      "release.2.0": {
+        "libs": {
+          "ThermoPower": {
+            "path": "ThermoPower",
+            "uses": {
+              "Modelica": "2.2.0"
+            },
+            "version": "2.0.0-release.2.0"
+          }
+        },
+        "sha": "059163e3b7361c2ffd1fb6b2a26169205da4ae27"
+      },
+      "release.2.1": {
+        "libs": {
+          "ThermoPower": {
+            "path": "ThermoPower",
+            "uses": {
+              "Modelica": "2.2.1"
+            },
+            "version": "2.1.0-release.2.1"
+          }
+        },
+        "sha": "5c71e956dc35c6f70b530544d45ebbbb94b96035"
+      },
       "v3.1-beta.0": {
         "libs": {
           "ThermoPower": {

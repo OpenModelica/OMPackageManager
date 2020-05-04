@@ -551,8 +551,12 @@
   "ThermoPower": {
     "names": ["ThermoPower"],
     "github": "casella/ThermoPower",
-    "ignore-tags": ["release.2.0", "release.2.1"],
     "branches": {"master": "master"},
+    "standard": [
+      ["release.2.0", "2.x"],
+      ["release.2.1", "2.x"],
+      ["*", "latest"]
+    ],
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
