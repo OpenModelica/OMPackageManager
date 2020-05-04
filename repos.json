@@ -38,6 +38,15 @@
       ["*", "obsolete"]
     ]
   },
+  "BondGraph": {
+    "names": ["BondGraph"],
+    "github": "modelica-3rdparty/BondGraph",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "Buildings": {
     "names": ["Buildings"],
     "github": "lbl-srg/modelica-buildings",

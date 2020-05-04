@@ -137,6 +137,46 @@
       }
     }
   },
+  "BondGraph": {
+    "refs": {
+      "master": {
+        "libs": {
+          "BondGraph": {
+            "path": "BondGraph.mo",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "20c23e60d12989bd4668ccac47659d82d39d29cc"
+      },
+      "v1.0.0": {
+        "libs": {
+          "BondGraph": {
+            "path": "BondGraph.mo",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "e742f7fe9f15d76aacb5efb2e725aec3dd70638e"
+      },
+      "v1.1.0": {
+        "libs": {
+          "BondGraph": {
+            "path": "BondGraph.mo",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "20c23e60d12989bd4668ccac47659d82d39d29cc"
+      }
+    }
+  },
   "BuildSysPro": {
     "refs": {
       "v2.0.0": {
