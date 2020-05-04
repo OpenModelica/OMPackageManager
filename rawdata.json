@@ -1021,6 +1021,29 @@
       }
     }
   },
+  "DESLib": {
+    "refs": {
+      "v1.6.1": {
+        "libs": {
+          "DESLib": {
+            "path": "DESLib 1.6.1",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "DESLib": "1.0.0",
+              "DESLib73": "1.0.0",
+              "DEVSLib": "2.2.0",
+              "Interactive": "2.0.0",
+              "Modelica": "2.2.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "7a473d8d16b118c3ea05761c6f43b17fd9838e4e"
+      }
+    }
+  },
   "DeployStructLib": {
     "refs": {
       "master": {

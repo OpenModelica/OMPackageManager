@@ -143,6 +143,14 @@
       ["*", "obsolete"]
     ]
   },
+  "DESLib": {
+    "names": ["DESLib"],
+    "github": "modelica-3rdparty/DESLib",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "DriveControl": {
     "names": ["DriveControl"],
     "github": "AHaumer/DriveControl",
