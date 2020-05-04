@@ -1326,6 +1326,19 @@
       }
     }
   },
+  "ExtendedPetriNets": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "ExtendedPetriNets": {
+            "path": "ExtendedPetriNets 1.0",
+            "version": "1.0.0"
+          }
+        },
+        "sha": "8062f3719c500a4a209f5544deff3fa4036f8bdb"
+      }
+    }
+  },
   "ExternData": {
     "refs": {
       "v1.0.0": {

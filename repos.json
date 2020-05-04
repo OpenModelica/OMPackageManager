@@ -196,6 +196,14 @@
       ["*", "experimental"]
     ]
   },
+  "ExtendedPetriNets": {
+    "names": ["ExtendedPetriNets"],
+    "github": "modelica-3rdparty/ExtendedPetriNets",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ExternData": {
     "names": ["ExternData"],
     "github": "modelica-3rdparty/ExternData",
