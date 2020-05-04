@@ -47,6 +47,15 @@
       ["*", "obsolete"]
     ]
   },
+  "BondLib": {
+    "names": ["BondLib"],
+    "github": "modelica-3rdparty/BondLib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "Buildings": {
     "names": ["Buildings"],
     "github": "lbl-srg/modelica-buildings",

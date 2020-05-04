@@ -177,6 +177,28 @@
       }
     }
   },
+  "BondLib": {
+    "refs": {
+      "v2.3": {
+        "libs": {
+          "BondLib": {
+            "convertFromVersion": [
+              "0.0.0"
+            ],
+            "path": "BondLib 2.3",
+            "provides": [
+              "2.0.0"
+            ],
+            "uses": {
+              "Modelica": "2.2.1"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "df7a40fe612617da22e27d39edfa4b27d65f23d0"
+      }
+    }
+  },
   "BuildSysPro": {
     "refs": {
       "v2.0.0": {
