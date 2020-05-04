@@ -120,6 +120,7 @@
   "IdealizedContact": {
     "names": ["IdealizedContact"],
     "github": "tbeu/IdealizedContact",
+    "ignore-tags": ["v0.2.0"],
     "branches": {"master": "master", "maintenance": "maintenance"},
     "support": [
       ["prerelease", "noSupport"],
@@ -217,7 +218,7 @@
     ]
   },
   "Modelica_Noise": {
-    "names": ["Modelica_Noise"],
+    "names": ["Modelica_Noise", "Noise"],
     "github": "DLR-SR/Noise",
     "support": [
       ["prerelease", "noSupport"],
