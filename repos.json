@@ -308,6 +308,15 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenBLDC": {
+    "names": ["OpenBLDC"],
+    "github": "joewa/open-bldc-modelica",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "OpenHPL": {
     "names": ["OpenHPL"],
     "github": "simulatino/OpenHPL",

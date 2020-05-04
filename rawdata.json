@@ -2799,6 +2799,22 @@
       }
     }
   },
+  "OpenBLDC": {
+    "refs": {
+      "master": {
+        "libs": {
+          "OpenBLDC": {
+            "path": "OpenBLDC",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "58a83b5b36f267613de4676c95163489b1ddc2e7"
+      }
+    }
+  },
   "OpenHPL": {
     "refs": {
       "v1.0.0": {
