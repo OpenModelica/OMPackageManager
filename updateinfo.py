@@ -100,12 +100,19 @@ def main():
               if libname != entry["names"][0]:
                 continue
             else:
-              hits = (glob.glob(os.path.join(repopath,libname,"package.mo")) +
-                glob.glob(os.path.join(repopath,libname+" *","package.mo")) +
-                glob.glob(os.path.join(repopath,libname+".mo")) +
-                glob.glob(os.path.join(repopath,libname+" *.mo")) +
-                glob.glob(os.path.join(repopath,libname+"*",libname + ".mo")) +
-                glob.glob(os.path.join(repopath,libname+"*",libname + " *.mo")))
+              hits = []
+              for extraPath in ([""] + (entry.get("search-extra-paths") or [])):
+                p = repopath
+                if extraPath != "":
+                  p = os.path.join(repopath, extraPath)
+                else:
+                  p = repopath
+                hits += (glob.glob(os.path.join(p,libname,"package.mo")) +
+                  glob.glob(os.path.join(p,libname+" *","package.mo")) +
+                  glob.glob(os.path.join(p,libname+".mo")) +
+                  glob.glob(os.path.join(p,libname+" *.mo")) +
+                  glob.glob(os.path.join(p,libname+"*",libname + ".mo")) +
+                  glob.glob(os.path.join(p,libname+"*",libname + " *.mo")))
             if len(hits) != 1:
               print(str(len(hits)) + " hits for " + libname + " in " + tagName)
               continue

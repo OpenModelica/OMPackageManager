@@ -2783,6 +2783,22 @@
       }
     }
   },
+  "MultiPhaseMixtureMedia": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "MultiPhaseMixture": {
+            "path": "Modelica/MultiPhaseMixture",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "b82e39f9ec44757503d46ecf5dc39d1fac598ed6"
+      }
+    }
+  },
   "ObjectStab": {
     "refs": {
       "master": {
