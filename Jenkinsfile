@@ -49,7 +49,7 @@ pipeline {
         sh '''
         git update-index --refresh
         if ! ( git diff-index --quiet HEAD -- ); then
-          git commit -m "Updated libraries" rawdata.json'
+          git commit -m "Updated libraries" rawdata.json
           git push github HEAD:master
         fi
         '''
