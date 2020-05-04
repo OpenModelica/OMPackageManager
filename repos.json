@@ -63,6 +63,15 @@
       ["*", "obsolete"]
     ]
   },
+  "EMOTH": {
+    "names": ["EMOTH"],
+    "github": "AHaumer/EMOTH",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ExternData": {
     "names": ["ExternData"],
     "github": "modelica-3rdparty/ExternData",
