@@ -499,6 +499,15 @@
       ["*", "obsolete"]
     ]
   },
+  "VVDRlib": {
+    "names": ["VVDRlib"],
+    "github": "lenaRB/VVDRlib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "iPSL": {
     "names": ["iPSL"],
     "github": "itesla/iPSL",

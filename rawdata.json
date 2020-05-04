@@ -4741,6 +4741,19 @@
       }
     }
   },
+  "VVDRlib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "VVDRlib": {
+            "path": "",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "eae4981674642eddffc7f2aa3690320fcaddee0e"
+      }
+    }
+  },
   "VehicleInterfaces": {
     "refs": {
       "master": {
