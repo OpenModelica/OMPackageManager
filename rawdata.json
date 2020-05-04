@@ -27,6 +27,46 @@
       }
     }
   },
+  "ADMSL": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ADMSL": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "3d9a1f114e901412156e7443a9ad77631bd20922"
+      },
+      "v1.0-alpha": {
+        "libs": {
+          "ADMSL": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0-alpha"
+          }
+        },
+        "sha": "e8af337d1e8dacb82a7c18d16ff086c7ba5d594e"
+      },
+      "v1.1.0-alpha-Hamburg": {
+        "libs": {
+          "ADMSL": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.0-alpha-Hamburg"
+          }
+        },
+        "sha": "785476f46de74a8af9228e6db1e41321ec854861"
+      }
+    }
+  },
   "AdvancedNoise": {
     "refs": {
       "v0.9.0": {
