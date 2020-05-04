@@ -204,6 +204,15 @@
       ["*", "obsolete"]
     ]
   },
+  "ExternalMemoryLib": {
+    "names": ["ExternalMemoryLib"],
+    "github": "vwaurich/ExternalMemoryLib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ExternData": {
     "names": ["ExternData"],
     "github": "modelica-3rdparty/ExternData",

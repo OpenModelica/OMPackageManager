@@ -1523,6 +1523,22 @@
       }
     }
   },
+  "ExternalMemoryLib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ExternalMemoryLib": {
+            "path": "ExternalMemoryLib.mo",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "146a17aff81a60bb6753b91000152b0d6fe0690b"
+      }
+    }
+  },
   "FCSys": {
     "refs": {
       "diss": {
