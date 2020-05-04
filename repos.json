@@ -244,6 +244,15 @@
       ["*", "obsolete"]
     ]
   },
+  "FaultTriggering": {
+    "names": ["FaultTriggering"],
+    "github": "DLR-SR/FaultTriggering",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.6.6", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "FCSys": {
     "names": ["FCSys","FCSysTest"],
     "github": "kdavies4/FCSys",

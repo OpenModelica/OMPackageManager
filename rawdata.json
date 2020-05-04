@@ -1846,6 +1846,97 @@
       }
     }
   },
+  "FaultTriggering": {
+    "refs": {
+      "v0.5.0": {
+        "libs": {
+          "FaultTriggering": {
+            "path": "FaultTriggering 0.5.0",
+            "uses": {
+              "ModelManagement": "1.1.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.5.0"
+          }
+        },
+        "sha": "ad0a7ca17684753ceb3a6d5d2afd9988dc74912b"
+      },
+      "v0.6.2": {
+        "libs": {
+          "FaultTriggering": {
+            "path": "FaultTriggering",
+            "provides": [
+              "0.5.0"
+            ],
+            "uses": {
+              "ModelManagement": "1.1.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "0a180687231d36540e1695523d3de6bbe10b28c5"
+      },
+      "v0.6.3": {
+        "libs": {
+          "FaultTriggering": {
+            "path": "FaultTriggering",
+            "provides": [
+              "0.5.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.6.3"
+          }
+        },
+        "sha": "3695edc8af33d5fadf5ccdc844f1673b17414876"
+      },
+      "v0.6.4": {
+        "libs": {
+          "FaultTriggering": {
+            "path": "FaultTriggering 0.5.0",
+            "uses": {
+              "ModelManagement": "1.1.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.5.0"
+          }
+        },
+        "sha": "b070aab3d9e47ee31158005644206513928e9107"
+      },
+      "v0.6.5": {
+        "libs": {
+          "FaultTriggering": {
+            "convertFromVersion": [
+              "0.6.4"
+            ],
+            "path": "FaultTriggering",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.6.5"
+          }
+        },
+        "sha": "fb32147115de10343bf99b21aaa71a6b99cb1c94"
+      },
+      "v0.6.6": {
+        "libs": {
+          "FaultTriggering": {
+            "convertFromVersion": [
+              "0.6.4"
+            ],
+            "path": "FaultTriggering",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.6"
+          }
+        },
+        "sha": "89687bce9253f646a81011725645871413393c4b"
+      }
+    }
+  },
   "FractionalOrder": {
     "refs": {
       "master": {
