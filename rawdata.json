@@ -1,4 +1,32 @@
 {
+  "ADGenKinetics": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ADGenKinetics": {
+            "path": "ADGenKinetics.mo",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "9bdfd968c5b85609956aa9929be8a6b8027b22cf"
+      },
+      "v1.0+r23": {
+        "libs": {
+          "ADGenKinetics": {
+            "path": "ADGenKinetics.mo",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0+r23"
+          }
+        },
+        "sha": "cdfd50846c1a4ad8d8887bb4dd2a36e675c033a0"
+      }
+    }
+  },
   "AdvancedNoise": {
     "refs": {
       "v0.9.0": {
