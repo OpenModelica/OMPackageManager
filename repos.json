@@ -115,6 +115,15 @@
       ["*", "obsolete"]
     ]
   },
+  "ComplexLib": {
+    "names": ["ComplexLib"],
+    "github": "modelica-3rdparty/ComplexLib",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ConPNlib": {
     "names": ["ConPNlib"],
     "github": "lochel/ConPNlib",

@@ -980,6 +980,22 @@
       }
     }
   },
+  "ComplexLib": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "ComplexLib": {
+            "path": "ComplexLib.mo",
+            "uses": {
+              "Modelica": "3.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "0b78942ee4fa95ae71347a0d552dd869fdf4c708"
+      }
+    }
+  },
   "ConPNlib": {
     "refs": {
       "master": {
