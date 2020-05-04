@@ -44,7 +44,7 @@ pipeline {
         git remote set-url github git@github.com:OpenModelica/OMPackageManager.git
         '''
         sh 'git commit -m "Updated libraries" rawdata.json'
-        sh 'git push github master'
+        sh 'git push github HEAD:master'
       }
       sshPublisher(publishers: [sshPublisherDesc(configName: 'PackageIndex', transfers: [sshTransfer(sourceFiles: 'index.json', remoteDirectory: 'v1')])])
     }
