@@ -46,6 +46,15 @@
       ["*", "obsolete"]
     ]
   },
+  "DriveControl": {
+    "names": ["DriveControl"],
+    "github": "AHaumer/DriveControl",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ElectricalEnergyStorage": {
     "names": ["ElectricalEnergyStorage"],
     "github": "modelica-3rdparty/ElectricalEnergyStorage",

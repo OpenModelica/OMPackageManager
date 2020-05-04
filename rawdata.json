@@ -543,6 +543,22 @@
       }
     }
   },
+  "DriveControl": {
+    "refs": {
+      "master": {
+        "libs": {
+          "DriveControl": {
+            "path": "DriveControl",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "4.0.0-master"
+          }
+        },
+        "sha": "6a9c49fe8e0db0eb759d29facd67562890dd0d48"
+      }
+    }
+  },
   "ElectricalEnergyStorage": {
     "refs": {
       "master": {
