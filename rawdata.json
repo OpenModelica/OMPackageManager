@@ -583,6 +583,34 @@
       }
     }
   },
+  "BuildingSystems": {
+    "refs": {
+      "v2.0.0-beta": {
+        "libs": {
+          "BuildingSystems": {
+            "path": "BuildingSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.0-beta"
+          }
+        },
+        "sha": "8f436421e95166ff8c92a8c290bdd637360a616b"
+      },
+      "v2.0.0-beta2": {
+        "libs": {
+          "BuildingSystems": {
+            "path": "BuildingSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.0-beta"
+          }
+        },
+        "sha": "cf3f8917dd71e670d88c554f572fc5ebbf9b8a9a"
+      }
+    }
+  },
   "Buildings": {
     "refs": {
       "v1.4_build1": {
