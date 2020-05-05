@@ -3339,6 +3339,26 @@
       }
     }
   },
+  "ModelicaDEVS": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "ModelicaDEVS": {
+            "convertFromVersion": [
+              "0.0.0"
+            ],
+            "path": "ModelicaDEVS.mo",
+            "uses": {
+              "Modelica": "2.2.0",
+              "ModelicaDEVS": "1.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "a987aa9552fbbe71b2ee2e8c28958f9d213087ae"
+      }
+    }
+  },
   "Modelica_DeviceDrivers": {
     "refs": {
       "v1.0": {

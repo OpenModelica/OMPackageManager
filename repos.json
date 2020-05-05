@@ -481,6 +481,14 @@
       ["*", "obsolete"]
     ]
   },
+  "ModelicaDEVS": {
+    "names": ["ModelicaDEVS"],
+    "github": "modelica-3rdparty/ModelicaDEVS",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
     "github": "HansOlsson/Modelica_LinearSystems2",
