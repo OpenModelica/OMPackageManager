@@ -5244,6 +5244,34 @@
       }
     }
   },
+  "PowerGrids": {
+    "refs": {
+      "master": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0-master"
+          }
+        },
+        "sha": "9745a59e2eb51121bafb80e130a30be094efd40f"
+      },
+      "v1.0.0": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "cb3e3f49e5108d3509c259514cc93ad8fb8de39e"
+      }
+    }
+  },
   "PowerSystems": {
     "refs": {
       "v0.2": {

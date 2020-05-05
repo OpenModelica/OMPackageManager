@@ -721,6 +721,17 @@
       ["*", "obsolete"]
     ]
   },
+  "PowerGrids": {
+    "names": ["PowerGrids"],
+    "github": "PowerGrids/PowerGrids",
+    "branches": {"master": "master"},
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "PowerSystems": {
     "names": ["PowerSystems"],
     "github": "modelica-3rdparty/PowerSystems",
