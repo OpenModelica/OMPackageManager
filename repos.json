@@ -391,6 +391,15 @@
       ["*", "obsolete"]
     ]
   },
+  "LinearMPC": {
+    "names": ["LinearMPC"],
+    "github": "modelica-3rdparty/LinearMPC",
+    "ignore-tags": ["v0.1"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ManualTracking": {
     "branches": {"master": "master"},
     "names": ["ManualTracking"],

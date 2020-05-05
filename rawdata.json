@@ -2633,6 +2633,22 @@
       }
     }
   },
+  "LinearMPC": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "LinearMPC": {
+            "path": "LinearMPC.mo",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "1e91a5dcaa662cd30c5b09a9d0267289703f933b"
+      }
+    }
+  },
   "ManualTracking": {
     "refs": {
       "master": {
