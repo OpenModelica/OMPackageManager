@@ -453,6 +453,15 @@
       ["*", "obsolete"]
     ]
   },
+  "ModelicaADS": {
+    "names": ["ModelicaADS"],
+    "github": "TechnicalBuildingSystems/ModelicaADS",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.1", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Modelica_DeviceDrivers": {
     "names": ["Modelica_DeviceDrivers"],
     "github": "modelica-3rdparty/Modelica_DeviceDrivers",

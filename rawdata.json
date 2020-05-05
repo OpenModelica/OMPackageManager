@@ -3046,6 +3046,36 @@
       }
     }
   },
+  "ModelicaADS": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "ModelicaADS": {
+            "path": "ModelicaADS",
+            "uses": {
+              "AixLib": "0.3.0",
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "71b9c8d814d6c1031ef3e7b9d31d09369f2ee83a"
+      },
+      "v1.0.1": {
+        "libs": {
+          "ModelicaADS": {
+            "path": "ModelicaADS",
+            "uses": {
+              "AixLib": "0.3.0",
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "606dd3dd6817a1e8cfc543a0cb89ee0d1b2f4eac"
+      }
+    }
+  },
   "ModelicaByExample": {
     "refs": {
       "first-draft": {
