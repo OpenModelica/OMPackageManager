@@ -215,6 +215,16 @@
       ["*", "obsolete"]
     ]
   },
+  "ExternalMedia": {
+    "names": ["ExternalMedia"],
+    "github": "modelica-3rdparty/ExternalMedia",
+    "search-extra-paths": ["Modelica"],
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ExternalMemoryLib": {
     "names": ["ExternalMemoryLib"],
     "github": "vwaurich/ExternalMemoryLib",

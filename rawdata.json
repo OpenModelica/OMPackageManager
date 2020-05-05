@@ -1614,6 +1614,34 @@
       }
     }
   },
+  "ExternalMedia": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ExternalMedia": {
+            "path": "Modelica/ExternalMedia 3.2.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "159518edd538b64e28cd70983a9cc47730323cc4"
+      },
+      "v3.2.1": {
+        "libs": {
+          "ExternalMedia": {
+            "path": "Modelica/ExternalMedia 3.2.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "3.2.1"
+          }
+        },
+        "sha": "1b77869b31dc3509defeccb1236db4b05d2f6f5b"
+      }
+    }
+  },
   "ExternalMemoryLib": {
     "refs": {
       "master": {
