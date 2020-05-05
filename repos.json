@@ -38,6 +38,16 @@
       ["*", "obsolete"]
     ]
   },
+  "Arduino": {
+    "names": ["Arduino"],
+    "github": "CATIA-Systems/Modelica-Arduino",
+    "semverTagOverridesAnnotation": true,
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "BondGraph": {
     "names": ["BondGraph"],
     "github": "modelica-3rdparty/BondGraph",

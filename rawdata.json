@@ -137,6 +137,97 @@
       }
     }
   },
+  "Arduino": {
+    "refs": {
+      "v0.0.0": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0"
+          }
+        },
+        "sha": "561b6899f887573852237f0e1a117ddfa3c64865"
+      },
+      "v0.0.1": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.1"
+          }
+        },
+        "sha": "63eec93428603d296cec44a7636f65dda17933a0"
+      },
+      "v0.0.2": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.2"
+          }
+        },
+        "sha": "b0dd59caf1cf349203a1a86f8690e386cb25dc87"
+      },
+      "v0.0.3": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.3"
+          }
+        },
+        "sha": "00e1d116d0cc147710695318e9c01522cf54249b"
+      },
+      "v0.0.4": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_DeviceDrivers": "1.4.4"
+            },
+            "version": "0.0.4"
+          }
+        },
+        "sha": "088e2e842f050fcd736f5ba678fab5acea0a570f"
+      },
+      "v0.0.5": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_DeviceDrivers": "1.4.4"
+            },
+            "version": "0.0.5"
+          }
+        },
+        "sha": "0af498bc27a1ed0aac83c538b6ed3647b13ad7df"
+      },
+      "v0.1.0": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_DeviceDrivers": "1.4.4"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "cd7a78541cc813ff18bfee1209fc213e9510c361"
+      }
+    }
+  },
   "BondGraph": {
     "refs": {
       "master": {
