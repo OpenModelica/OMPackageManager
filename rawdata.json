@@ -1998,6 +1998,19 @@
       }
     }
   },
+  "FuzzyControl": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "FuzzyControl": {
+            "path": "FuzzyControl",
+            "version": "1.0.0"
+          }
+        },
+        "sha": "19ff67ff129a440482cc85f216f287b05ea6ec0d"
+      }
+    }
+  },
   "HanserModelica": {
     "refs": {
       "master": {

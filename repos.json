@@ -292,6 +292,17 @@
       ["*", "obsolete"]
     ]
   },
+  "FuzzyControl": {
+    "names": ["FuzzyControl"],
+    "github": "modelica-3rdparty/FuzzyControl",
+    "standard": [
+      ["*", "2.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "HanserModelica": {
     "names": ["HanserModelica"],
     "github": "christiankral/HanserModelica",
