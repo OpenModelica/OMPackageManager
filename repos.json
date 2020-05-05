@@ -571,6 +571,16 @@
       ["*", "obsolete"]
     ]
   },
+  "MVEM": {
+    "names": ["MVEMLib"],
+    "github": "modelica-3rdparty/Modelica-MVEM",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.1", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ObjectStab": {
     "names": ["ObjectStab"],
     "github": "modelica-3rdparty/ObjectStab",
