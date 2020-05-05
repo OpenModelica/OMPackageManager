@@ -501,6 +501,17 @@
       ["*", "obsolete"]
     ]
   },
+  "ModelicaAdditions": {
+    "names": ["ModelicaAdditions"],
+    "github": "modelica-deprecated/ModelicaAdditions",
+    "standard": [
+      ["*", "1.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ModelicaADS": {
     "names": ["ModelicaADS"],
     "github": "TechnicalBuildingSystems/ModelicaADS",

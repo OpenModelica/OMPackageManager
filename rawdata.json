@@ -3304,6 +3304,31 @@
       }
     }
   },
+  "ModelicaAdditions": {
+    "refs": {
+      "v1.3.1": {
+        "libs": {
+          "ModelicaAdditions": {
+            "path": "ModelicaAdditions 1.3.1",
+            "version": "1.3.1"
+          }
+        },
+        "sha": "c24c4e87d9429427e0beb330db42b084e4bdd4fd"
+      },
+      "v1.5": {
+        "libs": {
+          "ModelicaAdditions": {
+            "path": "ModelicaAdditions 1.5",
+            "uses": {
+              "Modelica": "1.6.0"
+            },
+            "version": "1.5.0"
+          }
+        },
+        "sha": "568db43766186826b880f9d4bfafeff25cc2c4ab"
+      }
+    }
+  },
   "ModelicaByExample": {
     "refs": {
       "first-draft": {
