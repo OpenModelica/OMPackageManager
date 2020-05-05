@@ -3987,6 +3987,22 @@
       }
     }
   },
+  "Modelica_Requirements": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Modelica_Requirements": {
+            "path": "Modelica_Requirements",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.0-master"
+          }
+        },
+        "sha": "a427b5cb7997e9036c577d219e6b8a5d0c28389a"
+      }
+    }
+  },
   "Modelica_StateGraph2": {
     "refs": {
       "v2.0": {

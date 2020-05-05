@@ -564,6 +564,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Modelica_Requirements": {
+    "names": ["Modelica_Requirements"],
+    "github": "modelica-3rdparty/Modelica_Requirements",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "Modelica_StateGraph2": {
     "names": ["Modelica_StateGraph2"],
     "github": "HansOlsson/Modelica_StateGraph2",
