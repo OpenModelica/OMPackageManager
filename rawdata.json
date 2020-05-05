@@ -1347,6 +1347,19 @@
       }
     }
   },
+  "Compliance": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ModelicaCompliance": {
+            "path": "ModelicaCompliance",
+            "version": "3.2.0-master"
+          }
+        },
+        "sha": "8a91e75d8a26acc4de30fc0e5d5e9db83c970bd6"
+      }
+    }
+  },
   "ConPNlib": {
     "refs": {
       "master": {
