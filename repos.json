@@ -795,6 +795,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Tutorials": {
+    "names": ["StreamConnectors"],
+    "github": "justnielsen/ModelicaTutorials",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "VehicleInterfaces": {
     "names": ["VehicleInterfaces"],
     "github": "modelica/VehicleInterfaces",

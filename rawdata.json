@@ -5877,6 +5877,22 @@
       }
     }
   },
+  "Tutorials": {
+    "refs": {
+      "master": {
+        "libs": {
+          "StreamConnectors": {
+            "path": "StreamConnectors",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "49f5407835c4502d0653b34b3230b1f5be41b53f"
+      }
+    }
+  },
   "VVDRlib": {
     "refs": {
       "master": {
