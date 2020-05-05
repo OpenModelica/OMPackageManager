@@ -1790,6 +1790,22 @@
       }
     }
   },
+  "FMITest": {
+    "refs": {
+      "master": {
+        "libs": {
+          "FMITest": {
+            "path": "FMITest",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "a67a276083f4010b249802ad8fc70dc30c09adfd"
+      }
+    }
+  },
   "FailureModes": {
     "refs": {
       "v1.1.0": {

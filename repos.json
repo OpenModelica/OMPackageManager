@@ -264,6 +264,15 @@
       ["*", "obsolete"]
     ]
   },
+  "FMITest": {
+    "names": ["FMITest"],
+    "github": "DLR-SR/FMITest",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "FCSys": {
     "names": ["FCSys","FCSysTest"],
     "github": "kdavies4/FCSys",
