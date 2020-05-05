@@ -3359,6 +3359,23 @@
       }
     }
   },
+  "ModelicaDFR": {
+    "refs": {
+      "master": {
+        "broken": true,
+        "libs": {
+          "Nuclear": {
+            "path": "Nuclear.mo",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "37a441934d05330cf3d13e9ec551954d27eca84c"
+      }
+    }
+  },
   "Modelica_DeviceDrivers": {
     "refs": {
       "v1.0": {
