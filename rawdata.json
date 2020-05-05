@@ -2073,6 +2073,19 @@
       }
     }
   },
+  "Flight": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Flight": {
+            "path": "Flight.mo",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "f3ae1c3ebe1b33921654a0e0d59d6e65f0bcfe84"
+      }
+    }
+  },
   "FractionalOrder": {
     "refs": {
       "master": {
