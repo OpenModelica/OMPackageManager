@@ -121,6 +121,226 @@
       }
     }
   },
+  "AixLib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_DeviceDrivers": "1.7.0",
+              "Modelica_Synchronous": "0.92.2",
+              "NcDataReader2": "2.5.0",
+              "SDF": "0.4.1"
+            },
+            "version": "0.9.1-master"
+          }
+        },
+        "sha": "9d9c8d54faaf20ee298cf298c63464d0fe026dc2"
+      },
+      "v0.2.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "b93398976fdb5f4b5459210a2cd636a51ed8f83b"
+      },
+      "v0.2.1": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.1"
+          }
+        },
+        "sha": "1a41e6d98a0c73f2b9b069bebef4efe895f24eed"
+      },
+      "v0.2.2": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.2"
+          }
+        },
+        "sha": "bf5ccd4cd30f8f3903433a45ee131ae62c0241a9"
+      },
+      "v0.2.3": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.3"
+          }
+        },
+        "sha": "ccbdc9d6a041c13057b43778673fb56cacb25be1"
+      },
+      "v0.2.4": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.4"
+          }
+        },
+        "sha": "84b78117f2c82d0bbf2dcf6e8937c21cb41bb344"
+      },
+      "v0.2.5": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.2.5"
+          }
+        },
+        "sha": "cad9a2dc881d394fc3d98aa021b4a2afe2f4ef25"
+      },
+      "v0.3.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "7804a42a36675844cf813c8d62beb48abaab32dd"
+      },
+      "v0.3.1": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.3.1"
+          }
+        },
+        "sha": "fb95d3b37eea9f5f9b21cbe7c203651df3c91964"
+      },
+      "v0.3.2": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.3.2"
+          }
+        },
+        "sha": "25715362d4ed6b07699a278b28cdbaba0c646d59"
+      },
+      "v0.4.0": {
+        "libs": {
+          "AixLib": {
+            "convertFromVersion": [
+              "0.3.2"
+            ],
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_Synchronous": "0.92.1"
+            },
+            "version": "0.4.0"
+          }
+        },
+        "sha": "1a8d51d65014b37d7c530d8ed78a18149847077e"
+      },
+      "v0.5.2": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_Synchronous": "0.92.1",
+              "NcDataReader2": "2.4.0"
+            },
+            "version": "0.5.2"
+          }
+        },
+        "sha": "d71279d6925c105a4f9e3f5b76f69fc60410602b"
+      },
+      "v0.6.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_DeviceDrivers": "1.4.4",
+              "Modelica_Synchronous": "0.92.1",
+              "NcDataReader2": "2.4.0"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "a6dcc19711382b968994afcf42fa00df30b86d69"
+      },
+      "v0.7.3": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.2",
+              "Modelica_DeviceDrivers": "1.4.4",
+              "Modelica_Synchronous": "0.92.1",
+              "NcDataReader2": "2.4.0"
+            },
+            "version": "0.7.3"
+          }
+        },
+        "sha": "f7212bda66f6abcdf94535be5602c549792e2d22"
+      },
+      "v0.9.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_DeviceDrivers": "1.7.0",
+              "Modelica_Synchronous": "0.92.2",
+              "NcDataReader2": "2.5.0",
+              "SDF": "0.4.1"
+            },
+            "version": "0.9.0"
+          }
+        },
+        "sha": "83e95e24640ac881dbb7d906938dddc1d92712ec"
+      },
+      "v0.9.1": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "3.2.3",
+              "Modelica_DeviceDrivers": "1.7.0",
+              "Modelica_Synchronous": "0.92.2",
+              "NcDataReader2": "2.5.0",
+              "SDF": "0.4.1"
+            },
+            "version": "0.9.1"
+          }
+        },
+        "sha": "2fcea03717fc40b42f3a72e35bfa9e9533a8ea11"
+      }
+    }
+  },
   "ApproxSpline": {
     "refs": {
       "master": {
