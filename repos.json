@@ -48,6 +48,15 @@
       ["*", "obsolete"]
     ]
   },
+  "BioChem": {
+    "names": ["BioChem"],
+    "github": "OpenModelica/BioChem",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "BondGraph": {
     "names": ["BondGraph"],
     "github": "modelica-3rdparty/BondGraph",
