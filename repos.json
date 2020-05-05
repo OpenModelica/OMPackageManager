@@ -312,6 +312,15 @@
       ["*", "obsolete"]
     ]
   },
+  "GNU_ScientificLibrary": {
+    "names": ["GNU_ScientificLibrary"],
+    "github": "greenwoodms06/Modelica-GNU_ScientificLibrary",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "FuzzyControl": {
     "names": ["FuzzyControl"],
     "github": "modelica-3rdparty/FuzzyControl",

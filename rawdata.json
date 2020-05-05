@@ -2115,6 +2115,22 @@
       }
     }
   },
+  "GNU_ScientificLibrary": {
+    "refs": {
+      "master": {
+        "libs": {
+          "GNU_ScientificLibrary": {
+            "path": "GNU_ScientificLibrary",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "9235ab28bdd7f0fe3e7abba48af53d73332858ec"
+      }
+    }
+  },
   "Greenhouses": {
     "refs": {}
   },
