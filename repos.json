@@ -303,6 +303,14 @@
       ["*", "obsolete"]
     ]
   },
+  "Greenhouses": {
+    "names": ["Greenhouses"],
+    "github": "queraltab/Greenhouses-Library",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "HanserModelica": {
     "names": ["HanserModelica"],
     "github": "christiankral/HanserModelica",
