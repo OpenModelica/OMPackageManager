@@ -785,6 +785,15 @@
       ["*", "experimental"]
     ]
   },
+  "XogenyTest": {
+    "names": ["XogenyTest"],
+    "github": "xogeny/XogenyTest",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "iPSL": {
     "names": ["iPSL"],
     "github": "itesla/iPSL",

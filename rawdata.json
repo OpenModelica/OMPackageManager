@@ -5954,6 +5954,25 @@
       }
     }
   },
+  "XogenyTest": {
+    "refs": {
+      "master": {
+        "libs": {
+          "XogenyTest": {
+            "convertFromVersion": [
+              "1.0.0"
+            ],
+            "path": "XogenyTest",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.0-master"
+          }
+        },
+        "sha": "4410a3224e1803565d57ff323c3bef5a4bfd6b4d"
+      }
+    }
+  },
   "iPSL": {
     "refs": {
       "Tuto_ModProd_2016": {
