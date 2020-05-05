@@ -1937,6 +1937,35 @@
       }
     }
   },
+  "FeedDriveLibrary": {
+    "refs": {
+      "1.0.0": {
+        "libs": {
+          "FeedDriveLibrary": {
+            "path": "FeedDriveLibrary.mo",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_LinearSystems2": "2.3.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "aa88f225bfbedaf4b613d7556731beb207b9a1a6"
+      },
+      "1.0.1": {
+        "libs": {
+          "FeedDriveLibrary": {
+            "path": "FeedDriveLibrary.mo",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "b25dd3ef582872ac6ed5f5e15cbac9e9a6df194a"
+      }
+    }
+  },
   "FractionalOrder": {
     "refs": {
       "master": {
@@ -5503,7 +5532,7 @@
             "version": "2.0.0-dev"
           }
         },
-        "sha": "f278f7c83ae6e0c49a172295606943b3d1628c77"
+        "sha": "b730b3b0fbebd2dffbcc455a62442a8cf25bf8ae"
       },
       "v1.2.1": {
         "libs": {
