@@ -39,6 +39,15 @@
       ["*", "obsolete"]
     ]
   },
+  "AlgebraTestSuite": {
+    "names": ["AlgebraTestSuite"],
+    "github": "sielemann/AlgebraTestSuite",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ApproxSpline": {
     "names": ["ApproxSpline"],
     "github": "modelica-3rdparty/ApproxSpline",

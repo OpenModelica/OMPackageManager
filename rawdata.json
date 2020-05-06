@@ -341,6 +341,23 @@
       }
     }
   },
+  "AlgebraTestSuite": {
+    "refs": {
+      "master": {
+        "libs": {
+          "AlgebraTestSuite": {
+            "path": "AlgebraTestSuite",
+            "uses": {
+              "Modelica": "3.2.2",
+              "UserInteraction": "0.64.0"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "b937e1a7f447138c59abec9b2092f84f16bf02e8"
+      }
+    }
+  },
   "ApproxSpline": {
     "refs": {
       "master": {
