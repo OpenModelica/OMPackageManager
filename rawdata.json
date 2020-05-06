@@ -5800,6 +5800,19 @@
       }
     }
   },
+  "QSSFluidFlow": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "QSSFluidFlow": {
+            "path": "QSSFluidFlow 1.0",
+            "version": "1.0.0"
+          }
+        },
+        "sha": "d84a2c107132f2cd47ea3c3751238d69e4b1f64b"
+      }
+    }
+  },
   "SMPS": {
     "refs": {
       "master": {
@@ -6425,7 +6438,7 @@
             "version": "2.0.0-dev"
           }
         },
-        "sha": "b730b3b0fbebd2dffbcc455a62442a8cf25bf8ae"
+        "sha": "3ee9b5dbb02f438be6976269402bbb0598afae89"
       },
       "v1.2.1": {
         "libs": {

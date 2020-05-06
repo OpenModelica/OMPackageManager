@@ -845,6 +845,17 @@
       ["*", "obsolete"]
     ]
   },
+  "QSSFluidFlow": {
+    "names": ["QSSFluidFlow"],
+    "github": "modelica-3rdparty/QSSFluidFlow",
+    "standard": [
+      ["*", "2.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",
