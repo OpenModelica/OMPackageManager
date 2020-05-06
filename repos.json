@@ -831,6 +831,20 @@
       ["*", "experimental"]
     ]
   },
+  "PVlib": {
+    "names": ["PVlib", "PVSystems"],
+    "github": "raulrpearson/PVSystems",
+    "branches": {"master": "master"},
+    "standard": [
+      [">=0.4.1", "latest"],
+      ["*", "2.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.6.2", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",

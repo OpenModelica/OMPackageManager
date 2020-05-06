@@ -4866,6 +4866,106 @@
       }
     }
   },
+  "PVlib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "PVSystems": {
+            "path": "PVSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.3-master"
+          }
+        },
+        "sha": "64bf03868c1db739c86552570ffaa64ac88834b0"
+      },
+      "v0.1.0": {
+        "libs": {
+          "PVlib": {
+            "path": "",
+            "uses": {
+              "Modelica": "1.6.0"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "a3a85351daafc0fcb5677107f8ba9e8f17a9fb55"
+      },
+      "v0.2.0": {
+        "libs": {
+          "PVlib": {
+            "path": "",
+            "uses": {
+              "Modelica": "2.2.1"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "5dc645fb1278ccc49714679db73eced88ed28f40"
+      },
+      "v0.3.0": {
+        "libs": {
+          "PVlib": {
+            "path": "",
+            "uses": {
+              "Modelica": "2.2.1"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "c92f46d04689196164197d24be6872500f98682f"
+      },
+      "v0.4.0": {
+        "libs": {
+          "PVlib": {
+            "path": "",
+            "uses": {
+              "Modelica": "2.2.1"
+            },
+            "version": "0.4.0"
+          }
+        },
+        "sha": "699eb1ecf3db690bf6d3f578f75cff0533366af9"
+      },
+      "v0.6.0": {
+        "libs": {
+          "PVSystems": {
+            "path": "PVSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "dbfd49076b1483dec8aa89175340f261d17a0052"
+      },
+      "v0.6.1": {
+        "libs": {
+          "PVSystems": {
+            "path": "PVSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.1"
+          }
+        },
+        "sha": "370b866e9d0cf7d3ad7265468cf2874894f67499"
+      },
+      "v0.6.2": {
+        "libs": {
+          "PVSystems": {
+            "path": "PVSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.2"
+          }
+        },
+        "sha": "21b556da2f842984d6f79e590b295b65e813b016"
+      }
+    }
+  },
   "PhotoVoltaics": {
     "refs": {
       "v0.1.0": {
