@@ -1921,6 +1921,22 @@
       }
     }
   },
+  "ExternalLibrary": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ExternalLibrary": {
+            "path": "ExternalLibrary",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "b286ed2d4ece1f5e7b749dcdffea233c2334ed26"
+      }
+    }
+  },
   "ExternalMedia": {
     "refs": {
       "master": {

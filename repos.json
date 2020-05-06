@@ -615,6 +615,15 @@
       ["*", "experimental"]
     ]
   },
+  "ExternalLibrary": {
+    "names": ["ExternalLibrary"],
+    "github": "CATIA-Systems/Modelica-ExternalLibrary",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
     "github": "HansOlsson/Modelica_LinearSystems2",
@@ -1098,7 +1107,7 @@
   },
   "iPSL": {
     "names": ["iPSL"],
-    "github": "itesla/iPSL",
+    "github": "itesla/ipsl",
     "semverTagOverridesAnnotation": true,
     "ignore-tags": ["v0.8"],
     "support": [
