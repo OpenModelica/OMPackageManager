@@ -3145,6 +3145,24 @@
       }
     }
   },
+  "ModPowerSystems": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ModPowerSystems": {
+            "path": "ModPowerSystems",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2",
+              "ModelicaServices": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "df3afce27d5e935c4111f392275744a655abe216"
+      }
+    }
+  },
   "Modelica": {
     "refs": {
       "v1.3.1": {
@@ -6098,7 +6116,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "0b6d9c0eb4864c3fa701cc6ea74e505207670d26"
+        "sha": "133554afb8e79a959eeea0b6cddf811f87d681f5"
       },
       "release.2.0": {
         "libs": {
