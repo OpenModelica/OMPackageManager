@@ -1018,6 +1018,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Wavelet": {
+    "names": ["Wavelet"],
+    "github": "modelica-3rdparty/Wavelet",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "XogenyTest": {
     "names": ["XogenyTest"],
     "github": "xogeny/XogenyTest",

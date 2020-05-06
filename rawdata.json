@@ -6741,6 +6741,23 @@
       }
     }
   },
+  "Wavelet": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Wavelet": {
+            "path": "Wavelet.mo",
+            "uses": {
+              "Complex": "1.0.0",
+              "Modelica": "3.2.0"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "0efd31402f62014dc8f4774e043b45428f390156"
+      }
+    }
+  },
   "XogenyTest": {
     "refs": {
       "master": {
