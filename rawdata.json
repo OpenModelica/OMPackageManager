@@ -4397,6 +4397,16 @@
       }
     }
   },
+  "MotorcycleDynamics": {
+    "refs": {
+      "v0.7": {
+        "broken": true
+      },
+      "v0.7.0": {
+        "broken": true
+      }
+    }
+  },
   "MultiPhaseMixtureMedia": {
     "refs": {
       "v1.0.0": {

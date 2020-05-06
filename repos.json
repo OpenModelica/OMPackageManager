@@ -628,6 +628,15 @@
       ["*", "experimental"]
     ]
   },
+  "MotorcycleDynamics": {
+    "names": ["MotorcycleDynamics"],
+    "github": "modelica-3rdparty/MotorcycleDynamics",
+    "ignore-tags": ["v0.7.0", "v0.7"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "MultiPhaseMixtureMedia": {
     "names": ["MultiPhaseMixture"],
     "github": "jwindahlModelon/MultiPhaseMixtureMedia",
