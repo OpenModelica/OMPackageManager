@@ -5667,6 +5667,19 @@
       }
     }
   },
+  "SMPS": {
+    "refs": {
+      "master": {
+        "libs": {
+          "SMPS": {
+            "path": "SMPS",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "d31575eef403553bdd5dc0974c102366d0afae2c"
+      }
+    }
+  },
   "ScalableTestSuite": {
     "refs": {
       "v1.0.0": {

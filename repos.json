@@ -832,6 +832,15 @@
       ["*", "obsolete"]
     ]
   },
+  "SMPS": {
+    "names": ["SMPS"],
+    "github": "jkovacic/pow_el",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "SolarTherm": {
     "names": ["SolarTherm"],
     "github": "SolarTherm/SolarTherm",
