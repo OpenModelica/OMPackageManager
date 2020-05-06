@@ -47,7 +47,7 @@ pipeline {
         git remote set-url github git@github.com:OpenModelica/OMPackageManager.git
         '''
         sh '''
-        git update-index --refresh
+        git update-index --refresh || true
         if ! ( git diff-index --quiet HEAD -- ); then
           git commit -m "Updated libraries" rawdata.json
           git push github HEAD:master
