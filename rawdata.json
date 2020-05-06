@@ -455,12 +455,12 @@
           "BioChem": {
             "path": "BioChem",
             "uses": {
-              "Modelica": "3.2.1"
+              "Modelica": "3.2.3"
             },
             "version": "1.0.1-master"
           }
         },
-        "sha": "b5f3cb999f3cfad2bbb6fb429b496f61ecf2f628"
+        "sha": "dbf4fb876ac74a0af17922112003f14c3aa6c52e"
       },
       "v1.0": {
         "libs": {
@@ -6303,6 +6303,50 @@
       }
     }
   },
+  "Spot": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Spot": {
+            "path": "Spot",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.706.1-master"
+          },
+          "SpotExamples": {
+            "path": "SpotExamples",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Spot": "0.706.1"
+            },
+            "version": "0.706.1-master"
+          }
+        },
+        "sha": "b5c084ca0cbb13ba137ac2c449240410cecfaaf1"
+      },
+      "v0.706.1": {
+        "libs": {
+          "Spot": {
+            "path": "Spot 0.706.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.706.1"
+          },
+          "SpotExamples": {
+            "path": "SpotExamples 0.706.1",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Spot": "0.706.1"
+            },
+            "version": "0.706.1"
+          }
+        },
+        "sha": "8109b5236bdf6337fe2b2a865d89cbbd54dd28fa"
+      }
+    }
+  },
   "SystemDynamics": {
     "refs": {
       "master": {
@@ -6651,6 +6695,49 @@
           }
         },
         "sha": "1a94d0acb9620c4bbb490c77157300fd6bb276ac"
+      }
+    }
+  },
+  "WasteWater": {
+    "refs": {
+      "master": {
+        "libs": {
+          "WasteWater": {
+            "convertFromVersion": [
+              "2.0.1"
+            ],
+            "path": "WasteWater",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.1.0-master"
+          }
+        },
+        "sha": "0c5eecaadf82cd9e3a6a4ffa6241903e38fd1946"
+      },
+      "v2.0.1": {
+        "libs": {
+          "WasteWater": {
+            "path": "WasteWater 2.0.1",
+            "version": "2.0.1"
+          }
+        },
+        "sha": "6c671589e043fa882d1f1e343581e125de60be87"
+      },
+      "v2.1.0": {
+        "libs": {
+          "WasteWater": {
+            "convertFromVersion": [
+              "2.0.1"
+            ],
+            "path": "WasteWater 2.1.0",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "b177accad1843da8d257cfa2aee510d7e45105ce"
       }
     }
   },

@@ -923,6 +923,16 @@
       ["*", "experimental"]
     ]
   },
+  "Spot": {
+    "names": ["Spot", "SpotExamples"],
+    "github": "modelica-3rdparty/Spot",
+    "branches": {"master": "master"},
+    "ignore-tags": ["v0.706"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "SystemDynamics": {
     "names": ["SystemDynamics"],
     "github": "modelica-3rdparty/SystemDynamics",
@@ -993,6 +1003,19 @@
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
+    ]
+  },
+  "WasteWater": {
+    "names": ["WasteWater"],
+    "github": "modelica-3rdparty/WasteWater",
+    "branches": {"master": "master"},
+    "standard": [
+      [">=2.1.0", "latest"],
+      ["*", "2.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
     ]
   },
   "XogenyTest": {
