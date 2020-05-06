@@ -675,6 +675,14 @@
       ["*", "obsolete"]
     ]
   },
+  "NeuralNetwork": {
+    "names": ["NeuralNetwork"],
+    "github": "modelica-3rdparty/NeuralNetwork",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ObjectStab": {
     "names": ["ObjectStab"],
     "github": "modelica-3rdparty/ObjectStab",

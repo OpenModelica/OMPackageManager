@@ -4446,6 +4446,22 @@
       }
     }
   },
+  "NeuralNetwork": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork 1.0",
+            "uses": {
+              "Modelica": "2.2.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "c44e4d1fe97fd4f86dafcd05ad3713692e3f1806"
+      }
+    }
+  },
   "ObjectStab": {
     "refs": {
       "master": {
