@@ -856,6 +856,17 @@
       ["*", "obsolete"]
     ]
   },
+  "RealTimeCoordinationLibrary": {
+    "names": ["RealTimeCoordinationLibrary"],
+    "github": "modelica-3rdparty/RealTimeCoordinationLibrary",
+    "branches": {"master": "master"},
+    "ignore-tags": ["v1.0"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.2", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",

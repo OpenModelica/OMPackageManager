@@ -5813,6 +5813,51 @@
       }
     }
   },
+  "RealTimeCoordinationLibrary": {
+    "refs": {
+      "master": {
+        "libs": {
+          "RealTimeCoordinationLibrary": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Modelica_StateGraph2": "2.0.2"
+            },
+            "version": "1.0.4-master"
+          }
+        },
+        "sha": "5aaf3c3971850ff7ecdb1392b8ef020b605235e8"
+      },
+      "v1.0.1": {
+        "libs": {
+          "RealTimeCoordinationLibrary": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0",
+              "Modelica_StateGraph2": "2.0.1",
+              "RealTimeCoordinationLibrary": "1.0.1"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "370adafcac44bea20577c9186d414e80cee40840"
+      },
+      "v1.0.2": {
+        "libs": {
+          "RealTimeCoordinationLibrary": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.0",
+              "Modelica_StateGraph2": "2.0.1",
+              "RealTimeCoordinationLibrary": "1.0.2"
+            },
+            "version": "1.0.2"
+          }
+        },
+        "sha": "293b4ada6ad8753eee1a3d793a00e7e68927693f"
+      }
+    }
+  },
   "SMPS": {
     "refs": {
       "master": {
@@ -6438,7 +6483,7 @@
             "version": "2.0.0-dev"
           }
         },
-        "sha": "3ee9b5dbb02f438be6976269402bbb0598afae89"
+        "sha": "34c39584d7a326152f7eaa48fe3c16a0d5eb0370"
       },
       "v1.2.1": {
         "libs": {
