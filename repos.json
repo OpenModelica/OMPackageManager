@@ -877,6 +877,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Servomechanisms": {
+    "names": ["Servomechanisms"],
+    "github": "afrhu/Servomechanisms",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "SMPS": {
     "names": ["SMPS"],
     "github": "jkovacic/pow_el",

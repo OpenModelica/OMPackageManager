@@ -6235,6 +6235,19 @@
       }
     }
   },
+  "Servomechanisms": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Servomechanisms": {
+            "path": "Servomechanisms 1.0",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "3bf82ba5d3f31b4a0ae05f99ae690037358e153e"
+      }
+    }
+  },
   "SolarTherm": {
     "refs": {
       "master": {
