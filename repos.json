@@ -702,6 +702,14 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenFDM": {
+    "names": ["OpenFDM"],
+    "github": "arktools/openfdm",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "OpenHPL": {
     "names": ["OpenHPL"],
     "github": "simulatino/OpenHPL",
