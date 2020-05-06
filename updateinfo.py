@@ -59,7 +59,7 @@ def main():
 
   namesInFile = set()
   for key in data.keys():
-    for name in data[key]["names"]:
+    for name in data[key].get("names",[]):
       if name in namesInFile:
         raise Exception(key + " exists multiple times")
       namesInFile.add(name)
@@ -67,6 +67,8 @@ def main():
   for key in data.keys():
     entry = data[key]
     repopath = os.path.join("cache", key)
+    if "ignore" in entry:
+      continue
     if "github" in entry or "git" in entry:
       if "github" in entry:
         try:

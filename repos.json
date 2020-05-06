@@ -370,6 +370,15 @@
       ["*", "obsolete"]
     ]
   },
+  "FreeFluidsModelica": {
+    "names": ["FreeFluids"],
+    "github": "CarlosTrujilloGonzalez/FreeFluidsModelica",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "FuzzyControl": {
     "names": ["FuzzyControl"],
     "github": "modelica-3rdparty/FuzzyControl",
@@ -1077,5 +1086,9 @@
       [">=1.1.1", "fullSupport"],
       ["*", "obsolete"]
     ]
+  },
+  "IgnoreGithubBrineProp": {
+    "ignore": true,
+    "github": "modelica-3rdparty/BrineProp"
   }
 }

@@ -2437,6 +2437,22 @@
       }
     }
   },
+  "FreeFluidsModelica": {
+    "refs": {
+      "master": {
+        "libs": {
+          "FreeFluids": {
+            "path": "FreeFluids",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.6-master"
+          }
+        },
+        "sha": "d5e21832b231bdc3ca87053f8b7cf482d6659e67"
+      }
+    }
+  },
   "FuzzyControl": {
     "refs": {
       "v1.0": {
