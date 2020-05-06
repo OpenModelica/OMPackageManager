@@ -1027,6 +1027,17 @@
       ["*", "experimental"]
     ]
   },
+  "WindPowerPlants": {
+    "names": ["WindPowerPlants"],
+    "github": "christiankral/WindPowerPlants",
+    "branches": {"master": "master"},
+    "semverTagOverridesAnnotation": true,
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.2.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "XogenyTest": {
     "names": ["XogenyTest"],
     "github": "xogeny/XogenyTest",

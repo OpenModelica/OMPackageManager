@@ -6758,6 +6758,192 @@
       }
     }
   },
+  "WindPowerPlants": {
+    "refs": {
+      "master": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0-master+X.X"
+          }
+        },
+        "sha": "7ca8ec27a78ba2c63c9c3dcd7d9ece015a0df343"
+      },
+      "v0.9.0": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants/WindPowerPlants.mo",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.0"
+          }
+        },
+        "sha": "cfe03389178e18e0ac920dcb7365676958ca1974"
+      },
+      "v0.9.1": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.1"
+          }
+        },
+        "sha": "9410f8409c75b33cbd94aaf0b0a0967f9c452093"
+      },
+      "v0.9.2": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.2"
+          }
+        },
+        "sha": "9245efec3fc87bd17296c2e075cac07ab240ea6d"
+      },
+      "v0.9.3": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.3"
+          }
+        },
+        "sha": "6d07e05dd4058cfd8e05c7ba7d7afe1942b50b4f"
+      },
+      "v0.9.4": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.4"
+          }
+        },
+        "sha": "d6efd5681ab47019eb8e747b78c47585ce09e8cd"
+      },
+      "v0.9.5": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.5"
+          }
+        },
+        "sha": "61fe69121f5f39bb62debfbe8aadd82d795106dd"
+      },
+      "v0.9.7": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.7"
+          }
+        },
+        "sha": "d36d5495c7c51356270c2008d71a42c1e4f64eef"
+      },
+      "v0.9.8": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.1",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.9.8"
+          }
+        },
+        "sha": "724ae6f9c35f109b2715a0214660b1e6f1e160fc"
+      },
+      "v1.0.0": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "07f03628710966dda0ba0ea90547968b92d9d9da"
+      },
+      "v1.0.1": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "e85cf7af06d0a4140de6ce8e9ed1dbd97e87bb8a"
+      },
+      "v1.1.0": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "f6cf5ca1733b288b085434658a2167caa80c75e0"
+      },
+      "v1.1.1": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2"
+            },
+            "version": "1.1.1"
+          }
+        },
+        "sha": "5f97dc877e13fc91773a893827f6bc074a9f5a83"
+      },
+      "v1.2.0": {
+        "libs": {
+          "WindPowerPlants": {
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "16ed423ec48fe159d0838fcb1cf42980ece278a5"
+      }
+    }
+  },
   "XogenyTest": {
     "refs": {
       "master": {
