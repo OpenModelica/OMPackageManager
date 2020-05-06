@@ -914,6 +914,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Soltermica": {
+    "names": ["Soltermica"],
+    "github": "gheralb/Soltermica",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "SystemDynamics": {
     "names": ["SystemDynamics"],
     "github": "modelica-3rdparty/SystemDynamics",

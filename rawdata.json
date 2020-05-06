@@ -6287,6 +6287,22 @@
       }
     }
   },
+  "Soltermica": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Soltermica": {
+            "path": "Soltermica",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "9f7224bd89335f95dffe1ccdaa094df5a3279fdf"
+      }
+    }
+  },
   "SystemDynamics": {
     "refs": {
       "master": {
