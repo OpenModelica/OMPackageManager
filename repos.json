@@ -1117,7 +1117,15 @@
     ]
   },
   "IgnoreGithubBrineProp": {
-    "ignore": true,
+    "ignore": "Other entry exists (moved to a local gitlab)",
     "github": "modelica-3rdparty/BrineProp"
+  },
+  "IgnoreGithubIPSL": {
+    "ignore": "Identical to itesla/ipsl, but not a fork",
+    "github": "modelica-3rdparty/ipsl"
+  },
+  "IgnoreMoMoUrEnSySi": {
+    "ignore": "No branch parses",
+    "github": "ppuertocrem/MoMoUrEnSySi"
   }
 }
