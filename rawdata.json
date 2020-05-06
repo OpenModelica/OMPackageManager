@@ -2915,6 +2915,22 @@
       }
     }
   },
+  "Icons": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Icons": {
+            "path": "Icons",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "7884a0edb38cc039bc6fbaf8dee7114f2b7e7de4"
+      }
+    }
+  },
   "IdealizedContact": {
     "refs": {
       "maintenance": {

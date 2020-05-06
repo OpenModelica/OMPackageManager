@@ -449,6 +449,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Icons": {
+    "names": ["Icons"],
+    "github": "christiankral/Icons",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "IDEAS": {
     "names": ["IDEAS"],
     "github": "open-ideas/IDEAS",
