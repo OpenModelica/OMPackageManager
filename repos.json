@@ -68,6 +68,17 @@
       ["*", "obsolete"]
     ]
   },
+  "ATplus": {
+    "names": ["ATplus"],
+    "github": "modelica-3rdparty/ATplus",
+    "standard": [
+      ["*", "2.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "BioChem": {
     "names": ["BioChem"],
     "github": "OpenModelica/BioChem",
