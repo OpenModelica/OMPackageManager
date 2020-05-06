@@ -657,6 +657,15 @@
       ["*", "obsolete"]
     ]
   },
+  "NCLib": {
+    "names": ["NCLib"],
+    "github": "modelica-3rdparty/NCLib",
+    "ignore-tags": ["v0.82"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ObjectStab": {
     "names": ["ObjectStab"],
     "github": "modelica-3rdparty/ObjectStab",

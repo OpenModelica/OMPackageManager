@@ -3775,7 +3775,6 @@
   "ModelicaDFR": {
     "refs": {
       "master": {
-        "broken": true,
         "libs": {
           "Nuclear": {
             "path": "Nuclear.mo",
@@ -4398,14 +4397,7 @@
     }
   },
   "MotorcycleDynamics": {
-    "refs": {
-      "v0.7": {
-        "broken": true
-      },
-      "v0.7.0": {
-        "broken": true
-      }
-    }
+    "refs": {}
   },
   "MultiPhaseMixtureMedia": {
     "refs": {
@@ -4422,6 +4414,9 @@
         "sha": "b82e39f9ec44757503d46ecf5dc39d1fac598ed6"
       }
     }
+  },
+  "NCLib": {
+    "refs": {}
   },
   "ObjectStab": {
     "refs": {
