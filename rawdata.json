@@ -5667,6 +5667,39 @@
       }
     }
   },
+  "PraxisSimulationstechnik": {
+    "refs": {
+      "master": {
+        "libs": {
+          "PJLoeslib": {
+            "path": "PJLoeslib.mo",
+            "uses": {
+              "Modelica": "3.2.1",
+              "Thermo": "0.0.0-default"
+            },
+            "version": "0.0.0-master"
+          },
+          "PJlib": {
+            "path": "PJlib.mo",
+            "uses": {
+              "Modelica": "3.2.1",
+              "SystemDynamics": "0.0.0-default",
+              "Thermo": "0.0.0-default"
+            },
+            "version": "0.0.0-master"
+          },
+          "PraxisSimulationstechnik": {
+            "path": "PraxisSimulationstechnik",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "7446be67ec1c931b1d43fb51721b23b495916c1f"
+      }
+    }
+  },
   "SMPS": {
     "refs": {
       "master": {

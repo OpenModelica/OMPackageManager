@@ -822,6 +822,15 @@
       ["*", "obsolete"]
     ]
   },
+  "PraxisSimulationstechnik": {
+    "names": ["PraxisSimulationstechnik", "PJLoeslib", "PJlib"],
+    "github": "tbeu/PraxisSimulationstechnik",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",
