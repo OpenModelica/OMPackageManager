@@ -4734,6 +4734,22 @@
       }
     }
   },
+  "Optimisers": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Optimisers": {
+            "path": "Optimisers",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.1.0-master"
+          }
+        },
+        "sha": "e33c69edaad6dad8029167b0ca00533964a6fe37"
+      }
+    }
+  },
   "PNlib": {
     "refs": {
       "v1.0": {

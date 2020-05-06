@@ -742,6 +742,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Optimisers": {
+    "names": ["Optimisers"],
+    "github": "harmanpa/Optimisers",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "PNlib": {
     "names": ["PNlib"],
     "github": "AMIT-FHBielefeld/PNlib",
