@@ -2453,6 +2453,19 @@
       }
     }
   },
+  "FuelCellLib": {
+    "refs": {
+      "v1.0": {
+        "libs": {
+          "FuelCellLib": {
+            "path": "FuelCellLib 1.0",
+            "version": "1.0.0"
+          }
+        },
+        "sha": "a6acb23f66ac30cd9dc40c071efe0e6707e826ac"
+      }
+    }
+  },
   "FuzzyControl": {
     "refs": {
       "v1.0": {

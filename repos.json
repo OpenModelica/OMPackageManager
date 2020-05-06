@@ -379,6 +379,17 @@
       ["*", "experimental"]
     ]
   },
+  "FuelCellLib": {
+    "names": ["FuelCellLib"],
+    "github": "modelica-3rdparty/FuelCellLib",
+    "standard": [
+      ["*", "2.x"]
+    ],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "FuzzyControl": {
     "names": ["FuzzyControl"],
     "github": "modelica-3rdparty/FuzzyControl",
