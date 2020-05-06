@@ -5858,6 +5858,29 @@
       }
     }
   },
+  "SMEHV": {
+    "refs": {
+      "master": {
+        "libs": {
+          "wbEHPTlib": {
+            "path": "wbEHPTLib.mo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.0.0-master"
+          },
+          "wbEHVpkg": {
+            "path": "wbEHVpkg.mo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "e90514747ce9ae6ba09c2f64908f192105d4ad3a"
+      }
+    }
+  },
   "SMPS": {
     "refs": {
       "master": {

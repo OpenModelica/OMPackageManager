@@ -37,6 +37,11 @@ def getgitrepo(url, repopath):
   gitrepo = pygit2.Repository(repopath)
   return gitrepo
 
+def insensitive_glob(pattern):
+  def either(c):
+    return '[%s%s]' % (c.lower(), c.upper()) if c.isalpha() else c
+  return glob.glob(''.join(either(char) for char in pattern))
+
 def main():
   gh_auth = os.environ["GITHUB_AUTH"]
   g = Github(gh_auth)
@@ -117,7 +122,7 @@ def main():
 
           provided = {}
           for libname in entry["names"]:
-            hits = glob.glob(os.path.join(repopath,"package.mo"))
+            hits = insensitive_glob(os.path.join(repopath,"package.mo"))
             if len(hits) == 1:
               if libname != entry["names"][0]:
                 continue
@@ -129,12 +134,12 @@ def main():
                   p = os.path.join(repopath, extraPath)
                 else:
                   p = repopath
-                hits += (glob.glob(os.path.join(p,libname,"package.mo")) +
-                  glob.glob(os.path.join(p,libname+" *","package.mo")) +
-                  glob.glob(os.path.join(p,libname+".mo")) +
-                  glob.glob(os.path.join(p,libname+" *.mo")) +
-                  glob.glob(os.path.join(p,libname+"*",libname + ".mo")) +
-                  glob.glob(os.path.join(p,libname+"*",libname + " *.mo")))
+                hits += (insensitive_glob(os.path.join(p,libname,"package.mo")) +
+                  insensitive_glob(os.path.join(p,libname+" *","package.mo")) +
+                  insensitive_glob(os.path.join(p,libname+".mo")) +
+                  insensitive_glob(os.path.join(p,libname+" *.mo")) +
+                  insensitive_glob(os.path.join(p,libname+"*",libname + ".mo")) +
+                  insensitive_glob(os.path.join(p,libname+"*",libname + " *.mo")))
             if len(hits) != 1:
               print(str(len(hits)) + " hits for " + libname + " in " + tagName)
               continue

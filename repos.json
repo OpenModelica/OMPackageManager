@@ -886,6 +886,15 @@
       ["*", "experimental"]
     ]
   },
+  "SMEHV": {
+    "names": ["wbEHPTlib", "wbEHVpkg"],
+    "github": "max-privato/SMEHV",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "SMPS": {
     "names": ["SMPS"],
     "github": "jkovacic/pow_el",
