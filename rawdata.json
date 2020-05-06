@@ -4418,6 +4418,34 @@
   "NCLib": {
     "refs": {}
   },
+  "NcDataReader2": {
+    "refs": {
+      "v2.4.0": {
+        "libs": {
+          "NcDataReader2": {
+            "path": "NcDataReader2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.4.0"
+          }
+        },
+        "sha": "d08cc3471e85b4f50b04e2e41b1886825af83eaf"
+      },
+      "v2.5.0": {
+        "libs": {
+          "NcDataReader2": {
+            "path": "NcDataReader2",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.5.0"
+          }
+        },
+        "sha": "706ffafcc5a33f52217b4198f74242072e198803"
+      }
+    }
+  },
   "ObjectStab": {
     "refs": {
       "master": {

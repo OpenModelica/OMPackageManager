@@ -666,6 +666,15 @@
       ["*", "obsolete"]
     ]
   },
+  "NcDataReader2": {
+    "names": ["NcDataReader2"],
+    "github": "modelica-3rdparty/netCDF-DataReader",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.5.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ObjectStab": {
     "names": ["ObjectStab"],
     "github": "modelica-3rdparty/ObjectStab",
