@@ -551,7 +551,9 @@
       "OM/maint/3.1": "v3.1.0+maint.om",
       "OM/maint/3.2": "v3.2.0+maint.om",
       "OM/maint/3.2.1": "v3.2.1+maint.om",
-      "OM/maint/3.2.2": "v3.2.2+maint.om"
+      "OM/maint/3.2.2": "v3.2.2+maint.om",
+      "OM/maint/3.2.3": "v3.2.3+maint.om",
+      "OM/master": "master"
     },
     "standard": [
       [">=3.4.0", "latest"],

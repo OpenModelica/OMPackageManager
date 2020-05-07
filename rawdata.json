@@ -3260,6 +3260,77 @@
   },
   "Modelica": {
     "refs": {
+      "master": {
+        "libs": {
+          "Complex": {
+            "path": "Complex.mo",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "3.2.1",
+              "3.2.2"
+            ],
+            "version": "0.0.0-master"
+          },
+          "Modelica": {
+            "convertFromVersion": [
+              "3.0.0",
+              "3.0.1",
+              "3.1.0",
+              "3.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3"
+            ],
+            "path": "Modelica",
+            "uses": {
+              "Complex": "0.0.0-master",
+              "ModelicaServices": "0.0.0-master"
+            },
+            "version": "0.0.0-master"
+          },
+          "ModelicaReference": {
+            "path": "ModelicaReference",
+            "version": "4.0.0-master"
+          },
+          "ModelicaServices": {
+            "path": "ModelicaServices",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "3.2.1",
+              "3.2.2"
+            ],
+            "uses": {
+              "Modelica": "0.0.0-master"
+            },
+            "version": "0.0.0-master"
+          },
+          "ModelicaTest": {
+            "path": "ModelicaTest",
+            "uses": {
+              "Modelica": "0.0.0-master"
+            },
+            "version": "0.0.0-master"
+          },
+          "ModelicaTestOverdetermined": {
+            "path": "ModelicaTestOverdetermined.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "4.0.0-master"
+          },
+          "ObsoleteModelica4": {
+            "path": "ObsoleteModelica4.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "4.0.0-master"
+          }
+        },
+        "sha": "db393697814a5c5f8f80faf0aa59a802dbb1fd5b"
+      },
       "v1.3.1": {
         "libs": {
           "Modelica": {
@@ -3617,6 +3688,82 @@
           }
         },
         "sha": "9578058eff7a3a3d953a37d190a9bafa4e77092e"
+      },
+      "v3.2.3+maint.om": {
+        "libs": {
+          "Complex": {
+            "path": "Complex.mo",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "3.2.1",
+              "3.2.2"
+            ],
+            "version": "3.2.3+maint.om"
+          },
+          "Modelica": {
+            "convertFromVersion": [
+              "2.1.0",
+              "2.2.0",
+              "2.2.1",
+              "2.2.2"
+            ],
+            "path": "Modelica",
+            "provides": [
+              "3.0.0",
+              "3.0.1",
+              "3.1.0",
+              "3.2.0",
+              "3.2.1",
+              "3.2.2"
+            ],
+            "uses": {
+              "Complex": "3.2.3",
+              "ModelicaServices": "3.2.3"
+            },
+            "version": "3.2.3+maint.om"
+          },
+          "ModelicaReference": {
+            "path": "ModelicaReference",
+            "version": "3.2.3+maint.om"
+          },
+          "ModelicaServices": {
+            "path": "ModelicaServices",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "3.2.1",
+              "3.2.2"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.2.3+maint.om"
+          },
+          "ModelicaTest": {
+            "path": "ModelicaTest",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.2.3+maint.om"
+          },
+          "ModelicaTestOverdetermined": {
+            "path": "ModelicaTestOverdetermined.mo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.2.3+maint.om"
+          },
+          "ObsoleteModelica3": {
+            "path": "ObsoleteModelica3.mo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.2.3+maint.om"
+          }
+        },
+        "sha": "8b7d2daea20f450b1a6919922b5a9114b90eb758"
       }
     }
   },
