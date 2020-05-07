@@ -1442,6 +1442,27 @@
       }
     }
   },
+  "DataFiles": {
+    "refs": {
+      "master": {
+        "libs": {
+          "DataFiles": {
+            "path": "DataFiles",
+            "provides": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "1.0.3",
+              "1.0.4",
+              "1.0.5"
+            ],
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "ab245c1f280f0bacd170413a208a4640e67b524d"
+      }
+    }
+  },
   "DeployStructLib": {
     "refs": {
       "master": {
@@ -1461,6 +1482,29 @@
           }
         },
         "sha": "ef1faa77179742cc7d2b7694aa49d85380481585"
+      }
+    }
+  },
+  "Design": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Design": {
+            "path": "Design",
+            "provides": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "1.0.3",
+              "1.0.4",
+              "1.0.5",
+              "1.0.6",
+              "1.0.7"
+            ],
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "f9515de6668a0914529cc9fb472828cb5db7b205"
       }
     }
   },
@@ -3255,6 +3299,31 @@
           }
         },
         "sha": "df3afce27d5e935c4111f392275744a655abe216"
+      }
+    }
+  },
+  "ModelManagement": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ModelManagement": {
+            "path": "ModelManagement",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.1.3",
+              "1.1.4",
+              "1.1.5",
+              "1.1.6",
+              "1.1.7",
+              "1.1.8"
+            ],
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "dd2bc3b9e89e67f60ef6f9f11904c3cab697b01b"
       }
     }
   },
@@ -6265,6 +6334,24 @@
       }
     }
   },
+  "SDF": {
+    "refs": {
+      "master": {
+        "libs": {
+          "SDF": {
+            "path": "SDF",
+            "provides": [
+              "0.4.0",
+              "0.4.1",
+              "0.4.2"
+            ],
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "51c71a079161223bd3952894e34f3f8c924e931a"
+      }
+    }
+  },
   "SMEHV": {
     "refs": {
       "master": {
@@ -7057,6 +7144,23 @@
           }
         },
         "sha": "49f5407835c4502d0653b34b3230b1f5be41b53f"
+      }
+    }
+  },
+  "UserInteraction": {
+    "refs": {
+      "master": {
+        "libs": {
+          "UserInteraction": {
+            "path": "UserInteraction",
+            "provides": [
+              "0.64.0",
+              "0.65.0"
+            ],
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "ee7a106134d6d5076f2516859e8ea815dbb55da2"
       }
     }
   },

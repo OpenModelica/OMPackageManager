@@ -1177,6 +1177,46 @@
       ["*", "obsolete"]
     ]
   },
+  "DataFiles": {
+    "names": ["DataFiles"],
+    "github": "Modelica-OpenVendorSpecificLibraries/DataFiles",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+  "Design": {
+    "names": ["Design"],
+    "github": "Modelica-OpenVendorSpecificLibraries/Design",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+  "ModelManagement": {
+    "names": ["ModelManagement"],
+    "github": "Modelica-OpenVendorSpecificLibraries/ModelManagement",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+  "SDF": {
+    "names": ["SDF"],
+    "github": "Modelica-OpenVendorSpecificLibraries/SDF",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+  "UserInteraction": {
+    "names": ["UserInteraction"],
+    "github": "Modelica-OpenVendorSpecificLibraries/UserInteraction",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
   "IgnoreGithubBrineProp": {
     "ignore": "Other entry exists (moved to a local gitlab)",
     "github": "modelica-3rdparty/BrineProp"
