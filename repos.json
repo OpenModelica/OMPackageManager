@@ -890,6 +890,15 @@
       ["*", "experimental"]
     ]
   },
+  "PropulsionSystem": {
+    "names": ["PropulsionSystem"],
+    "github": "zeta-plusplus/PropulsionSystem",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "PVlib": {
     "names": ["PVlib", "PVSystems"],
     "github": "raulrpearson/PVSystems",

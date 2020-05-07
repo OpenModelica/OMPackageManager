@@ -5911,6 +5911,58 @@
       }
     }
   },
+  "PropulsionSystem": {
+    "refs": {
+      "2020.01.07": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2020.1.7"
+          }
+        },
+        "sha": "93efb70553be79bc13fd65af8a66ea1394e24e45"
+      },
+      "2020.04.20": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2020.4.20"
+          }
+        },
+        "sha": "b9defd5069edf6798d230ac1010660fc71af1732"
+      },
+      "2020.04.30": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2020.4.30"
+          }
+        },
+        "sha": "c3afa1c8313e6c574c165b1a86a5780624221080"
+      },
+      "master": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "555b4d6d433fd166e0804fd03ab9a53cf1b5d296"
+      }
+    }
+  },
   "QSSFluidFlow": {
     "refs": {
       "v1.0": {
