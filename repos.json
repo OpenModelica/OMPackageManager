@@ -1126,6 +1126,15 @@
       ["*", "obsolete"]
     ]
   },
+  "WaterHub": {
+    "names": ["WaterHub"],
+    "github": "modelica-3rdparty/WaterHub",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "Wavelet": {
     "names": ["Wavelet"],
     "github": "modelica-3rdparty/Wavelet",
@@ -1201,5 +1210,9 @@
   "IgnoreThermoBondLib": {
     "ignore": "Cannot be parsed (import C:\\...",
     "github": "modelica-3rdparty/ThermoBondLib"
+  },
+  "IgnoreVerif": {
+    "ignore": "Cannot be parsed (import C:\\...",
+    "github": "modelica-3rdparty/Verif"
   }
 }

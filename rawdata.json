@@ -7114,6 +7114,19 @@
       }
     }
   },
+  "WaterHub": {
+    "refs": {
+      "master": {
+        "libs": {
+          "WaterHub": {
+            "path": "WaterHub",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "c0fd0edab8b44743bcca60f3c5e3b7bbf6a30b88"
+      }
+    }
+  },
   "Wavelet": {
     "refs": {
       "master": {
