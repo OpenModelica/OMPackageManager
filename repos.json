@@ -1075,6 +1075,16 @@
       ["*", "obsolete"]
     ]
   },
+  "TRANSFORM": {
+    "names": ["TRANSFORM"],
+    "github": "ORNL-Modelica/TRANSFORM-Library",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.4.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Tutorials": {
     "names": ["StreamConnectors"],
     "github": "justnielsen/ModelicaTutorials",

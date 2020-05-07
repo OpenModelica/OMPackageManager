@@ -6700,6 +6700,87 @@
       }
     }
   },
+  "TRANSFORM": {
+    "refs": {
+      "master": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.2",
+              "SDF": "0.4.1",
+              "UserInteraction": "0.65.0"
+            },
+            "version": "1.0.0-master"
+          }
+        },
+        "sha": "96d3493a69e0fdf6bbbf2492fb8eb171798ede0b"
+      },
+      "v0.1-beta": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2",
+              "SDF": "0.4.0",
+              "UserInteraction": "0.64.0"
+            },
+            "version": "1.0.0-beta"
+          }
+        },
+        "sha": "141dbb04e2650ca828e9c785f554d6f267f99170"
+      },
+      "v0.2-beta": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2",
+              "SDF": "0.4.0",
+              "UserInteraction": "0.64.0"
+            },
+            "version": "1.0.0-beta"
+          }
+        },
+        "sha": "1376b2abbfbe257c6ae2586ab3fe6378a071525e"
+      },
+      "v0.3-beta": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2",
+              "SDF": "0.4.0",
+              "UserInteraction": "0.64.0"
+            },
+            "version": "1.0.0-beta"
+          }
+        },
+        "sha": "e58740197d8c7a0dd2c01da508ba405b719100a4"
+      },
+      "v0.4-beta": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.2",
+              "SDF": "0.4.1",
+              "UserInteraction": "0.65.0"
+            },
+            "version": "1.0.0-beta"
+          }
+        },
+        "sha": "c53758a5ac46cf36b864e337d40e6aa9b74688cc"
+      }
+    }
+  },
   "ThermalSeparation": {
     "refs": {
       "master": {
