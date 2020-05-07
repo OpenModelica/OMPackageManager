@@ -6105,6 +6105,19 @@
       }
     }
   },
+  "RotorAeroLib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "RotorAeroLib": {
+            "path": "RotorAeroLib",
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "ef0f5b62d22af7e5e515614aae5f8b7048fe9095"
+      }
+    }
+  },
   "SMEHV": {
     "refs": {
       "master": {

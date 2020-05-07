@@ -945,6 +945,15 @@
       ["*", "obsolete"]
     ]
   },
+  "RotorAeroLib": {
+    "names": ["RotorAeroLib"],
+    "github": "ATAEngineering/RotorAeroLib",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",
