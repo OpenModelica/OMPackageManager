@@ -1050,6 +1050,17 @@
       ["*", "obsolete"]
     ]
   },
+  "Thermocycle": {
+    "names": ["Thermocycle", "ThermoCycle"],
+    "github": "thermocycle/Thermocycle-library",
+    "branches": {"master": "master"},
+    "ignore-tags": ["v2.0.0"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ThermoPower": {
     "names": ["ThermoPower"],
     "github": "casella/ThermoPower",
@@ -1168,5 +1179,17 @@
   "IgnoreMultiBondLib": {
     "ignore": "Cannot be parsed (import C:\\...",
     "github": "modelica-3rdparty/MultiBondLib"
+  },
+  "IgnoreSPICELib": {
+    "ignore": "Multiple classes in the same file",
+    "github": "modelica-3rdparty/SPICELib"
+  },
+  "IgnoreTechThermo": {
+    "ignore": "Multiple parsing errors",
+    "github": "modelica-3rdparty/TechThermo"
+  },
+  "IgnoreThermoBondLib": {
+    "ignore": "Cannot be parsed (import C:\\...",
+    "github": "modelica-3rdparty/ThermoBondLib"
   }
 }

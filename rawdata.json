@@ -6784,6 +6784,38 @@
       }
     }
   },
+  "Thermocycle": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ThermoCycle": {
+            "path": "ThermoCycle",
+            "uses": {
+              "ExternalMedia": "0.0.0-default",
+              "Modelica": "3.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "b4f16c0b9dc16ffd05d24b2980ff15533aa36cc9"
+      },
+      "v1.0.0": {
+        "libs": {
+          "ThermoCycle": {
+            "path": "ThermoCycle 1.0.0",
+            "uses": {
+              "CoolProp2Modelica": "0.0.0-default",
+              "Modelica": "3.2.0",
+              "TILMedia": "2.1.4",
+              "ThermoPower": "3.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "5ffe844472c96a74bed89425807c2c5f4a2a08f1"
+      }
+    }
+  },
   "Tutorials": {
     "refs": {
       "master": {
