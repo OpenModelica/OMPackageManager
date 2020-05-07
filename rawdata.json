@@ -4845,6 +4845,22 @@
       }
     }
   },
+  "PDELib": {
+    "refs": {
+      "master": {
+        "libs": {
+          "PDE": {
+            "path": "PDE",
+            "uses": {
+              "Modelica": "2.2.1"
+            },
+            "version": "0.0.0-master"
+          }
+        },
+        "sha": "d0e2b0c70659dd3f3827073963541a56fc26215b"
+      }
+    }
+  },
   "PNlib": {
     "refs": {
       "v1.0": {

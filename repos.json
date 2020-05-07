@@ -686,15 +686,6 @@
       ["*", "experimental"]
     ]
   },
-  "MotorcycleDynamics": {
-    "names": ["MotorcycleDynamics"],
-    "github": "modelica-3rdparty/MotorcycleDynamics",
-    "ignore-tags": ["v0.7.0", "v0.7"],
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "obsolete"]
-    ]
-  },
   "MultiPhaseMixtureMedia": {
     "names": ["MultiPhaseMixture"],
     "github": "jwindahlModelon/MultiPhaseMixtureMedia",
@@ -807,6 +798,16 @@
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
+    ]
+  },
+  "PDELib": {
+    "names": ["PDE"],
+    "github": "modelica-3rdparty/PDELib",
+    "branches": {"master": "master"},
+    "ignore-tags": ["v1.0"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
     ]
   },
   "PNlib": {
@@ -1127,5 +1128,17 @@
   "IgnoreMoMoUrEnSySi": {
     "ignore": "No branch parses",
     "github": "ppuertocrem/MoMoUrEnSySi"
+  },
+  "IgnoreMotorcycleDynamics": {
+    "ignore": "Cannot be parsed. Illegal subscripts.",
+    "github": "modelica-3rdparty/MotorcycleDynamics"
+  },
+  "MotorcycleLib": {
+    "ignore": "Cannot be parsed (import C:\\...",
+    "github": "modelica-3rdparty/MotorcycleLib"
+  },
+  "IgnoreMultiBondLib": {
+    "ignore": "Cannot be parsed (import C:\\...",
+    "github": "modelica-3rdparty/MultiBondLib"
   }
 }
