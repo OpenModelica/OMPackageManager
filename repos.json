@@ -1214,5 +1214,9 @@
   "IgnoreVerif": {
     "ignore": "Cannot be parsed (import C:\\...",
     "github": "modelica-3rdparty/Verif"
+  },
+  "IgnoreWheelsAndTires": {
+    "ignore": "Cannot be parsed (import C:\\...",
+    "github": "modelica-3rdparty/WheelsAndTires"
   }
 }
