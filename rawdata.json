@@ -5963,6 +5963,90 @@
       }
     }
   },
+  "QCalc": {
+    "refs": {
+      "v0.2.1": {
+        "libs": {
+          "QCalc": {
+            "path": "QCalc 0.2.1",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.2.1"
+          },
+          "QCalcTests": {
+            "path": "QCalcTests",
+            "uses": {
+              "Modelica": "3.2.0",
+              "XogenyTest": "1.1.0"
+            },
+            "version": "0.2.1"
+          }
+        },
+        "sha": "67737dc9da951b6559403a3b5dec3e5878a96cc0"
+      },
+      "v0.3.0": {
+        "libs": {
+          "QCalc": {
+            "path": "QCalc 0.3.0",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.3.0"
+          },
+          "QCalcTests": {
+            "path": "QCalcTests",
+            "uses": {
+              "Modelica": "3.2.0",
+              "XogenyTest": "1.1.0"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "a23b17a636d23b84904d6504b55152124f55cf4d"
+      },
+      "v0.3.2": {
+        "libs": {
+          "QCalc": {
+            "path": "QCalc 0.3.2",
+            "uses": {
+              "Modelica": "3.2.0"
+            },
+            "version": "0.3.2"
+          },
+          "QCalcTests": {
+            "path": "QCalcTests",
+            "uses": {
+              "Modelica": "3.2.0",
+              "XogenyTest": "1.1.0"
+            },
+            "version": "0.3.2"
+          }
+        },
+        "sha": "464a91d02fcffe308912bfac1c0fca916dbf9697"
+      },
+      "v0.3.3": {
+        "libs": {
+          "QCalc": {
+            "path": "QCalc",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "0.3.3"
+          },
+          "QCalcTests": {
+            "path": "QCalcTests",
+            "uses": {
+              "Modelica": "3.2.0",
+              "XogenyTest": "1.1.0"
+            },
+            "version": "0.3.3"
+          }
+        },
+        "sha": "af6c34dda691a9bdf7ca1de10650974b2d5cecf5"
+      }
+    }
+  },
   "QSSFluidFlow": {
     "refs": {
       "v1.0": {
