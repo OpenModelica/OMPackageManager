@@ -4692,6 +4692,19 @@
         },
         "sha": "c0db5e1e06e921e3d13dd38a28ec49e5fe7905c1"
       },
+      "v0.92.2": {
+        "libs": {
+          "Modelica_Synchronous": {
+            "path": "Modelica_Synchronous",
+            "uses": {
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.3"
+            },
+            "version": "0.93.0-dev"
+          }
+        },
+        "sha": "477faa09dcd89b98a8728dbdb2c2efc46ec1a4a8"
+      },
       "v0.93.0": {
         "libs": {
           "Modelica_Synchronous": {
@@ -6175,7 +6188,7 @@
             "version": "0.0.0-master"
           }
         },
-        "sha": "df00cb984bcd66e315695d09d7b0bdf94ae8f88e"
+        "sha": "87b899eb01839e563446f1454b219b0fe2c0e184"
       }
     }
   },
@@ -6777,7 +6790,7 @@
             "version": "0.2.0-master"
           }
         },
-        "sha": "f84d55535c4a0f90c21e08ef6e91c2f7a1e9c22c"
+        "sha": "458e0072720ef11eb87e218bc8d6adcde14564c2"
       }
     }
   },
