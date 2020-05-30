@@ -6955,10 +6955,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "1.4.1-ClaRa"
+            "version": "1.5.1-ClaRa"
           }
         },
-        "sha": "d46792f6093c686002164f0ef897dc3d02bda00a"
+        "sha": "895c013c0dc15268c07c215486cc17e1c9135375"
       }
     }
   },
