@@ -168,7 +168,7 @@ def main():
             else:
               v1 = common.VersionNumber(version)
               v2 = common.VersionNumber(tagName)
-              if len(v2.prerelease) == 0 and entry.get("semverTagOverridesAnnotation") and v2 > v1:
+              if len(v2.prerelease) == 0 and entry.get("semverTagOverridesAnnotation") and (v2 > v1 or entry["semverTagOverridesAnnotation"] == "alsoNewerVersions"):
                 v1 = v2
               if len(v2.prerelease) > 0 and len(v1.prerelease) == 0:
                 v1.prerelease = v2.prerelease

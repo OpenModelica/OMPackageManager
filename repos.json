@@ -662,6 +662,7 @@
   "Modelica_Synchronous": {
     "names": ["Modelica_Synchronous"],
     "github": "modelica/Modelica_Synchronous",
+    "semverTagOverridesAnnotation": "alsoNewerVersions",
     "support": [
       ["prerelease", "noSupport"],
       [">=0.93.0", "support"],
