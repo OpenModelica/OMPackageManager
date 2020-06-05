@@ -1085,7 +1085,7 @@
     },
     "support": [
       ["prerelease", "noSupport"],
-      [">=4.1.0", "experimental"],
+      [">=3.2.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
