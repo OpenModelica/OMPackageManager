@@ -6817,6 +6817,43 @@
       }
     }
   },
+  "SiemensPower": {
+    "refs": {
+      "2.1.0-beta": {
+        "libs": {
+          "SiemensPower": {
+            "convertFromVersion": [
+              "1.8.0",
+              "2.0.0"
+            ],
+            "path": "SiemensPower 2.1 beta",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.1.0-beta"
+          }
+        },
+        "zip": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-2.1-beta.zip"
+      },
+      "2.2.0": {
+        "libs": {
+          "SiemensPower": {
+            "convertFromVersion": [
+              "1.8.0",
+              "2.0.0",
+              "2.1.0"
+            ],
+            "path": "SiemensPower 2.2",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "zip": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-2.2.zip"
+      }
+    }
+  },
   "SolarTherm": {
     "refs": {
       "master": {
