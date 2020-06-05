@@ -21,8 +21,13 @@ def main():
         if libName not in indexdata["libs"]:
           if "github" in repos[firstKey]:
             indexdata["libs"][libName] = {"git": "https://github.com/%s.git" % repos[firstKey]["github"], "versions": {}}
-          else:
+            isgit = True
+          elif "git" in repos[firstKey]:
             indexdata["libs"][libName] = {"git": repos[firstKey]["git"], "versions": {}}
+            isgit = True
+          else:
+            indexdata["libs"][libName] = {"versions": {}}
+            isgit = False
         libdict = indexdata["libs"][libName]["versions"]
         if lib['version'] in libdict.keys():
           if len(common.VersionNumber(refKey).prerelease)>0:
@@ -30,10 +35,13 @@ def main():
           print('Duplicate entry for %s %s (%s)' % (libName, lib['version'], refKey))
         entry = {}
 
-        entry['sha'] = r['sha']
+        if isgit:
+          entry['sha'] = r['sha']
         entry['path'] = lib['path']
         entry['version'] = lib['version']
-        if "github" in repos[firstKey]:
+        if "zip" in r:
+          entry['zipfile'] = r["zip"]
+        elif "github" in repos[firstKey]:
           entry['zipfile'] = "https://github.com/%s/archive/%s.zip" % (repos[firstKey]["github"], r['sha'])
         else:
           entry['zipfile'] = repos[firstKey]["zipfile"] % r['sha']

@@ -7,6 +7,9 @@ import json
 import pygit2
 import glob
 import re
+import shutil
+import requests
+import zipfile
 
 import common
 
@@ -64,12 +67,12 @@ def main():
         raise Exception(key + " exists multiple times")
       namesInFile.add(name)
 
-  for key in data.keys():
+  for key in sorted(data.keys()):
     entry = data[key]
     repopath = os.path.join("cache", key)
     if "ignore" in entry:
       continue
-    if "github" in entry or "git" in entry:
+    if "github" in entry or "git" in entry or "zipfiles" in entry:
       if "github" in entry:
         try:
           r = g.get_repo(entry["github"])
@@ -79,11 +82,15 @@ def main():
         except:
           print("Failed to get github entry: %s" % entry["github"])
           raise()
-      else:
+      elif "git" in entry:
         giturl = entry["git"]
         gitrepo = getgitrepo(giturl, repopath)
         branches = allbranches(gitrepo)
         tags = alltags(gitrepo)
+      elif "zipfiles" in entry:
+        branches = []
+        tags = list(entry["zipfiles"].items())
+        giturl = ""
 
       if key not in serverdata:
         serverdata[key] = {}
@@ -113,13 +120,28 @@ def main():
           tagsDict[tagName] = {}
         thisTag = tagsDict[tagName]
 
-        if ("sha" not in thisTag) or (thisTag["sha"] != sha):
-          gitrepo = getgitrepo(giturl, repopath)
-          try:
-            gitrepo.checkout_tree(gitrepo.get(sha), strategy = pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
-          except:
-            print("Failed to checkout %s with SHA %s" % (tagName, sha))
-            raise
+        entrykind = "zip" if "zipfiles" in entry else "sha"
+
+        if (entrykind not in thisTag) or (thisTag[entrykind] != sha):
+          if entrykind == "zip":
+            try:
+              shutil.rmtree(repopath)
+            except FileNotFoundError:
+              pass
+
+            os.mkdir(repopath)
+            zipfilepath = repopath + "-" + tagName + ".zip"
+            with open(zipfilepath, 'wb') as fout:
+              fout.write(requests.get(sha, allow_redirects=True).content)
+            with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
+              zip_ref.extractall(repopath)
+          else:
+            gitrepo = getgitrepo(giturl, repopath)
+            try:
+              gitrepo.checkout_tree(gitrepo.get(sha), strategy = pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
+            except:
+              print("Failed to checkout %s with SHA %s" % (tagName, sha))
+              raise
           omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
           provided = {}
@@ -198,11 +220,12 @@ def main():
             thisTag["broken"]=True
             continue
           thisTag["libs"] = provided
-          thisTag["sha"] = sha
+          thisTag[entrykind] = sha
         # level = getSupportLevel(tagName, entry["support"])
         # thisTag["support"] = level
       serverdata[key]["refs"] = tagsDict
-
+    else:
+      raise Exception("Don't know how to handle entry for %s: %s" % (key, entry))
   with open("rawdata.json","w") as io:
     json.dump(serverdata, io, sort_keys=True, indent=2)
 if __name__ == '__main__':

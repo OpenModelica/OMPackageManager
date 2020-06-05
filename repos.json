@@ -1078,6 +1078,17 @@
       ["*", "obsolete"]
     ]
   },
+  "ThermoSysPro": {
+    "names": ["ThermoSysPro"],
+    "zipfiles": {
+      "4.1.0": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-4.1.zip"
+    },
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=4.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "TRANSFORM": {
     "names": ["TRANSFORM"],
     "github": "ORNL-Modelica/TRANSFORM-Library",
