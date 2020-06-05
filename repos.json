@@ -1081,7 +1081,7 @@
   "ThermoSysPro": {
     "names": ["ThermoSysPro"],
     "zipfiles": {
-      "4.1.0": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-4.1.zip"
+      "3.2.0": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-3.2.zip"
     },
     "support": [
       ["prerelease", "noSupport"],
