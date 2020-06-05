@@ -7151,6 +7151,26 @@
       }
     }
   },
+  "ThermoSysPro": {
+    "refs": {
+      "4.1.0": {
+        "libs": {
+          "ThermoSysPro": {
+            "path": "ThermoSysPro 4.1",
+            "provides": [
+              "0.0.0",
+              "4.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "4.1.0"
+          }
+        },
+        "zip": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-4.1.zip"
+      }
+    }
+  },
   "Thermocycle": {
     "refs": {
       "master": {
