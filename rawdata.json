@@ -6218,6 +6218,7 @@
         "sha": "c3afa1c8313e6c574c165b1a86a5780624221080"
       },
       "master": {
+        "broken": true,
         "libs": {
           "PropulsionSystem": {
             "path": "",
