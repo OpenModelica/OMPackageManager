@@ -6852,6 +6852,18 @@
           }
         },
         "zip": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-2.2.zip"
+      },
+      "OMCtest": {
+        "libs": {
+          "SiemensPower": {
+            "path": "SiemensPower OMCtest",
+            "uses": {
+              "Modelica": "3.1.0"
+            },
+            "version": "0.0.0-OMCtest"
+          }
+        },
+        "zip": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-OMCtest.20150519.zip"
       }
     }
   },
