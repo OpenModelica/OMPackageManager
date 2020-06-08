@@ -980,7 +980,8 @@
     "names": ["SiemensPower"],
     "zipfiles": {
       "2.1.0-beta": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-2.1-beta.zip",
-      "2.2.0": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-2.2.zip"
+      "2.2.0": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-2.2.zip",
+      "OMCtest": "https://build.openmodelica.org/libraries/SiemensPower/SiemensPower-OMCtest.20150519.zip"
     },
     "support": [
       ["prerelease", "noSupport"],
