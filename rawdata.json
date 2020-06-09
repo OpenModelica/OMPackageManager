@@ -4676,6 +4676,21 @@
           }
         },
         "sha": "5b4f7dccb16dd508215f07886b2a305280cb3a52"
+      },
+      "v2.1.0": {
+        "libs": {
+          "Modelica_StateGraph2": {
+            "path": "Modelica_StateGraph2",
+            "provides": [
+              "2.0.5"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "9d9d70a8c680363cafb24ff73842e7c6f8e09399"
       }
     }
   },
@@ -6240,7 +6255,7 @@
             "version": "0.0.0-master"
           }
         },
-        "sha": "fa7b3ecbc9762b54968c4bf1c31be94957917e47"
+        "sha": "b400d073baf8baaf122324e4f0646d8cf595d973"
       }
     }
   },
