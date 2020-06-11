@@ -628,7 +628,7 @@
   },
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
-    "github": "HansOlsson/Modelica_LinearSystems2",
+    "github": "modelica/Modelica_LinearSystems2",
     "support": [
       ["prerelease", "noSupport"],
       [">=2.3.4", "support"],
