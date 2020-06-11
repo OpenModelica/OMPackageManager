@@ -4565,6 +4565,30 @@
           }
         },
         "sha": "5d40dc3a19934672217bce300aa1da442d09e151"
+      },
+      "v2.3.5-rc.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.3.4"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "provides": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.3"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.3.5-rc.1"
+          }
+        },
+        "sha": "5485b6524c0ae9d8d9ecc48aef1db29d03714e6f"
       }
     }
   },
