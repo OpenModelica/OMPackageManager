@@ -4566,6 +4566,30 @@
         },
         "sha": "5d40dc3a19934672217bce300aa1da442d09e151"
       },
+      "v2.3.5": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.4.0"
+          }
+        },
+        "sha": "1a9735b7d6f2ea00c98ad46447fe10f6f5fcd359"
+      },
       "v2.3.5-rc.1": {
         "libs": {
           "Modelica_LinearSystems2": {
@@ -6954,7 +6978,7 @@
             "version": "0.2.0-master"
           }
         },
-        "sha": "9070496454c6bc5c13778ba5c4c550d0ce02fd81"
+        "sha": "1506665d8c889b7998d026ed4b7b36c5624b302c"
       }
     }
   },
@@ -7397,10 +7421,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-dev"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "cfc11604248639e8aa6e8f44906b3901309e0f49"
+        "sha": "ca228859c410002fa3ef4f38658c46141f48038c"
       },
       "v1.2.1": {
         "libs": {
@@ -7516,6 +7540,32 @@
           }
         },
         "sha": "1a94d0acb9620c4bbb490c77157300fd6bb276ac"
+      },
+      "v2.0.0-beta.1": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-beta.1"
+          }
+        },
+        "sha": "7bfc3bf5effd2ed710c013fd04cbaed5ea4a0da9"
       }
     }
   },
