@@ -550,9 +550,14 @@
       "MA/maint/3.0.1": "v3.0.1+maint.om",
       "OM/maint/3.1": "v3.1.0+maint.om",
       "OM/maint/3.2": "v3.2.0+maint.om",
+      "MA/maint/3.2.1": {"version": "v3.2.1+default.modelica.association", "names": ["ModelicaServices"]},
       "OM/maint/3.2.1": "v3.2.1+maint.om",
+      "MA/maint/3.2.2": {"version": "v3.2.2+default.modelica.association", "names": ["ModelicaServices"]},
       "OM/maint/3.2.2": "v3.2.2+maint.om",
+      "MA/maint/3.2.3": {"version": "v3.2.3+default.modelica.association", "names": ["ModelicaServices"]},
       "OM/maint/3.2.3": "v3.2.3+maint.om",
+      "MA/maint/4.0.x": {"version": "4.0.0+default.modelica.association", "names": ["ModelicaServices"]},
+      "OM/maint/4.0.x": "4.0.0+maint.om",
       "OM/master": "master"
     },
     "standard": [

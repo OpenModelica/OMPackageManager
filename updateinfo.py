@@ -111,6 +111,11 @@ def main():
       tagsDict = serverdata[key]["refs"]
 
       for (tagName, sha) in objects:
+        if not isinstance(tagName, str):
+          names = tagName["names"]
+          tagName = tagName["version"]
+        else:
+          names = entry["names"]
         v = common.VersionNumber(tagName)
         # v3.2.1+build.0-beta.1 is not a pre-release...
         for build in v.build:
@@ -145,7 +150,7 @@ def main():
           omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
           provided = {}
-          for libname in entry["names"]:
+          for libname in names:
             hits = insensitive_glob(os.path.join(repopath,"package.mo"))
             if len(hits) == 1:
               if libname != entry["names"][0]:
