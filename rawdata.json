@@ -6758,6 +6758,18 @@
         },
         "sha": "bc954b318a478c1ccb88a2955ba6dd05891f2514"
       },
+      "v1.10.0": {
+        "libs": {
+          "ScalableTestSuite": {
+            "path": "ScalableTestSuite",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.11.5"
+          }
+        },
+        "sha": "6890d260ad3d6a84f7fdad387e2cb7a9326eb0e0"
+      },
       "v1.11.0": {
         "libs": {
           "ScalableTestSuite": {
