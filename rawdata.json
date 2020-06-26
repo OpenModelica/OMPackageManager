@@ -4758,6 +4758,30 @@
         },
         "sha": "5485b6524c0ae9d8d9ecc48aef1db29d03714e6f"
       },
+      "v2.4.0": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.4.0"
+          }
+        },
+        "sha": "325f2edbdbde72e17ab3e6f8a68b61fe192ea4e8"
+      },
       "v2.4.0-beta.1": {
         "libs": {
           "Modelica_LinearSystems2": {
@@ -7604,7 +7628,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "61073356f76ba63a77376cf72c6ccf4aebe16e84"
+        "sha": "cdcc8c3e61158aa148aa5b6e3b97c7a2a01a2c2f"
       },
       "v1.2.1": {
         "libs": {
@@ -7720,6 +7744,32 @@
           }
         },
         "sha": "1a94d0acb9620c4bbb490c77157300fd6bb276ac"
+      },
+      "v2.0.0": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
       },
       "v2.0.0-beta.1": {
         "libs": {
