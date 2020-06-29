@@ -15,7 +15,7 @@ import common
 
 def removerepo(ghurl, repopath):
   print("Removing repository " + ghurl)
-  os.path.rmtree(repopath)
+  shutil.rmtree(repopath)
 
 tagregex = re.compile('^refs/tags')
 
@@ -72,6 +72,12 @@ def main():
     repopath = os.path.join("cache", key)
     if "ignore" in entry:
       continue
+
+    if len(insensitive_glob(repopath)) > 1:
+      for d in insensitive_glob(repopath):
+        print("Cleaning duplicate case-insensitive names")
+        shutil.rmtree(d)
+
     if "github" in entry or "git" in entry or "zipfiles" in entry:
       if "github" in entry:
         try:
@@ -163,14 +169,15 @@ def main():
                   p = os.path.join(repopath, extraPath)
                 else:
                   p = repopath
-                hits += (insensitive_glob(os.path.join(p,libname,"package.mo")) +
+                hitsNew = (insensitive_glob(os.path.join(p,libname,"package.mo")) +
                   insensitive_glob(os.path.join(p,libname+" *","package.mo")) +
                   insensitive_glob(os.path.join(p,libname+".mo")) +
                   insensitive_glob(os.path.join(p,libname+" *.mo")) +
                   insensitive_glob(os.path.join(p,libname+"*",libname + ".mo")) +
                   insensitive_glob(os.path.join(p,libname+"*",libname + " *.mo")))
+                hits += hitsNew
             if len(hits) != 1:
-              print(str(len(hits)) + " hits for " + libname + " in " + tagName)
+              print(str(len(hits)) + " hits for " + libname + " in " + tagName + ": " + str(hits))
               continue
             omc.sendExpression("clear()")
             if "standard" in entry:
@@ -203,6 +210,10 @@ def main():
                 version = str(v2)
               else:
                 version = str(v1)
+            if version.startswith("0.0.0-"):
+              version = version[6:]
+            if version.startswith("+"):
+              version = version[1:]
             uses = sorted([[e[0],str(common.VersionNumber(e[1]))] for e in omc.sendExpression("getUses(%s)" % libname)])
             # Get conversions
             (withoutConversion,withConversion) = omc.sendExpression("getConversionsFromVersions(%s)" % libname)
