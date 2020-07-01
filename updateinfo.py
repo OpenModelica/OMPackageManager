@@ -230,7 +230,11 @@ def main():
             if len(withConversion)>0:
               libentry["convertFromVersion"] = withConversion
             provided[libname] = libentry
-          errorString = omc.sendExpression("OpenModelica.Scripting.getErrorString()")
+          try:
+            errorString = omc.sendExpression("OpenModelica.Scripting.getErrorString()")
+          except UnicodeDecodeError:
+            print("UnicodeDecodeError for %s %s" % (key, tagName))
+            raise
           if len(provided) == 0:
             print("Broken for " + key + " " + tagName) # + ":" + errorString)
             thisTag["broken"]=True
