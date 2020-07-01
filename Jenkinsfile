@@ -25,6 +25,7 @@ pipeline {
       rm -f cache
       ln -s /var/lib/jenkins/gitcache/OMPackageManager cache
       '''
+      sh 'test -f rawdata.json'
       sh './updateinfo.py'
       sh './genindex.py'
       stash name: 'files', includes: 'index.json, rawdata.json'
