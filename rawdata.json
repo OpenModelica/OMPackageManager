@@ -1804,6 +1804,18 @@
           }
         },
         "sha": "6adf07109289eeb5994ce7cfa6966cf6aab49670"
+      },
+      "v2.3.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "5d5e2018438cebdf4629792fbf6b34b5ec6de5af"
       }
     }
   },
