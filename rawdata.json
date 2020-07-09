@@ -3551,7 +3551,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "68a219a80966b16c85e6cdcb75d51e1a8d03befa"
+        "sha": "949b34c3829254f1b7096df008478fa4922fcc0f"
       },
       "trunk": {
         "libs": {
@@ -3622,7 +3622,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "5c2cbc21e4d26bab71b218e71a6453a157cbf885"
+        "sha": "3f5bf7e69040241c27a23dec04bf4c505cd301f1"
       },
       "v1.3.1": {
         "libs": {
@@ -6600,6 +6600,18 @@
         },
         "sha": "c3afa1c8313e6c574c165b1a86a5780624221080"
       },
+      "Stable20200709": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "Stable20200709"
+          }
+        },
+        "sha": "8c7af84fc0888f21bf0d95baea76a0469f59be5e"
+      },
       "master": {
         "libs": {
           "PropulsionSystem": {
@@ -6610,7 +6622,7 @@
             "version": "master"
           }
         },
-        "sha": "ab059c7e246c1d82039491793528471272e5b24d"
+        "sha": "79e00c17ece904aff65aa97dcfa4184ef19fd59d"
       }
     }
   },
