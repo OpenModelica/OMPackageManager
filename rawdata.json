@@ -1816,6 +1816,18 @@
           }
         },
         "sha": "5d5e2018438cebdf4629792fbf6b34b5ec6de5af"
+      },
+      "v2.4.0": {
+        "libs": {
+          "ElectroMechanicalDrives": {
+            "path": "ElectroMechanicalDrives",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.4.0"
+          }
+        },
+        "sha": "e26cab7ab24baa6c17dccc22e1ffa09464a59711"
       }
     }
   },
@@ -3539,7 +3551,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "7bfa862e3b3a995ef567f3cc545e89b7cd045835"
+        "sha": "68a219a80966b16c85e6cdcb75d51e1a8d03befa"
       },
       "trunk": {
         "libs": {
@@ -3610,7 +3622,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "c02914a8a186d5ce244cc8322acefe38c286e720"
+        "sha": "5c2cbc21e4d26bab71b218e71a6453a157cbf885"
       },
       "v1.3.1": {
         "libs": {
