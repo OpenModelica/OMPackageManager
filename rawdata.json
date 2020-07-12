@@ -6612,6 +6612,18 @@
         },
         "sha": "8c7af84fc0888f21bf0d95baea76a0469f59be5e"
       },
+      "Stable20200712": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "Stable20200712"
+          }
+        },
+        "sha": "72ee02ae8b86cf3428ea22dd51896d8ee7e9ad1e"
+      },
       "master": {
         "libs": {
           "PropulsionSystem": {
@@ -6622,7 +6634,7 @@
             "version": "master"
           }
         },
-        "sha": "ea52c8f37103902af0a970cb36f77e68f71ac6e8"
+        "sha": "bd927ab4b46ef796a69a1879fce2a5d7686b2560"
       }
     }
   },
