@@ -6431,13 +6431,16 @@
         "libs": {
           "PowerGrids": {
             "path": "PowerGrids",
+            "provides": [
+              "1.0.0"
+            ],
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "1.0.0-master"
+            "version": "1.0.1-master"
           }
         },
-        "sha": "dc3d93ce0fb6e1619d58d4fd37b9e7030d38ea8f"
+        "sha": "f51f4c4f0d13f3167b6670df2fb17520feaf3170"
       },
       "v1.0.0": {
         "libs": {
