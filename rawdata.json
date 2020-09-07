@@ -7577,13 +7577,12 @@
               "0.1.0"
             ],
             "uses": {
-              "Modelica": "3.2.2",
-              "Modelica_StateGraph2": "2.0.3"
+              "Modelica": "3.2.2"
             },
             "version": "0.2.0-master"
           }
         },
-        "sha": "51b3453ab62962015c50a766ce2d77d503d3d1cb"
+        "sha": "ffa0495ba829ecab105be4bfb3b7652625ec9c03"
       }
     }
   },
@@ -7775,7 +7774,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "cdcc8c3e61158aa148aa5b6e3b97c7a2a01a2c2f"
+        "sha": "7ca932be0e9ee2433a138f73fdec3738b8393cc0"
       },
       "v1.2.1": {
         "libs": {
