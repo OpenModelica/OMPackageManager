@@ -4047,7 +4047,7 @@
             "version": "3.2.3+default.modelica.association"
           }
         },
-        "sha": "3f9398b944461644988c654e72f642697ec7cdc6"
+        "sha": "bf3f21afbe087ac948c66d198df370c01e88c213"
       },
       "v3.2.3+maint.om": {
         "libs": {
@@ -4123,7 +4123,7 @@
             "version": "3.2.3+maint.om"
           }
         },
-        "sha": "52b8895e1e616c9d14e63118a82278a50473f688"
+        "sha": "f0aae8e0f215543a48412c86b1182ce289afb863"
       }
     }
   },
