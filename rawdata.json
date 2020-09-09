@@ -6660,12 +6660,13 @@
           "PropulsionSystem": {
             "path": "",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "3.2.2",
+              "Modelica_DeviceDrivers": "1.6.0"
             },
             "version": "master"
           }
         },
-        "sha": "762922dceee4cc88d93e68e5a2bc82d0d8706e04"
+        "sha": "dd184eedd9359db2244970885dfb8e18c63ec265"
       }
     }
   },
