@@ -1557,13 +1557,14 @@
               "1.1.0"
             ],
             "uses": {
+              "Buildings": "8.0.0",
               "IBPSA": "3.0.0",
               "Modelica": "3.2.3"
             },
             "version": "1.2.0-master"
           }
         },
-        "sha": "e525d93b42ab303d700f796c374342464ff8a8c5"
+        "sha": "c5175232b65fb94bc43fb0d25e07729c94ca1bc6"
       }
     }
   },
