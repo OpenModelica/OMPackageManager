@@ -829,6 +829,19 @@
           }
         },
         "sha": "1683591805e8ccf5c2f58eb98bb29794b2710c3b"
+      },
+      "v0.6.0": {
+        "libs": {
+          "BrineProp": {
+            "path": "BrineProp",
+            "uses": {
+              "DataFiles": "1.0.0",
+              "Modelica": "3.2.3"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "c2f564ae284726a2df6252a8561856691681572b"
       }
     }
   },
@@ -2026,6 +2039,18 @@
           }
         },
         "sha": "3ebfc8115a306d9e75ece30732b87c6fc602d78d"
+      },
+      "v2.6.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.6.0"
+          }
+        },
+        "sha": "60e939f74f8811ee8c4165852277c32a05077777"
       }
     }
   },
