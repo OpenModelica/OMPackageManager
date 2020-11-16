@@ -892,7 +892,7 @@
   },
   "PowerSysPro": {
     "names": ["PowerSysPro"],
-    "github": "https://bitbucket.org/simulage/powersyspro.git",
+    "git": "https://bitbucket.org/simulage/powersyspro.git",
     "branches": {"master": "master"},
     "ignore-tags": [],
     "support": [
