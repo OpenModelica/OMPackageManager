@@ -890,6 +890,17 @@
       ["*", "obsolete"]
     ]
   },
+  "PowerSysPro": {
+    "names": ["PowerSysPro"],
+    "github": "https://bitbucket.org/simulage/powersyspro.git",
+    "branches": {"master": "master"},
+    "ignore-tags": [],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.2.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "PraxisSimulationstechnik": {
     "names": ["PraxisSimulationstechnik", "PJLoeslib", "PJlib"],
     "github": "tbeu/PraxisSimulationstechnik",
