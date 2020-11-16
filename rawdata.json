@@ -6544,6 +6544,23 @@
       }
     }
   },
+  "PowerSysPro": {
+    "refs": {
+      "master": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro.mo",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0-master"
+          }
+        },
+        "sha": "9395a1c4a2eb6b2762bce186dcb2e343394de882"
+      }
+    }
+  },
   "PowerSystems": {
     "refs": {
       "v0.2": {
