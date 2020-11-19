@@ -1414,6 +1414,22 @@
           }
         },
         "sha": "f3347cb484fa6e18faaaeab6823ba9ff3a50e061"
+      },
+      "v1.2.0": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0"
+            ],
+            "path": "Chemical",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "de6d5b7e2aa77ac1fe9a6375adfaa452701c3370"
       }
     }
   },
