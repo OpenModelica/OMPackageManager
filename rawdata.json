@@ -2067,6 +2067,18 @@
           }
         },
         "sha": "60e939f74f8811ee8c4165852277c32a05077777"
+      },
+      "v2.6.1": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.6.1"
+          }
+        },
+        "sha": "972106e2e644f8701d34741425b7c7d95f5f0c33"
       }
     }
   },
