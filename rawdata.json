@@ -6611,13 +6611,13 @@
           "PowerSysPro": {
             "path": "PowerSysPro.mo",
             "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
             },
-            "version": "Version 1.4 December 1st, 2020"
+            "version": "Version 2.0.0 December 3rd, 2020"
           }
         },
-        "sha": "b8f482ca2b3a72e73971c9fbb2ee5c94accdac71"
+        "sha": "3e4cb8dc36ed388d4a6e1ca6c349dc2097e8474c"
       }
     }
   },
@@ -6803,7 +6803,7 @@
             "version": "master"
           }
         },
-        "sha": "f91a48b755d06937b1526e548f776334cd3f5f2b"
+        "sha": "03359f3a45a0a0bfe3ef596c3f6113564f47e3fe"
       }
     }
   },
