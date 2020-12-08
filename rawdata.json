@@ -7625,6 +7625,22 @@
   },
   "TRANSFORM": {
     "refs": {
+      "Before_MSL_4.0": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.2",
+              "SDF": "0.4.1",
+              "UserInteraction": "0.65.0"
+            },
+            "version": "1.0.0-Before_MSL_4.0"
+          }
+        },
+        "sha": "b0f2b6c721f5af631fb6daea0b54b1626ead7417"
+      },
       "master": {
         "broken": true,
         "libs": {
@@ -7640,7 +7656,7 @@
             "version": "1.0.0-master"
           }
         },
-        "sha": "7c17eb7d92fc38242d3e3000a734373175d517c1"
+        "sha": "b0f2b6c721f5af631fb6daea0b54b1626ead7417"
       },
       "v0.1-beta": {
         "libs": {
