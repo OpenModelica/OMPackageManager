@@ -7662,16 +7662,16 @@
           "TRANSFORM": {
             "path": "TRANSFORM",
             "uses": {
-              "Complex": "3.2.3",
+              "Complex": "4.0.0",
               "Modelica": "4.0.0",
-              "ModelicaServices": "3.2.2",
-              "SDF": "0.4.1",
+              "ModelicaServices": "4.0.0",
+              "SDF": "0.4.2",
               "UserInteraction": "0.70.0"
             },
             "version": "0.5.0-master"
           }
         },
-        "sha": "e242b25804a165dee48f3328f5a3cd142572000d"
+        "sha": "d03b0491927bb34f7656ad2ec2a8d9ea0a340330"
       },
       "v0.1-beta": {
         "libs": {
