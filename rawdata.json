@@ -5591,6 +5591,25 @@
           }
         },
         "sha": "4b97ac8de5992289ad6327e3bd6dca4cdb985393"
+      },
+      "v2.0.0-beta.1": {
+        "libs": {
+          "OpenIPSL": {
+            "convertFromVersion": [
+              "0.8.0",
+              "0.8.1",
+              "1.0.0",
+              "1.5.0"
+            ],
+            "path": "OpenIPSL",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "2.0.0-beta.1"
+          }
+        },
+        "sha": "ccea8980350f01fa4c4c929083a1c75e74fd7880"
       }
     }
   },
