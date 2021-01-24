@@ -3665,7 +3665,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "d456790dc5ce44aa3c26ca9dcb79c6b78f74aeba"
+        "sha": "b6bf12faae79ada3a7b08637a4d662e4dd25cacb"
       },
       "trunk": {
         "libs": {
@@ -3736,7 +3736,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "26aa31ed486d6d82ed2f2a95a2c6be0c4cc6c063"
+        "sha": "3837cd3234ed5b7dfd53ae0a88ecb5e2efeae531"
       },
       "v1.3.1": {
         "libs": {
@@ -6661,14 +6661,10 @@
         "libs": {
           "PowerSysPro": {
             "path": "PowerSysPro.mo",
-            "uses": {
-              "Complex": "4.0.0",
-              "Modelica": "4.0.0"
-            },
-            "version": "Version 2.0.0 December 3rd, 2020"
+            "version": "Version 2.0.1 January 24th, 2021"
           }
         },
-        "sha": "bbc5e0bf6de2e71489955ddd27e9c5fefba7e05f"
+        "sha": "85aa5b0a57608d1fd519be5767d28e8595d85c99"
       }
     }
   },
