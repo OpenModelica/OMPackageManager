@@ -6661,10 +6661,14 @@
         "libs": {
           "PowerSysPro": {
             "path": "PowerSysPro.mo",
-            "version": "Version 2.0.1 January 24th, 2021"
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "Version 2.1.0 January 25th, 2021"
           }
         },
-        "sha": "85aa5b0a57608d1fd519be5767d28e8595d85c99"
+        "sha": "a8857984fdeb25db51c0c41f24e60525364f1d86"
       }
     }
   },
@@ -6850,7 +6854,7 @@
             "version": "master"
           }
         },
-        "sha": "668392cde66532c8550b1ffb2cf1d5c9a6ab2027"
+        "sha": "4f905dfe6ee95eca76b2f7667eb0ab43ea8fdf2e"
       }
     }
   },
