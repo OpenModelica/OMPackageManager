@@ -7907,6 +7907,37 @@
       }
     }
   },
+  "TransiEnt": {
+    "refs": {
+      "master": {
+        "libs": {
+          "TransiEnt": {
+            "convertFromVersion": [
+              "0.3.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0"
+            ],
+            "path": "",
+            "uses": {
+              "Buildings": "7.0.0",
+              "ClaRa": "1.5.1",
+              "DataFiles": "1.0.5",
+              "Design": "1.0.7",
+              "DymolaCommands": "1.9.0",
+              "Modelica": "3.2.3",
+              "ModelicaReference": "3.2.3",
+              "Modelica_LinearSystems2": "2.3.5",
+              "Modelica_StateGraph2": "2.0.4",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.3.0-master"
+          }
+        },
+        "sha": "8c6e496ffdfe44e811e3fe7ec598d51f8a406633"
+      }
+    }
+  },
   "Tutorials": {
     "refs": {
       "master": {
