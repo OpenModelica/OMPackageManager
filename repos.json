@@ -1130,6 +1130,16 @@
       ["*", "obsolete"]
     ]
   },
+  "TransiEnt": {
+    "names": ["TransiEnt"],
+    "github": "ClaRaLibrary/TransiEnt",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.3.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Tutorials": {
     "names": ["StreamConnectors"],
     "github": "justnielsen/ModelicaTutorials",
