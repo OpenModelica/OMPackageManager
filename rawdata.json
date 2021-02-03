@@ -6678,6 +6678,7 @@
   "PowerSysPro": {
     "refs": {
       "master": {
+        "broken": true,
         "libs": {
           "PowerSysPro": {
             "path": "PowerSysPro.mo",
