@@ -7682,12 +7682,12 @@
             ],
             "path": "",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "1.5.1-ClaRa"
+            "version": "1.6.0-ClaRa"
           }
         },
-        "sha": "895c013c0dc15268c07c215486cc17e1c9135375"
+        "sha": "71819cb23c8a8139bc759d9e8eda2421592820d5"
       }
     }
   },
