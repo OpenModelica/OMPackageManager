@@ -6681,11 +6681,11 @@
         "broken": true,
         "libs": {
           "PowerSysPro": {
-            "path": "PowerSysPro.mo",
+            "path": "PowerSysPro 2.1.1.mo",
             "version": "Version 2.1.1 January 30th, 2021"
           }
         },
-        "sha": "b2e56a9d3991db3ac53ffb50cc4f9931a2220cbc"
+        "sha": "3ad0a5b8078d78f903c719e26c6d2716d8885ad5"
       }
     }
   },
