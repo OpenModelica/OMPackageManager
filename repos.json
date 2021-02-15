@@ -169,6 +169,7 @@
   "ClaRa": {
     "names": ["ClaRa"],
     "github": "ClaRaLibrary/ClaRa",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "noSupport"]
