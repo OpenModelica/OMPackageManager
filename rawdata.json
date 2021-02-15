@@ -1535,6 +1535,34 @@
       }
     }
   },
+  "ClaRa_Obsolete": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.6.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0-master"
+          }
+        },
+        "sha": "8b5cb927bef08cc3ff2623ccc2d748df288ba00a"
+      }
+    }
+  },
   "ComplexLib": {
     "refs": {
       "v1.0": {
