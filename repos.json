@@ -175,6 +175,15 @@
       ["*", "noSupport"]
     ]
   },
+  "ClaRa_Obsolete": {
+    "names": ["ClaRa_Obsolete"],
+    "github": "ClaRaLibrary/ClaRa_Obsolete",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "noSupport"]
+    ]
+  },
   "ComplexLib": {
     "names": ["ComplexLib"],
     "github": "modelica-3rdparty/ComplexLib",
