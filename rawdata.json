@@ -1500,6 +1500,9 @@
       }
     }
   },
+  "ClaRa": {
+    "refs": {}
+  },
   "ComplexLib": {
     "refs": {
       "v1.0": {
