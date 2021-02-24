@@ -6744,11 +6744,11 @@
         "broken": true,
         "libs": {
           "PowerSysPro": {
-            "path": "PowerSysPro 2.1.2.mo",
+            "path": "PowerSysPro 2.1.3.mo",
             "version": "Version 2.1.2 February 18th, 2021"
           }
         },
-        "sha": "a758ff4f10f844a5ffe345099bf6009ce6c3044f"
+        "sha": "5596768771e1208ec2dc90f166f489c2a936c6e6"
       }
     }
   },
@@ -6934,7 +6934,7 @@
             "version": "master"
           }
         },
-        "sha": "c72fd5fda2627d5178f8048c4f33c774e82508b2"
+        "sha": "87bf662792eec404d828530bef234d90f3544915"
       }
     }
   },
