@@ -382,12 +382,12 @@
           "ApproxSpline": {
             "path": "ApproxSpline",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.0.0"
             },
-            "version": "1.0.0-master"
+            "version": "1.0.1-master"
           }
         },
-        "sha": "9467974548607549a19db05ea66050286f370032"
+        "sha": "28420f5c1a88c9cd069defbd8c05e4a78a090675"
       }
     }
   },
