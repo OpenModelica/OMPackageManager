@@ -1050,6 +1050,21 @@
   },
   "Buildings": {
     "refs": {
+      "master": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.0.0-master"
+          }
+        },
+        "sha": "e48dd1bd7ba38aa40f9b4d886da3e616a86a0deb"
+      },
       "v1.4_build1": {
         "libs": {
           "Buildings": {
