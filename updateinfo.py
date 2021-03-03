@@ -244,6 +244,8 @@ def main():
             continue
           thisTag["libs"] = provided
           thisTag[entrykind] = sha
+          if "broken" in thisTag:
+            del thisTag["broken"]
         # level = getSupportLevel(tagName, entry["support"])
         # thisTag["support"] = level
       serverdata[key]["refs"] = tagsDict
