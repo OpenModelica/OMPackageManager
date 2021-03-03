@@ -6860,6 +6860,18 @@
   },
   "PowerSystems": {
     "refs": {
+      "master": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0-master"
+          }
+        },
+        "sha": "7369976265a9d7b62097340aba5e463c62cc5061"
+      },
       "v0.2": {
         "libs": {
           "PowerSystems": {
