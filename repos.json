@@ -283,7 +283,6 @@
   "ExtendedPetriNets": {
     "names": ["ExtendedPetriNets"],
     "github": "modelica-3rdparty/ExtendedPetriNets",
-    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
