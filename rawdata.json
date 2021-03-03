@@ -1030,7 +1030,7 @@
               "Modelica": "3.2.3",
               "NcDataReader2": "2.5.0"
             },
-            "version": "2.0.0-beta"
+            "version": "2.0.0-master"
           }
         },
         "sha": "1e07bb475b921a4eedc6155c5310d1f9f3ef7550"
@@ -1054,7 +1054,7 @@
             "uses": {
               "Modelica": "3.2.2"
             },
-            "version": "2.0.0-beta"
+            "version": "2.0.0-beta2"
           }
         },
         "sha": "cf3f8917dd71e670d88c554f572fc5ebbf9b8a9a"

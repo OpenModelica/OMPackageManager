@@ -142,6 +142,8 @@
     "names": ["BuildingSystems"],
     "github": "UdK-VPT/BuildingSystems",
     "branches": {"master": "master"},
+    "semverTagOverridesAnnotation": true,
+    "semverPrereleaseOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=2.0.0", "experimental"],
