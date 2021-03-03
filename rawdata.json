@@ -7654,18 +7654,6 @@
           }
         },
         "sha": "0619c17c82679ee0aad8062ad7d40890c606ad81"
-      },
-      "v10.0.0": {
-        "libs": {
-          "ScalableTestSuite": {
-            "path": "ScalableTestSuite",
-            "uses": {
-              "Modelica": "3.2.2"
-            },
-            "version": "10.0.0"
-          }
-        },
-        "sha": "87059c2383add5405548ac3b07498e470fb23b1f"
       }
     }
   },

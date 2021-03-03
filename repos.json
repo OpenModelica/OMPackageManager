@@ -1016,6 +1016,7 @@
     "github": "casella/ScalableTestSuite",
     "semverTagOverridesAnnotation": true,
     "branches": {"master": "master"},
+    "ignore-tags": ["v10.0.0"],
     "support": [
       ["prerelease", "noSupport"],
       [">=1.11.5", "fullSupport"],
