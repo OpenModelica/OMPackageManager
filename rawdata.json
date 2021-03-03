@@ -1022,6 +1022,19 @@
   },
   "BuildingSystems": {
     "refs": {
+      "master": {
+        "libs": {
+          "BuildingSystems": {
+            "path": "BuildingSystems",
+            "uses": {
+              "Modelica": "3.2.3",
+              "NcDataReader2": "2.5.0"
+            },
+            "version": "2.0.0-beta"
+          }
+        },
+        "sha": "1e07bb475b921a4eedc6155c5310d1f9f3ef7550"
+      },
       "v2.0.0-beta": {
         "libs": {
           "BuildingSystems": {
@@ -2818,7 +2831,22 @@
     }
   },
   "Greenhouses": {
-    "refs": {}
+    "refs": {
+      "master": {
+        "libs": {
+          "Greenhouses": {
+            "path": "Greenhouses",
+            "uses": {
+              "DymolaCommands": "1.1.0",
+              "Modelica": "3.2.2",
+              "conversion": "0.0.0-default"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "89ae0e8097eb0751abce2013d304fa5f9c09b885"
+      }
+    }
   },
   "HanserModelica": {
     "refs": {
@@ -3481,6 +3509,58 @@
           }
         },
         "sha": "1e91a5dcaa662cd30c5b09a9d0267289703f933b"
+      }
+    }
+  },
+  "MEV": {
+    "refs": {
+      "master": {
+        "libs": {
+          "MEV": {
+            "path": "MEV",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.0-master"
+          }
+        },
+        "sha": "a2a65bf5e8fdf41642a73ba8b85ee200fd912841"
+      },
+      "v1.0.0": {
+        "libs": {
+          "MEV": {
+            "path": "MEV",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "420a8ede01de09ea08f81c701dafac241a806758"
+      },
+      "v1.0.1": {
+        "libs": {
+          "MEV": {
+            "path": "MEV",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "1ff33399cb477179bc471d43090d667177338978"
+      },
+      "v1.1.0": {
+        "libs": {
+          "MEV": {
+            "path": "MEV",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "c0267f71f6eb900bde53f28e673023998f47d12d"
       }
     }
   },
@@ -5141,6 +5221,18 @@
   },
   "Modelica_Noise": {
     "refs": {
+      "master": {
+        "libs": {
+          "Modelica_Noise": {
+            "path": "Modelica_Noise 1.0 Beta.1",
+            "uses": {
+              "Modelica": "3.2.1"
+            },
+            "version": "1.0.0-Beta.1"
+          }
+        },
+        "sha": "891468c5c25c39f49c785bbdb853a386a4d0e889"
+      },
       "v0.2.0": {
         "libs": {
           "Noise": {
@@ -5453,7 +5545,17 @@
     }
   },
   "OpenFDM": {
-    "refs": {}
+    "refs": {
+      "master": {
+        "libs": {
+          "OpenFDM": {
+            "path": "OpenFDM",
+            "version": "master"
+          }
+        },
+        "sha": "382562b4b3a499472017977e52e62b6ac2f88baa"
+      }
+    }
   },
   "OpenHPL": {
     "refs": {

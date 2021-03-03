@@ -87,7 +87,7 @@ def main():
           giturl = "https://github.com/%s.git" % entry["github"]
         except:
           print("Failed to get github entry: %s" % entry["github"])
-          raise()
+          raise
       elif "git" in entry:
         giturl = entry["git"]
         gitrepo = getgitrepo(giturl, repopath)
@@ -113,6 +113,9 @@ def main():
       for (name,sha) in tags:
         if name not in ignoreTags:
           objects.append((name, sha))
+          
+      if not objects:
+        raise Exception("No commits or zip-files found for %s" % key)
 
       tagsDict = serverdata[key]["refs"]
 

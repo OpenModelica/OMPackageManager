@@ -141,6 +141,7 @@
   "BuildingSystems": {
     "names": ["BuildingSystems"],
     "github": "UdK-VPT/BuildingSystems",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=2.0.0", "experimental"],
@@ -431,6 +432,7 @@
   },
   "Greenhouses": {
     "names": ["Greenhouses"],
+    "branches": {"master": "master"},
     "github": "queraltab/Greenhouses-Library",
     "support": [
       ["prerelease", "noSupport"],
@@ -651,6 +653,16 @@
       ["*", "experimental"]
     ]
   },
+  "MEV": {
+    "names": ["MEV"],
+    "github": "looms-polimi/MEV",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
     "github": "modelica/Modelica_LinearSystems2",
@@ -662,6 +674,7 @@
   },
   "Modelica_Noise": {
     "names": ["Modelica_Noise", "Noise"],
+    "branches": {"master": "master"},
     "github": "DLR-SR/Noise",
     "support": [
       ["prerelease", "noSupport"],
@@ -734,15 +747,6 @@
       ["*", "obsolete"]
     ]
   },
-  "NCLib": {
-    "names": ["NCLib"],
-    "github": "modelica-3rdparty/NCLib",
-    "ignore-tags": ["v0.82"],
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "obsolete"]
-    ]
-  },
   "NcDataReader2": {
     "names": ["NcDataReader2"],
     "github": "modelica-3rdparty/netCDF-DataReader",
@@ -781,6 +785,7 @@
   },
   "OpenFDM": {
     "names": ["OpenFDM"],
+    "branches": {"master": "master"},
     "github": "arktools/openfdm",
     "support": [
       ["prerelease", "noSupport"],
