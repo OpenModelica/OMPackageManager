@@ -1490,22 +1490,6 @@
         },
         "sha": "b8bbc79b68ede66b8c69b5b5d4aba5990494f6ca"
       },
-      "v1.3.1": {
-        "libs": {
-          "Chemical": {
-            "convertFromVersion": [
-              "1.0.0",
-              "1.1.0"
-            ],
-            "path": "Chemical",
-            "uses": {
-              "Modelica": "3.2.3"
-            },
-            "version": "1.3.1"
-          }
-        },
-        "sha": "fa499cb69a3b9a72cd014d70cef355ec07c8954c"
-      },
       "v1.4.0": {
         "libs": {
           "Chemical": {
@@ -5465,9 +5449,6 @@
       }
     }
   },
-  "NCLib": {
-    "refs": {}
-  },
   "NcDataReader2": {
     "refs": {
       "v2.4.0": {
@@ -7272,8 +7253,48 @@
       }
     }
   },
+  "ScalableTestGrids": {
+    "refs": {
+      "1.0.0": {
+        "libs": {
+          "ScalableTestGrids": {
+            "path": "ScalableTestGrids",
+            "uses": {
+              "PowerGrids": "1.0.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "dd24cec3d274506e4faff2a8e17099c1daeca534"
+      },
+      "master": {
+        "libs": {
+          "ScalableTestGrids": {
+            "path": "ScalableTestGrids",
+            "uses": {
+              "PowerGrids": "1.0.2"
+            },
+            "version": "1.0.0-master"
+          }
+        },
+        "sha": "054638e19aafaf7735770284908e7bc387840ce5"
+      }
+    }
+  },
   "ScalableTestSuite": {
     "refs": {
+      "master": {
+        "libs": {
+          "ScalableTestSuite": {
+            "path": "ScalableTestSuite",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.11.5-master"
+          }
+        },
+        "sha": "6890d260ad3d6a84f7fdad387e2cb7a9326eb0e0"
+      },
       "v1.0.0": {
         "libs": {
           "ScalableTestSuite": {
@@ -7898,7 +7919,6 @@
         "sha": "b0f2b6c721f5af631fb6daea0b54b1626ead7417"
       },
       "master": {
-        "broken": true,
         "libs": {
           "TRANSFORM": {
             "path": "TRANSFORM",
@@ -8357,58 +8377,6 @@
           }
         },
         "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
-      },
-      "v2.0.0-beta.1": {
-        "libs": {
-          "VehicleInterfaces": {
-            "convertFromVersion": [
-              "1.0.0",
-              "1.2.5"
-            ],
-            "path": "VehicleInterfaces",
-            "provides": [
-              "1.1.0",
-              "1.1.1",
-              "1.1.2",
-              "1.2.0",
-              "1.2.1",
-              "1.2.2",
-              "1.2.3",
-              "1.2.4"
-            ],
-            "uses": {
-              "Modelica": "4.0.0"
-            },
-            "version": "2.0.0-beta.1"
-          }
-        },
-        "sha": "7bfc3bf5effd2ed710c013fd04cbaed5ea4a0da9"
-      },
-      "v2.0.0-rc.1": {
-        "libs": {
-          "VehicleInterfaces": {
-            "convertFromVersion": [
-              "1.0.0",
-              "1.2.5"
-            ],
-            "path": "VehicleInterfaces",
-            "provides": [
-              "1.1.0",
-              "1.1.1",
-              "1.1.2",
-              "1.2.0",
-              "1.2.1",
-              "1.2.2",
-              "1.2.3",
-              "1.2.4"
-            ],
-            "uses": {
-              "Modelica": "4.0.0"
-            },
-            "version": "2.0.0-rc.1"
-          }
-        },
-        "sha": "61073356f76ba63a77376cf72c6ccf4aebe16e84"
       }
     }
   },
