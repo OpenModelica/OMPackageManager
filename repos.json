@@ -22,6 +22,7 @@
   "AdvancedNoise": {
     "names": ["AdvancedNoise"],
     "github": "DLR-SR/AdvancedNoise",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.1", "support"],
@@ -154,6 +155,7 @@
     "names": ["BuildSysPro"],
     "github": "EDF-TREE/BuildSysPro",
     "ignore-tags": ["v2015.12a", "v2015.12b"],
+    "branches": {"master": "master"},
     "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
@@ -164,6 +166,7 @@
   "Chemical": {
     "names": ["Chemical"],
     "github": "MarekMatejak/Chemical",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.1.0", "support"],
@@ -280,6 +283,7 @@
   "ExtendedPetriNets": {
     "names": ["ExtendedPetriNets"],
     "github": "modelica-3rdparty/ExtendedPetriNets",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
@@ -308,6 +312,7 @@
     "names": ["ExternData"],
     "github": "modelica-3rdparty/ExternData",
     "ignore-tags": ["v1.0.1"],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=2.5.0", "support"],
@@ -456,6 +461,7 @@
     "names": ["HelmholtzMedia"],
     "github": "thorade/HelmholtzMedia",
     "ignore-tags": ["v0.1", "v0.2", "v0.3", "v0.4"],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=0.9.8", "support"],
@@ -466,6 +472,7 @@
     "names": ["IBPSA"],
     "github": "ibpsa/modelica-ibpsa",
     "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v1.0.0"],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=3.0.0", "support"],
@@ -505,6 +512,7 @@
     "names": ["IndustrialControlSystems"],
     "github": "looms-polimi/IndustrialControlSystems",
     "ignore-tags": [],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "support"],
@@ -514,6 +522,7 @@
   "KeyWordIO": {
     "names": ["KeyWordIO"],
     "github": "christiankral/KeyWordIO",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=0.9.0", "fullSupport"],
@@ -623,6 +632,7 @@
   "Modelica_DeviceDrivers": {
     "names": ["Modelica_DeviceDrivers"],
     "github": "modelica-3rdparty/Modelica_DeviceDrivers",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.7.1", "support"],
@@ -668,6 +678,7 @@
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
     "github": "modelica/Modelica_LinearSystems2",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=2.3.4", "support"],
@@ -696,6 +707,7 @@
   "Modelica_StateGraph2": {
     "names": ["Modelica_StateGraph2"],
     "github": "HansOlsson/Modelica_StateGraph2",
+    "branches": {"master": "master"},
     "support": [
       ["*", "noSupport"]
     ]
@@ -704,6 +716,7 @@
     "names": ["Modelica_Synchronous"],
     "github": "modelica/Modelica_Synchronous",
     "semverTagOverridesAnnotation": "alsoNewerVersions",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=0.93.0", "support"],
@@ -715,6 +728,7 @@
     "github": "mtiller/ModelicaBook",
     "semverTagOverridesAnnotation": true,
     "ignore-tags": ["v0.5.1","v0.5.2","v0.5.3"],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=0.6.0", "fullSupport"],
@@ -810,6 +824,7 @@
     "github": "cparedis/OpenHydraulics",
     "ignore-tags": [],
     "semverTagOverridesAnnotation": true,
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
@@ -818,6 +833,7 @@
   "OpenIPSL": {
     "names": ["OpenIPSL"],
     "github": "OpenIPSL/OpenIPSL",
+    "branches": {"master": "master"},
     "ignore-tags": [
       "v0.8.1", "v0.8.0", "v0.8", "Tuto_ModProd_2016"
     ],
@@ -860,6 +876,7 @@
     "names": ["PhotoVoltaics", "PhotoVoltaics_TGM"],
     "github": "christiankral/PhotoVoltaics",
     "ignore-tags": [],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.4.1", "support"],
@@ -881,6 +898,7 @@
     "names": ["Physiomodel"],
     "github": "physiology/Physiomodel",
     "ignore-tags": [],
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "support"],
@@ -890,6 +908,7 @@
   "PlanarMechanics": {
     "names": ["PlanarMechanics"],
     "github": "dzimmer/PlanarMechanics",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.4.1", "fullSupport"],
