@@ -910,6 +910,7 @@
   "PowerSystems": {
     "names": ["PowerSystems"],
     "github": "modelica-3rdparty/PowerSystems",
+    "branches": {"master": "master"},
     "ignore-tags": [],
     "support": [
       ["prerelease", "noSupport"],
