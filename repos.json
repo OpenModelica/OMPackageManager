@@ -999,10 +999,21 @@
       ["*", "experimental"]
     ]
   },
+  "ScalableTestGrids": {
+    "names": ["ScalableTestGrids"],
+    "github": "PowerGrids/ScalableTestGrids",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "ScalableTestSuite": {
     "names": ["ScalableTestSuite"],
     "github": "casella/ScalableTestSuite",
     "semverTagOverridesAnnotation": true,
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.11.5", "fullSupport"],
