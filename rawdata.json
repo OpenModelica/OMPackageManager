@@ -5212,7 +5212,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.0.0-Beta.1"
+            "version": "1.0.0-master"
           }
         },
         "sha": "891468c5c25c39f49c785bbdb853a386a4d0e889"
@@ -5239,7 +5239,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.0.0-Beta.1"
+            "version": "1.0.0-beta.1"
           }
         },
         "sha": "ed64dc2d2e64200f250e306cce7bc15c743c4e19"

@@ -677,6 +677,7 @@
   "Modelica_Noise": {
     "names": ["Modelica_Noise", "Noise"],
     "branches": {"master": "master"},
+    "semverPrereleaseOverridesAnnotation": true,
     "github": "DLR-SR/Noise",
     "support": [
       ["prerelease", "noSupport"],
