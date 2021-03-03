@@ -522,6 +522,7 @@
     "names": ["KeyWordIO"],
     "github": "christiankral/KeyWordIO",
     "branches": {"master": "master"},
+    "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=0.9.0", "fullSupport"],
