@@ -865,6 +865,7 @@
   "PNlib": {
     "names": ["PNlib"],
     "github": "AMIT-FHBielefeld/PNlib",
+    "branches": {"master": "master"},
     "semverTagOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
