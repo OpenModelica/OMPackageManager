@@ -1308,6 +1308,14 @@
       ["*", "noSupport"]
     ]
   },
+  "DymolaCommands": {
+    "names": ["DymolaCommands"],
+    "github": "Modelica-OpenVendorSpecificLibraries/DymolaCommands",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
   "ModelManagement": {
     "names": ["ModelManagement"],
     "github": "Modelica-OpenVendorSpecificLibraries/ModelManagement",
