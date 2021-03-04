@@ -942,6 +942,8 @@
     "git": "https://bitbucket.org/simulage/powersyspro.git",
     "branches": {"master": "master"},
     "zipfile": "https://bitbucket.org/simulage/powersyspro/get/%s.zip",
+    "bitbucket-api-downloads-instead-of-tags": "simulage/powersyspro",
+    "semverTagOverridesAnnotation": true,
     "ignore-tags": [],
     "support": [
       ["prerelease", "noSupport"],

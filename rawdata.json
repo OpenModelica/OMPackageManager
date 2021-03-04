@@ -4789,7 +4789,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "450ae467f5f9804b5ecfce847c83053c0d62dca8"
+        "sha": "e9399ec3171e5ca7906ecd58564b17e78309ecea"
       },
       "v1.0": {
         "libs": {
@@ -7106,6 +7106,111 @@
         },
         "sha": "823c494c3a40e3a69550420e940644be8f315acb"
       },
+      "v1.1.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-v1.1.mo",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.1.zip"
+      },
+      "v1.2.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-v1.2.mo",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.2.zip"
+      },
+      "v1.3.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-v1.3.mo",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.3.zip"
+      },
+      "v1.4.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-v1.4.mo",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.4.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.4.zip"
+      },
+      "v2.0.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-2.0.0.mo",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.0.0.zip"
+      },
+      "v2.0.1": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-2.0.1.mo",
+            "version": "2.0.1"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.0.1.zip"
+      },
+      "v2.1.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-2.1.0.mo",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.0.zip"
+      },
+      "v2.1.1": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-2.1.1.mo",
+            "version": "2.1.1"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.1.zip"
+      },
+      "v2.1.2": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro-2.1.2.mo",
+            "version": "2.1.2"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.2.zip"
+      },
       "v2.1.3": {
         "libs": {
           "PowerSysPro": {
@@ -7113,7 +7218,7 @@
             "version": "2.1.3"
           }
         },
-        "sha": "1c4d2bd387d4fbb5918238a1cbf14e084bf03d8f"
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.3.zip"
       }
     }
   },

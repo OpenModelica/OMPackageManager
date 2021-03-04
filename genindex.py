@@ -36,7 +36,8 @@ def main():
         entry = {}
 
         if isgit:
-          entry['sha'] = r['sha']
+          if "sha" in r or "zip" not in r: # If we have zip-file but no sha, we might use a releases zip for a tag we don't know the SHA of
+            entry['sha'] = r['sha']
         entry['path'] = lib['path']
         entry['version'] = lib['version']
         if "zip" in r:

@@ -3,6 +3,7 @@
 import OMPython
 import os
 from github import Github
+from atlassian import Bitbucket
 import json
 import pygit2
 import glob
@@ -12,6 +13,8 @@ import requests
 import zipfile
 
 import common
+
+bitbucket = Bitbucket(url="https://api.bitbucket.org")
 
 def removerepo(ghurl, repopath):
   print("Removing repository " + ghurl)
@@ -90,9 +93,19 @@ def main():
           raise
       elif "git" in entry:
         giturl = entry["git"]
-        gitrepo = getgitrepo(giturl, repopath)
+        gitrepo = getgitrepo(giturl, repopath+".git")
         branches = allbranches(gitrepo)
-        tags = alltags(gitrepo)
+        if entry.get("bitbucket-api-downloads-instead-of-tags"):
+          tags = []
+          for download in bitbucket._get_paged("2.0/repositories/%s/downloads" % entry.get("bitbucket-api-downloads-instead-of-tags")):
+            name = download["name"]
+            if name.endswith(".zip") and name.startswith(key):
+              ver = common.VersionNumber(name[len(key):-4].strip("-").strip(" "))
+              if ver.major==0 and ver.minor==0 and ver.patch==0:
+                continue
+              tags.append(("v" + str(ver),download["links"]["self"]["href"]))
+        else:
+          tags = alltags(gitrepo)
       elif "zipfiles" in entry:
         branches = []
         tags = list(entry["zipfiles"].items())
@@ -134,15 +147,18 @@ def main():
           tagsDict[tagName] = {}
         thisTag = tagsDict[tagName]
 
-        entrykind = "zip" if "zipfiles" in entry else "sha"
+        entrykind = "zip" if ("zipfiles" in entry or sha.startswith("http")) else "sha"
 
         if (entrykind not in thisTag) or (thisTag[entrykind] != sha):
           if entrykind == "zip":
             try:
+              os.unlink(repopath)
+            except:
+              pass
+            try:
               shutil.rmtree(repopath)
             except FileNotFoundError:
               pass
-
             os.mkdir(repopath)
             zipfilepath = repopath + "-" + tagName + ".zip"
             with open(zipfilepath, 'wb') as fout:
@@ -150,9 +166,18 @@ def main():
             with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
               zip_ref.extractall(repopath)
           else:
-            gitrepo = getgitrepo(giturl, repopath)
+            gitrepo = getgitrepo(giturl, repopath+".git")
             try:
               gitrepo.checkout_tree(gitrepo.get(sha), strategy = pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
+              try:
+                os.unlink(repopath)
+              except:
+                pass
+              try:
+                shutil.rmtree(repopath)
+              except FileNotFoundError:
+                pass
+              os.symlink(os.path.basename(repopath+".git"), repopath)
             except:
               print("Failed to checkout %s with SHA %s" % (tagName, sha))
               raise
@@ -174,9 +199,12 @@ def main():
                   p = repopath
                 hitsNew = (insensitive_glob(os.path.join(p,libname,"package.mo")) +
                   insensitive_glob(os.path.join(p,libname+" *","package.mo")) +
+                  insensitive_glob(os.path.join(p,libname+"-*","package.mo")) +
                   insensitive_glob(os.path.join(p,libname+".mo")) +
                   insensitive_glob(os.path.join(p,libname+" *.mo")) +
+                  insensitive_glob(os.path.join(p,libname+"-*.mo")) +
                   insensitive_glob(os.path.join(p,libname+"*",libname + ".mo")) +
+                  insensitive_glob(os.path.join(p,libname+"*",libname + "-*.mo")) +
                   insensitive_glob(os.path.join(p,libname+"*",libname + " *.mo")))
                 hits += hitsNew
             if len(hits) != 1:
