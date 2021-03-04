@@ -177,7 +177,7 @@ def main():
                 shutil.rmtree(repopath)
               except FileNotFoundError:
                 pass
-              os.symlink(os.path.basename(repopath+".git"), repopath)
+              shutil.copytree(repopath+".git", repopath)
             except:
               print("Failed to checkout %s with SHA %s" % (tagName, sha))
               raise
@@ -219,7 +219,7 @@ def main():
               grammar = "latest"
             omc.sendExpression("setCommandLineOptions(\"--std=%s\")" % grammar)
 
-            if not omc.sendExpression("loadFile(\"%s\")" % hits[0]):
+            if not omc.sendExpression("loadFile(\"%s\", uses=false)" % hits[0]):
               print("Failed to load file %s in %s" % (hits[0], tagName))
               continue
             classNamesAfterLoad = omc.sendExpression("getClassNames()")

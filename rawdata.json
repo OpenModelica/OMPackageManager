@@ -7432,7 +7432,6 @@
         "sha": "72ee02ae8b86cf3428ea22dd51896d8ee7e9ad1e"
       },
       "master": {
-        "broken": true,
         "libs": {
           "PropulsionSystem": {
             "path": "",
@@ -7443,7 +7442,7 @@
             "version": "master"
           }
         },
-        "sha": "62b52ef8c6ba220b700404ae00f7d8ff49a98554"
+        "sha": "04dc3e71842e1e768f37de5fdeb1aef9fb7fa3c3"
       }
     }
   },
