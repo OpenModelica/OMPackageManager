@@ -52,6 +52,8 @@ def main():
           entry['uses'] = lib['uses']
         if 'convertFromVersion' in lib:
           entry['convertFromVersion'] = lib['convertFromVersion']
+        if repos[firstKey].get('singleFileStructureCopyAllFiles'):
+          entry['singleFileStructureCopyAllFiles'] = True
         entry['support'] = common.getSupportLevel(lib['version'], repos[firstKey]['support'])
 
         libdict[lib['version']] = entry
