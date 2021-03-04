@@ -902,6 +902,7 @@
     "github": "physiology/Physiomodel",
     "ignore-tags": [],
     "branches": {"master": "master"},
+    "semverPrereleaseOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "support"],
