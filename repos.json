@@ -889,6 +889,7 @@
     "github": "MarekMatejak/Physiolibrary",
     "ignore-tags": [],
     "semverTagOverridesAnnotation": true,
+    "semverPrereleaseOverridesAnnotation": true,
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
