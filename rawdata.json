@@ -6059,6 +6059,18 @@
   },
   "PNlib": {
     "refs": {
+      "master": {
+        "libs": {
+          "PNlib": {
+            "path": "PNlib",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.2.0-master"
+          }
+        },
+        "sha": "ab9b6b8527c0c78140365e7b105ae469d4954a64"
+      },
       "v1.0": {
         "libs": {
           "PNlib": {
