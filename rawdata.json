@@ -3967,7 +3967,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "aa21596bb37b02abbca9ff4d8b7e9bf334b85fa4"
+        "sha": "4fa02e5f991f1247baeb604a8876318e820c66c8"
       },
       "trunk": {
         "libs": {
@@ -4040,7 +4040,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "24e4ba17dbd623536896c2b72ca3947f40a24db8"
+        "sha": "0057d7b2503d2b006ae607f091afec034d096f1b"
       },
       "v1.3.1": {
         "libs": {
@@ -6966,16 +6966,17 @@
           "Physiomodel": {
             "path": "Physiomodel",
             "provides": [
-              "1.0.0"
+              "1.0.0",
+              "1.0.1-beta"
             ],
             "uses": {
-              "Modelica": "3.2.2",
-              "Physiolibrary": "2.3.2"
+              "Modelica": "4.0.0",
+              "Physiolibrary": "2.3.3"
             },
-            "version": "1.0.1-master"
+            "version": "1.1.0-master"
           }
         },
-        "sha": "ae7c58e2a2f7c285822318d05a1a29f02d1528b5"
+        "sha": "856a41222bc046dce3550535c5fd513fcbf71b8d"
       },
       "v1.0.0": {
         "libs": {
