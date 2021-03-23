@@ -1103,7 +1103,7 @@
             "version": "8.0.0-master"
           }
         },
-        "sha": "8fc3c19dc3b06cdf9f8384e77e9df2caed052020"
+        "sha": "ec75a9782cf6afce35e247a67490f3ff4fa0a12b"
       },
       "v1.4_build1": {
         "libs": {
@@ -8555,6 +8555,38 @@
           }
         },
         "zip": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-3.2.zip"
+      },
+      "master": {
+        "libs": {
+          "ThermoSysPro": {
+            "path": "ThermoSysPro",
+            "provides": [
+              "0.0.0",
+              "4.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.2.0-master"
+          }
+        },
+        "sha": "3ced3485f8da7b0baa3c8bf598d714951947c6d1"
+      },
+      "v3.2": {
+        "libs": {
+          "ThermoSysPro": {
+            "path": "ThermoSysPro",
+            "provides": [
+              "0.0.0",
+              "4.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "3.2.0"
+          }
+        },
+        "sha": "ed6f23975beef34bf7bd2e7a3cd4f91cc8e14501"
       }
     }
   },
