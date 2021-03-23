@@ -1177,9 +1177,8 @@
   },
   "ThermoSysPro": {
     "names": ["ThermoSysPro"],
-    "zipfiles": {
-      "3.2.0": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-3.2.zip"
-    },
+    "github": "ThermoSysPro/ThermoSysPro",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=3.2.0", "experimental"],
