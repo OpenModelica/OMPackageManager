@@ -3296,7 +3296,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "7ea9f2513ffc94c4fe5d9eb4faf2524d67bed778"
+        "sha": "f2581dda76a15fd1a97bdbd0533a5e27760f36e4"
       },
       "v2.0.0": {
         "libs": {
@@ -8317,6 +8317,56 @@
           }
         },
         "sha": "cc0300732ee25bf7f6052aedf83df5cddfbb1108"
+      }
+    }
+  },
+  "TAeZoSysPro": {
+    "refs": {
+      "master": {
+        "libs": {
+          "TAeZoSysPro": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "eccbacab94851d752e3831c11f5db78fa2da86aa"
+      },
+      "v3.1.0": {
+        "libs": {
+          "TAeZoSysPro": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.1.0"
+          }
+        },
+        "sha": "2c409784af6252128e0c9568a44198cb08e091a5"
+      }
+    }
+  },
+  "TAeZoSysPro_testsuite": {
+    "refs": {
+      "master": {
+        "libs": {
+          "TAeZoSysPro_testsuite": {
+            "path": "",
+            "version": "master"
+          }
+        },
+        "sha": "2e36f693947e8b5737c01a7b2e137290a044f759"
+      },
+      "v3.1.0": {
+        "libs": {
+          "TAeZoSysPro_testsuite": {
+            "path": "",
+            "version": "3.1.0"
+          }
+        },
+        "sha": "4a8fd734a93ba0e2adc5ba4827d6bd4692b6850c"
       }
     }
   },
