@@ -1131,6 +1131,17 @@
       ["*", "obsolete"]
     ]
   },
+  "TAeZoSysPro": {
+    "names": ["TAeZoSysPro"],
+    "git": "https://gitlab.pam-retd.fr/TAeZoSysPro/taezosyspro.git",
+    "zipfile": "https://gitlab.pam-retd.fr/TAeZoSysPro/taezosyspro/-/archive/%s/taezosyspro.zip",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=3.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "TILMedia": {
     "names": ["TILMedia"],
     "github": "ClaRaLibrary/TILMedia",
