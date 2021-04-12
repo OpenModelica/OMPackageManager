@@ -604,7 +604,7 @@
     ],
     "support": [
       ["prerelease", "noSupport"],
-      [">=4.0.0", "support"],
+      [">=4.0.0", "fullSupport"],
       [">=3.2.3", "fullSupport"],
       ["*", "obsolete"]
     ]
