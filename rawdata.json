@@ -1115,7 +1115,7 @@
             "version": "8.0.0-master"
           }
         },
-        "sha": "a55e89c4c38025d296d17a716ffcffb92a042bbe"
+        "sha": "a20f191fb61207a4dbe491c2bd6cf57e160bf1c9"
       },
       "v1.4_build1": {
         "libs": {
@@ -1844,18 +1844,19 @@
       "master": {
         "libs": {
           "EMOTH": {
-            "path": "EMOTH",
-            "provides": [
-              "1.4.0"
+            "convertFromVersion": [
+              "1.4.0",
+              "1.4.1"
             ],
+            "path": "EMOTH",
             "uses": {
-              "Modelica": "3.2.3",
-              "VehicleInterfaces": "1.2.5"
+              "Modelica": "4.0.0",
+              "VehicleInterfaces": "2.0.0"
             },
-            "version": "1.4.1-master"
+            "version": "1.5.0-master"
           }
         },
-        "sha": "e1ce32f9b6d6e7dc8547274446fd31bce3c52552"
+        "sha": "30d925aac00530fd301fb7687b2f4c55bf7c8a03"
       }
     }
   },
