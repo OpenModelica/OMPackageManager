@@ -1115,7 +1115,7 @@
             "version": "8.0.0-master"
           }
         },
-        "sha": "c9bfa8dea70f3af79d9c6e83a3ac4ffc846a7290"
+        "sha": "4a40e0b632744c36d20cac09a3580eb56dc8712e"
       },
       "v1.4_build1": {
         "libs": {
@@ -8718,10 +8718,10 @@
               "Modelica_StateGraph2": "2.0.4",
               "TILMedia": "1.5.1-ClaRa"
             },
-            "version": "1.3.0-master"
+            "version": "1.3.1-master"
           }
         },
-        "sha": "8c6e496ffdfe44e811e3fe7ec598d51f8a406633"
+        "sha": "a50ec059255f346c87bc18c056eeda406d5414f4"
       }
     }
   },
