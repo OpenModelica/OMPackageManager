@@ -3656,10 +3656,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "1.1.0-master"
+            "version": "1.1.1-master"
           }
         },
-        "sha": "a2a65bf5e8fdf41642a73ba8b85ee200fd912841"
+        "sha": "04d85ca089f284081ca2df4ca68039780f47a90f"
       },
       "v1.0.0": {
         "libs": {
@@ -3696,6 +3696,18 @@
           }
         },
         "sha": "c0267f71f6eb900bde53f28e673023998f47d12d"
+      },
+      "v1.1.1": {
+        "libs": {
+          "MEV": {
+            "path": "MEV",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.1"
+          }
+        },
+        "sha": "04d85ca089f284081ca2df4ca68039780f47a90f"
       }
     }
   },
