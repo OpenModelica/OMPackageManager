@@ -1128,7 +1128,7 @@
             "version": "8.0.0-master"
           }
         },
-        "sha": "c2cf28c91074e74dd42f4a5d2ec5fabbadbc50c9"
+        "sha": "e46ceab4a421e6113f95bb32a90f4ca46be26829"
       },
       "v1.4_build1": {
         "libs": {
@@ -1854,7 +1854,7 @@
   },
   "EMOTH": {
     "refs": {
-      "master": {
+      "1.5.0": {
         "libs": {
           "EMOTH": {
             "convertFromVersion": [
@@ -1866,10 +1866,46 @@
               "Modelica": "4.0.0",
               "VehicleInterfaces": "2.0.0"
             },
-            "version": "1.5.0-master"
+            "version": "1.5.0"
           }
         },
         "sha": "30d925aac00530fd301fb7687b2f4c55bf7c8a03"
+      },
+      "master": {
+        "libs": {
+          "EMOTH": {
+            "convertFromVersion": [
+              "1.4.1",
+              "1.5.0"
+            ],
+            "path": "EMOTH",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "VehicleInterfaces": "2.0.0"
+            },
+            "version": "1.6.0-master"
+          }
+        },
+        "sha": "5c62ea8bd7617b6cfe1c2d30637f53bcccc7d249"
+      },
+      "v1.6.0": {
+        "libs": {
+          "EMOTH": {
+            "convertFromVersion": [
+              "1.4.1",
+              "1.5.0"
+            ],
+            "path": "EMOTH",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "VehicleInterfaces": "2.0.0"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "5c62ea8bd7617b6cfe1c2d30637f53bcccc7d249"
       }
     }
   },
