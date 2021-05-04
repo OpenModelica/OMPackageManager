@@ -67,6 +67,22 @@
       }
     }
   },
+  "AES": {
+    "refs": {
+      "main": {
+        "libs": {
+          "AES": {
+            "path": "Modelica/AES",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "16591196609be1a12aaee5091e56ca452478a318"
+      }
+    }
+  },
   "ATplus": {
     "refs": {
       "v2.1": {
@@ -3370,7 +3386,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "510db83ecd58e9875b62c0f0f9016c3f2782a672"
+        "sha": "33da1663dea7a908fed1e893520686f01c3d4338"
       },
       "v2.0.0": {
         "libs": {

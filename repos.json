@@ -19,6 +19,17 @@
       ["*", "obsolete"]
     ]
   },
+  "AES": {
+    "names": ["AES"],
+    "github": "looms-polimi/Automation_of_Energy_Systems",
+    "search-extra-paths": ["Modelica"],
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "AdvancedNoise": {
     "names": ["AdvancedNoise"],
     "github": "DLR-SR/AdvancedNoise",
