@@ -291,12 +291,30 @@
       ["*", "experimental"]
     ]
   },
+  "ESL": {
+    "names": ["ExtremumSeeking"],
+    "github": "LBNL-ETA/ESL",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ExtendedPetriNets": {
     "names": ["ExtendedPetriNets"],
     "github": "modelica-3rdparty/ExtendedPetriNets",
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
+    ]
+  },
+  "ExternalLibrary": {
+    "names": ["ExternalLibrary"],
+    "github": "CATIA-Systems/Modelica-ExternalLibrary",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
     ]
   },
   "ExternalMedia": {
@@ -667,15 +685,6 @@
       ["*", "experimental"]
     ]
   },
-  "ExternalLibrary": {
-    "names": ["ExternalLibrary"],
-    "github": "CATIA-Systems/Modelica-ExternalLibrary",
-    "branches": {"master": "master"},
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "experimental"]
-    ]
-  },
   "MEV": {
     "names": ["MEV"],
     "github": "looms-polimi/MEV",
@@ -743,6 +752,16 @@
     "support": [
       ["prerelease", "noSupport"],
       [">=0.6.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "ModelicaTableAdditions": {
+    "names": ["ModelicaTableAdditions"],
+    "github": "tbeu/ModelicaTableAdditions",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=2.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
@@ -851,6 +870,16 @@
     "support": [
       ["prerelease", "noSupport"],
       [">=1.5.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "OpenModelica_Microgrids": {
+    "names": ["OpenModelica_Microgrids"],
+    "github": "upb-lea/OpenModelica_Microgrids",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
@@ -1399,6 +1428,10 @@
   "IgnoreMultiBondLib": {
     "ignore": "Cannot be parsed (import C:\\...",
     "github": "modelica-3rdparty/MultiBondLib"
+  },
+  "IgnoreNCLib": {
+    "ignore": "Very generic names of libraries. Like List",
+    "github": "modelica-3rdparty/NCLib"
   },
   "IgnoreSPICELib": {
     "ignore": "Multiple classes in the same file",

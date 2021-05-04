@@ -1937,6 +1937,24 @@
       }
     }
   },
+  "ESL": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ExtremumSeeking": {
+            "path": "ExtremumSeeking",
+            "uses": {
+              "Modelica": "3.2.3",
+              "OpenIPSL": "2.0.0-dev",
+              "ThreePhase": "2.0.0"
+            },
+            "version": "0.9.0-master"
+          }
+        },
+        "sha": "79178b61c84c7a1e959410e3b511c2df75b9af62"
+      }
+    }
+  },
   "ElectricalEnergyStorage": {
     "refs": {
       "master": {
@@ -4912,6 +4930,130 @@
       }
     }
   },
+  "ModelicaTableAdditions": {
+    "refs": {
+      "main": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.2.0-main"
+          }
+        },
+        "sha": "8a8b6c11801ee523fca8a799f60463c6e5222518"
+      },
+      "v1.0.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "b6c00ad528c0cef86c533386abce030d768ad8ab"
+      },
+      "v1.0.1": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "453a748373536d8047f574bbb9fb43935cb93bd1"
+      },
+      "v1.0.2": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.2"
+          }
+        },
+        "sha": "be8db4475a4003f437cbad386cc76b7b42e35d98"
+      },
+      "v2.0.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "d76983d349fe00154d95e1b43bd6c0e2d9e832e7"
+      },
+      "v2.0.1": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "912f65caf7d261c9fbc817139b14600a6d2a76e0"
+      },
+      "v2.0.2": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.2"
+          }
+        },
+        "sha": "2f0a08aa68da7ae9e12955d361baef18dae96ea2"
+      },
+      "v2.1.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "4a43c1b63e5fbc630b086ec0d11cc864b41d3d8b"
+      },
+      "v2.1.1": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.1"
+          }
+        },
+        "sha": "ee59e75d0a05998d126d218d06c7e6e901680fd1"
+      },
+      "v2.2.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "sha": "8a8b6c11801ee523fca8a799f60463c6e5222518"
+      }
+    }
+  },
   "Modelica_DeviceDrivers": {
     "refs": {
       "master": {
@@ -6131,6 +6273,38 @@
           }
         },
         "sha": "ccea8980350f01fa4c4c929083a1c75e74fd7880"
+      }
+    }
+  },
+  "OpenModelica_Microgrids": {
+    "refs": {
+      "master": {
+        "libs": {
+          "OpenModelica_Microgrids": {
+            "path": "OpenModelica_Microgrids",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.3"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "23067b08010c1e60e8fcd95acbb3f6cf685c41e1"
+      },
+      "v1.0": {
+        "libs": {
+          "OpenModelica_Microgrids": {
+            "path": "OpenModelica_Microgrids",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.3"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "23067b08010c1e60e8fcd95acbb3f6cf685c41e1"
       }
     }
   },
