@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "16591196609be1a12aaee5091e56ca452478a318"
+        "sha": "9b20379ed6e30159d5478b60ca3056c9827cd396"
       }
     }
   },
@@ -2437,14 +2437,14 @@
       "master": {
         "libs": {
           "ExternalMedia": {
-            "path": "Modelica/ExternalMedia 3.2.1",
+            "path": "Modelica/ExternalMedia 3.3.0",
             "uses": {
-              "Modelica": "3.2.1"
+              "Modelica": "3.2.3"
             },
-            "version": "master"
+            "version": "3.3.0-master"
           }
         },
-        "sha": "159518edd538b64e28cd70983a9cc47730323cc4"
+        "sha": "0f5f0fc74f48f083a6a54e3ec00eda70246fcb81"
       },
       "v3.2.1": {
         "libs": {
@@ -2457,6 +2457,18 @@
           }
         },
         "sha": "1b77869b31dc3509defeccb1236db4b05d2f6f5b"
+      },
+      "v3.3.0": {
+        "libs": {
+          "ExternalMedia": {
+            "path": "Modelica/ExternalMedia 3.3.0",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.3.0"
+          }
+        },
+        "sha": "0f5f0fc74f48f083a6a54e3ec00eda70246fcb81"
       }
     }
   },
@@ -4090,7 +4102,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "a79a600fd29c468ad53d26d97386c41fa6954150"
+        "sha": "2f7ac4d7f369a04a2c1d999be6f4eddf0710d329"
       },
       "trunk": {
         "libs": {
@@ -4163,7 +4175,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "8e889991f913c395ed0b6bb80fe8fd366f29aaa6"
+        "sha": "49d46c391a23d1e06daf6753fdf28ba02409a697"
       },
       "v1.3.1": {
         "libs": {
