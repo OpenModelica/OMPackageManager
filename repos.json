@@ -1223,10 +1223,10 @@
       ["*", "obsolete"]
     ]
   },
-  "Thermocycle": {
+  "ThermofluidStream": {
     "names": ["ThermofluidStream"],
     "github": "DLR-SR/ThermofluidStream",
-    "branches": {"master": "master"},
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       [">=0.1.0", "experimental"],
