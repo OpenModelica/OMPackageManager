@@ -1223,6 +1223,16 @@
       ["*", "obsolete"]
     ]
   },
+  "Thermocycle": {
+    "names": ["ThermofluidStream"],
+    "github": "DLR-SR/ThermofluidStream",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ThermoPower": {
     "names": ["ThermoPower"],
     "github": "casella/ThermoPower",
