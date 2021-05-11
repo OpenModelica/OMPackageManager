@@ -8981,6 +8981,23 @@
       }
     }
   },
+  "ThermofluidStream": {
+    "refs": {
+      "main": {
+        "libs": {
+          "ThermofluidStream": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3",
+              "UserInteraction": "0.65.0"
+            },
+            "version": "0.1.0-main"
+          }
+        },
+        "sha": "0aafd41e1a8c1c8737fcc41c6fc169a46bfcf61a"
+      }
+    }
+  },
   "TransiEnt": {
     "refs": {
       "master": {
