@@ -894,6 +894,19 @@
         },
         "sha": "1683591805e8ccf5c2f58eb98bb29794b2710c3b"
       },
+      "v0.5.9": {
+        "libs": {
+          "BrineProp": {
+            "path": "BrineProp",
+            "uses": {
+              "DataFiles": "1.0.0",
+              "Modelica": "3.2.3"
+            },
+            "version": "0.5.9"
+          }
+        },
+        "sha": "225d5347fa0319d001aaceb2651e082f5557bdf1"
+      },
       "v0.6.0": {
         "libs": {
           "BrineProp": {
@@ -1168,7 +1181,7 @@
             "version": "8.0.0-master"
           }
         },
-        "sha": "9c37781c84e1f72f557ffdb150fe08f174b3682e"
+        "sha": "d61e745310cbf6b1df613de6b71fa24cf0234e06"
       },
       "v1.4_build1": {
         "libs": {
@@ -4114,7 +4127,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "2f7ac4d7f369a04a2c1d999be6f4eddf0710d329"
+        "sha": "9a738b6d4b0bab9ed008bf0cdd1e431d532111b5"
       },
       "trunk": {
         "libs": {
@@ -4187,7 +4200,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "49d46c391a23d1e06daf6753fdf28ba02409a697"
+        "sha": "e7c75395fbbb02569814801234cb0677b11d5c66"
       },
       "v1.3.1": {
         "libs": {
