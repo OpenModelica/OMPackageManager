@@ -9019,13 +9019,12 @@
           "ThermofluidStream": {
             "path": "ThermofluidStream",
             "uses": {
-              "Modelica": "3.2.3",
-              "UserInteraction": "0.65.0"
+              "Modelica": "3.2.3"
             },
             "version": "0.1.0-main"
           }
         },
-        "sha": "1c39432ae2de0c5f8ab990ca8dd2d72232527dc3"
+        "sha": "c38b7e16babea36e5e016930580d6afae3685626"
       }
     }
   },
