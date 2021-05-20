@@ -1181,7 +1181,7 @@
             "version": "8.0.0-master"
           }
         },
-        "sha": "97600b1e0351af229575a49fa60b5ae558763624"
+        "sha": "11b3a98c16bfcafe1eedbb4dc164fd6e35dc6f2f"
       },
       "v1.4_build1": {
         "libs": {
@@ -4145,7 +4145,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "9f656b461993663251c13e9dba31a1cb9781ea63"
+        "sha": "c8e67e8e80d4bcb0f7f18d3fe83d568e67854d31"
       },
       "trunk": {
         "libs": {
@@ -4218,7 +4218,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "366a74d46ef2b43122b1b4fb8268718c2a35cbdc"
+        "sha": "ecd641654a906042b30d6351568e97ba5dfce538"
       },
       "v1.3.1": {
         "libs": {
@@ -7507,11 +7507,11 @@
       "master": {
         "libs": {
           "PowerSysPro": {
-            "path": "PowerSysPro 2.1.8.mo",
-            "version": "2.1.8-master"
+            "path": "PowerSysPro 2.1.9.mo",
+            "version": "2.1.9-master"
           }
         },
-        "sha": "057676b8949066e2a93981c8fdd015672c6c77e2"
+        "sha": "5ed560bf069fbd971e2cd6fce2e517523e5b33d5"
       },
       "v1.1.0": {
         "libs": {
@@ -7671,6 +7671,15 @@
           }
         },
         "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.8.zip"
+      },
+      "v2.1.9": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro 2.1.9.mo",
+            "version": "2.1.9"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.9.zip"
       }
     }
   },
@@ -9042,7 +9051,19 @@
             "version": "0.1.0-main"
           }
         },
-        "sha": "c38b7e16babea36e5e016930580d6afae3685626"
+        "sha": "571b0f9488d230ad9f3d7b89132397ac6ef3b05c"
+      },
+      "v0.1-beta": {
+        "libs": {
+          "ThermofluidStream": {
+            "path": "ThermofluidStream",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.1.0-beta"
+          }
+        },
+        "sha": "571b0f9488d230ad9f3d7b89132397ac6ef3b05c"
       }
     }
   },
