@@ -3459,7 +3459,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "457215a39bcd5f5c41d53fe3e03f850c1505fa0a"
+        "sha": "10fe242d06e5807ceab8f313ec043be50b238a12"
       },
       "v2.0.0": {
         "libs": {
@@ -6282,7 +6282,7 @@
             "version": "2.0.0-beta.1"
           }
         },
-        "sha": "1de19e19d8405635095e9e7f69925d8957fdc992"
+        "sha": "f60a86123d1fba6a71a0bebfc91b15d84a002e96"
       },
       "v1.0.0": {
         "libs": {
