@@ -7523,11 +7523,11 @@
       "master": {
         "libs": {
           "PowerSysPro": {
-            "path": "PowerSysPro 2.1.9.mo",
-            "version": "2.1.9-master"
+            "path": "PowerSysPro 2.2.0.mo",
+            "version": "2.2.0-master"
           }
         },
-        "sha": "5ed560bf069fbd971e2cd6fce2e517523e5b33d5"
+        "sha": "1aa14db426215d24b8ea6c2160c3a5f1b79cb9a7"
       },
       "v1.1.0": {
         "libs": {
@@ -7696,6 +7696,15 @@
           }
         },
         "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.9.zip"
+      },
+      "v2.2.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro 2.2.0.mo",
+            "version": "2.2.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.2.0.zip"
       }
     }
   },
