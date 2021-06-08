@@ -1518,6 +1518,21 @@
           }
         },
         "sha": "b09ef282fd5671fb866166e99fa94f05f7b8c65c"
+      },
+      "v8.0.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.0.0"
+          }
+        },
+        "sha": "5fa0bed0caa0f27b8ebfa20c1a39e22cdd0f5008"
       }
     }
   },
@@ -8850,7 +8865,7 @@
             "version": "0.5.0-master"
           }
         },
-        "sha": "15a40d3044dec33090e374065c5de16894d0496f"
+        "sha": "e4d03c1e187109b77c846229df884af18da07441"
       },
       "v0.1-beta": {
         "libs": {
@@ -9094,7 +9109,7 @@
             "version": "0.1.0-main"
           }
         },
-        "sha": "af12dc97f9f63223eb4d809e71c7d2252a277553"
+        "sha": "8e7fbab7e7338127909fd3c22a1cae31c14b16b8"
       },
       "v0.1-beta": {
         "libs": {
