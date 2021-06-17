@@ -419,6 +419,22 @@
       }
     }
   },
+  "Annex60": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "Annex60": {
+            "path": "Annex60",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "63fea8365ee1850eeadfa7810cd231debc5b3343"
+      }
+    }
+  },
   "ApproxSpline": {
     "refs": {
       "master": {
@@ -9099,6 +9115,18 @@
   },
   "ThermofluidStream": {
     "refs": {
+      "OM_adaptions": {
+        "libs": {
+          "ThermofluidStream": {
+            "path": "ThermofluidStream",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.1.0-OM_adaptions"
+          }
+        },
+        "sha": "4cc2615e99c5e11ab9d74a8019b039920fe2b5cf"
+      },
       "main": {
         "libs": {
           "ThermofluidStream": {
