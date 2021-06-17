@@ -60,6 +60,14 @@
       ["*", "experimental"]
     ]
   },
+  "Annex60": {
+    "names": ["Annex60"],
+    "github": "ibpsa/modelica-ibpsa",
+    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v2.0.0", "v3.0.0"],
+    "support": [
+      ["*", "obsolete"]
+    ]
+  },
   "ApproxSpline": {
     "names": ["ApproxSpline"],
     "github": "modelica-3rdparty/ApproxSpline",
