@@ -45,7 +45,7 @@ def main():
         elif "github" in repos[firstKey]:
           entry['zipfile'] = "https://github.com/%s/archive/%s.zip" % (repos[firstKey]["github"], r['sha'])
         else:
-          entry['zipfile'] = repos[firstKey]["zipfile"] % r['sha']
+          entry['zipfile'] = repos[firstKey]["zipfile"].format(r['sha'])
         if 'provides' in lib:
           entry['provides'] = lib['provides']
         if 'uses' in lib:
