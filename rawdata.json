@@ -7945,13 +7945,12 @@
           "PropulsionSystem": {
             "path": "",
             "uses": {
-              "Modelica": "3.2.2",
-              "Modelica_DeviceDrivers": "1.6.0"
+              "Modelica": "3.2.2"
             },
             "version": "master"
           }
         },
-        "sha": "19f650a8dbbf0098ea934570f45d89b0fdc8c60f"
+        "sha": "c1fc7b6204a67a02c6c62ed79b803fae43fe7d97"
       }
     }
   },
