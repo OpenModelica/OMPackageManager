@@ -1213,7 +1213,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "d2b49d172ce7d8a43e9dd338e9c35513dbe0db43"
+        "sha": "de057991f414851897aa1c2df0141a470356eb3c"
       },
       "v1.4_build1": {
         "libs": {
@@ -5180,13 +5180,21 @@
         "libs": {
           "Modelica_DeviceDrivers": {
             "path": "Modelica_DeviceDrivers",
+            "provides": [
+              "1.6.0",
+              "1.7.0",
+              "1.7.1",
+              "1.8.0",
+              "1.8.1",
+              "1.8.2"
+            ],
             "uses": {
               "Modelica": "4.0.0"
             },
             "version": "2.0.0-master"
           }
         },
-        "sha": "a6921e6f677589b057783b8b75462c20b26d89dd"
+        "sha": "b30ead882d9fa2532236a32da8279e07fd881756"
       },
       "v1.0": {
         "libs": {
@@ -8641,7 +8649,7 @@
             "version": "0.2.0-master"
           }
         },
-        "sha": "450614d8b1ebfd307506769815ad266b4326be26"
+        "sha": "203fb5af3b95c731c7fcbe2833d51fd420e80796"
       }
     }
   },
