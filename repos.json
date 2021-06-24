@@ -716,7 +716,6 @@
   "Modelica_Noise": {
     "names": ["Modelica_Noise", "Noise"],
     "branches": {"master": "master"},
-    "semverPrereleaseOverridesAnnotation": true,
     "github": "DLR-SR/Noise",
     "support": [
       ["prerelease", "noSupport"],
@@ -937,7 +936,6 @@
     "github": "MarekMatejak/Physiolibrary",
     "ignore-tags": [],
     "semverTagOverridesAnnotation": true,
-    "semverPrereleaseOverridesAnnotation": true,
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
@@ -950,7 +948,6 @@
     "github": "physiology/Physiomodel",
     "ignore-tags": [],
     "branches": {"master": "master"},
-    "semverPrereleaseOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "support"],

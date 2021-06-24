@@ -5805,7 +5805,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.0.0-beta.1"
+            "version": "1.0.0-Beta.1"
           }
         },
         "sha": "ed64dc2d2e64200f250e306cce7bc15c743c4e19"
@@ -6352,7 +6352,7 @@
               "Complex": "3.2.3",
               "Modelica": "3.2.3"
             },
-            "version": "2.0.0-beta.1"
+            "version": "2.0.0-master"
           }
         },
         "sha": "d8f4347791a6efc99ee996270f1d0cbfbb6c08db"
