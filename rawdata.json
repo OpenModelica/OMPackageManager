@@ -551,10 +551,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.1.1-master"
+            "version": "1.1.2-master"
           }
         },
-        "sha": "73e66b7c8d7c1f0a5dd74633e9ef09755f68c987"
+        "sha": "44d4a9f6a888327403bcdf347c13e69070f4ed79"
       },
       "v1.0": {
         "libs": {
@@ -639,6 +639,18 @@
           }
         },
         "sha": "e1e34582998be8d241d4207bcbd50caa980ff39c"
+      },
+      "v1.1.2": {
+        "libs": {
+          "BioChem": {
+            "path": "BioChem",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.2"
+          }
+        },
+        "sha": "44d4a9f6a888327403bcdf347c13e69070f4ed79"
       }
     }
   },
