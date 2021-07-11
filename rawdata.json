@@ -2037,6 +2037,24 @@
         },
         "sha": "753f148de1a62e0b5987210d364380bd099b5f9e"
       },
+      "1.9.0": {
+        "libs": {
+          "EMOTH": {
+            "convertFromVersion": [
+              "1.4.1",
+              "1.5.0"
+            ],
+            "path": "EMOTH",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "VehicleInterfaces": "2.0.0"
+            },
+            "version": "1.9.0"
+          }
+        },
+        "sha": "59a42ac52f2d99f777df975d341b60813361b0c0"
+      },
       "master": {
         "libs": {
           "EMOTH": {
@@ -2050,10 +2068,10 @@
               "ModelicaServices": "4.0.0",
               "VehicleInterfaces": "2.0.0"
             },
-            "version": "1.8.0-master"
+            "version": "1.9.0-master"
           }
         },
-        "sha": "651c8f7e5cda7b2bd7fe90a61ac3bb4227640b09"
+        "sha": "59a42ac52f2d99f777df975d341b60813361b0c0"
       },
       "v1.6.0": {
         "libs": {
