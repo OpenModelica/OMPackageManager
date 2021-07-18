@@ -2379,10 +2379,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.6.1-master"
+            "version": "3.0.0-master"
           }
         },
-        "sha": "8a68ebd9abede31f60a247fb01584082ec7fc390"
+        "sha": "0e8169077dd1d6d6a9d44cfebe65e9c13e4ce4e6"
       },
       "v1.0.0": {
         "libs": {
@@ -8024,7 +8024,7 @@
             "version": "master"
           }
         },
-        "sha": "94f41865e847889c3cd21e65b7a8c11bd2901157"
+        "sha": "0db6633d14308454de3ff9eb90af853f1eed6661"
       }
     }
   },
