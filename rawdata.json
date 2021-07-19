@@ -3800,14 +3800,20 @@
       "master": {
         "libs": {
           "KeyWordIO": {
+            "convertFromVersion": [
+              "0.6.0",
+              "0.7.0",
+              "0.8.0",
+              "0.9.0"
+            ],
             "path": "KeyWordIO",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "master+X.X"
+            "version": "0.10.0-master+X"
           }
         },
-        "sha": "0b9285061732cc971fe29a5629130157e9908541"
+        "sha": "c2b6168c2703412e320ae04d67eae2fe11879d77"
       },
       "v0.1.0": {
         "libs": {
@@ -3820,6 +3826,24 @@
           }
         },
         "sha": "95a553fba251893b9e1215cfa4a7e8df59ce337d"
+      },
+      "v0.10.0": {
+        "libs": {
+          "KeyWordIO": {
+            "convertFromVersion": [
+              "0.6.0",
+              "0.7.0",
+              "0.8.0",
+              "0.9.0"
+            ],
+            "path": "KeyWordIO",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.10.0+X"
+          }
+        },
+        "sha": "c2b6168c2703412e320ae04d67eae2fe11879d77"
       },
       "v0.2.0": {
         "libs": {
@@ -6790,23 +6814,49 @@
       "master": {
         "libs": {
           "PhotoVoltaics": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.3.2",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0"
+            ],
             "path": "PhotoVoltaics",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "1.6.0-master"
+            "version": "2.0.0-master+X.X"
           },
           "PhotoVoltaics_TGM": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.3.2",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0"
+            ],
             "path": "PhotoVoltaics_TGM",
             "uses": {
-              "Buildings": "6.0.0",
-              "Modelica": "3.2.3",
-              "PhotoVoltaics": "1.6.0"
+              "Buildings": "0.0.0-X.X.X",
+              "Modelica": "4.0.0",
+              "PhotoVoltaics": "2.0.0"
             },
-            "version": "1.6.0-master"
+            "version": "2.0.0-master+X.X"
           }
         },
-        "sha": "1e9ef91369f6b3dbbb53e06a5827ab87b7da958e"
+        "sha": "1b67780eceb3452460d4cfbc05f18fc9a998849e"
       },
       "v0.1.0": {
         "libs": {
@@ -7218,6 +7268,52 @@
           }
         },
         "sha": "d537eb1c72b7c4175d8d61881a7a3d4410ba7184"
+      },
+      "v2.0.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.3.2",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0"
+            ],
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.3.2",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0"
+            ],
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Modelica": "4.0.0",
+              "PhotoVoltaics": "2.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "ecc04b926187e5c1c3d8f699b433c2d590e1dd9b"
       }
     }
   },
@@ -9221,7 +9317,7 @@
             "version": "0.1.0-OM_adaptions"
           }
         },
-        "sha": "3f3258f583001affbff1e25423a3bf10dfa564ff"
+        "sha": "fda33fa9cb02491bac5f1d478d96553f9f6ac8ef"
       },
       "main": {
         "libs": {
@@ -9233,7 +9329,7 @@
             "version": "0.1.0-main"
           }
         },
-        "sha": "5d41aa6517b16410cbaeb46597419dcf6ebd5888"
+        "sha": "e5a8e5e02f492e7ce9577096cb4f692cfa0f4575"
       },
       "v0.1-beta": {
         "libs": {
@@ -9575,15 +9671,22 @@
       "master": {
         "libs": {
           "WindPowerPlants": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.1.1",
+              "1.2.0"
+            ],
             "path": "WindPowerPlants",
             "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
             },
-            "version": "1.0.0-master+X.X"
+            "version": "2.0.0-master+X.X"
           }
         },
-        "sha": "7ca8ec27a78ba2c63c9c3dcd7d9ece015a0df343"
+        "sha": "d9c1439868e8ad4bed2326dfe337fe91484dd43a"
       },
       "v0.9.0": {
         "libs": {
@@ -9753,6 +9856,26 @@
           }
         },
         "sha": "16ed423ec48fe159d0838fcb1cf42980ece278a5"
+      },
+      "v2.0.0": {
+        "libs": {
+          "WindPowerPlants": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.1.1",
+              "1.2.0"
+            ],
+            "path": "WindPowerPlants",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "47f7f74dd31984d97127ea4136215f8596d2eed8"
       }
     }
   },
