@@ -1225,7 +1225,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "5ed00f9d9b28353b6e33fb76cea9510e05e1eeb0"
+        "sha": "c0f0df6f8471a304c73767449b34cf3ee5b9351c"
       },
       "v1.4_build1": {
         "libs": {
@@ -9314,10 +9314,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "0.1.0-OM_adaptions"
+            "version": "0.2.0-OM_adaptions"
           }
         },
-        "sha": "fe0fd32047f3ce5c49cc2dafaa749ee3a120740b"
+        "sha": "f3b4dfa2de5ee982a055c9c255773561c70b81ad"
       },
       "main": {
         "libs": {
@@ -9326,10 +9326,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "0.1.0-main"
+            "version": "0.2.0-main"
           }
         },
-        "sha": "04dd3f85db95c27d053b7133b07129c138109295"
+        "sha": "f3b4dfa2de5ee982a055c9c255773561c70b81ad"
       },
       "v0.1-beta": {
         "libs": {
@@ -9341,7 +9341,7 @@
             "version": "0.1.0-beta"
           }
         },
-        "sha": "571b0f9488d230ad9f3d7b89132397ac6ef3b05c"
+        "sha": "553d18c3efd687f89492a42ea938e03d720a9c88"
       }
     }
   },
