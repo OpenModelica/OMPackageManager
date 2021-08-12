@@ -237,6 +237,8 @@ def main():
                 v1 = v2
               if len(v2.prerelease) > 0 and (len(v1.prerelease) == 0 or entry.get("semverPrereleaseOverridesAnnotation") or tagName in ["master", "main", "trunk"]):
                 v1.prerelease = v2.prerelease
+                if tagName in ["master", "main", "trunk"] and len(v2.build) == 0:
+                  v1.build = []
               if v1.major == v2.major and v1.minor == v2.minor and v1.patch == v2.patch and len(v1.prerelease) == 0 and len(v1.build) == 0:
                 version = str(v2)
               else:

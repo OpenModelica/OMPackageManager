@@ -938,19 +938,6 @@
         },
         "sha": "1683591805e8ccf5c2f58eb98bb29794b2710c3b"
       },
-      "v0.5.9": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.3"
-            },
-            "version": "0.5.9"
-          }
-        },
-        "sha": "225d5347fa0319d001aaceb2651e082f5557bdf1"
-      },
       "v0.6.0": {
         "libs": {
           "BrineProp": {
@@ -1840,10 +1827,6 @@
               "0.0.0"
             ],
             "uses": {
-              "DESLib": "1.0.0",
-              "DESLib73": "1.0.0",
-              "DEVSLib": "2.2.0",
-              "Interactive": "2.0.0",
               "Modelica": "2.2.1"
             },
             "version": "1.0.0"
@@ -3822,7 +3805,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.10.0-master+X"
+            "version": "0.10.0-master"
           }
         },
         "sha": "9337e64803f4fc798664ecafdf9b085fd31421f4"
@@ -3876,7 +3859,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "0.0.0+X.0"
+            "version": "0.3.0"
           }
         },
         "sha": "eb1241e7992d82461613e574edf0999c52795e05"
@@ -6206,7 +6189,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.1.0-Dev"
+            "version": "1.1.0-master"
           }
         },
         "sha": "14a178c837390a0411613f85b11372503ee067ea"
@@ -6843,7 +6826,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-master+X.X"
+            "version": "2.0.0-master"
           },
           "PhotoVoltaics_TGM": {
             "convertFromVersion": [
@@ -6865,7 +6848,7 @@
               "Modelica": "4.0.0",
               "PhotoVoltaics": "2.0.0"
             },
-            "version": "2.0.0-master+X.X"
+            "version": "2.0.0-master"
           }
         },
         "sha": "1b67780eceb3452460d4cfbc05f18fc9a998849e"
@@ -7782,129 +7765,6 @@
           }
         },
         "sha": "1aa14db426215d24b8ea6c2160c3a5f1b79cb9a7"
-      },
-      "v1.1.0": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-v1.1.mo",
-            "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
-            },
-            "version": "1.1.0"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.1.zip"
-      },
-      "v1.2.0": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-v1.2.mo",
-            "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
-            },
-            "version": "1.2.0"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.2.zip"
-      },
-      "v1.3.0": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-v1.3.mo",
-            "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
-            },
-            "version": "1.3.0"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.3.zip"
-      },
-      "v1.4.0": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-v1.4.mo",
-            "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
-            },
-            "version": "1.4.0"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-v1.4.zip"
-      },
-      "v2.0.0": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-2.0.0.mo",
-            "uses": {
-              "Complex": "4.0.0",
-              "Modelica": "4.0.0"
-            },
-            "version": "2.0.0"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.0.0.zip"
-      },
-      "v2.0.1": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-2.0.1.mo",
-            "version": "2.0.1"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.0.1.zip"
-      },
-      "v2.1.0": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-2.1.0.mo",
-            "uses": {
-              "Complex": "4.0.0",
-              "Modelica": "4.0.0"
-            },
-            "version": "2.1.0"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.0.zip"
-      },
-      "v2.1.1": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-2.1.1.mo",
-            "version": "2.1.1"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.1.zip"
-      },
-      "v2.1.2": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro-2.1.2.mo",
-            "version": "2.1.2"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.2.zip"
-      },
-      "v2.1.3": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro 2.1.3.mo",
-            "version": "2.1.3"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.3.zip"
-      },
-      "v2.1.4": {
-        "libs": {
-          "PowerSysPro": {
-            "path": "PowerSysPro 2.1.4.mo",
-            "version": "2.1.4"
-          }
-        },
-        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.1.4.zip"
       },
       "v2.1.5": {
         "libs": {
@@ -9046,7 +8906,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.6.0-ClaRa"
+            "version": "1.6.0-master"
           }
         },
         "sha": "71819cb23c8a8139bc759d9e8eda2421592820d5"
@@ -9235,22 +9095,6 @@
   },
   "ThermoSysPro": {
     "refs": {
-      "3.2.0": {
-        "libs": {
-          "ThermoSysPro": {
-            "path": "ThermoSysPro 3.2",
-            "provides": [
-              "0.0.0",
-              "3.1.0"
-            ],
-            "uses": {
-              "Modelica": "3.2.3"
-            },
-            "version": "3.2.0"
-          }
-        },
-        "zip": "https://build.openmodelica.org/libraries/ThermoSysPro/ThermoSysPro-3.2.zip"
-      },
       "master": {
         "libs": {
           "ThermoSysPro": {
@@ -9707,7 +9551,7 @@
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-master+X.X"
+            "version": "2.0.0-master"
           }
         },
         "sha": "d9c1439868e8ad4bed2326dfe337fe91484dd43a"
