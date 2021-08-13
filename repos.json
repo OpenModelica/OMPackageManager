@@ -1201,7 +1201,7 @@
   "TILMedia": {
     "names": ["TILMedia"],
     "github": "ClaRaLibrary/TILMedia",
-    "branches": {"master": "master"},
+    "branches": {"master": "ClaRa"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.4.1", "support"],

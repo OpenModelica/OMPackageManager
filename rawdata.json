@@ -8877,7 +8877,7 @@
   },
   "TILMedia": {
     "refs": {
-      "master": {
+      "ClaRa": {
         "libs": {
           "TILMedia": {
             "convertFromVersion": [
@@ -8906,7 +8906,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.6.0-master"
+            "version": "1.6.0-ClaRa"
           }
         },
         "sha": "71819cb23c8a8139bc759d9e8eda2421592820d5"
