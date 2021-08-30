@@ -938,6 +938,19 @@
         },
         "sha": "1683591805e8ccf5c2f58eb98bb29794b2710c3b"
       },
+      "v0.5.9": {
+        "libs": {
+          "BrineProp": {
+            "path": "BrineProp",
+            "uses": {
+              "DataFiles": "1.0.0",
+              "Modelica": "3.2.3"
+            },
+            "version": "0.5.9"
+          }
+        },
+        "sha": "225d5347fa0319d001aaceb2651e082f5557bdf1"
+      },
       "v0.6.0": {
         "libs": {
           "BrineProp": {
