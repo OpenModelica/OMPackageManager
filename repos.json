@@ -151,7 +151,7 @@
   "Buildings": {
     "names": ["Buildings"],
     "github": "lbl-srg/modelica-buildings",
-    "branches": {"master": "master"},
+    "branches": {"master": "master", "maint_7.0.x": "maint.7.0.x"},
     "support": [
       ["prerelease", "noSupport"],
       [">=5.1.0", "support"],
