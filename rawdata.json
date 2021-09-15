@@ -1212,6 +1212,24 @@
   },
   "Buildings": {
     "refs": {
+      "maint.7.0.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "6.0.0"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "7.0.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "7.0.1-maint.7.0.x"
+          }
+        },
+        "sha": "1b09d847bd3d1de9fa5e433867dccc04f7a1e2df"
+      },
       "master": {
         "libs": {
           "Buildings": {
