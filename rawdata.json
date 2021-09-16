@@ -3387,12 +3387,12 @@
           "HelmholtzMedia": {
             "path": "HelmholtzMedia",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "3b4a4bca94d388744b2d045344ea2f9b0b4d405b"
+        "sha": "f002ceeb40e9af108fc6732ac13b7aa280beb877"
       },
       "v0.5": {
         "libs": {
@@ -9231,7 +9231,7 @@
             "version": "0.2.0-OM_adaptions"
           }
         },
-        "sha": "a5fb0b92ed98a58911cb0327e9a013ffdb86fe29"
+        "sha": "491ef929a5add763b5793d36e0804d1f4d2c5fdb"
       },
       "main": {
         "libs": {
@@ -9243,7 +9243,7 @@
             "version": "0.2.0-main"
           }
         },
-        "sha": "a5fb0b92ed98a58911cb0327e9a013ffdb86fe29"
+        "sha": "491ef929a5add763b5793d36e0804d1f4d2c5fdb"
       },
       "v0.1-beta": {
         "libs": {
