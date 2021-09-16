@@ -1225,10 +1225,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "7.0.1-maint.7.0.x"
+            "version": "7.0.2-maint.7.0.x"
           }
         },
-        "sha": "1b09d847bd3d1de9fa5e433867dccc04f7a1e2df"
+        "sha": "983943166acf64b31fa0a5c4693c630272b9bfe3"
       },
       "master": {
         "libs": {
