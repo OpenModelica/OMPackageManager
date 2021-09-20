@@ -1182,7 +1182,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "c3070d48015ee75c1577f349cb388a498bef7270"
+        "sha": "0a7a8a926f282a4bb702892dea25ca270dd52121"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -1243,7 +1243,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "89bf74035bdea926701edef2c3dbf35f48b32680"
+        "sha": "31e5f9a25826eee4a10c9b0c8ab82cafae990e5b"
       },
       "v1.4_build1": {
         "libs": {
@@ -2416,10 +2416,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.0-master"
+            "version": "3.0.1-master"
           }
         },
-        "sha": "728a0e77782567cd30e11216d174ab3507f76a12"
+        "sha": "27ebcecfd6f0e61630d24a95258bca335bdfd688"
       },
       "v1.0.0": {
         "libs": {
@@ -2636,6 +2636,18 @@
           }
         },
         "sha": "728a0e77782567cd30e11216d174ab3507f76a12"
+      },
+      "v3.0.1": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.1"
+          }
+        },
+        "sha": "27ebcecfd6f0e61630d24a95258bca335bdfd688"
       }
     }
   },
@@ -3387,12 +3399,12 @@
           "HelmholtzMedia": {
             "path": "HelmholtzMedia",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "3.2.3"
             },
             "version": "master"
           }
         },
-        "sha": "f002ceeb40e9af108fc6732ac13b7aa280beb877"
+        "sha": "18ff552ace69672034af2bc8466afef6c374a98a"
       },
       "v0.5": {
         "libs": {
@@ -3713,6 +3725,21 @@
           }
         },
         "sha": "12b341fe9bd34058a07bde92375e0d77e40eb013"
+      },
+      "v2.2.1": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.2.1"
+          }
+        },
+        "sha": "32860eadbf59bee955993da936a8c5aeac2d90df"
       }
     }
   },
@@ -8073,7 +8100,7 @@
             "version": "master"
           }
         },
-        "sha": "53d9533be5a5b1ac060500ffd2facf86a1927a8f"
+        "sha": "de1c80be66254ec79ece749514f5b9f6fa136cdb"
       }
     }
   },
