@@ -50,6 +50,8 @@ pipeline {
         sh '''
         git update-index --refresh || true
         if ! ( git diff-index --quiet HEAD -- ); then
+          git config user.name "OpenModelica Jenkins"
+          git config user.email "openmodelicabuilds.ida@lists.liu.se"
           git commit -m "Updated libraries" rawdata.json
           git push github HEAD:master
         fi
