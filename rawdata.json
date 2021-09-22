@@ -2416,10 +2416,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.1-master"
+            "version": "3.0.2-master"
           }
         },
-        "sha": "27ebcecfd6f0e61630d24a95258bca335bdfd688"
+        "sha": "c36e55196f02a05bdda102b7b89b3660ab1e5a84"
       },
       "v1.0.0": {
         "libs": {
@@ -2648,6 +2648,18 @@
           }
         },
         "sha": "27ebcecfd6f0e61630d24a95258bca335bdfd688"
+      },
+      "v3.0.2": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.2"
+          }
+        },
+        "sha": "c36e55196f02a05bdda102b7b89b3660ab1e5a84"
       }
     }
   },
