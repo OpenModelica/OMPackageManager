@@ -1747,6 +1747,7 @@
               "1.2.1",
               "1.2.2",
               "1.2.3",
+              "1.3.0",
               "1.3.1",
               "1.4.0",
               "1.4.1",
@@ -1754,15 +1755,15 @@
             ],
             "path": "",
             "uses": {
-              "ClaRa_Obsolete": "1.6.0",
+              "ClaRa_Obsolete": "1.7.0",
               "Modelica": "4.0.0",
               "ObsoleteModelica4": "4.0.0",
-              "TILMedia": "1.6.0-ClaRa"
+              "TILMedia": "1.7.0-ClaRa"
             },
-            "version": "1.6.0-master"
+            "version": "1.7.0-master"
           }
         },
-        "sha": "9dea6247d68b3a640ae0ff66e1435fff7d72ac6b"
+        "sha": "83b514ec8f3e53bea00692355488decc4469984e"
       }
     }
   },
@@ -1783,14 +1784,14 @@
               "1.2.2"
             ],
             "uses": {
-              "ClaRa": "1.6.0",
+              "ClaRa": "1.7.0",
               "Modelica": "4.0.0",
-              "TILMedia": "1.6.0-ClaRa"
+              "TILMedia": "1.7.0-ClaRa"
             },
-            "version": "1.6.0-master"
+            "version": "1.7.0-master"
           }
         },
-        "sha": "8b5cb927bef08cc3ff2623ccc2d748df288ba00a"
+        "sha": "50369fc75386a4516edcee9f6f81f894f8a1d3fd"
       }
     }
   },
@@ -9018,10 +9019,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.6.0-ClaRa"
+            "version": "1.7.0-ClaRa"
           }
         },
-        "sha": "71819cb23c8a8139bc759d9e8eda2421592820d5"
+        "sha": "2526983ca6e7a5a9592d2de641400accd51f9702"
       }
     }
   },
@@ -9334,25 +9335,27 @@
               "0.3.0",
               "1.0.1",
               "1.1.0",
-              "1.2.0"
+              "1.2.0",
+              "1.3.0",
+              "1.3.1"
             ],
             "path": "",
             "uses": {
               "Buildings": "7.0.0",
-              "ClaRa": "1.5.1",
+              "ClaRa": "1.7.0",
               "DataFiles": "1.0.5",
               "Design": "1.0.7",
-              "DymolaCommands": "1.9.0",
-              "Modelica": "3.2.3",
-              "ModelicaReference": "3.2.3",
-              "Modelica_LinearSystems2": "2.3.5",
+              "DymolaCommands": "1.11.0",
+              "Modelica": "4.0.0",
+              "ModelicaReference": "4.0.0",
+              "Modelica_LinearSystems2": "2.4.0",
               "Modelica_StateGraph2": "2.0.4",
-              "TILMedia": "1.5.1-ClaRa"
+              "TILMedia": "1.7.0-ClaRa"
             },
-            "version": "1.3.1-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "a50ec059255f346c87bc18c056eeda406d5414f4"
+        "sha": "b78ec99c6bc8b01f763c2915c7108a39068dd372"
       }
     }
   },
