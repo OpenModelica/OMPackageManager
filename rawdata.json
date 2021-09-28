@@ -2420,7 +2420,7 @@
             "version": "3.0.3-master"
           }
         },
-        "sha": "61022b9300b0acbdf99790a3e069abbfd4eafb13"
+        "sha": "84007519841b29b533172d196e000aec78c0ec07"
       },
       "v1.0.0": {
         "libs": {
@@ -2661,6 +2661,18 @@
           }
         },
         "sha": "c36e55196f02a05bdda102b7b89b3660ab1e5a84"
+      },
+      "v3.0.3": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.3"
+          }
+        },
+        "sha": "84007519841b29b533172d196e000aec78c0ec07"
       }
     }
   },
@@ -8128,7 +8140,7 @@
             "version": "master"
           }
         },
-        "sha": "c49775419d63a05a0f49712322a9e9004567088c"
+        "sha": "569220c66ccdafc96fb28b25ec5b00085ba4f0bb"
       }
     }
   },
