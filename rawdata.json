@@ -9424,10 +9424,6 @@
           "VehicleInterfaces": {
             "convertFromVersion": [
               "1.0.0",
-              "1.2.5"
-            ],
-            "path": "VehicleInterfaces",
-            "provides": [
               "1.1.0",
               "1.1.1",
               "1.1.2",
@@ -9435,15 +9431,17 @@
               "1.2.1",
               "1.2.2",
               "1.2.3",
-              "1.2.4"
+              "1.2.4",
+              "1.2.5"
             ],
+            "path": "VehicleInterfaces",
             "uses": {
               "Modelica": "4.0.0"
             },
             "version": "2.0.0-master"
           }
         },
-        "sha": "7ca932be0e9ee2433a138f73fdec3738b8393cc0"
+        "sha": "5befd16af23c6f7f3dcd4ee44b2dd274cac0c4a1"
       },
       "v1.2.1": {
         "libs": {
