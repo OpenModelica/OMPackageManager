@@ -2682,13 +2682,10 @@
         "libs": {
           "ExternalLibrary": {
             "path": "ExternalLibrary",
-            "uses": {
-              "Modelica": "3.2.3"
-            },
             "version": "master"
           }
         },
-        "sha": "b0d303db4497aa2fa4b09a2414866ba7fa23ffc0"
+        "sha": "3d7ba9618c5e7a38e8adbb6e77287c34db8100f2"
       }
     }
   },
@@ -7748,7 +7745,7 @@
             "version": "1.5.0-master"
           }
         },
-        "sha": "70972244832ea289954f4170f9a88c4b7f5a6443"
+        "sha": "ac7f21d1cb95530f9520988fb09510266e137afb"
       },
       "v1.2.0": {
         "libs": {
@@ -8166,7 +8163,7 @@
             "version": "master"
           }
         },
-        "sha": "adafed5818e7adc5f25dcae41242e839b966b685"
+        "sha": "c641c7398ba0b4cb33dd9d39987278971454d19f"
       }
     }
   },
@@ -9324,7 +9321,7 @@
             "version": "0.2.0-OM_adaptions"
           }
         },
-        "sha": "491ef929a5add763b5793d36e0804d1f4d2c5fdb"
+        "sha": "205db4cd37c8b3c0ac331b313e1465aa76055ba1"
       },
       "main": {
         "libs": {
