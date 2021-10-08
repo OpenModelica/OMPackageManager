@@ -145,6 +145,7 @@ def main():
             raise Exception("Release build string looks like a pre-release: %s" % v)
         if tagName not in tagsDict:
           tagsDict[tagName] = {}
+        thisTagBackup = tagsDict[tagName]
         thisTag = tagsDict[tagName]
 
         entrykind = "zip" if ("zipfiles" in entry or sha.startswith("http")) else "sha"
@@ -270,7 +271,7 @@ def main():
             raise
           if len(provided) == 0:
             print("Broken for " + key + " " + tagName) # + ":" + errorString)
-            thisTag["broken"]=True
+            tagsDict[tagName] = thisTagBackup
             continue
           thisTag["libs"] = provided
           thisTag[entrykind] = sha
