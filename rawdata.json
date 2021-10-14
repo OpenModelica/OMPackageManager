@@ -8861,12 +8861,12 @@
           "SolarTherm": {
             "path": "SolarTherm",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "3.2.3"
             },
             "version": "0.2.0-master"
           }
         },
-        "sha": "91aae31d04f350d0a40a3297e226ab45d00b0ce9"
+        "sha": "9f0122cad4b5a5bb18010eb9d41b19cb75adb5a1"
       }
     }
   },
