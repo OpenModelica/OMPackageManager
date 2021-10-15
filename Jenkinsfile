@@ -41,8 +41,6 @@ pipeline {
     steps {
       sshagent (credentials: ['Hudson-SSH-Key']) {
         unstash 'files'
-        sh 'mkdir -p ~/.ssh/'
-        sh 'ssh-keyscan github.com >> ~/.ssh/known_hosts'
         sh '''
         git remote add github git@github.com:OpenModelica/OMPackageManager.git || true
         git remote set-url github git@github.com:OpenModelica/OMPackageManager.git
