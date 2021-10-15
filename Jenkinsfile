@@ -53,7 +53,7 @@ pipeline {
           git config user.name "OpenModelica Jenkins"
           git config user.email "openmodelicabuilds.ida@lists.liu.se"
           git commit -m "Updated libraries" rawdata.json
-          git push github HEAD:master
+          GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git push github HEAD:master
         fi
         '''
       }
