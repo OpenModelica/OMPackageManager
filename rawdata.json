@@ -1188,13 +1188,13 @@
           "BuildingSystems": {
             "path": "BuildingSystems",
             "uses": {
-              "Modelica": "3.2.3",
+              "Modelica": "4.0.0",
               "NcDataReader2": "2.5.0"
             },
             "version": "2.0.0-master"
           }
         },
-        "sha": "41c67bc971fd442b870346fd02a56f560290331e"
+        "sha": "3477caff1d3731eedbd97fad833a05b514b5b17f"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -9371,7 +9371,7 @@
             "version": "0.2.0-main"
           }
         },
-        "sha": "5261e83ced356f6a0865299dba745ce431f86386"
+        "sha": "46dbb7a258458edbb06cfd6f3b502e2ec2c987fb"
       },
       "v0.1-beta": {
         "libs": {
