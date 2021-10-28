@@ -112,7 +112,7 @@
             "version": "1.1.0-master"
           }
         },
-        "sha": "1f3e063b73170de616d21a2ea519bb0ffc44fcfc"
+        "sha": "3950313675777ada75dc92146de2d7a484ce56a6"
       },
       "v0.9.0": {
         "libs": {
@@ -163,6 +163,18 @@
           }
         },
         "sha": "3d5ee54b4086e5c29e7276a7b92d40a3237aed8c"
+      },
+      "v1.1.0": {
+        "libs": {
+          "AdvancedNoise": {
+            "path": "AdvancedNoise",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "1f3e063b73170de616d21a2ea519bb0ffc44fcfc"
       },
       "v1.1.0-alpha": {
         "libs": {
@@ -3685,7 +3697,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "f097916a0c1926ff5ffca7f75700e8b8a7426028"
+        "sha": "8a0d2372925b93c5c5aa536eb3afceee3a07bcb3"
       },
       "v2.0.0": {
         "libs": {
@@ -5723,7 +5735,7 @@
             "version": "2.4.1-master"
           }
         },
-        "sha": "2db5a37eef4ae669b6e35e5f03a51ca172b99750"
+        "sha": "00404dfe14920261c4a262221d94bd88f7f64192"
       },
       "v2.0": {
         "libs": {
