@@ -5735,6 +5735,32 @@
             "version": "2.4.1-master"
           }
         },
+        "sha": "e011d3bcc09c894ae47b13ea65367b6e9947d758"
+      },
+      "v.4.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "DymolaCommands": "1.11.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.4.1-.4.1"
+          }
+        },
         "sha": "00404dfe14920261c4a262221d94bd88f7f64192"
       },
       "v2.0": {
@@ -5994,6 +6020,32 @@
           }
         },
         "sha": "61a3f5869a4f62cabfa1a5ddf41524065e7e622b"
+      },
+      "v2.4.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "DymolaCommands": "1.11.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.4.1"
+          }
+        },
+        "sha": "00404dfe14920261c4a262221d94bd88f7f64192"
       },
       "v2.4.1-alpha": {
         "libs": {
