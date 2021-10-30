@@ -9270,12 +9270,12 @@
               "0.1.0"
             ],
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "3.2.3"
             },
             "version": "0.2.0-master"
           }
         },
-        "sha": "ffa0495ba829ecab105be4bfb3b7652625ec9c03"
+        "sha": "d52b8306b9439885c36ab037c7a84a7042fb7fbb"
       }
     }
   },
