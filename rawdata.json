@@ -1252,7 +1252,7 @@
             "version": "7.0.2-maint.7.0.x"
           }
         },
-        "sha": "db3342c3e43a1624b7bb38d5f293edd171c62273"
+        "sha": "120533708eafc65ac0fc585c124fee3c1eb7ec32"
       },
       "master": {
         "libs": {
@@ -9088,6 +9088,30 @@
           }
         },
         "sha": "cf70a30f21921164965f9e3ef15a4d54676fe888"
+      },
+      "v2.0.1": {
+        "libs": {
+          "TAeZoSysPro": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.1"
+          }
+        },
+        "sha": "69a8cab6073175f34efde96eb0014f712623bb5a"
+      },
+      "v2.0.2": {
+        "libs": {
+          "TAeZoSysPro": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2.0.2"
+          }
+        },
+        "sha": "2b8245025a48a3082e790a61866b51044a75d4ad"
       },
       "v3.1.0": {
         "libs": {
