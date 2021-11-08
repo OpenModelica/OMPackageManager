@@ -1254,6 +1254,21 @@
         },
         "sha": "dbeb0606b9368b21416e8710f4ce8658c8c39247"
       },
+      "maint.8.0.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.0.1-maint.8.0.x"
+          }
+        },
+        "sha": "17c72308acabb807ff69e75ca492a2301bc6bcac"
+      },
       "master": {
         "libs": {
           "Buildings": {
@@ -1267,7 +1282,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "55e5cbea334166de0fd62e6887678dd8b432df31"
+        "sha": "a17a9cc709512f8ecdda23a1420d4fb5f412804f"
       },
       "v1.4_build1": {
         "libs": {
