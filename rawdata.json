@@ -1206,7 +1206,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "2462869f59828a2ace4c49c56c31afd89848fb35"
+        "sha": "8a05412ccf91c24895583bba232dcceb54b40c83"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -1252,7 +1252,7 @@
             "version": "7.0.2-maint.7.0.x"
           }
         },
-        "sha": "dbeb0606b9368b21416e8710f4ce8658c8c39247"
+        "sha": "4c4e229325c30a47d2f202f183c04170404f9bf9"
       },
       "maint.8.0.x": {
         "libs": {
