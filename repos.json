@@ -848,7 +848,7 @@
   },
   "OpenHPL": {
     "names": ["OpenHPL"],
-    "github": "simulatino/OpenHPL",
+    "github": "OpenSimHub/OpenHPL",
     "ignore-tags": [],
     "support": [
       ["prerelease", "noSupport"],
