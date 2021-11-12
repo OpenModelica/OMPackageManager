@@ -2010,6 +2010,22 @@
       }
     }
   },
+  "DrivingCycles": {
+    "refs": {
+      "v0.1.0": {
+        "libs": {
+          "DrivingCycles": {
+            "path": "DrivingCycles",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "f188f942055fb1998a130309612115f9e95a4438"
+      }
+    }
+  },
   "DymolaCommands": {
     "refs": {
       "master": {

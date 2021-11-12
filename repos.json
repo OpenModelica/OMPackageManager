@@ -273,6 +273,16 @@
       ["*", "experimental"]
     ]
   },
+  "DrivingCycles": {
+    "names": ["DrivingCycles"],
+    "git": "https://gitlab.com/christiankral/DrivingCycles.git",
+    "zipfile": "https://gitlab.com/christiankral/DrivingCycles/-/archive/{0}/drivingcycles-{0}.zip",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ElectricalEnergyStorage": {
     "names": ["ElectricalEnergyStorage"],
     "github": "modelica-3rdparty/ElectricalEnergyStorage",
