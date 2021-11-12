@@ -182,6 +182,16 @@
       ["*", "obsolete"]
     ]
   },
+  "BusinessSimulation": {
+    "names": ["BusinessSimulation"],
+    "github": "bslMS/BusinessSimulation",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Chemical": {
     "names": ["Chemical"],
     "github": "MarekMatejak/Chemical",
@@ -251,6 +261,16 @@
     "github": "modelica-3rdparty/DESLib",
     "support": [
       ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "dhcSim": {
+    "names": ["dhcSim"],
+    "github": "mabachmann/dhcSim",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=5.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
