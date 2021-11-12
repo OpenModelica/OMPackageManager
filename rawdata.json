@@ -1621,6 +1621,34 @@
       }
     }
   },
+  "BusinessSimulation": {
+    "refs": {
+      "main": {
+        "libs": {
+          "BusinessSimulation": {
+            "path": "BusinessSimulation",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1-main"
+          }
+        },
+        "sha": "19a34c8e80613ef814e6c24552061e327ce5e9c1"
+      },
+      "v1.0.1": {
+        "libs": {
+          "BusinessSimulation": {
+            "path": "BusinessSimulation",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "19a34c8e80613ef814e6c24552061e327ce5e9c1"
+      }
+    }
+  },
   "Chemical": {
     "refs": {
       "master": {
@@ -5763,10 +5791,10 @@
               "DymolaCommands": "1.11.0",
               "Modelica": "4.0.0"
             },
-            "version": "2.4.1-master"
+            "version": "2.5.0-master"
           }
         },
-        "sha": "50e0ce19adb294c2bb3fafe5eca3f16bdab45dc2"
+        "sha": "e2030c091bc032b572fe40006d4c6f856b714acd"
       },
       "v.4.1": {
         "libs": {
@@ -10095,6 +10123,28 @@
           }
         },
         "sha": "4410a3224e1803565d57ff323c3bef5a4bfd6b4d"
+      }
+    }
+  },
+  "dhcSim": {
+    "refs": {
+      "main": {
+        "libs": {
+          "dhcSim": {
+            "path": "dhcSim",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "Buildings": "9.0.0",
+              "Modelica": "3.2.3",
+              "ModelicaServices": "3.2.3",
+              "dhcSim": "5.0.1"
+            },
+            "version": "1.0.0-main"
+          }
+        },
+        "sha": "2858c98d0a784930a461677e826335a5de7cbb38"
       }
     }
   },
