@@ -6155,6 +6155,33 @@
           }
         },
         "sha": "0846a599e9ab7db680b1ef0c9bbabd05c233060e"
+      },
+      "v3.0.0-dev": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.5.0"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "DymolaCommands": "1.11.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-dev"
+          }
+        },
+        "sha": "0ceea4fd87f01be9f5fd1fe4c75e2a12a7525e7b"
       }
     }
   },

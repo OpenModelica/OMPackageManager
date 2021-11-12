@@ -716,10 +716,10 @@
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
     "github": "modelica/Modelica_LinearSystems2",
-    "branches": {"master": "master"},
+    "branches": {"master": "master", "v3.0.0-dev": "v3.0.0-dev"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=2.3.4", "support"],
+      [">=3.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
