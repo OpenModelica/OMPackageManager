@@ -450,7 +450,6 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=0.2.6", "experimental"],
       ["*", "obsolete"]
     ]
   },
