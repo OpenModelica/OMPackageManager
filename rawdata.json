@@ -1252,7 +1252,7 @@
             "version": "7.0.2-maint.7.0.x"
           }
         },
-        "sha": "c1a259593ce532e498d0ae8da7b4ab5ca50227ad"
+        "sha": "2028eb2be09b9eeb6ae09d8186898e3884da2a69"
       },
       "maint.8.0.x": {
         "libs": {
@@ -1267,7 +1267,7 @@
             "version": "8.0.1-maint.8.0.x"
           }
         },
-        "sha": "aaadd0fad113def1e01a24faed23bae73de4932e"
+        "sha": "b94d5d9b373824a615d7694a9157b9678a84b5d7"
       },
       "master": {
         "libs": {
@@ -3756,7 +3756,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "6254e5e961012ed46f3c14741540be33852b6ad1"
+        "sha": "d6d5870300a6d345d377d5ea78ffa3f63263249e"
       },
       "v2.0.0": {
         "libs": {
@@ -8400,7 +8400,7 @@
             "version": "master"
           }
         },
-        "sha": "05c75c35f819642ab73bafcb251fbf7e65f7a6d7"
+        "sha": "af47e5687b4344a5e4bd5352d811b5f01c150ad2"
       }
     }
   },
@@ -9575,14 +9575,17 @@
       "OM_adaptions": {
         "libs": {
           "ThermofluidStream": {
+            "convertFromVersion": [
+              "0.2.1"
+            ],
             "path": "ThermofluidStream",
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "0.2.0-OM_adaptions"
+            "version": "0.3.0-OM_adaptions"
           }
         },
-        "sha": "5261e83ced356f6a0865299dba745ce431f86386"
+        "sha": "404936538ab15b692ae264aba8ed8e8993fd9592"
       },
       "main": {
         "libs": {
