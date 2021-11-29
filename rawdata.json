@@ -1282,7 +1282,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "19ec122bed4dec7939225408874bb607d5a60781"
+        "sha": "6ec5d55f8283b656f5f36c71feb4a9d9f95bd9c0"
       },
       "v1.4_build1": {
         "libs": {
@@ -3756,7 +3756,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "3c24c5ef9259dcf038d7b6b4b02e33d4ceda1d1a"
+        "sha": "8e60c9215fc49b55236781acb160135a7d434bea"
       },
       "v2.0.0": {
         "libs": {
@@ -3983,10 +3983,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.10.0-master"
+            "version": "0.11.0-master"
           }
         },
-        "sha": "9337e64803f4fc798664ecafdf9b085fd31421f4"
+        "sha": "e43d2f4f2ac44b6fb3780ee19acfb3835d90bbfc"
       },
       "v0.1.0": {
         "libs": {
@@ -4017,6 +4017,24 @@
           }
         },
         "sha": "c2b6168c2703412e320ae04d67eae2fe11879d77"
+      },
+      "v0.11.0": {
+        "libs": {
+          "KeyWordIO": {
+            "convertFromVersion": [
+              "0.6.0",
+              "0.7.0",
+              "0.8.0",
+              "0.9.0"
+            ],
+            "path": "KeyWordIO",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.11.0+X"
+          }
+        },
+        "sha": "e43d2f4f2ac44b6fb3780ee19acfb3835d90bbfc"
       },
       "v0.2.0": {
         "libs": {
@@ -8145,11 +8163,14 @@
       "master": {
         "libs": {
           "PowerSysPro": {
-            "path": "PowerSysPro 2.2.0.mo",
-            "version": "2.2.0-master"
+            "path": "PowerSysPro 2.3.0.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.0-master"
           }
         },
-        "sha": "1aa14db426215d24b8ea6c2160c3a5f1b79cb9a7"
+        "sha": "5e38e591cca7d15b56d4768ac13acd4c5fc7304f"
       },
       "v2.1.5": {
         "libs": {
@@ -8204,6 +8225,18 @@
           }
         },
         "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.2.0.zip"
+      },
+      "v2.3.0": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro 2.3.0.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.3.0.zip"
       }
     }
   },
