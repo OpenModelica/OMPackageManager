@@ -8183,14 +8183,14 @@
       "master": {
         "libs": {
           "PowerSysPro": {
-            "path": "PowerSysPro 2.3.0.mo",
+            "path": "PowerSysPro 2.3.1.mo",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.3.0-master"
+            "version": "2.3.1-master"
           }
         },
-        "sha": "5e38e591cca7d15b56d4768ac13acd4c5fc7304f"
+        "sha": "3c3de185302ff016146743369ba3d7afd88e7eea"
       },
       "v2.1.5": {
         "libs": {
@@ -8257,6 +8257,18 @@
           }
         },
         "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.3.0.zip"
+      },
+      "v2.3.1": {
+        "libs": {
+          "PowerSysPro": {
+            "path": "PowerSysPro 2.3.1.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.1"
+          }
+        },
+        "zip": "https://api.bitbucket.org/2.0/repositories/simulage/powersyspro/downloads/PowerSysPro-2.3.1.zip"
       }
     }
   },
@@ -9638,7 +9650,7 @@
             "version": "0.3.0-OM_adaptions"
           }
         },
-        "sha": "fa254cf5cdec9d3628289b69de6683fe09709751"
+        "sha": "953d22c01959cfefdb8737db039e4315e6de5adf"
       },
       "main": {
         "libs": {
