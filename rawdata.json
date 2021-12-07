@@ -1244,7 +1244,8 @@
             ],
             "path": "Buildings",
             "provides": [
-              "7.0.0"
+              "7.0.0",
+              "7.0.1"
             ],
             "uses": {
               "Modelica": "3.2.3"
@@ -1252,7 +1253,7 @@
             "version": "7.0.2-maint.7.0.x"
           }
         },
-        "sha": "2afa252718aa8beabe9fcde8bbb884635ddfa16e"
+        "sha": "26e453271903b8e8c35f60d8a62a1d28711d83d6"
       },
       "maint.8.0.x": {
         "libs": {
@@ -8477,7 +8478,7 @@
             "version": "master"
           }
         },
-        "sha": "683a846b9a80f452e4192d0d2c2c218b2b1e74e4"
+        "sha": "b23f7ef7b7dff35f9a089f95b72f34eab0399e9c"
       }
     }
   },
