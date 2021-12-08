@@ -1270,6 +1270,21 @@
         },
         "sha": "be293151ee241baa5f2dae192d75811c02b69fa0"
       },
+      "maint.8.1.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.1.0-maint.8.1.x"
+          }
+        },
+        "sha": "71f5f0fc0896d6f1a7832c802fe2951e69961ddb"
+      },
       "master": {
         "libs": {
           "Buildings": {
