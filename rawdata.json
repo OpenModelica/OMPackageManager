@@ -1274,7 +1274,8 @@
         "libs": {
           "Buildings": {
             "convertFromVersion": [
-              "7.0.0"
+              "7.0.0",
+              "7.0.1"
             ],
             "path": "Buildings",
             "uses": {
@@ -1283,7 +1284,7 @@
             "version": "8.1.0-maint.8.1.x"
           }
         },
-        "sha": "71f5f0fc0896d6f1a7832c802fe2951e69961ddb"
+        "sha": "85a892cea865f90ae5c45f55b58a323c2b9f3127"
       },
       "master": {
         "libs": {
