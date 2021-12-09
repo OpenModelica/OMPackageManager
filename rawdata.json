@@ -1284,7 +1284,7 @@
             "version": "8.1.0-maint.8.1.x"
           }
         },
-        "sha": "85a892cea865f90ae5c45f55b58a323c2b9f3127"
+        "sha": "8a5db0ce3a7c54803e0abc2c01b28f7c18e81b09"
       },
       "master": {
         "libs": {
@@ -1299,7 +1299,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "f1230bd5d4ba565b07e173ad398e68d6e1884384"
+        "sha": "2ed87c0439057aa56a93aefae43d13fdc1947ac8"
       },
       "v1.4_build1": {
         "libs": {
@@ -1621,6 +1621,25 @@
         },
         "sha": "b09ef282fd5671fb866166e99fa94f05f7b8c65c"
       },
+      "v7.0.2": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "6.0.0"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "7.0.0",
+              "7.0.1"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "7.0.2"
+          }
+        },
+        "sha": "3d0f7d1a9cd14ba54985f024733b27b024774193"
+      },
       "v8.0.0": {
         "libs": {
           "Buildings": {
@@ -1635,6 +1654,22 @@
           }
         },
         "sha": "5fa0bed0caa0f27b8ebfa20c1a39e22cdd0f5008"
+      },
+      "v8.1.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0",
+              "7.0.1"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.1.0"
+          }
+        },
+        "sha": "8a5db0ce3a7c54803e0abc2c01b28f7c18e81b09"
       }
     }
   },
@@ -8009,7 +8044,7 @@
             "version": "1.5.1-master"
           }
         },
-        "sha": "68909c6f561d32d9416c3bd7c798296c844e002e"
+        "sha": "02518bb0f3034f3ac9a8ff794cf477b79dc6984e"
       },
       "v1.2.0": {
         "libs": {
