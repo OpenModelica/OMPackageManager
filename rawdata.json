@@ -9711,10 +9711,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "0.3.0-OM_adaptions"
+            "version": "0.3.1-OM_adaptions"
           }
         },
-        "sha": "953d22c01959cfefdb8737db039e4315e6de5adf"
+        "sha": "c8ceaecfe4e3b7732eb7219b7548dd99bc3d303e"
       },
       "main": {
         "libs": {
@@ -9726,10 +9726,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "0.3.0-main"
+            "version": "0.3.1-main"
           }
         },
-        "sha": "a32fbba98f9df6038c7022526ce0b836ab2a2581"
+        "sha": "c8ceaecfe4e3b7732eb7219b7548dd99bc3d303e"
       },
       "v0.1-beta": {
         "libs": {
