@@ -1278,19 +1278,24 @@
               "7.0.1"
             ],
             "path": "Buildings",
+            "provides": [
+              "8.0.0",
+              "8.1.0"
+            ],
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "8.1.0-maint.8.1.x"
+            "version": "8.1.1-maint.8.1.x"
           }
         },
-        "sha": "8a5db0ce3a7c54803e0abc2c01b28f7c18e81b09"
+        "sha": "ec4b0dfe5ecd327ce2a7d3aa5a296c9b341b03ce"
       },
       "master": {
         "libs": {
           "Buildings": {
             "convertFromVersion": [
-              "8.0.0"
+              "8.0.0",
+              "8.1.0"
             ],
             "path": "Buildings",
             "uses": {
@@ -1299,7 +1304,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "2ed87c0439057aa56a93aefae43d13fdc1947ac8"
+        "sha": "9bfaaf3d913e904fc67badad35bd39db1e72cb98"
       },
       "v1.4_build1": {
         "libs": {
