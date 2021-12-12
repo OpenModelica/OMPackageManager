@@ -566,6 +566,51 @@
       }
     }
   },
+  "BLDC": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "BLDC": {
+            "path": "BLDC.mo",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "7703a4529827b2c6efc59cc6d0c0c62e59a5eb82"
+      },
+      "v1.2.0": {
+        "libs": {
+          "BLDC": {
+            "path": "BLDC",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "cbe93e7a5d34487634f342ea9814f3f60ac55bf1"
+      },
+      "v1.3.0": {
+        "libs": {
+          "BLDC": {
+            "path": "BLDC",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "sha": "4da6e676076510286c6798d8a4c68f9a89e8702c"
+      }
+    }
+  },
   "BioChem": {
     "refs": {
       "master": {
