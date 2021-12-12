@@ -101,7 +101,7 @@
   },
   "BLDC": {
     "names": ["BLDC"],
-    "github": "https://github.com/AHaumer/BLDC",
+    "github": "AHaumer/BLDC",
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
