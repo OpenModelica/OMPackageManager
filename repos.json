@@ -99,6 +99,14 @@
       ["*", "obsolete"]
     ]
   },
+  "BLDC": {
+    "names": ["BLDC"],
+    "github": "https://github.com/AHaumer/BLDC",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "BioChem": {
     "names": ["BioChem"],
     "github": "OpenModelica/BioChem",
