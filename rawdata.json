@@ -1373,12 +1373,12 @@
             ],
             "path": "Buildings",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "9.0.0-master"
           }
         },
-        "sha": "9bfaaf3d913e904fc67badad35bd39db1e72cb98"
+        "sha": "d9c52e3ba2acf8ab104968f76a2cac578cb84a84"
       },
       "v1.4_build1": {
         "libs": {
