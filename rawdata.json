@@ -1279,7 +1279,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "63c22113dfa5593941914bc60b197ae3db67123e"
+        "sha": "c2b7cd38e45d2fc206fd43c7cc9fe4fa4927b3e7"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -9793,7 +9793,7 @@
             "version": "0.3.1-OM_adaptions"
           }
         },
-        "sha": "c8ceaecfe4e3b7732eb7219b7548dd99bc3d303e"
+        "sha": "3e2fc7841fa8118c80016419cbb2e9bc79927420"
       },
       "main": {
         "libs": {
@@ -9808,7 +9808,7 @@
             "version": "0.3.1-main"
           }
         },
-        "sha": "c8ceaecfe4e3b7732eb7219b7548dd99bc3d303e"
+        "sha": "3e2fc7841fa8118c80016419cbb2e9bc79927420"
       },
       "v0.1-beta": {
         "libs": {
