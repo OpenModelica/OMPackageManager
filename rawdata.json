@@ -3908,12 +3908,12 @@
             ],
             "path": "IBPSA",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "3.0.0-master"
           }
         },
-        "sha": "007e68f75214636261a6b175a701723fd3d7b4f4"
+        "sha": "35e473ea186902defc585d77b8e2959d704a0a60"
       },
       "v2.0.0": {
         "libs": {
