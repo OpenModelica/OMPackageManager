@@ -650,6 +650,20 @@
           }
         },
         "sha": "0196b5bdf37f08f1e94864c95283f1e298a80a06"
+      },
+      "v1.9.0": {
+        "libs": {
+          "BLDC": {
+            "path": "BLDC",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "1.9.0"
+          }
+        },
+        "sha": "485efe8c9c0ac8d7e06edd146479f58564765d24"
       }
     }
   },
