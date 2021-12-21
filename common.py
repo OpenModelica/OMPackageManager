@@ -20,6 +20,8 @@ def findMatchingLevel(s, levels):
     return
   for level in levels:
     matched = False
+    if level[0].startswith("+") and len(vn.build)>0 and level[0][1:] == ".".join(vn.build):
+      return level[1]
     if level[0] == "prerelease" and len(vn.prerelease)>0:
       return level[1]
     elif level[0] == "*":

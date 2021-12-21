@@ -3,6 +3,86 @@
 import json
 import common
 
+class MissingUses(Exception):
+  pass
+class DuplicateVersions(Exception):
+  pass
+
+def onlyVersioninSemVer(ver):
+  ver.prerelease = []
+  ver.build = []
+  return ver
+
+def onlyMainVersion(ver):
+  v = common.VersionNumber(ver)
+  return "%d.%d.%d" % (v.major, v.minor, v.patch)
+
+def allProvidesAndVersion(lib):
+  res = set()
+  for provides in lib.get('provides',[]):
+    res.add(onlyMainVersion(provides))
+  res.add(onlyMainVersion(lib['version']))
+  return res
+
+def checkProvides2(worklist, visited, origLibName, origVisited, indexdata):
+  while worklist:
+    (libName, lib) = worklist.pop()
+    wasVisited = False
+    for (name, myset) in visited:
+      if libName == name:
+        if origLibName == name:
+          origVisited.add(onlyMainVersion(lib['version']))
+        if onlyMainVersion(lib['version']) not in myset:
+          raise DuplicateVersions("%s needs to load both version %s and %s. Visited nodes:\n%s" % (libName, lib['version'], myset, visited))
+        wasVisited = True
+        break
+    if wasVisited:
+      continue
+    visited += [(libName, allProvidesAndVersion(lib))]
+    uses = lib.get('uses',{})
+    for usesName in uses.keys():
+      usesVersion = uses[usesName]
+      usesVersions = indexdata["libs"][usesName]["versions"].values()
+      versionsThatProvideTheUses = [v for v in usesVersions if usesVersion in v.get('provides',[]) or onlyVersioninSemVer(common.VersionNumber(usesVersion)) == onlyVersioninSemVer(common.VersionNumber(v['version']))]
+      if len(versionsThatProvideTheUses) == 1:
+        worklist += [((usesName,versionsThatProvideTheUses[0]))]
+      elif not versionsThatProvideTheUses:
+        allVersions = set()
+        for v in usesVersions:
+          allVersions = allVersions.union(allProvidesAndVersion(v))
+        raise MissingUses("%s %s depends on %s %s that does not exist. Existing versions: %s" % (libName,lib["version"],usesName,usesVersion,allVersions))
+      else:
+        lst = []
+        for ver in versionsThatProvideTheUses:
+          try:
+            res = checkProvides2(worklist.copy() + [(usesName,ver)], visited.copy(), origLibName, origVisited.copy(), indexdata)
+            lst += [res]
+          except DuplicateVersions:
+            pass
+          except MissingUses:
+            pass
+        if not lst:
+          raise MissingUses("%d/%d provides worked for %s: %s with visited %s" % (len(lst),len(versionsThatProvideTheUses),usesName,[v["version"] for v in versionsThatProvideTheUses],visited))
+        noConflict = False
+        for l in lst:
+          if not l:
+            noConflict = True
+        if noConflict:
+          continue
+        for l in lst:
+          origVisited = origVisited.union(l)
+  return origVisited
+
+def checkProvides(libName, lib, indexdata):
+  worklist=[(libName, lib)]
+  visited=[]
+  origVisited = set()
+  origVisited = checkProvides2(worklist, visited, libName, origVisited, indexdata)
+  if origVisited:
+    print("Found cycle. Changing provides to convertFromVersion: %s %s %s" % (libName,lib['version'],origVisited))
+    lib['convertFromVersion'] = lib.get("convertFromVersion",[]) + lib['provides']
+    del lib['provides']
+
 def main():
   repos = json.load(open("repos.json"))
   rawdata = json.load(open("rawdata.json"))
@@ -59,6 +139,16 @@ def main():
         libdict[lib['version']] = entry
         # print(entry)
     # for lib in data["libs"].keys():
+  
+  for libName in indexdata["libs"].keys():
+    versions = indexdata["libs"][libName]["versions"]
+    for version in versions.keys():
+      lib = versions[version]
+      if 'provides' in lib:
+        try:
+          checkProvides(libName, lib, indexdata)
+        except MissingUses:
+          pass
 
   with open("index.json","w") as io:
     json.dump(indexdata, io, sort_keys=True, indent=0)

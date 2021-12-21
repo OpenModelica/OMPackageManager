@@ -683,6 +683,7 @@
       ["*", "latest"]
     ],
     "support": [
+      ["+default.modelica.association", "noSupport"],
       ["prerelease", "noSupport"],
       [">=4.0.0", "fullSupport"],
       [">=3.2.3", "fullSupport"],
