@@ -790,7 +790,6 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=0.93.0", "support"],
       ["*", "obsolete"]
     ]
   },
