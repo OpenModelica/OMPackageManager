@@ -34,7 +34,7 @@ def allbranches(gitrepo):
 def getgitrepo(url, repopath):
   if os.path.exists(repopath):
     gitrepo = pygit2.Repository(repopath)
-    if len(gitrepo.remotes) != 1:
+    if len(gitrepo.remotes) != 1 or gitrepo.remotes[0].url != url:
       removerepo(url, repopath)
     else:
       gitrepo.remotes[0].fetch()
