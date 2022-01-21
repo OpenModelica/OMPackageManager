@@ -136,7 +136,7 @@
   },
   "BrineProp": {
     "names": ["BrineProp"],
-    "git": "https://gitext.gfz-potsdam.de/francke/BrineProp.git",
+    "git": "https://git.gfz-potsdam.de/francke/BrineProp.git",
     "semverTagOverridesAnnotation": true,
     "zipfile": "https://gitext.gfz-potsdam.de/francke/BrineProp/-/archive/{0}/BrineProp-{0}.zip",
     "support": [
