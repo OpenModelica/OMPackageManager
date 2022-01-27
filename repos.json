@@ -1243,7 +1243,7 @@
   },
   "TILMedia": {
     "names": ["TILMedia"],
-    "github": "TLK-Thermo/TILMedia",
+    "github": "TLK-Thermo/TILMediaClaRa",
     "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
