@@ -4679,7 +4679,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "d10c57a27ed9cd5edc83506999376ce7708eb4e4"
+        "sha": "7702546f99bdc725eb292ff0f752df0a0aa2a006"
       },
       "trunk": {
         "libs": {
@@ -4752,7 +4752,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "c7a30b6a47447cd500474b7cd6c4ddd5275c578e"
+        "sha": "0489d84e5d782b0b9af7371409279499450a06f2"
       },
       "v1.3.1": {
         "libs": {
@@ -5976,7 +5976,8 @@
               "2.3.3",
               "2.3.4",
               "2.3.5",
-              "2.4.0"
+              "2.4.0",
+              "2.4.1"
             ],
             "path": "Modelica_LinearSystems2",
             "uses": {
@@ -5986,7 +5987,7 @@
             "version": "2.5.0-master"
           }
         },
-        "sha": "4143156b0cdefdc65a3c203c7d0f129e493ac656"
+        "sha": "d09d8a903da105f36a272c8bfb08556cb3940cdc"
       },
       "v.4.1": {
         "libs": {
