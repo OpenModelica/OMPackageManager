@@ -1302,12 +1302,12 @@
             "path": "BuildingSystems",
             "uses": {
               "Modelica": "4.0.0",
-              "NcDataReader2": "2.5.0"
+              "NcDataReader2": "2.5.1"
             },
             "version": "2.0.0-master"
           }
         },
-        "sha": "e48276e86955b4a6e46bf984f867281ee0216868"
+        "sha": "4e1a7b1e9663a9c1815aa46464fcd3f801a76eef"
       },
       "v2.0.0-beta": {
         "libs": {
