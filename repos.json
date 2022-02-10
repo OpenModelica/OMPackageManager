@@ -847,6 +847,7 @@
   "NcDataReader2": {
     "names": ["NcDataReader2"],
     "github": "modelica-3rdparty/netCDF-DataReader",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=2.5.0", "experimental"],
