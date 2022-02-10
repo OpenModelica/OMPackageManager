@@ -6693,6 +6693,18 @@
   },
   "NcDataReader2": {
     "refs": {
+      "master": {
+        "libs": {
+          "NcDataReader2": {
+            "path": "NcDataReader2",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.5.1-master"
+          }
+        },
+        "sha": "1cf93e5b70cc591a36706d2114e0835c8e43dc7a"
+      },
       "v2.4.0": {
         "libs": {
           "NcDataReader2": {
