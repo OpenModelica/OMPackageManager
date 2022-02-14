@@ -1119,7 +1119,7 @@
             "version": "3.4.0-master"
           }
         },
-        "sha": "ba53f7e34e7bd5e717b7419076ffedb4619fed2a"
+        "sha": "00db135f69e9f174e40b0988bee304553a9701fb"
       },
       "v2.0.0": {
         "libs": {
@@ -2189,7 +2189,24 @@
             "version": "1.2.0-master"
           }
         },
-        "sha": "04573cd6839ca67382cc0b46be0032201a143e2d"
+        "sha": "eb5e1dd6445e9e72950764deb8cb7c77a57f54a3"
+      },
+      "v1.0.0": {
+        "libs": {
+          "DisHeatLib": {
+            "path": "DisHeatLib",
+            "provides": [
+              "1.1.0"
+            ],
+            "uses": {
+              "Buildings": "8.0.0",
+              "IBPSA": "3.0.0",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "eb5e1dd6445e9e72950764deb8cb7c77a57f54a3"
       }
     }
   },
