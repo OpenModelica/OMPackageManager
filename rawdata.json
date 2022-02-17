@@ -2980,14 +2980,14 @@
       "master": {
         "libs": {
           "ExternalMedia": {
-            "path": "Modelica/ExternalMedia 3.3.0",
+            "path": "Modelica/ExternalMedia 3.3.1",
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "3.3.0-master"
+            "version": "3.3.1-master"
           }
         },
-        "sha": "6138312c96142ff3c01190147e6277991bfa2fca"
+        "sha": "9189347f894593bee0e467ba5e0edd2cebd1e9f9"
       },
       "v3.2.1": {
         "libs": {
@@ -3012,6 +3012,18 @@
           }
         },
         "sha": "0f5f0fc74f48f083a6a54e3ec00eda70246fcb81"
+      },
+      "v3.3.1": {
+        "libs": {
+          "ExternalMedia": {
+            "path": "Modelica/ExternalMedia 3.3.1",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.3.1"
+          }
+        },
+        "sha": "9189347f894593bee0e467ba5e0edd2cebd1e9f9"
       }
     }
   },
