@@ -1110,16 +1110,16 @@
         "libs": {
           "BuildSysPro": {
             "convertFromVersion": [
-              "3.3.0"
+              "3.5.0"
             ],
             "path": "BuildSysPro",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "3.4.0-master"
+            "version": "3.5.0-master"
           }
         },
-        "sha": "5a20806fbe128c22d2b514b368422e9e8691bfa5"
+        "sha": "04b19e9b3d5a2041c676d3485f51ede23eab57fd"
       },
       "v2.0.0": {
         "libs": {
@@ -1421,7 +1421,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "10461ed010c1f1efecd009317b4759d8ddd376b0"
+        "sha": "5a1448ed443dc86a2b48a93ba11048e129bd8b24"
       },
       "v1.4_build1": {
         "libs": {
