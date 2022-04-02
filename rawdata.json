@@ -4075,6 +4075,21 @@
           }
         },
         "sha": "32860eadbf59bee955993da936a8c5aeac2d90df"
+      },
+      "v2.2.2": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.2.2"
+          }
+        },
+        "sha": "4f415997929ec53138d9637b0426ae49e1cdf27b"
       }
     }
   },
