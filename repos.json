@@ -573,7 +573,7 @@
     "ignore-tags": ["_LinearisationPaper", "v0.3.0"],
     "support": [
       ["prerelease", "noSupport"],
-      [">=2.1.0", "support"],
+      [">=2.1.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
