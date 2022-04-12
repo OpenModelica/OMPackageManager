@@ -136,9 +136,9 @@
   },
   "BrineProp": {
     "names": ["BrineProp"],
-    "git": "https://gitext.gfz-potsdam.de/francke/BrineProp.git",
+    "git": "https://git.gfz-potsdam.de/francke/BrineProp.git",
     "semverTagOverridesAnnotation": true,
-    "zipfile": "https://gitext.gfz-potsdam.de/francke/BrineProp/-/archive/{0}/BrineProp-{0}.zip",
+    "zipfile": "https://git.gfz-potsdam.de/francke/BrineProp/-/archive/{0}/BrineProp-{0}.zip",
     "support": [
       ["prerelease", "noSupport"],
       [">=0.5.4", "experimental"],
@@ -847,6 +847,7 @@
   "NcDataReader2": {
     "names": ["NcDataReader2"],
     "github": "modelica-3rdparty/netCDF-DataReader",
+    "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
       [">=2.5.0", "experimental"],
@@ -1243,11 +1244,11 @@
   },
   "TILMedia": {
     "names": ["TILMedia"],
-    "github": "ClaRaLibrary/TILMedia",
-    "branches": {"master": "ClaRa"},
+    "github": "TLK-Thermo/TILMediaClaRa",
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.4.1", "support"],
+      [">=1.7.0", "support"],
       ["*", "obsolete"]
     ]
   },
