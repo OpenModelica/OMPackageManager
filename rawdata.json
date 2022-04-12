@@ -4016,6 +4016,22 @@
         },
         "sha": "7bd93fe1e126f1ab2967fc403cd86006383a9c3c"
       },
+      "master": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0",
+              "2.2.1"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-master"
+          }
+        },
+        "sha": "33e6d0122a480349f208febfad0fb61eb0682ff9"
+      },
       "v1.0.0": {
         "libs": {
           "IDEAS": {
