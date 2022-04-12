@@ -570,6 +570,7 @@
   "IDEAS": {
     "names": ["IDEAS"],
     "github": "open-ideas/IDEAS",
+    "branches": {"master": "master"},
     "ignore-tags": ["_LinearisationPaper", "v0.3.0"],
     "support": [
       ["prerelease", "noSupport"],
