@@ -7,25 +7,26 @@ is available both via API calls in the interactive environment, and via the OMEd
 
 ## Configuration of the Package Manager server
 
-The database of managed libraries is kept in the [repos.json](https://github.com/OpenModelica/OMPackageManager/blob/master/repos.json)
-file, which is edited manually. If you want to add your own open-source library to the OpenModelica package manager,
-please fork the OMPackageManager repository, add you library to the `repos.json` database and open a pull request.
+The database of managed libraries is kept in the [repos.json](repos.json) file, which is edited manually. If you want to add
+your own open-source library to the OpenModelica package manager, please fork the OMPackageManager repository, add you library
+to the [repos.json](repos.json) database and open a pull request, or request us to do it for you by opening a request on the
+[OpenModelica issue tracker](https://github.com/OpenModelica/OpenModelica/issues/new/choose).
 
 Starting from this information, the `updateinfo.py` script queries the repositories where the libraries are stored and
-generates an up-to-date `rawdata.json` file. This script is run on OSMC's servers multiple times a day to keep it up to date
+generates an up-to-date [rawdata.json](rawdata.json) file. This script is run on OSMC's servers multiple times a day to keep it up to date
 with library developments. Note that the query includes advanced Modelica-specific features, e.g. determining dependencies
 via the `uses` annotations, and determining backwards compatibility among versions via the `conversion` annotations.
-The `genindex.py` script is then run to generate the [index.json](https://github.com/OpenModelica/OMPackageManager/blob/master/repos.json)
-database, which is queried by OMC clients to update the local package database.
+The `genindex.py` script is then run to generate the `index.json` database, which is queried by OMC clients to
+update the local package database.
 
 The package manager preferably refers to official library releases, which are fetched automatically from the GitHub
-server without the need of naming them explicitly in the [repos.json](https://github.com/OpenModelica/OMPackageManager/blob/master/repos.json)
-file; whenever a new version of a library is released, the [repos.json](https://github.com/OpenModelica/OMPackageManager/blob/master/repos.json)
+server without the need of naming them explicitly in the [repos.json](repos.json)
+file; whenever a new version of a library is released, the [repos.json](repos.json)
 is automatically updated to make it available. However, it is also possible to manage versions of the library that are located on specific named
 branches, e.g. master or maintenance branches. This is useful if you want to track development versions or you want to get the latest fixes
 before the official release.
 
-For each library, the `repos.json` database contains several pieces of information:
+For each library, the [repos.json](repos.json) database contains several pieces of information:
 - the name of the library(es) (`names` field); it is possible to collect a set of libraries that are found in the same GIT repository
   e.g. Modelica, ModelicaReference, ModelicaServices, Complex, ModelicaTest
 - the location of the GIT repository on GitHub (`github` field), or the git URL in case other servers are used (`git` field)
