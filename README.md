@@ -1,7 +1,7 @@
 # OpenModelica Package Manager
 
 OpenModelica comes with an integrated Modelica package manager to handle the installation and updates of publicly
-available open-source libraries. The rationale and use of the package mananager is discussed in the
+available open-source libraries, which are hosted on GIT repositories. The rationale and use of the package mananager is discussed in the
 [User's Guide](https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/packagemanager.html). The package manager
 is available both via API calls in the interactive environment, and via the OMEdit GUI using the _File | Manage Libraries_ menu.
 
@@ -22,8 +22,9 @@ are located on specific named branches, e.g. master or maintenance branches. Thi
 versions or you want to get the latest fixes before the official release.
 
 For each library, the `config.json` database contains several pieces of information:
-- the name of the library (`names` field)
-- the location of the repository on GitHub (`github` field), or the git URL in case other servers are used (`git` field)
+- the name of the library(es) (`names` field); it is possible to collect a set of libraries that are found in the same GIT repository
+  e.g. Modelica, ModelicaReference, ModelicaServices, Complex, ModelicaTest
+- the location of the GIT repository on GitHub (`github` field), or the git URL in case other servers are used (`git` field)
 - optional branches to be managed besides the official releases (`branches` field)
 - optional tags to be ignored, if one wants to avoid them to be considered by the package manager (`ignore-tags` field)
 - the level of support in OpenModelica of the various versions of the library.
