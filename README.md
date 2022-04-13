@@ -28,6 +28,7 @@ For each library, the `config.json` database contains several pieces of informat
 - optional tags to be ignored, if one wants to avoid them to be considered by the package manager (`ignore-tags` field)
 - the level of support in OpenModelica of the various versions of the library.
 
+## Library support levels in OpenModelica
 There are five levels of support:
 - `fullSupport`: The library is fully supported by OpenModelica, with over 95% runnable models in the library simulating correctly
 - `partialSupport`: The library is partially supported by OpenModelica; most models and features work correctly, but some still don't
