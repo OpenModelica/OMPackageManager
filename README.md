@@ -5,6 +5,8 @@ available open-source libraries, which are hosted on GIT repositories. The ratio
 [User's Guide](https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/packagemanager.html). The package manager
 is available both via API calls in the interactive environment, and via the OMEdit GUI using the _File | Manage Libraries_ menu.
 
+## Configuration of the Package Manager server
+
 The database of managed libraries is kept in the [repos.json](https://github.com/OpenModelica/OMPackageManager/blob/master/repos.json)
 file, which is edited manually. If you want to add your own open-source library to the OpenModelica package manager,
 please fork the OMPackageManager repository, add you library to the `repos.json` database and open a pull request.
