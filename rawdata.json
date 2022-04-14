@@ -3601,10 +3601,10 @@
               "Complex": "3.2.3",
               "Modelica": "3.2.3"
             },
-            "version": "1.1.1-master"
+            "version": "1.1.2-master"
           }
         },
-        "sha": "f2181bfcd51e943deb6a3b23b166df638f483990"
+        "sha": "13a7056f20a5fa1253d0549fcd18f97b5e00d001"
       },
       "v0.10.0": {
         "libs": {
@@ -3709,6 +3709,19 @@
           }
         },
         "sha": "f2181bfcd51e943deb6a3b23b166df638f483990"
+      },
+      "v1.1.2": {
+        "libs": {
+          "HanserModelica": {
+            "path": "HanserModelica",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3"
+            },
+            "version": "1.1.2"
+          }
+        },
+        "sha": "13a7056f20a5fa1253d0549fcd18f97b5e00d001"
       }
     }
   },
