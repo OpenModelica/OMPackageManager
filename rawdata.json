@@ -4043,7 +4043,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "ad502f4f1d4160ddad6492036f3766362cedf49a"
+        "sha": "0117cee26703fda1e033a6dc84d4eed271f4a268"
       },
       "v1.0.0": {
         "libs": {
@@ -8705,6 +8705,18 @@
           }
         },
         "sha": "c3afa1c8313e6c574c165b1a86a5780624221080"
+      },
+      "2022.05.02": {
+        "libs": {
+          "PropulsionSystem": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "2022.5.2"
+          }
+        },
+        "sha": "880fe2176f8d547718dd5aa89fcf2d4b9cbbab39"
       },
       "Stable20200709": {
         "libs": {
