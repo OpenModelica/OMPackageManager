@@ -1421,7 +1421,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "b7a1e02c717871b3b3b2fdeeaa949c26f5ad20fd"
+        "sha": "f1c112479ba8133b4348d647db0e593450065650"
       },
       "v1.4_build1": {
         "libs": {
@@ -3984,7 +3984,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "d5b02ab5aac01c4d07583d73afff6b14c5f58bd2"
+        "sha": "96bf57e6f13a195aa24438eb7b4772eeab950d90"
       },
       "v2.0.0": {
         "libs": {
@@ -4043,7 +4043,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "0117cee26703fda1e033a6dc84d4eed271f4a268"
+        "sha": "da384ee62213f621c7ea344abb030fb0e679ee50"
       },
       "v1.0.0": {
         "libs": {
@@ -4119,6 +4119,22 @@
           }
         },
         "sha": "4f415997929ec53138d9637b0426ae49e1cdf27b"
+      },
+      "v3.0": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0",
+              "2.2.1"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "a7be00b7e07943c0acda1b5799a8d32bea896d7b"
       }
     }
   },
