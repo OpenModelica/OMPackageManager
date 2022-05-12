@@ -1397,15 +1397,16 @@
             "path": "Buildings",
             "provides": [
               "8.0.0",
-              "8.1.0"
+              "8.1.0",
+              "8.1.1"
             ],
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "8.1.1-maint.8.1.x"
+            "version": "8.1.2-maint.8.1.x"
           }
         },
-        "sha": "0bca601a67d0eca619290bf745d0980d5cfc8833"
+        "sha": "8a07b5a4668c7bf5d1b7586ad08d595d68fdbbc3"
       },
       "master": {
         "libs": {
