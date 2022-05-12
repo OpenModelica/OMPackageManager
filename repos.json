@@ -917,7 +917,7 @@
     "github": "OpenIPSL/OpenIPSL",
     "branches": {"master": "master"},
     "ignore-tags": [
-      "v0.8.1", "v0.8.0", "v0.8", "Tuto_ModProd_2016"
+      "v0", "v0.8.1", "v0.8.0", "v0.8", "Tuto_ModProd_2016"
     ],
     "support": [
       ["prerelease", "noSupport"],

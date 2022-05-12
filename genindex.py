@@ -95,7 +95,7 @@ def main():
       if "broken" in r:
         continue
       if "libs" not in r:
-        raise Exception(refKey)
+        raise Exception(firstKey+" "+refKey)
       for libName in r["libs"]:
         lib = r["libs"][libName]
         if libName not in indexdata["libs"]:
