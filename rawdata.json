@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "6b3ed54dff845b37b2501f1d2cd8aef692b5d9f4"
+        "sha": "a47400686680f982837c724b9eb0aeeac7abfaec"
       }
     }
   },
@@ -1322,7 +1322,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "8223e13fd2effae8dc6bcea597e4895e77bb992a"
+        "sha": "d314c208ff00e4699d334c7f8d754584139ed63c"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -1405,7 +1405,7 @@
             "version": "8.1.1-maint.8.1.x"
           }
         },
-        "sha": "0ee6e8a79e9c79275eebd5ab87a545be2e7264ea"
+        "sha": "0bca601a67d0eca619290bf745d0980d5cfc8833"
       },
       "master": {
         "libs": {
@@ -1421,7 +1421,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "736f5e0db294ff45e02b4bece4d318bfebd7ed2c"
+        "sha": "4c81d1b191620548a6b8b7119cfa85f1c4d00535"
       },
       "v1.4_build1": {
         "libs": {
@@ -1792,6 +1792,26 @@
           }
         },
         "sha": "8a5db0ce3a7c54803e0abc2c01b28f7c18e81b09"
+      },
+      "v8.1.1": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0",
+              "7.0.1"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "8.0.0",
+              "8.1.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.1.1"
+          }
+        },
+        "sha": "0bca601a67d0eca619290bf745d0980d5cfc8833"
       }
     }
   },
@@ -7134,7 +7154,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "a73cb608c1195a89a463ea9b280621d1a30bc2ad"
+        "sha": "793453d32d9f1dd724953230ae00ed80d948f18d"
       },
       "v1.0.0": {
         "libs": {
@@ -8768,7 +8788,7 @@
             "version": "master"
           }
         },
-        "sha": "1dfd047d9b2d15e35eeda85282ab7b95d5d17d09"
+        "sha": "dcb837b02165b5f5d61828c8d6ca0172d19e9500"
       }
     }
   },
