@@ -34,7 +34,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.0.1", "support"],
+      [">=1.0.1", "partialSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -45,7 +45,7 @@
     "ignore-tags": ["v0.7.2", "v0.7.1", "v0.7.0", "v0.1.0"],
     "support": [
       ["prerelease", "noSupport"],
-      [">=0.9.1", "experimental"],
+      [">=0.9.1", "partialSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -102,7 +102,7 @@
     "github": "AHaumer/BLDC",
     "support": [
       ["prerelease", "noSupport"],
-      ["*", "experimental"]
+      ["*", "support"]
     ]
   },
   "BioChem": {
@@ -111,6 +111,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
+      [">=1.1.2", "experimental"],
       ["*", "obsolete"]
     ]
   },
@@ -166,7 +167,6 @@
     "support": [
       ["prerelease", "noSupport"],
       [">=7.0.0", "support"],
-      [">=5.1.0", "partialSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -178,7 +178,7 @@
     "semverPrereleaseOverridesAnnotation": true,
     "support": [
       ["prerelease", "noSupport"],
-      [">=2.0.0", "experimental"],
+      [">=2.0.0", "support"],
       ["*", "obsolete"]
     ]
   },
@@ -374,6 +374,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
+      [">=3.3.1", "experimental"],
       ["*", "obsolete"]
     ]
   },
@@ -572,8 +573,8 @@
     "ignore-tags": ["_LinearisationPaper", "v0.3.0"],
     "support": [
       ["prerelease", "noSupport"],
-      [">=2.1.0", "experimental"],
-      ["*", "obsolete"]
+      [">=3.0.0", "experimental"],
+      ["*", "noSupport"]
     ]
   },
   "IdealizedContact": {
@@ -742,7 +743,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.1.0", "experimental"],
+      [">=1.1.0", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -907,6 +908,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
@@ -1014,7 +1016,7 @@
     "ignore-tags": [],
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.0.0", "experimental"],
+      [">=1.0.0", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
