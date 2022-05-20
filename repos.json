@@ -1276,7 +1276,7 @@
   "ThermofluidStream": {
     "names": ["ThermofluidStream"],
     "github": "DLR-SR/ThermofluidStream",
-    "branches": {"main": "main", "OM_adaptions": "OM_adaptions"},
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       [">=0.1.0", "experimental"],
