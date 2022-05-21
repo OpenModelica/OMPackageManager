@@ -49,7 +49,7 @@ compliant to the standard on the other hand. Please open an issue on the
 [OpenModelica issue tracker](https://github.com/OpenModelica/OpenModelica/issues) if you want to start the process on your
 open-source Modelica library.
 
-The support field may contain several entries that are applied sequentially. For example:
+The support field may contain multiple selection criteria that are applied sequentially. For example:
 ```json
 "support": [
       ["prerelease", "noSupport"],
@@ -61,5 +61,9 @@ The support field may contain several entries that are applied sequentially. For
 means that all pre-release version are not supported, all _remaining_ versions with version number greater or equal to
 7.0.0 are fully supported, all _remaining_ versions with version number greater or equal to 5.1.0 are partially supported,
 and all _remaining_ versions are considered obsolete.
+
+When the first string starts with `>=`, all versions with equal or higher release number according to semver get the attribute of the second string. The string
+`prerelease` identifies all pre-release version, that have a semver metadata starting with `-`. It is also possible to start the first string with `+`, as in `+default.modelica.association` that matches `v3.2.1+default.modelica.association` and `v3.2.2+default.modelica.association`. The wildcard `*` matches any
+version. In all other cases the first string must match verbatim the version number.
 
 Some libraries in the package manager are regularly tested on the OSMC servers, see the OpenModelica Library Testing [README.md](https://github.com/OpenModelica/OpenModelicaLibraryTesting/blob/master/README.md).
