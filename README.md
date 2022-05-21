@@ -37,7 +37,7 @@ For each library, the [repos.json](repos.json) database contains several pieces 
 ## Library support levels in OpenModelica
 There are five levels of support:
 - `fullSupport`: The library is fully supported by OpenModelica, with over 95% runnable models in the library simulating correctly
-- `partialSupport`: The library is partially supported by OpenModelica; most models and features work correctly, but some still don't
+- `support`: The library is partially supported by OpenModelica; most models and features work correctly, but some still don't
 - `experimental`: The library is currently being tested with OpenModelica, but there is no guarantee of success when using it
 - `noSupport`: The library is actively developed or maintained, but is not supported by OpenModelica
 - `obsolete`: The library is no longer developed or maintained, or it has been completely superseded by more recent versions
