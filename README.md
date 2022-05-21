@@ -53,13 +53,13 @@ The support field may contain several entries that are applied sequentially. For
 ```json
 "support": [
       ["prerelease", "noSupport"],
-      [">=7.0.0", "support"],
-      [">=5.1.0", "partialSupport"],
+      [">=7.0.0", "fullSupport"],
+      [">=5.1.0", "support"],
       ["*", "obsolete"]
     ]
 ```
 means that all pre-release version are not supported, all _remaining_ versions with version number greater or equal to
-7.0.0 are supported, all _remaining_ versions with version number greater or equal to 5.1.0 are partially supported,
+7.0.0 are fully supported, all _remaining_ versions with version number greater or equal to 5.1.0 are partially supported,
 and all _remaining_ versions are considered obsolete.
 
 Some libraries in the package manager are regularly tested on the OSMC servers, see the OpenModelica Library Testing [README.md](https://github.com/OpenModelica/OpenModelicaLibraryTesting/blob/master/README.md).
