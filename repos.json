@@ -34,7 +34,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.0.1", "partialSupport"],
+      [">=1.0.1", "support"],
       ["*", "obsolete"]
     ]
   },
@@ -45,7 +45,7 @@
     "ignore-tags": ["v0.7.2", "v0.7.1", "v0.7.0", "v0.1.0"],
     "support": [
       ["prerelease", "noSupport"],
-      [">=0.9.1", "partialSupport"],
+      [">=0.9.1", "support"],
       ["*", "obsolete"]
     ]
   },
@@ -166,7 +166,7 @@
     },
     "support": [
       ["prerelease", "noSupport"],
-      [">=7.0.0", "support"],
+      [">=7.0.0", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -531,7 +531,7 @@
     "support": [
       ["0.0.0-master", "support"],
       ["prerelease", "noSupport"],
-      [">=0.0.0", "support"],
+      [">=0.0.0", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -921,7 +921,7 @@
     ],
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.5.0", "fullSupport"],
+      [">=1.5.0", "support"],
       ["*", "obsolete"]
     ]
   },
@@ -972,7 +972,7 @@
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.4.1", "support"],
+      [">=1.4.1", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -1217,7 +1217,7 @@
     "support": [
       ["2.1.1-master", "fullSupport"],
       ["prerelease", "noSupport"],
-      [">=2.1.1", "support"],
+      [">=2.1.1", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -1279,6 +1279,7 @@
     "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
+      [">=0.4.0", "fullSupport"],
       [">=0.1.0", "experimental"],
       ["*", "obsolete"]
     ]
