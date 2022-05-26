@@ -1419,7 +1419,7 @@
             "version": "8.1.2-maint.8.1.x"
           }
         },
-        "sha": "c3f1375629303e3cf68c24ef71aa98edb60b81ed"
+        "sha": "43bb80ae3a86e5f0ed68b35bc4a247cd473982c9"
       },
       "master": {
         "libs": {
@@ -1827,6 +1827,27 @@
           }
         },
         "sha": "0bca601a67d0eca619290bf745d0980d5cfc8833"
+      },
+      "v8.1.2": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "7.0.0",
+              "7.0.1"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "8.1.2"
+          }
+        },
+        "sha": "43bb80ae3a86e5f0ed68b35bc4a247cd473982c9"
       }
     }
   },
