@@ -1420,7 +1420,7 @@
             "version": "8.1.3-maint.8.1.x"
           }
         },
-        "sha": "dbad43cdeec9fe34d86e68beec7ba49b445878b6"
+        "sha": "891d0c21cdbed09e7eaed0e0196ba02f85e6bc8e"
       },
       "master": {
         "libs": {
@@ -1428,7 +1428,9 @@
             "convertFromVersion": [
               "8.0.0",
               "8.1.0",
-              "8.1.1"
+              "8.1.1",
+              "8.1.2",
+              "8.1.3"
             ],
             "path": "Buildings",
             "uses": {
@@ -1437,7 +1439,7 @@
             "version": "9.0.0-master"
           }
         },
-        "sha": "4f2117764c88aa2be822c4060d75341bdba37b38"
+        "sha": "dff251c2a154412386ce4dab02a1631766b4ad23"
       },
       "v1.4_build1": {
         "libs": {
