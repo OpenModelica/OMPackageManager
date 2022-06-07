@@ -7245,12 +7245,13 @@
             "path": "OpenIPSL",
             "uses": {
               "Complex": "3.2.3",
-              "Modelica": "3.2.3"
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.93.0"
             },
             "version": "2.0.0-master"
           }
         },
-        "sha": "a1fd7b24fb5751a0f59f8c37f03198db2c1a7f08"
+        "sha": "aae0959999e57b4867887147f42488496ac49cf5"
       },
       "v1.0.0": {
         "libs": {
@@ -7277,6 +7278,26 @@
           }
         },
         "sha": "4b97ac8de5992289ad6327e3bd6dca4cdb985393"
+      },
+      "v2.0.0": {
+        "libs": {
+          "OpenIPSL": {
+            "convertFromVersion": [
+              "0.8.0",
+              "0.8.1",
+              "1.0.0",
+              "1.5.0"
+            ],
+            "path": "OpenIPSL",
+            "uses": {
+              "Complex": "3.2.3",
+              "Modelica": "3.2.3",
+              "Modelica_Synchronous": "0.93.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "aae0959999e57b4867887147f42488496ac49cf5"
       },
       "v2.0.0-beta.1": {
         "libs": {
