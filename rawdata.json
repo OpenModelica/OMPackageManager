@@ -10021,7 +10021,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "650be2c8cbd5abc3535e92b865e509073afc8aeb"
+        "sha": "ac39a914798ab051d0638d39892fda5c5d8ec557"
       },
       "release.2.0": {
         "libs": {
@@ -10067,17 +10067,10 @@
         "libs": {
           "ThermoSysPro": {
             "path": "ThermoSysPro",
-            "provides": [
-              "0.0.0",
-              "4.0.0"
-            ],
-            "uses": {
-              "Modelica": "3.2.2"
-            },
-            "version": "3.2.0-master"
+            "version": "4.0.0-master"
           }
         },
-        "sha": "3ced3485f8da7b0baa3c8bf598d714951947c6d1"
+        "sha": "13de83007bc72de0f0bb3076f718a3f7113bb66e"
       },
       "v3.2": {
         "libs": {
@@ -10094,6 +10087,15 @@
           }
         },
         "sha": "ed6f23975beef34bf7bd2e7a3cd4f91cc8e14501"
+      },
+      "v4.0": {
+        "libs": {
+          "ThermoSysPro": {
+            "path": "ThermoSysPro",
+            "version": "4.0.0"
+          }
+        },
+        "sha": "dfe1168ad22d0364dfd2b129b2931efb5ab4dcf5"
       }
     }
   },
