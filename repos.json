@@ -448,6 +448,15 @@
       ["*", "obsolete"]
     ]
   },
+  "FluxTubesExtension": {
+    "names": ["FluxTubesExtension"],
+    "github": "AHaumer/FluxTubesExtension",
+    "branches": {"master": "master"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "noSupport"]
+    ]
+  },  
   "FMITest": {
     "names": ["FMITest"],
     "github": "DLR-SR/FMITest",
