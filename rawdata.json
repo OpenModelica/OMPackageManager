@@ -3603,6 +3603,22 @@
       }
     }
   },
+  "FluxTubesExtension": {
+    "refs": {
+      "main": {
+        "libs": {
+          "FluxTubesExtension": {
+            "path": "FluxTubesExtension",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0-main"
+          }
+        },
+        "sha": "e6fbb6c42cee64e485cf1916d3de8d2ca536038f"
+      }
+    }
+  },
   "FractionalOrder": {
     "refs": {
       "master": {
@@ -4887,7 +4903,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "1c5d89f34ae06f84c987b35cb2f73c63a1ec412e"
+        "sha": "d3abeec960b084a837830ec5bee917132501e9f2"
       },
       "trunk": {
         "libs": {
@@ -4960,7 +4976,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "5687fc6b553115a07a0883fc5c6094387d4d6d21"
+        "sha": "0994d39af2b51fd51f5a5d638815bf63532e0b13"
       },
       "v1.3.1": {
         "libs": {
@@ -7251,7 +7267,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "47d73a0a129114749e3dadea7069170219eb8a3a"
+        "sha": "f02576fcbf70ac28039bda2a463b71b002150f73"
       },
       "v1.0.0": {
         "libs": {
@@ -10070,7 +10086,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "13de83007bc72de0f0bb3076f718a3f7113bb66e"
+        "sha": "c41e54e5a2aad1c039f8745e0c1be68a898b145c"
       },
       "v3.2": {
         "libs": {
