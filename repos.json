@@ -451,7 +451,7 @@
   "FluxTubesExtension": {
     "names": ["FluxTubesExtension"],
     "github": "AHaumer/FluxTubesExtension",
-    "branches": {"master": "master"},
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "noSupport"]
