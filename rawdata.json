@@ -3085,14 +3085,14 @@
       "master": {
         "libs": {
           "ExternalMedia": {
-            "path": "Modelica/ExternalMedia 3.3.1",
+            "path": "Modelica/ExternalMedia",
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "3.3.1-master"
+            "version": "3.3.2-master"
           }
         },
-        "sha": "de988f12c23513bc6b7bfed6d4b9cdeada7299f4"
+        "sha": "9b650e6a0eaee5b8d72933e1ec1576fb4b4f5d20"
       },
       "v3.2.1": {
         "libs": {
