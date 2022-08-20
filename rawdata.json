@@ -592,6 +592,19 @@
           }
         },
         "sha": "beaed11c67e13b638e05be06af81346a3462481c"
+      },
+      "v0.3.0": {
+        "libs": {
+          "Arduino": {
+            "path": "Arduino",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.0.0"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "224583eef0a8902d920e526d34f94321a84b24a2"
       }
     }
   },
