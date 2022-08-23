@@ -1472,7 +1472,7 @@
             "version": "9.1.0-master"
           }
         },
-        "sha": "34b6b4ac55cbec1fc51b8b2b6c52b693a3c3ddf9"
+        "sha": "ea147aeee6e0a0239f1b48f5cd75f7e72963bf73"
       },
       "v1.4_build1": {
         "libs": {
@@ -3672,12 +3672,12 @@
           "FreeFluids": {
             "path": "FreeFluids",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "2.1.0-master"
+            "version": "2.4.0-master"
           }
         },
-        "sha": "51a2e95a7eb281de4cd8a4cdbf8b107e640ca0f6"
+        "sha": "e34616083fd36076abf5250c18d133aaf85487f6"
       }
     }
   },
