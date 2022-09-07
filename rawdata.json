@@ -7133,6 +7133,19 @@
           }
         },
         "sha": "30088920c42fa6de827cc595ff3ec11bffb7d0e5"
+      },
+      "v2.0.0": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "4.0.0",
+              "OpenIPSL": "3.0.1"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "84d3b8f9ba58a070bc3b9f4f66a287a9b59ecc59"
       }
     }
   },
@@ -9837,7 +9850,7 @@
             "version": "master"
           }
         },
-        "sha": "a6c2e6e7b05f6effe8241e79f40d8d8ba3330203"
+        "sha": "1e846a820e4f459ac8502e811a3d9c448ea5aa3e"
       },
       "v2.0.1": {
         "libs": {
