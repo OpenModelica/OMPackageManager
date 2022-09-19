@@ -2268,6 +2268,34 @@
       }
     }
   },
+  "Credibility": {
+    "refs": {
+      "main": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.1.0-main"
+          }
+        },
+        "sha": "27fbfe341eeb1c0983a14c2e73f10964bce21481"
+      },
+      "v0.1.0": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "d5832edf83673c81fc07d642c59268e9302db91f"
+      }
+    }
+  },
   "DESLib": {
     "refs": {
       "v1.6.1": {
