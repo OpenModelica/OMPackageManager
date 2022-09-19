@@ -258,6 +258,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Credibility": {
+    "names": ["Credibility"],
+    "github": "DLR-SR/Credibility",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "noSupport"]
+    ]
+  },
   "DeployStructLib": {
     "names": ["DeployStructLib"],
     "github": "ATAEngineering/DeployStructLib",
