@@ -1504,7 +1504,7 @@
             "version": "9.1.0-master"
           }
         },
-        "sha": "2608891483675d1764ee1c495b9e98e97536b3f6"
+        "sha": "5dd6626fee65f12f9fc58d05556387c759bf69c3"
       },
       "v1.4_build1": {
         "libs": {
@@ -10141,12 +10141,12 @@
               "0.1.0"
             ],
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "0.2.0-master"
           }
         },
-        "sha": "d52b8306b9439885c36ab037c7a84a7042fb7fbb"
+        "sha": "42820d71eaad0dd75bcd0651b8e97d8838793395"
       }
     }
   },
