@@ -9083,12 +9083,12 @@
           "PropulsionSystem": {
             "path": "",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "3.2.3"
             },
             "version": "master"
           }
         },
-        "sha": "c1b5995bf03fb32047b42aa47a0433ec70eacbcd"
+        "sha": "a979d2368eddfc180ffb4b54da9c90d779c5db61"
       }
     }
   },
