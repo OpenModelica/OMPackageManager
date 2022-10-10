@@ -8354,7 +8354,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "32efb805c97b1c3a3951de5b9b4c1615d150c22e"
+        "sha": "a449315c370b2d716af50abdab012bf20cc2db34"
       },
       "v1.0.0": {
         "libs": {
@@ -10087,7 +10087,7 @@
             "version": "0.5.0-master"
           }
         },
-        "sha": "dcf4fc0a8e6295631409612af813a4471e6fc1a2"
+        "sha": "ae4f0f26114c23b15f50812576da96be9b6265d2"
       },
       "v0.1-beta": {
         "libs": {
