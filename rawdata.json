@@ -4192,7 +4192,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "50b5b93ee9c233971c113458f17fd12ae3ca0732"
+        "sha": "783b03acaea178efb9815f10f0bdc96fd886b9e8"
       },
       "v2.0.0": {
         "libs": {
@@ -9931,7 +9931,7 @@
             "version": "master"
           }
         },
-        "sha": "9687f335eef67b7ff3b67a1a6824c74cbeec874a"
+        "sha": "dc2ae530af94946fd4080379bfd8127f0dcef03d"
       },
       "v2.0.1": {
         "libs": {
@@ -9968,6 +9968,18 @@
           }
         },
         "sha": "2c409784af6252128e0c9568a44198cb08e091a5"
+      },
+      "v3.2.0": {
+        "libs": {
+          "TAeZoSysPro": {
+            "path": "",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "3.2.0"
+          }
+        },
+        "sha": "dc2ae530af94946fd4080379bfd8127f0dcef03d"
       }
     }
   },
@@ -10434,12 +10446,12 @@
           "StreamConnectors": {
             "path": "StreamConnectors",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "49f5407835c4502d0653b34b3230b1f5be41b53f"
+        "sha": "a7925248dd6c068f73bbd419efea4a37cb0a552b"
       }
     }
   },
