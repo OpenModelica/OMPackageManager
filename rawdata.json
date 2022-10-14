@@ -7267,6 +7267,18 @@
           }
         },
         "sha": "d9353c2b06450ccd4f005b5fc79cdca3068ed350"
+      },
+      "v2.0.0": {
+        "libs": {
+          "OpenHydraulics": {
+            "path": "OpenHydraulics",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "b4ec233c04db432b7f48edd0ebcba28848445953"
       }
     }
   },
