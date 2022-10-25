@@ -370,7 +370,7 @@
   "ExternalLibrary": {
     "names": ["ExternalLibrary"],
     "github": "CATIA-Systems/Modelica-ExternalLibrary",
-    "branches": {"master": "master"},
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
