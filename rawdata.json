@@ -3739,10 +3739,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.4.0-master"
+            "version": "2.6.0-master"
           }
         },
-        "sha": "e3ca0a8cd021e685dacfda2d74edc43006c28f47"
+        "sha": "b43cc778f2a1aebc9dc350f2560555ca957a9101"
       }
     }
   },
