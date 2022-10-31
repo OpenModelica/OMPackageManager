@@ -3813,13 +3813,13 @@
           "HanserModelica": {
             "path": "HanserModelica",
             "uses": {
-              "Complex": "3.2.3",
-              "Modelica": "3.2.3"
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
             },
-            "version": "1.1.2-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "13a7056f20a5fa1253d0549fcd18f97b5e00d001"
+        "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
       },
       "v0.10.0": {
         "libs": {
@@ -3937,6 +3937,19 @@
           }
         },
         "sha": "13a7056f20a5fa1253d0549fcd18f97b5e00d001"
+      },
+      "v2.0.0": {
+        "libs": {
+          "HanserModelica": {
+            "path": "HanserModelica",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
       }
     }
   },
@@ -8373,7 +8386,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "a449315c370b2d716af50abdab012bf20cc2db34"
+        "sha": "172ab14c776ba0bb27fcbce5d105114e43799a98"
       },
       "v1.0.0": {
         "libs": {
@@ -9986,7 +9999,7 @@
             "version": "2.0.2"
           }
         },
-        "sha": "2b8245025a48a3082e790a61866b51044a75d4ad"
+        "sha": "58ed3baa3d574dc06da70e54111f6e86a90ac5bb"
       },
       "v3.1.0": {
         "libs": {
