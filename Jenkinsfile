@@ -67,6 +67,7 @@ pipeline {
     }
     steps {
       sh "du -csh /var/www/libraries.openmodelica.org/cache/* || true"
+      sh "cp /var/www/libraries.openmodelica.org/index/v1/index.json ."
       sh "./generate-cache.py --clean /var/www/libraries.openmodelica.org/cache"
       sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
     }
