@@ -66,7 +66,7 @@ pipeline {
       HOME = '/tmp/dummy'
     }
     steps {
-      sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
+      sh "du -csh /var/www/libraries.openmodelica.org/cache/* || true"
       sh "./generate-cache.py --clean /var/www/libraries.openmodelica.org/cache"
       sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
     }
