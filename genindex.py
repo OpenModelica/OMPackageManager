@@ -87,7 +87,7 @@ def main():
   repos = json.load(open("repos.json"))
   rawdata = json.load(open("rawdata.json"))
 
-  indexdata = {"libs": {}}
+  indexdata = {"libs": {}, "mirrors": ["https://libraries.openmodelica.org/cache/"]}
   for firstKey in rawdata.keys():
     data = rawdata[firstKey]
     for refKey in data["refs"].keys():

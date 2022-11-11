@@ -58,5 +58,18 @@ pipeline {
       sshPublisher(publishers: [sshPublisherDesc(configName: 'PackageIndex', transfers: [sshTransfer(sourceFiles: 'index.json', remoteDirectory: 'v1')])])
     }
   }
+  stage('cache') {
+    agent {
+      label 'r630-2'
+    }
+    environment {
+      HOME = '/tmp/dummy'
+    }
+    steps {
+      sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
+      sh "./generate-cache.py --clean /var/www/libraries.openmodelica.org/cache"
+      sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
+    }
+  }
   }
 }
