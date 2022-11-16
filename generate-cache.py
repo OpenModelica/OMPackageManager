@@ -3,6 +3,7 @@
 import argparse
 import concurrent.futures
 import datetime
+import itertools
 import json
 import os
 import requests
@@ -22,7 +23,7 @@ def filename(url):
 
 
 urls = set()
-for index in [json.loads(requests.get("https://raw.githubusercontent.com/OpenModelica/OpenModelica/master/libraries/index.json").content) for branch in ["master", "maintenance/v1.20"]] + [json.load(open("index.json"))]:
+for index in [json.loads(requests.get("https://raw.githubusercontent.com/OpenModelica/OpenModelica/%s/libraries/%s" % branch_file).content) for branch_file in itertools.product(["master", "maintenance/v1.20"],["index.json","install-index.json"])] + [json.load(open("index.json"))]:
     for lib in index["libs"].values():
         for version in lib["versions"].values():
             url = version["zipfile"]
