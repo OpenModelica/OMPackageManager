@@ -10385,13 +10385,18 @@
               "0.2.1"
             ],
             "path": "ThermofluidStream",
+            "provides": [
+              "0.4.1"
+            ],
             "uses": {
-              "Modelica": "3.2.3"
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0"
             },
-            "version": "0.4.1-main"
+            "version": "1.0.0-main"
           }
         },
-        "sha": "8f73ea281bfb15a2c2fa054f1c8bc14aea547b3d"
+        "sha": "cffa9282daf1821f2792fdc1fb5878325ea9a2a2"
       },
       "v0.1-beta": {
         "libs": {
@@ -10446,6 +10451,41 @@
           }
         },
         "sha": "bc8c48c4f3101f1386bd06504b8e5f05dbeb8223"
+      },
+      "v0.5.0": {
+        "libs": {
+          "ThermofluidStream": {
+            "convertFromVersion": [
+              "0.2.1"
+            ],
+            "path": "ThermofluidStream",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "0.4.1"
+          }
+        },
+        "sha": "8f73ea281bfb15a2c2fa054f1c8bc14aea547b3d"
+      },
+      "v1.0.0": {
+        "libs": {
+          "ThermofluidStream": {
+            "convertFromVersion": [
+              "0.2.1"
+            ],
+            "path": "ThermofluidStream",
+            "provides": [
+              "0.4.1"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "cffa9282daf1821f2792fdc1fb5878325ea9a2a2"
       }
     }
   },
