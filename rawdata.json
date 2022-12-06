@@ -1953,6 +1953,28 @@
           }
         },
         "sha": "df7415ebeb3ab0ca09d476dccef9e3143b6fe1d0"
+      },
+      "v9.1.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "9.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "9.1.0"
+          }
+        },
+        "sha": "d34a259960ca12b2126ef188f2d20fc8148eafb2"
       }
     }
   },
