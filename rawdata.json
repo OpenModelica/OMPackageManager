@@ -3774,10 +3774,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.6.0-master"
+            "version": "2.7.0-master"
           }
         },
-        "sha": "19f10544835f243724e23d1113b88fbc249922d3"
+        "sha": "4acb58f069775d2c6497bab985f7cb8565fc9496"
       }
     }
   },
@@ -10034,7 +10034,7 @@
             "version": "2.0.2"
           }
         },
-        "sha": "58ed3baa3d574dc06da70e54111f6e86a90ac5bb"
+        "sha": "2b8245025a48a3082e790a61866b51044a75d4ad"
       },
       "v3.1.0": {
         "libs": {
