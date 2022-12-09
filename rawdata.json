@@ -1501,7 +1501,7 @@
             "version": "10.0.0-master"
           }
         },
-        "sha": "fda1d7716ad57647e899f05f19b8ceefca98f114"
+        "sha": "d187a5ce5a869b6982cbe5c4e3847c491622dd37"
       },
       "v1.4_build1": {
         "libs": {
@@ -3591,12 +3591,12 @@
           "FastBuildings": {
             "path": "FastBuildings",
             "uses": {
-              "Modelica": "3.2.0"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "1f5cfebc2f42c13e272bff639ffa3449d5740bf7"
+        "sha": "34e7296a025e789fa12b6d39699d9c287b60e008"
       }
     }
   },
