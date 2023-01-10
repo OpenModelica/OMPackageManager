@@ -1482,6 +1482,29 @@
         },
         "sha": "eea89c052660764c5622de5b399302e517741adc"
       },
+      "maint.9.0.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "9.0.0",
+              "9.1.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "9.1.1-maint.9.0.x"
+          }
+        },
+        "sha": "b301e46afb6b5adbe70264d1191152efa97de3f2"
+      },
       "master": {
         "libs": {
           "Buildings": {
