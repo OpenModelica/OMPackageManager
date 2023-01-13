@@ -164,7 +164,7 @@
       "maint_8.0.x": "maint.8.0.x",
       "maint_8.1.x": "maint.8.1.x",
       "maint_9.0.x": "maint.9.0.x",
-      "maint_9.1.x": "maint.9.0.x"
+      "maint_9.1.x": "maint.9.1.x"
     },
     "support": [
       ["prerelease", "noSupport"],
