@@ -1525,7 +1525,7 @@
             "version": "9.1.1-maint.9.1.x"
           }
         },
-        "sha": "b301e46afb6b5adbe70264d1191152efa97de3f2"
+        "sha": "00b24f615e0fc5fc85105f7d5d1cc3488c9f085c"
       },
       "master": {
         "libs": {
@@ -1546,7 +1546,7 @@
             "version": "10.0.0-master"
           }
         },
-        "sha": "21859cb56cabcdf004503ab9fd4d622ce80f2f3e"
+        "sha": "d0040e537bb1c4489b45bde70bf2e6cf080c9453"
       },
       "v1.4_build1": {
         "libs": {
@@ -4292,7 +4292,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "4f0490f63ae3298c9ac52fba816b7ca745bf4aa6"
+        "sha": "15d674629aeb840b0c0b0250096231c745d2e053"
       },
       "v2.0.0": {
         "libs": {
@@ -5091,7 +5091,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "357f0b598f62227257e32c2bc9a27815a69af9f1"
+        "sha": "e563a099a7020dd16c7fa05b15dce97fb13017e1"
       },
       "trunk": {
         "libs": {
@@ -5164,7 +5164,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "a2117370115f382898775d28283521e581d16a2f"
+        "sha": "67cf4709c3f97b5eff5216a3a7e487158dbbf957"
       },
       "v1.3.1": {
         "libs": {
@@ -9494,7 +9494,7 @@
             "version": "2.1.0-master"
           }
         },
-        "sha": "1cba60bcd08b2a8c5828978f9eaa86b8b213ea9f"
+        "sha": "6649c004ba59cc450e2dbc8618db0ac9b663fb7f"
       },
       "v1.0.0": {
         "libs": {
@@ -10071,12 +10071,12 @@
           "SystemDynamics": {
             "path": "SystemDynamics",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "2.1.1-master"
+            "version": "2.1.2-master"
           }
         },
-        "sha": "2f6bd9382c5aac2aff9148cd9113a418767734b6"
+        "sha": "b986a2ea354ab550d627a392f857ad7c9997d961"
       },
       "v2.0": {
         "libs": {
@@ -10116,6 +10116,18 @@
           }
         },
         "sha": "cc0300732ee25bf7f6052aedf83df5cddfbb1108"
+      },
+      "v2.1.2": {
+        "libs": {
+          "SystemDynamics": {
+            "path": "SystemDynamics",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.2"
+          }
+        },
+        "sha": "b986a2ea354ab550d627a392f857ad7c9997d961"
       }
     }
   },
@@ -10552,7 +10564,7 @@
             "version": "1.0.0-main"
           }
         },
-        "sha": "cffa9282daf1821f2792fdc1fb5878325ea9a2a2"
+        "sha": "1a74977c25e4daf6eac5d53a53a40889dd7f1179"
       },
       "v0.1-beta": {
         "libs": {
