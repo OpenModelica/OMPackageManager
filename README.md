@@ -13,8 +13,10 @@ to the [repos.json](repos.json) database and open a pull request, or request us 
 [OpenModelica issue tracker](https://github.com/OpenModelica/OpenModelica/issues/new/choose).
 
 Starting from this information, the `updateinfo.py` script queries the repositories where the libraries are stored and
-generates an up-to-date [rawdata.json](rawdata.json) file. This script is run on OSMC's servers multiple times a day to keep it up to date
-with library developments. Note that the query includes advanced Modelica-specific features, e.g. determining dependencies
+generates an up-to-date [rawdata.json](rawdata.json) file. This script is run by the
+[Update Package Index job](https://test.openmodelica.org/jenkins/job/Update%20Package%20Index/) on OSMC's Jenkins
+server four times a day to keep it up to date with library developments.
+Note that the query includes advanced Modelica-specific features, e.g. determining dependencies
 via the `uses` annotations, and determining backwards compatibility among versions via the `conversion` annotations.
 The `genindex.py` script is then run to generate the `index.json` database, which is queried by OMC clients to
 update the local package database.
