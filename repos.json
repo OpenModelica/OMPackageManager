@@ -270,6 +270,15 @@
       ["*", "noSupport"]
     ]
   },
+  "DeltaRobot": {
+    "names": ["DeltaRobot"],
+    "github": "looms-polimi/Parallel_manipulators/Modelica_models/DeltaRobot",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "fullSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "DeployStructLib": {
     "names": ["DeployStructLib"],
     "github": "ATAEngineering/DeployStructLib",
@@ -1227,6 +1236,15 @@
     "ignore-tags": ["v0.706"],
     "support": [
       ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
+  "StewartPlatform": {
+    "names": ["StewartPlatform"],
+    "github": "looms-polimi/Parallel_manipulators/Modelica_models/StewartPlatform",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
