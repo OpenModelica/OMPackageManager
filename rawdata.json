@@ -1560,7 +1560,7 @@
             "version": "10.0.0-master"
           }
         },
-        "sha": "0b7c76301bee07ab888f641856811399afd8800b"
+        "sha": "fb3660d5b110a9bf6e1866294db01ca505f22a59"
       },
       "v1.4_build1": {
         "libs": {
@@ -3640,6 +3640,18 @@
           }
         },
         "sha": "eee9db6698c5cba2f7972d523f25db49ad54aa64"
+      },
+      "v2.0.0": {
+        "libs": {
+          "FailureModes": {
+            "path": "FailureModes",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "894be5ce74947120e95595a574a5d04f04766f03"
       }
     }
   },
@@ -4306,7 +4318,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "43b66315beb21b8d4ad2b672e1148e1bbc369c62"
+        "sha": "4efbdc23eac69b50f7c29420d5aa5b2b58094b7f"
       },
       "v2.0.0": {
         "libs": {
@@ -10592,13 +10604,12 @@
             ],
             "uses": {
               "Complex": "4.0.0",
-              "Modelica": "4.0.0",
-              "ObsoleteModelica4": "4.0.0"
+              "Modelica": "4.0.0"
             },
             "version": "1.0.0-main"
           }
         },
-        "sha": "c34a0a4f36e47f9c1b5d1f1c14aedebf3f191a10"
+        "sha": "ace467eaed2e2edfb2599876b8b1b082fa779c19"
       },
       "v0.1-beta": {
         "libs": {
