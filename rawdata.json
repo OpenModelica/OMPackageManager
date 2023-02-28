@@ -220,7 +220,7 @@
             "version": "1.3.0-master"
           }
         },
-        "sha": "c0e96b1407d3e7f22cccc910fa5b8743c04e08cb"
+        "sha": "6844c894d5a5478a37094ef0daeeff7d1ed7c4c2"
       },
       "v0.2.0": {
         "libs": {
@@ -7955,6 +7955,29 @@
       }
     }
   },
+  "Parallel_manipulators": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "DeltaRobot": {
+            "path": "Modelica_models/DeltaRobot",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0"
+          },
+          "StewartPlatform": {
+            "path": "Modelica_models/StewartPlatform",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "3abb4d94e12e713fb599e77abb2610042ba559aa"
+      }
+    }
+  },
   "PhotoVoltaics": {
     "refs": {
       "master": {
@@ -10213,7 +10236,7 @@
             "version": "2.0.2"
           }
         },
-        "sha": "2b8245025a48a3082e790a61866b51044a75d4ad"
+        "sha": "58ed3baa3d574dc06da70e54111f6e86a90ac5bb"
       },
       "v3.1.0": {
         "libs": {
