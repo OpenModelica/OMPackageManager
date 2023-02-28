@@ -968,6 +968,7 @@
   "Parallel_manipulators": {
     "names": ["DeltaRobot","StewartPlatform"],
     "github": "looms-polimi/Parallel_manipulators",
+    "search-extra-paths": ["Modelica_models"],
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "fullSupport"],
