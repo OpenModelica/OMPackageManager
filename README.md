@@ -32,6 +32,7 @@ For each library, the [repos.json](repos.json) database contains several pieces 
 - the name of the library(es) (`names` field); it is possible to collect a set of libraries that are found in the same GIT repository
   e.g. Modelica, ModelicaReference, ModelicaServices, Complex, ModelicaTest
 - the location of the GIT repository on GitHub (`github` field), or the git URL in case other servers are used (`git` field)
+- Optional locations within the git repository (`search-extra-paths` field) to search for libraries. This can be specified if the libraries are not located at the root of repository.
 - optional branches to be managed besides the official releases (`branches` field)
 - optional tags to be ignored, if one wants to avoid them to be considered by the package manager (`ignore-tags` field)
 - the level of support in OpenModelica of the various versions of the library.
