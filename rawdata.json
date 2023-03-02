@@ -7975,6 +7975,44 @@
           }
         },
         "sha": "3abb4d94e12e713fb599e77abb2610042ba559aa"
+      },
+      "v1.0.1": {
+        "libs": {
+          "DeltaRobot": {
+            "path": "Modelica_models/DeltaRobot",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.1"
+          },
+          "StewartPlatform": {
+            "path": "Modelica_models/StewartPlatform",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "ccf2d33d1cb0b31d4c729c67ecdec6e6a729e6a1"
+      },
+      "v1.0.2": {
+        "libs": {
+          "DeltaRobot": {
+            "path": "Modelica_models/DeltaRobot",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.1"
+          },
+          "StewartPlatform": {
+            "path": "Modelica_models/StewartPlatform",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "ccf2d33d1cb0b31d4c729c67ecdec6e6a729e6a1"
       }
     }
   },
