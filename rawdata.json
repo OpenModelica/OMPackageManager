@@ -3274,13 +3274,17 @@
         "libs": {
           "ExternalMedia": {
             "path": "Modelica/ExternalMedia",
+            "provides": [
+              "3.3.0",
+              "3.3.1"
+            ],
             "uses": {
               "Modelica": "3.2.3"
             },
             "version": "3.3.2-master"
           }
         },
-        "sha": "37a512cd8ce1f93abb463c2cc1c8016abcd1b7e9"
+        "sha": "db55653dd984e56f7cc7ff7ab618059e8208d4ad"
       },
       "v3.2.1": {
         "libs": {
@@ -5117,7 +5121,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "d4314287dea0e3dcc340666cae1d82ae65021b84"
+        "sha": "6a1f99e4100dd11744c961183a14266c0fda821d"
       },
       "trunk": {
         "libs": {
@@ -5190,7 +5194,7 @@
             "version": "4.0.0-trunk"
           }
         },
-        "sha": "bfd8c755c9f2f58a8b27a4b1c86b966cf98e509d"
+        "sha": "3c3e26e225715c951b9a53bb6ca62f4e994c9d4c"
       },
       "v1.3.1": {
         "libs": {
@@ -10670,7 +10674,7 @@
             "version": "1.0.0-main"
           }
         },
-        "sha": "35958952916bed240becd00732d509eee41710dc"
+        "sha": "7c0024963008b9ec7db04643f897ceb62ffc59ef"
       },
       "v0.1-beta": {
         "libs": {
