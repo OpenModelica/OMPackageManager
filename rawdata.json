@@ -8006,17 +8006,17 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.0.1"
+            "version": "1.0.2"
           },
           "StewartPlatform": {
             "path": "Modelica_models/StewartPlatform",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.0.1"
+            "version": "1.0.2"
           }
         },
-        "sha": "ccf2d33d1cb0b31d4c729c67ecdec6e6a729e6a1"
+        "sha": "da73b5d43284db6941426b16ffadad11a6dfa965"
       }
     }
   },
