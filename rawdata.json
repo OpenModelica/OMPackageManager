@@ -9586,10 +9586,10 @@
             "uses": {
               "PowerGrids": "1.0.2"
             },
-            "version": "1.0.0-master"
+            "version": "1.1.0-master"
           }
         },
-        "sha": "05916419f95fb958bbd7f0c2567b006d3d827c16"
+        "sha": "85b44c5ef5c4386ea7a9cfcd3dfc2671e661eaf3"
       },
       "v1.1.0": {
         "libs": {
@@ -9598,10 +9598,10 @@
             "uses": {
               "PowerGrids": "1.0.2"
             },
-            "version": "1.0.0"
+            "version": "1.1.0"
           }
         },
-        "sha": "05916419f95fb958bbd7f0c2567b006d3d827c16"
+        "sha": "85b44c5ef5c4386ea7a9cfcd3dfc2671e661eaf3"
       }
     }
   },
