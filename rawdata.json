@@ -9589,7 +9589,19 @@
             "version": "1.0.0-master"
           }
         },
-        "sha": "054638e19aafaf7735770284908e7bc387840ce5"
+        "sha": "05916419f95fb958bbd7f0c2567b006d3d827c16"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ScalableTestGrids": {
+            "path": "ScalableTestGrids",
+            "uses": {
+              "PowerGrids": "1.0.2"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "05916419f95fb958bbd7f0c2567b006d3d827c16"
       }
     }
   },
@@ -10607,7 +10619,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "28f25f2851eea88fe4c42aafaa82126316db01a6"
+        "sha": "629cd07eaa494df493856777be19fa24ec861683"
       },
       "v3.2": {
         "libs": {
