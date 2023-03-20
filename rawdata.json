@@ -9142,12 +9142,12 @@
           "PowerSystems": {
             "path": "PowerSystems",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "1.0.1-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "69fd1e7381fb50e6a0bc77d9ba168e9d6a7d9a6a"
+        "sha": "67d22eba4d869276f4d3196bf525c2255d615c98"
       },
       "v0.2": {
         "libs": {
@@ -9220,6 +9220,18 @@
           }
         },
         "sha": "3bdc215576fd325ad6e715a9a5c0318593b69fd1"
+      },
+      "v1.0.1": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "69fd1e7381fb50e6a0bc77d9ba168e9d6a7d9a6a"
       }
     }
   },
