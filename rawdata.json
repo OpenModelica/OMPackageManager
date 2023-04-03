@@ -10468,14 +10468,12 @@
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0",
-              "ModelicaServices": "4.0.0",
-              "SDF": "0.4.2",
-              "UserInteraction": "0.70.0"
+              "ModelicaServices": "4.0.0"
             },
             "version": "0.5.0-master"
           }
         },
-        "sha": "0bd23a370f973e096dc705d2d68c94c607f08249"
+        "sha": "32210792356fc2221cfcc7949cdb3297470b75b5"
       },
       "v0.1-beta": {
         "libs": {
