@@ -386,8 +386,7 @@
       "4.0.0": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
     },
     "support": [
-      ["prerelease", "noSupport"],
-      [">=3.3.2", "support"],
+      [">=3.3.2", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
