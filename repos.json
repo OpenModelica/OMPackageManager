@@ -381,17 +381,13 @@
   },
   "ExternalMedia": {
     "names": ["ExternalMedia"],
-    "github": "modelica-3rdparty/ExternalMedia",
-    "search-extra-paths": ["Modelica"],
-    "branches": {"master": "master"},
     "zipfiles": {
       "3.3.2": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v3.3.2/ExternalMedia-3.3.2.zip",
       "4.0.0": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
     },
     "support": [
-      ["prerelease", "noSupport"],
-      [">=3.3.2", "support"],
-      ["*", "noSupport"]
+      [">=3.3.2", "fullSupport"],
+      ["*", "obsolete"]
     ]
   },
   "ExternalMemoryLib": {
