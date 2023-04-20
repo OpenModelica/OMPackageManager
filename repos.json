@@ -1043,7 +1043,7 @@
   "PowerGrids": {
     "names": ["PowerGrids"],
     "github": "PowerGrids/PowerGrids",
-    "branches": {"master": "master"},
+    "branches": {"develop": "develop"},
     "ignore-tags": [],
     "support": [
       ["prerelease", "noSupport"],
