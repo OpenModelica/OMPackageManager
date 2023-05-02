@@ -1560,7 +1560,7 @@
             "version": "10.0.0-master"
           }
         },
-        "sha": "a68c5d5fb5bc13c9985de5ed85192ff7af0f396f"
+        "sha": "a7659da90eeed1219c7570b9c932f81bf4eaa625"
       },
       "v1.4_build1": {
         "libs": {
@@ -2047,10 +2047,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "2.2.0-main"
+            "version": "2.1.1-main"
           }
         },
-        "sha": "8acde2af16a97d495e2afd336a6782ba5be9202e"
+        "sha": "b1f7e477a92d0af12caecdd3d777074c66223f44"
       },
       "v1.0.1": {
         "libs": {
@@ -2087,6 +2087,18 @@
           }
         },
         "sha": "8acde2af16a97d495e2afd336a6782ba5be9202e"
+      },
+      "v2.1.1": {
+        "libs": {
+          "BusinessSimulation": {
+            "path": "BusinessSimulation",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.1.1"
+          }
+        },
+        "sha": "b1f7e477a92d0af12caecdd3d777074c66223f44"
       }
     }
   },
@@ -4303,7 +4315,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "f64e4eec7edd32a5e8fba2d3808f4c0842d93bb6"
+        "sha": "3a9325cab72db018fb0cd9da7dcdba9e63dc8678"
       },
       "v2.0.0": {
         "libs": {
