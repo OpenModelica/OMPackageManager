@@ -2382,7 +2382,7 @@
             "version": "0.1.0-main"
           }
         },
-        "sha": "49e47c95be2cff5dc7b7039597afedfcd77b0c16"
+        "sha": "56a3fa51ee87539c87797955674b6fa43c30cdad"
       },
       "v0.1.0": {
         "libs": {
@@ -4315,7 +4315,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "3a9325cab72db018fb0cd9da7dcdba9e63dc8678"
+        "sha": "f8d353892d4ac576d335e012b8557097128f2776"
       },
       "v2.0.0": {
         "libs": {
@@ -8988,7 +8988,7 @@
             "version": "1.0.3-develop"
           }
         },
-        "sha": "e830e466be2b34ceca999bd3bae38e34bc3a2fe3"
+        "sha": "210831d8cab0bbd124e6071c0eaeee8dd2b7ee3c"
       },
       "master": {
         "libs": {
@@ -10439,6 +10439,18 @@
         },
         "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
       },
+      "1.8.1": {
+        "libs": {
+          "TILMedia": {
+            "path": "TILMedia",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.8.1-ClaRa"
+          }
+        },
+        "sha": "010603eb27287ce477b3902926296ee9b305af50"
+      },
       "main": {
         "libs": {
           "TILMedia": {
@@ -10446,10 +10458,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.8.0-main"
+            "version": "1.8.1-main"
           }
         },
-        "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
+        "sha": "010603eb27287ce477b3902926296ee9b305af50"
       }
     }
   },
