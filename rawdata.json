@@ -8983,12 +8983,12 @@
               "1.0.2"
             ],
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "1.0.3-develop"
           }
         },
-        "sha": "6485e61aa5b724f15ed045beef4fc0ba245b2fdf"
+        "sha": "105cf68602bc8b61a0d5c62f08ff0c7223d21b5b"
       },
       "master": {
         "libs": {
