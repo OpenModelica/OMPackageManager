@@ -1560,7 +1560,7 @@
             "version": "10.0.0-master"
           }
         },
-        "sha": "13ed223f2c6ed56f98cf3d65cbc767c50a72b0f3"
+        "sha": "60727aeb69651d2ba7a6ba2a68eb77cbb239da18"
       },
       "v1.4_build1": {
         "libs": {
@@ -4315,7 +4315,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "f7d4c1a2dd1818dbc781a1ed9aa37b9d464072aa"
+        "sha": "6a703cde2fea9efbc0dcefda911771b90dc50164"
       },
       "v2.0.0": {
         "libs": {
@@ -8977,18 +8977,13 @@
         "libs": {
           "PowerGrids": {
             "path": "PowerGrids",
-            "provides": [
-              "1.0.0",
-              "1.0.1",
-              "1.0.2"
-            ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.0.3-develop"
+            "version": "2.0.0-develop"
           }
         },
-        "sha": "105cf68602bc8b61a0d5c62f08ff0c7223d21b5b"
+        "sha": "325f2ae69d9fcc7793bc6ae261d298c4954718aa"
       },
       "master": {
         "libs": {
