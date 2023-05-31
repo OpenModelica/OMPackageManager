@@ -1539,7 +1539,7 @@
             "version": "9.1.1-maint.9.1.x"
           }
         },
-        "sha": "ba290a3455daf14b8d08482f2e530edc1f6299cd"
+        "sha": "430257974e2b3a7f0e123bcd4313dc1a6f153623"
       },
       "master": {
         "libs": {
@@ -9353,12 +9353,12 @@
           "PropulsionSystem": {
             "path": "",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "1f73d5157e249181f639d29a71d4de18a002cfc4"
+        "sha": "5bf32a2d08a426028391b5950496b360874b3b78"
       },
       "ver.2022.12.17": {
         "libs": {
