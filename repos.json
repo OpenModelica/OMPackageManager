@@ -1350,7 +1350,7 @@
   },
   "TransiEnt": {
     "names": ["TransiEnt"],
-    "github": "ClaRaLibrary/TransiEnt",
+    "github": "https://github.com/TransiEnt-official/transient-lib",
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
