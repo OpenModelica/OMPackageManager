@@ -1359,7 +1359,7 @@
   },
   "TransiEnt": {
     "names": ["TransiEnt"],
-    "github": "https://github.com/TransiEnt-official/transient-lib",
+    "github": "TransiEnt-official/transient-lib",
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
