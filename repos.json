@@ -649,6 +649,15 @@
       ["*", "obsolete"]
     ]
   },
+  "MagLev": {
+    "names": ["MagLev"],
+    "github": "AHaumer/MagLev",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "ManualTracking": {
     "branches": {"master": "master"},
     "names": ["ManualTracking"],
