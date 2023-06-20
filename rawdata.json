@@ -8840,18 +8840,20 @@
             "convertFromVersion": [
               "1.3.0",
               "1.4.0",
-              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "PlanarMechanics",
+            "provides": [
               "1.5.0",
               "1.5.1"
             ],
-            "path": "PlanarMechanics",
             "uses": {
               "Modelica": "4.0.0"
             },
             "version": "1.5.1-master"
           }
         },
-        "sha": "588178ff5f5aabff42ed79b2024e0f7d3bea55cf"
+        "sha": "d1b369ada0add2e42c6a14185d6b3d5874e10c1d"
       },
       "v1.2.0": {
         "libs": {
