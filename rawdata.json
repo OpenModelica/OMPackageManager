@@ -10907,36 +10907,6 @@
           }
         },
         "sha": "f8f6c2c089ca2ff5a6f9d407fc3329eb8499c727"
-      },
-      "v2.0.2": {
-        "libs": {
-          "TransiEnt": {
-            "convertFromVersion": [
-              "0.3.0",
-              "1.0.1",
-              "1.1.0",
-              "1.2.0",
-              "1.3.0",
-              "1.3.1",
-              "2.0.0"
-            ],
-            "path": "TransiEnt 2.0.2",
-            "uses": {
-              "Buildings": "7.0.0",
-              "ClaRa": "1.7.0",
-              "DataFiles": "1.0.5",
-              "Design": "1.0.7",
-              "DymolaCommands": "1.11.0",
-              "Modelica": "4.0.0",
-              "ModelicaReference": "4.0.0",
-              "Modelica_LinearSystems2": "2.4.0",
-              "Modelica_StateGraph2": "2.0.4",
-              "TILMedia": "1.7.0-ClaRa"
-            },
-            "version": "2.0.2"
-          }
-        },
-        "sha": "8e8a93790b61c9396d4a54ef68edb62613e8f4da"
       }
     }
   },
