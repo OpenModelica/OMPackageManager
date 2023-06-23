@@ -1333,8 +1333,7 @@
       ["*", "latest"]
     ],
     "support": [
-      ["prerelease", "noSupport"],
-      ["*", "obsolete"]
+      ["*", "experimental"]
     ]
   },
   "ThermoSysPro": {
