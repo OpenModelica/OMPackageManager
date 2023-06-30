@@ -1358,7 +1358,7 @@
   },
   "TransiEnt": {
     "names": ["TransiEnt"],
-    "github": "TransiEnt-official/transient-lib",
+    "github": "adrpo/transient-lib",
     "ignore-tags": ["v2.0.2"],
     "branches": {"master": "master"},
     "support": [
