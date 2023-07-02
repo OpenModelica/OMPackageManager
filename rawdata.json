@@ -10892,7 +10892,7 @@
             ],
             "path": "TransiEnt 2.0.2-dev",
             "uses": {
-              "Buildings": "7.0.0",
+              "Buildings": "9.0.0",
               "ClaRa": "1.8.0",
               "DataFiles": "1.0.5",
               "Design": "1.0.7",
@@ -10900,13 +10900,13 @@
               "Modelica": "4.0.0",
               "ModelicaReference": "4.0.0",
               "Modelica_LinearSystems2": "2.4.0",
-              "Modelica_StateGraph2": "2.0.4",
+              "Modelica_StateGraph2": "2.1.0",
               "TILMedia": "1.8.0-ClaRa"
             },
             "version": "2.0.2-master"
           }
         },
-        "sha": "a76598a21cdca15aff53adaf3fc4e009ec9d83a4"
+        "sha": "bdb7bd491a6f7c38aa7ea23a2adcf63ba237b187"
       }
     }
   },
