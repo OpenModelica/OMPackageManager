@@ -753,6 +753,22 @@
       }
     }
   },
+  "BidiDCDC": {
+    "refs": {
+      "main": {
+        "libs": {
+          "BidiDCDC": {
+            "path": "BidiDCDC",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0-main"
+          }
+        },
+        "sha": "f7ceb67409a786eefbf69725af3ab79e67908b72"
+      }
+    }
+  },
   "BioChem": {
     "refs": {
       "master": {
@@ -2550,6 +2566,24 @@
           }
         },
         "sha": "f188f942055fb1998a130309612115f9e95a4438"
+      }
+    }
+  },
+  "DroneLibrary": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "DroneLibrary": {
+            "path": "A_Modelica/DroneLibrary",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "Visualization": "1.6.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "66468f43d3b9d14c1dec24ce0e5c10023d8fe89d"
       }
     }
   },
@@ -9021,7 +9055,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "5f2ff03061ed2692459100cd828a17abb5e2180d"
+        "sha": "6bb63859ef4949e15f9545a8b5ee0b210901cc06"
       },
       "master": {
         "libs": {
