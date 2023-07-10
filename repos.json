@@ -342,6 +342,7 @@
     "github": "ALSETLab/Modelica-Drone-3D-FMI",
     "search-extra-paths": ["A_Modelica"],
     "ignore-tags": ["v.1.beta","v.1.alpha","start"],
+    "ignore-uses": ["Visualization"],
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "experimental"],

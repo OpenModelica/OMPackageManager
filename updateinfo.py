@@ -249,6 +249,8 @@ def main():
             if version.startswith("+"):
               version = version[1:]
             uses = sorted([[e[0],str(common.VersionNumber(e[1]))] for e in omc.sendExpression("getUses(%s)" % libname)])
+            for ignore in entry.get("ignore-uses", []):
+              uses = [use for use in uses if use[0] != ignore]
             # Get conversions
             (withoutConversion,withConversion) = omc.sendExpression("getConversionsFromVersions(%s)" % libname)
             withoutConversion = list(filter(None, [str(ver) for ver in sorted([common.VersionNumber(v) for v in withoutConversion])]))
