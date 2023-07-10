@@ -106,6 +106,16 @@
       ["*", "support"]
     ]
   },
+  "BidiDCDC": {
+    "names": ["BidiDCDC"],
+    "github": "rea40157/BidiDCDC",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "BioChem": {
     "names": ["BioChem"],
     "github": "OpenModelica/BioChem",
@@ -324,6 +334,17 @@
     "support": [
       ["prerelease", "noSupport"],
       [">=0.1.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
+  "DroneLibrary": {
+    "names": ["DroneLibrary"],
+    "github": "ALSETLab/Modelica-Drone-3D-FMI",
+    "search-extra-paths": ["A_Modelica"],
+    "ignore-tags": ["v.1.beta","v.1.alpha","start"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
