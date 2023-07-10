@@ -2569,6 +2569,23 @@
       }
     }
   },
+  "DroneLibrary": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "DroneLibrary": {
+            "path": "A_Modelica/DroneLibrary",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "66468f43d3b9d14c1dec24ce0e5c10023d8fe89d"
+      }
+    }
+  },
   "DymolaCommands": {
     "refs": {
       "master": {
