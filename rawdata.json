@@ -8617,7 +8617,8 @@
               "2.2.0",
               "2.3.0",
               "2.3.1",
-              "2.3.2"
+              "2.3.2",
+              "3.0.0-alpha11"
             ],
             "path": "Physiolibrary",
             "uses": {
@@ -8627,7 +8628,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "359fcd4e8863e7bc1c0bdcccc78cbf75b1ca55c6"
+        "sha": "8017b0d4625ec817df895eb89d344245f4d03e0b"
       },
       "v1.0.0": {
         "libs": {
@@ -9054,7 +9055,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "3d3e8a0734cb66b50a2e912e01b487dbf16496c3"
+        "sha": "34220b4f841ccea93e02b71c7a16076a87c656f2"
       },
       "master": {
         "libs": {
