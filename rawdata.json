@@ -7808,12 +7808,12 @@
           "PNlib": {
             "path": "PNlib",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "2.2.0-master"
           }
         },
-        "sha": "059545d48dd9ceeccfa3b4e47689ec8dd334dcd8"
+        "sha": "80e643863b1f5d60eff96b7561e28b29ffce5899"
       },
       "v1.0": {
         "libs": {
