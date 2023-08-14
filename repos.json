@@ -561,7 +561,7 @@
   "Greenhouses": {
     "names": ["Greenhouses"],
     "branches": {"master": "master"},
-    "github": "queraltab/Greenhouses-Library",
+    "github": "adrpo/Greenhouses-Library",
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
