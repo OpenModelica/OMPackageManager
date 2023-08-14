@@ -3930,13 +3930,16 @@
         "libs": {
           "Greenhouses": {
             "path": "Greenhouses",
+            "provides": [
+              "0.0.0"
+            ],
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "master"
+            "version": "1.0.0-master"
           }
         },
-        "sha": "0ce7b77ad0a0a36fd83b0b95cd590cf7cebb7030"
+        "sha": "c4a7939de65dfc27d5d88bc220960924d0a76d94"
       }
     }
   },
