@@ -3924,6 +3924,24 @@
       }
     }
   },
+  "Greenhouses": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Greenhouses": {
+            "path": "Greenhouses",
+            "uses": {
+              "DymolaCommands": "1.1.0",
+              "Modelica": "3.2.3",
+              "conversion": "0.0.0-default"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "8b4eb816f749fbe74c53430e28e21f073a863f75"
+      }
+    }
+  },
   "HanserModelica": {
     "refs": {
       "master": {
