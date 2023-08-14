@@ -3931,13 +3931,12 @@
           "Greenhouses": {
             "path": "Greenhouses",
             "uses": {
-              "DymolaCommands": "1.1.0",
               "Modelica": "3.2.3"
             },
             "version": "master"
           }
         },
-        "sha": "772bd08963fa8549aee7fabddd00f137b17ad40d"
+        "sha": "0ce7b77ad0a0a36fd83b0b95cd590cf7cebb7030"
       }
     }
   },
@@ -7812,7 +7811,7 @@
             "version": "2.2.0-master"
           }
         },
-        "sha": "23d0a09b00b59198f8e33eea5bc5492b2f42f414"
+        "sha": "49d2ad4fa8150d709b1ca740ae7622a4e9a2a175"
       },
       "v1.0": {
         "libs": {
