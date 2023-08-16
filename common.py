@@ -12,7 +12,6 @@ def VersionNumber(s):
   except:
     return semantic_version.Version(major=0, minor=0, patch=0, prerelease=(s,))
 
-
 def findMatchingLevel(s, levels):
   try:
     vn = VersionNumber(s)

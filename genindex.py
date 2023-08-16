@@ -141,7 +141,7 @@ def main():
         libdict[lib['version']] = entry
         # print(entry)
     # for lib in data["libs"].keys():
-  
+
   for libName in indexdata["libs"].keys():
     versions = indexdata["libs"][libName]["versions"]
     for version in versions.keys():

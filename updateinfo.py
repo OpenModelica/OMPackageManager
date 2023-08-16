@@ -126,7 +126,7 @@ def main():
       for (name,sha) in tags:
         if name not in ignoreTags:
           objects.append((name, sha))
-          
+
       if not objects:
         raise Exception("No commits or zip-files found for %s" % key)
 
@@ -286,5 +286,6 @@ def main():
       raise Exception("Don't know how to handle entry for %s: %s" % (key, entry))
   with open("rawdata.json","w") as io:
     json.dump(serverdata, io, sort_keys=True, indent=2)
+
 if __name__ == '__main__':
   main()
