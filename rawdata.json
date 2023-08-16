@@ -1576,7 +1576,7 @@
             "version": "10.0.0-master"
           }
         },
-        "sha": "49996edeb10d64b83248ae1d4b5479f4dcfd8178"
+        "sha": "3185e8f3288c64723f5aa1ba576d3075077c476b"
       },
       "v1.4_build1": {
         "libs": {
@@ -8623,13 +8623,14 @@
             ],
             "path": "Physiolibrary",
             "uses": {
+              "Chemical": "1.4.0",
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
             "version": "3.0.0-master"
           }
         },
-        "sha": "8017b0d4625ec817df895eb89d344245f4d03e0b"
+        "sha": "382c775238c524552c27fbbcaae4e1447e2aa928"
       },
       "v1.0.0": {
         "libs": {
