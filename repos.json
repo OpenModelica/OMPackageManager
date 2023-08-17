@@ -490,7 +490,7 @@
       ["prerelease", "noSupport"],
       ["*", "noSupport"]
     ]
-  },  
+  },
   "FMITest": {
     "names": ["FMITest"],
     "github": "DLR-SR/FMITest",
