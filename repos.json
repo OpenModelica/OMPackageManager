@@ -1234,6 +1234,14 @@
       ["*", "obsolete"]
     ]
   },
+  "SMArtIInt": {
+    "names": ["SMArtIInt"],
+    "github": "xrg-simulation/SMArtIInt",
+    "branches": {"main": "main"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
   "SMEHV": {
     "names": ["wbEHPTlib", "wbEHVpkg"],
     "github": "max-privato/SMEHV",
