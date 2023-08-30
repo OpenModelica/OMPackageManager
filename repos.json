@@ -977,6 +977,15 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenIMDML": {
+    "names": ["OpenIMDML"],
+    "github": "ALSETLab/OpenIMDML",
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "OpenModelica_Microgrids": {
     "names": ["OpenModelica_Microgrids"],
     "github": "upb-lea/OpenModelica_Microgrids",
