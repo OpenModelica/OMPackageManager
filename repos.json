@@ -964,6 +964,16 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenIMDML": {
+    "names": ["OpenIMDML"],
+    "github": "ALSETLab/OpenIMDML",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "OpenIPSL": {
     "names": ["OpenIPSL"],
     "github": "OpenIPSL/OpenIPSL",
@@ -974,15 +984,6 @@
     "support": [
       ["prerelease", "noSupport"],
       [">=1.5.0", "support"],
-      ["*", "obsolete"]
-    ]
-  },
-  "OpenIMDML": {
-    "names": ["OpenIMDML"],
-    "github": "ALSETLab/OpenIMDML",
-    "support": [
-      ["prerelease", "noSupport"],
-      [">=1.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
