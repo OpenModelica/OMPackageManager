@@ -7483,6 +7483,27 @@
       }
     }
   },
+  "OpenIMDML": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "OpenIMDML": {
+            "path": "OpenIMDML",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "OpenIPSL": "3.0.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "8c688f39200fe55c4736b871537dff4892013c13"
+      }
+    }
+  },
   "OpenIPSL": {
     "refs": {
       "FOSSEE1_initial": {
