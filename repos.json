@@ -228,21 +228,11 @@
     ]
   },
   "ClaRa": {
-    "names": ["ClaRa"],
-    "github": "ClaRaLibrary/ClaRa",
-    "branches": {"master": "master"},
+    "names": ["ClaRa", "ClaRa-Obsolete"],
+    "github": "xrg-simulation/ClaRa-official",
+    "branches": {"main": "main"},
     "support": [
-      ["prerelease", "noSupport"],
-      ["*", "noSupport"]
-    ]
-  },
-  "ClaRa_Obsolete": {
-    "names": ["ClaRa_Obsolete"],
-    "github": "ClaRaLibrary/ClaRa_Obsolete",
-    "branches": {"master": "master"},
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "noSupport"]
+      ["*", "experimental"]
     ]
   },
   "ComplexLib": {
