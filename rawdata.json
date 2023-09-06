@@ -1547,15 +1547,16 @@
             "path": "Buildings",
             "provides": [
               "9.0.0",
-              "9.1.0"
+              "9.1.0",
+              "9.1.1"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "9.1.1-maint.9.1.x"
+            "version": "9.1.2-maint.9.1.x"
           }
         },
-        "sha": "bcba32fb0dcdfd3513ed79f69877e29a7c136092"
+        "sha": "f6888a1af9c6408d678c7a5a10f0cf7404527a83"
       },
       "master": {
         "libs": {
@@ -10903,7 +10904,7 @@
             "version": "1.1.0-main"
           }
         },
-        "sha": "3cb2af43d75a7b386652a489afcb150668414cec"
+        "sha": "316c40bf9ec0d08c786d7732f70b1a6b43594fb4"
       },
       "v0.1-beta": {
         "libs": {
