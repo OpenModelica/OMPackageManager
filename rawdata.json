@@ -1575,10 +1575,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "10.0.0-master"
+            "version": "10.1.0-master"
           }
         },
-        "sha": "5e6acf7cf0ba8ce7cccb2dac8cf6244c3a518721"
+        "sha": "f9bcaaa31cc8d217ad3317365477c0b886a1d86f"
       },
       "v1.4_build1": {
         "libs": {
@@ -10904,7 +10904,7 @@
             "version": "1.1.0-main"
           }
         },
-        "sha": "316c40bf9ec0d08c786d7732f70b1a6b43594fb4"
+        "sha": "657d7e92e2ef458233f40b4fd139b4a6586518ea"
       },
       "v0.1-beta": {
         "libs": {
