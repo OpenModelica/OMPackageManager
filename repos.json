@@ -592,7 +592,7 @@
   "IBPSA": {
     "names": ["IBPSA"],
     "github": "ibpsa/modelica-ibpsa",
-    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v1.0.0"],
+    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v0.3.0", "v2.0.0", "v2.1.0", "_LinearisationPaper"],
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
