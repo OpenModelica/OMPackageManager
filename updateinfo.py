@@ -180,7 +180,7 @@ def main():
                 pass
               shutil.copytree(repopath+".git", repopath)
             except:
-              print("Failed to checkout %s with SHA %s" % (tagName, sha))
+              print("Failed to checkout %s from repo: %s with SHA %s" % (tagName, repopath, sha))
               raise
           omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
