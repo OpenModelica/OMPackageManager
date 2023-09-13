@@ -181,6 +181,17 @@ def main():
               shutil.copytree(repopath+".git", repopath)
             except:
               print("Failed to checkout %s from repo: %s with SHA %s" % (tagName, repopath, sha))
+              print("Usually this error happens if somebody force-pushed to a repository.")
+              print("We will delete our own cache of %s now!", repopath)
+              print("PLEASE RERUN THIS SCRIPT!")
+              try:
+                os.unlink(repopath)
+              except:
+                pass
+              try:
+                shutil.rmtree(repopath)
+              except FileNotFoundError:
+                pass
               raise
           omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
