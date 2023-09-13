@@ -228,7 +228,7 @@
     ]
   },
   "ClaRa": {
-    "names": ["ClaRa", "ClaRa-Obsolete"],
+    "names": ["ClaRa", "ClaRa_Obsolete"],
     "github": "xrg-simulation/ClaRa-official",
     "branches": {"main": "main"},
     "support": [
