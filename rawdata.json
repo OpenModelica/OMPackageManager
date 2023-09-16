@@ -1579,7 +1579,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "3cdd0c6710d093b147d3637699879d8bd3fcad77"
+        "sha": "46928193805bdefed8055862ec873cdb0ccb52e0"
       },
       "v1.4_build1": {
         "libs": {
@@ -3167,6 +3167,39 @@
           }
         },
         "sha": "706b43d3a7eeda59ba70f7df7cf9bf30d06ddac0"
+      }
+    }
+  },
+  "EHPTexamples": {
+    "refs": {
+      "main": {
+        "libs": {
+          "EHPTexamples": {
+            "path": "EHPTexamples",
+            "uses": {
+              "EHPTlib": "2.1.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "c87640ef3a9a29043b87283b721f467f171e564c"
+      }
+    }
+  },
+  "EHPTlib": {
+    "refs": {
+      "main": {
+        "libs": {
+          "EHPTlib": {
+            "path": "EHPTlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "2d219f155e1fa8c9c7523889297072a9646b9ef0"
       }
     }
   },
@@ -4907,7 +4940,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "a18de7c14d7b964dd9d4931972a0ab632753b7cc"
+        "sha": "386a90ab66835be5c38d84566358d85b27f51667"
       },
       "v2.0.0": {
         "libs": {
@@ -10045,7 +10078,7 @@
             "version": "master"
           }
         },
-        "sha": "b080805ed12c9a4016719c2d16843b5af1fcd84c"
+        "sha": "2f8386efc030cd2680c7656d91e3975683c4e5e2"
       },
       "ver.2022.12.17": {
         "libs": {
