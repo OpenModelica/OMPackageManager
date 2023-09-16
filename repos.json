@@ -343,7 +343,7 @@
   "EHPTlib": {
     "names": ["EHPTlib"],
     "github": "ceraolo/EHPTlib",
-    "branches": {"master": "master"},
+    "branches": {"main": "main"},
     "support": [
       ["*", "experimental"]
     ]
@@ -351,7 +351,7 @@
   "EHPTexamples": {
     "names": ["EHPTexamples"],
     "github": "ceraolo/EHPTexamples",
-    "branches": {"master": "master"},
+    "branches": {"main": "main"},
     "support": [
       ["*", "experimental"]
     ]
