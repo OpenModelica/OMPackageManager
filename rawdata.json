@@ -3177,13 +3177,13 @@
           "EHPTexamples": {
             "path": "EHPTexamples",
             "uses": {
-              "EHPTlib": "2.1.0",
+              "EHPTlib": "2.1.4",
               "Modelica": "4.0.0"
             },
             "version": "main"
           }
         },
-        "sha": "c5a1b7df75a239923e1ad38cac4246a8a16257c6"
+        "sha": "3145383459dc9f70323f9d72570ffe0bb739304c"
       }
     }
   },
@@ -8255,7 +8255,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "6dcf72bef5e07c76223730dabba929147dd7c04c"
+        "sha": "48e3d499696300d0a74d9b934450c343a535d6c0"
       },
       "v1.0.0": {
         "libs": {
