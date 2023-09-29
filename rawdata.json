@@ -4506,12 +4506,12 @@
           "GNU_ScientificLibrary": {
             "path": "GNU_ScientificLibrary",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "9235ab28bdd7f0fe3e7abba48af53d73332858ec"
+        "sha": "6918f1e794e905d0eba07f3fc5e231d30bfeeb4f"
       }
     }
   },
@@ -4940,7 +4940,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "c5f86846a14301707fc436aa9b926eabd4e5116e"
+        "sha": "dda432702f3b8834fa4d41a2aa1ae479ac1c47a9"
       },
       "v2.0.0": {
         "libs": {
