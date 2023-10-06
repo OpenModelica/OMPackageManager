@@ -11465,7 +11465,7 @@
             "version": "1.1.0-main"
           }
         },
-        "sha": "887937cc763368691aa3a73afc7e7e742fde1869"
+        "sha": "c108e09803d6270804389fc9996403648112f151"
       },
       "v0.1-beta": {
         "libs": {
@@ -11555,6 +11555,28 @@
           }
         },
         "sha": "cffa9282daf1821f2792fdc1fb5878325ea9a2a2"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ThermofluidStream": {
+            "convertFromVersion": [
+              "0.2.1",
+              "1.0.0"
+            ],
+            "path": "ThermofluidStream",
+            "provides": [
+              "0.3.0",
+              "0.4.1",
+              "0.5.0"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "c108e09803d6270804389fc9996403648112f151"
       }
     }
   },
