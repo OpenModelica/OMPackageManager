@@ -190,7 +190,6 @@
     "semverTagOverridesAnnotation": true,
     "semverPrereleaseOverridesAnnotation": true,
     "support": [
-      ["prerelease", "noSupport"],
       [">=2.0.0", "support"],
       ["*", "obsolete"]
     ]
