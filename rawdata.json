@@ -9259,7 +9259,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "3f539b145ee35fb630f108b37572fab6f47a98c2"
+        "sha": "0ef8b5848b8bd08912a1713d0641b6bb03c3e3b2"
       },
       "v1.0.0": {
         "libs": {
@@ -9460,6 +9460,37 @@
           }
         },
         "sha": "7597498ffe49fea2723bafdc8a0f275c0dcecb83"
+      },
+      "v3.0.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "0.0.0-BioChem-1.0.1",
+              "0.4980.0",
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "2.0.0",
+              "2.1.0",
+              "2.1.0",
+              "2.1.1",
+              "2.1.2",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "3.0.0-alpha11"
+            ],
+            "path": "Physiolibrary",
+            "uses": {
+              "Chemical": "1.4.0",
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "0ef8b5848b8bd08912a1713d0641b6bb03c3e3b2"
       }
     }
   },
