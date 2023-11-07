@@ -5510,10 +5510,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.1.0-main"
+            "version": "2.2.0-main"
           }
         },
-        "sha": "504458d363254a773ead5124620c93b4d26a9a57"
+        "sha": "d47375f1fac817cef9046fc61a3862b3921fc9cf"
       }
     }
   },
