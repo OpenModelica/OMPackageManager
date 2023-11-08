@@ -3184,6 +3184,19 @@
           }
         },
         "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
+      },
+      "v2.1.4": {
+        "libs": {
+          "EHPTexamples": {
+            "path": "EHPTexamples",
+            "uses": {
+              "EHPTlib": "2.1.4",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.4"
+          }
+        },
+        "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
       }
     }
   },
@@ -3197,6 +3210,18 @@
               "Modelica": "4.0.0"
             },
             "version": "2.1.4-main"
+          }
+        },
+        "sha": "fd9b23dda37740e0824efa5d909e5c5995272755"
+      },
+      "v2.1.4": {
+        "libs": {
+          "EHPTlib": {
+            "path": "EHPTlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.4"
           }
         },
         "sha": "fd9b23dda37740e0824efa5d909e5c5995272755"
