@@ -1058,6 +1058,7 @@
     "names": ["Physiolibrary"],
     "github": "MarekMatejak/Physiolibrary",
     "ignore-tags": [],
+    "ignore-uses": ["Chemical"],
     "semverTagOverridesAnnotation": true,
     "branches": {"master": "master"},
     "support": [
