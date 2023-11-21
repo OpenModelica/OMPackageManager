@@ -9288,7 +9288,6 @@
             ],
             "path": "Physiolibrary",
             "uses": {
-              "Chemical": "1.5.0-alpha",
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
