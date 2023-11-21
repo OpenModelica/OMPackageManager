@@ -227,7 +227,7 @@
     ]
   },
   "ClaRa": {
-    "names": ["ClaRa", "ClaRa_Obsolete"],
+    "names": ["ClaRa", "ClaRa_Obsolete", "SMArtIInt"],
     "github": "xrg-simulation/ClaRa-official",
     "branches": {"main": "main"},
     "ignore-uses": ["FluidDissipation", "ClaRa_Dev"],
