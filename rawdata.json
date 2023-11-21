@@ -531,7 +531,7 @@
             "version": "1.0.1-master"
           }
         },
-        "sha": "28420f5c1a88c9cd069defbd8c05e4a78a090675"
+        "sha": "5c6203d3065ca7f31fcca02bfa6c1758ec3bc0b8"
       }
     }
   },
@@ -1579,7 +1579,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "c3542e001e21274e8602747eecc1556484f1d36d"
+        "sha": "ca5ab3de6ff5500151d7980b2a6b5a6dcf4a4283"
       },
       "v1.4_build1": {
         "libs": {
@@ -2182,10 +2182,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.4.0-master"
+            "version": "1.5.0-master"
           }
         },
-        "sha": "5645573fced862430b7b598b4d7ec1a39c7aa0fa"
+        "sha": "dec597794aadb62a9f61d161a6bd39cee53e0e93"
       },
       "v1.0.0": {
         "libs": {
@@ -2829,6 +2829,7 @@
             "path": "ClaRa",
             "uses": {
               "Modelica": "4.0.0",
+              "SMArtIInt": "0.2.2",
               "TILMedia": "1.8.1-ClaRa"
             },
             "version": "1.8.1-main"
@@ -2851,9 +2852,19 @@
               "TILMedia": "1.8.1-ClaRa"
             },
             "version": "1.8.1-main"
+          },
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.2-main"
           }
         },
-        "sha": "c66f80329e0efc823c1168e75bd4ee2e48ac4e2d"
+        "sha": "8df59cf92db950f93e04ff380ba82c4950fdfdbc"
       },
       "master": {
         "libs": {
@@ -2915,7 +2926,7 @@
             "version": "3.2.0-master"
           }
         },
-        "sha": "8a91e75d8a26acc4de30fc0e5d5e9db83c970bd6"
+        "sha": "4b50a72ff2c597d53bdc09b64b6dcdd0d74e6b05"
       }
     }
   },
@@ -6626,10 +6637,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.2.3-main"
+            "version": "2.3.0-main"
           }
         },
-        "sha": "f4ed6f0d73d774ba9dfa7462fca01523d81779c0"
+        "sha": "1b9e83d2ff3547868d1763badf1e5759096372e9"
       },
       "v1.0.0": {
         "libs": {
@@ -8116,7 +8127,7 @@
             "version": "1.0.0-main"
           }
         },
-        "sha": "0ee26d2ad9745b5eaab3d84d25ad05743354b783"
+        "sha": "3d324566c6efab6bc4ec0141255ead92490ed8bb"
       },
       "v1.0.0": {
         "libs": {
@@ -9277,14 +9288,14 @@
             ],
             "path": "Physiolibrary",
             "uses": {
-              "Chemical": "1.4.0",
+              "Chemical": "1.5.0-alpha",
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "3.0.0-master"
+            "version": "3.1.0-master"
           }
         },
-        "sha": "ff3580c172026f1aaa35893ed2971566aea86287"
+        "sha": "15dd529df5328f6351057d012636baa087a8b093"
       },
       "v1.0.0": {
         "libs": {
