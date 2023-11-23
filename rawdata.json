@@ -1556,7 +1556,7 @@
             "version": "9.1.2-maint.9.1.x"
           }
         },
-        "sha": "3b1679c879a323bd85eb3d6c38a7732c279b52bc"
+        "sha": "bf5db2ffd0fb3ee189dfbddcdce4ab3618884206"
       },
       "master": {
         "libs": {
@@ -1579,7 +1579,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "ca5ab3de6ff5500151d7980b2a6b5a6dcf4a4283"
+        "sha": "20162c604b4613797c8d04314573c5b6ebdcf9be"
       },
       "v1.4_build1": {
         "libs": {
@@ -4976,7 +4976,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "cf6d6cdd5347bf490728f33405e76be5a67f1c20"
+        "sha": "9222d9d02a3f89b3d7aafb3fa12f25240cc7131a"
       },
       "v2.0.0": {
         "libs": {
@@ -5546,10 +5546,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.2.0-main"
+            "version": "2.3.0-main"
           }
         },
-        "sha": "f3c6cb1461fbf88f4f3c8b13a2798b5746ea3435"
+        "sha": "34afdc6b811ed496391c667edac244a48cd2331a"
       }
     }
   },
@@ -10342,6 +10342,82 @@
           }
         },
         "sha": "51c71a079161223bd3952894e34f3f8c924e931a"
+      }
+    }
+  },
+  "SMArtIInt": {
+    "refs": {
+      "Release_Dymola_2023x_Refresh_1": {
+        "libs": {
+          "SMArtIInt": {
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.1.1-Release_Dymola_2023x_Refresh_1"
+          }
+        },
+        "sha": "19cf6415516b4f69faeafd2b10fb6f8b24680a13"
+      },
+      "main": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.2-main"
+          }
+        },
+        "sha": "b06a37677de30cd23e7218466a146c7361d59c6c"
+      },
+      "v0.2.0": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "08b5b52b568f9812cca1555e0628a71e17fbe3b6"
+      },
+      "v0.2.1": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "bb84dc18721af9a4c79cd2a3db4e9a8ad8d03d6a"
+      },
+      "v0.2.2": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.2"
+          }
+        },
+        "sha": "d0e8b787082356f51471f4e894ad1f83556ffb59"
       }
     }
   },
