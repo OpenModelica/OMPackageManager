@@ -3678,10 +3678,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.3-master"
+            "version": "3.0.4-master"
           }
         },
-        "sha": "24897ac4fa8428eae2b96fc84bef445cea8e9fba"
+        "sha": "a9c68cceca613ee384ef820a4032944c9d2c0fcb"
       },
       "v1.0.0": {
         "libs": {
@@ -3934,6 +3934,18 @@
           }
         },
         "sha": "84007519841b29b533172d196e000aec78c0ec07"
+      },
+      "v3.0.4": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.4"
+          }
+        },
+        "sha": "a9c68cceca613ee384ef820a4032944c9d2c0fcb"
       }
     }
   },
