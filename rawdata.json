@@ -2851,7 +2851,7 @@
               "SMArtIInt": "0.2.2",
               "TILMedia": "1.8.1-ClaRa"
             },
-            "version": "1.8.1-main"
+            "version": "1.8.2-main"
           },
           "ClaRa_Obsolete": {
             "convertFromVersion": [
@@ -2866,24 +2866,14 @@
               "1.2.2"
             ],
             "uses": {
-              "ClaRa": "1.8.1",
+              "ClaRa": "1.8.2",
               "Modelica": "4.0.0",
               "TILMedia": "1.8.1-ClaRa"
             },
-            "version": "1.8.1-main"
-          },
-          "SMArtIInt": {
-            "convertFromVersion": [
-              "0.1.1"
-            ],
-            "path": "SMArtIInt",
-            "uses": {
-              "Modelica": "4.0.0"
-            },
-            "version": "0.2.2-main"
+            "version": "1.8.2-main"
           }
         },
-        "sha": "8df59cf92db950f93e04ff380ba82c4950fdfdbc"
+        "sha": "68a35e9516439fddeac5a0b0d4a6a8e5c407f557"
       },
       "master": {
         "libs": {
@@ -3958,7 +3948,7 @@
             "version": "main"
           }
         },
-        "sha": "782711b9ba877101ae727c8aab4f06588a6d4796"
+        "sha": "57d10ccb6723cdfb7558e581f05e50c421d57646"
       },
       "master": {
         "libs": {
