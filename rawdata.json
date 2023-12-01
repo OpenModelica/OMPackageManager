@@ -2336,6 +2336,491 @@
   },
   "ClaRa": {
     "refs": {
+      "1.3.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.3.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.0-ClaRa"
+            },
+            "version": "1.3.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.3.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.0-ClaRa"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "sha": "b9639cb1ef4b415516a3c5e698004fde577a83ee"
+      },
+      "1.3.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.3.1",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.1-ClaRa"
+            },
+            "version": "1.3.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.3.1",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.1-ClaRa"
+            },
+            "version": "1.3.1"
+          }
+        },
+        "sha": "eba4f97dccf8f246edda4fc20bb7103af34f1d7a"
+      },
+      "1.4.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.4.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.4.0-ClaRa"
+            },
+            "version": "1.4.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.4.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.4.0-ClaRa"
+            },
+            "version": "1.4.0"
+          }
+        },
+        "sha": "5175322bd16a9020e896bab1d9b91118f63c8bf7"
+      },
+      "1.4.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.4.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.4.1-ClaRa"
+            },
+            "version": "1.4.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.4.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.4.1-ClaRa"
+            },
+            "version": "1.4.1"
+          }
+        },
+        "sha": "0afeb39a64cfda12a8b76ae8dd3b463d668b1e4f"
+      },
+      "1.5.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.5.0",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.0-ClaRa"
+            },
+            "version": "1.5.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.5.0",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.0-ClaRa"
+            },
+            "version": "1.5.0"
+          }
+        },
+        "sha": "0b9ee85eac222ca188d8a574632a916ba9d11dbb"
+      },
+      "1.5.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.5.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.5.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.5.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.5.1"
+          }
+        },
+        "sha": "b3155647444534d77821fd5b63fb5977f3842e56"
+      },
+      "1.6.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.6.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.6.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "2c497b1263ee651196998b0c121811338712747d"
+      },
+      "1.7.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.7.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0",
+              "TILMedia": "1.7.0-ClaRa"
+            },
+            "version": "1.7.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.7.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.7.0-ClaRa"
+            },
+            "version": "1.7.0"
+          }
+        },
+        "sha": "f3308a14c043038eff47b2d74ce216315ef346c2"
+      },
+      "1.8.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.0-ClaRa"
+            },
+            "version": "1.8.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.0-ClaRa"
+            },
+            "version": "1.8.0"
+          }
+        },
+        "sha": "7240de943923575973f5a0007cbffeecf0939f28"
+      },
+      "1.8.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.1",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.1"
+          }
+        },
+        "sha": "c9c9e706fb247fa3fd3d893d48b865ed76414e3d"
+      },
       "ClaRa_1.3.0_Release": {
         "libs": {
           "ClaRa": {
@@ -2873,7 +3358,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "68a35e9516439fddeac5a0b0d4a6a8e5c407f557"
+        "sha": "67c36b29a3e2aa2008e6b721abb0ac746af4e41f"
       },
       "master": {
         "libs": {
@@ -4997,7 +5482,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "9222d9d02a3f89b3d7aafb3fa12f25240cc7131a"
+        "sha": "9a375d3ec3785fedf7f7c6330b04b354fd3fbcae"
       },
       "v2.0.0": {
         "libs": {
@@ -9615,7 +10100,7 @@
             "version": "1.6.0-master"
           }
         },
-        "sha": "743462f58858a808202be93b708391461cbe2523"
+        "sha": "eb9ef38ca02c246917672c0f6639baf8346364cf"
       },
       "v1.2.0": {
         "libs": {
