@@ -10327,6 +10327,18 @@
           }
         },
         "sha": "98bbd943f03846c6b83bf855ebfe46e68c6db687"
+      },
+      "wrong_multiple_inheritance": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-wrong_multiple_inheritance"
+          }
+        },
+        "sha": "cc936a1f63141a8fcdbcd024a938d74dedffcebc"
       }
     }
   },
