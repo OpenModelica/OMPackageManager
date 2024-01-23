@@ -6220,9 +6220,10 @@
               "1.1.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "Modelica": {
             "convertFromVersion": [
@@ -6235,15 +6236,18 @@
               "3.2.3"
             ],
             "path": "Modelica",
+            "provides": [
+              "4.0.0"
+            ],
             "uses": {
-              "Complex": "4.0.0",
-              "ModelicaServices": "4.0.0"
+              "Complex": "4.1.0",
+              "ModelicaServices": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -6253,33 +6257,34 @@
               "1.2.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaTest": {
             "path": "ModelicaTest",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           }
         },
-        "sha": "c30aa4f65a1c77f323adf8fe499500b03655e70a"
+        "sha": "e1f862ae6ae6beb77e6446add36a2aef83e17d40"
       },
       "trunk": {
         "libs": {
@@ -6290,7 +6295,8 @@
               "1.1.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
             "version": "trunk"
           },
@@ -6305,6 +6311,9 @@
               "3.2.3"
             ],
             "path": "Modelica",
+            "provides": [
+              "4.0.0"
+            ],
             "uses": {
               "Complex": "0.0.0-trunk",
               "ModelicaServices": "0.0.0-trunk"
@@ -6313,7 +6322,7 @@
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.0.0-trunk"
+            "version": "4.1.0-trunk"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -6323,7 +6332,8 @@
               "1.2.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
             "uses": {
               "Modelica": "0.0.0-trunk"
@@ -6340,19 +6350,19 @@
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-trunk"
+            "version": "4.1.0-trunk"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-trunk"
+            "version": "4.1.0-trunk"
           }
         },
-        "sha": "235052ce500702cbc32c208b6e908ebec291cadd"
+        "sha": "c83f23aa08a91438141406507e08ce5d3bd851a2"
       },
       "v1.3.1": {
         "libs": {
