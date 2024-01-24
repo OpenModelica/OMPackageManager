@@ -1594,7 +1594,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "0847c5214b0eefd6c14aeee8856c046c2ecf3e84"
+        "sha": "008ed2162380bb27db6af88772da978c4e50e0bd"
       },
       "v1.4_build1": {
         "libs": {
@@ -10352,6 +10352,23 @@
           }
         },
         "sha": "98bbd943f03846c6b83bf855ebfe46e68c6db687"
+      },
+      "v1.0.3": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "provides": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.3"
+          }
+        },
+        "sha": "1858e8b1d5234a3d9506e89da89c3c1df793b866"
       },
       "wrong_multiple_inheritance": {
         "libs": {
