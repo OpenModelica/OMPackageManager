@@ -201,10 +201,10 @@
               "Modelica_DeviceDrivers": "2.1.1",
               "SDF": "0.4.2"
             },
-            "version": "1.3.2-development"
+            "version": "1.4.0-development"
           }
         },
-        "sha": "25a9c1e8a6c11718e2b7bbb0510cef78b8d9c256"
+        "sha": "26e999fa9b726adc28378593e523bc71f0211f94"
       },
       "master": {
         "libs": {
@@ -5523,7 +5523,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "f1f94c0bc2980a19ec1661d6632e4f82c42f66e6"
+        "sha": "982e4bb33ad231ee82e5565aff3b3060f4eb78f2"
       },
       "v1.0.0": {
         "libs": {
