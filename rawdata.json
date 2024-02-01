@@ -8444,13 +8444,43 @@
         "libs": {
           "ObjectStab": {
             "path": "ObjectStab",
+            "provides": [
+              "1.1.0-Dev"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-master"
+          }
+        },
+        "sha": "5ccca21c3c14d79d51b6522155ab23bbfeeb1311"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ObjectStab": {
+            "path": "ObjectStab",
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.1.0-master"
+            "version": "1.1.0-Dev"
           }
         },
         "sha": "14a178c837390a0411613f85b11372503ee067ea"
+      },
+      "v2.0.0": {
+        "libs": {
+          "ObjectStab": {
+            "path": "ObjectStab",
+            "provides": [
+              "1.1.0-Dev"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "5ccca21c3c14d79d51b6522155ab23bbfeeb1311"
       }
     }
   },
