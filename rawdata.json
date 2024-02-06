@@ -3358,11 +3358,11 @@
               "0.0.0",
               "0.1.0-alpha",
               "0.2.0-alpha",
-              "0.2.1-alpha"
+              "0.2.1-alpha",
+              "1.0.1"
             ],
             "path": "ClaRa_Obsolete",
             "provides": [
-              "1.0.1",
               "1.2.2"
             ],
             "uses": {
@@ -3373,7 +3373,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "67c36b29a3e2aa2008e6b721abb0ac746af4e41f"
+        "sha": "d5083f3e684ddbf99d9999a9b7cf261a32dc9fe7"
       }
     }
   },
@@ -5464,7 +5464,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "83070f263a501711cbcd2d31d1fcb76d061e3259"
+        "sha": "698e04d6283969360b3c56be5d482f0cc68dc5c5"
       },
       "v2.0.0": {
         "libs": {
