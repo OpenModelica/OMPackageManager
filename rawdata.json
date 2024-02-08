@@ -10122,7 +10122,7 @@
             "version": "1.6.0-master"
           }
         },
-        "sha": "bbb0e3202a4c17a9b88ca994cdc5ca8217381cf9"
+        "sha": "bf13759379ed150ac7bc62a8adbec126111f0a56"
       },
       "v1.2.0": {
         "libs": {
@@ -12188,7 +12188,7 @@
             "version": "1.1.0-main"
           }
         },
-        "sha": "c2bb062fc896c0800a6f2e7b8ed56b9519deadab"
+        "sha": "48330d17af4f145f7bef4f8aa28f2e3a9f4363dc"
       },
       "v0.1-beta": {
         "libs": {
