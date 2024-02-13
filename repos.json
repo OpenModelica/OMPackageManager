@@ -1034,7 +1034,7 @@
   },
   "PNlib": {
     "names": ["PNlib"],
-    "github": "AMIT-FHBielefeld/PNlib",
+    "github": "AMIT-HSBI/PNlib",
     "branches": {"master": "master"},
     "semverTagOverridesAnnotation": true,
     "support": [
