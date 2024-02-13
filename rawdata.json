@@ -6284,7 +6284,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "8a398bd2fb2692ccd2a1ad725ee8334f9337f32d"
+        "sha": "259d940cdf5a2f4acf06a498ed14a7161317f3f8"
       },
       "trunk": {
         "libs": {
@@ -6362,7 +6362,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "a6b0d95a58d617b5fa410b55b1b19d90b1a1bf82"
+        "sha": "850bc73b3ccc1ea85a18602285f6a9a37b416aa5"
       },
       "v1.3.1": {
         "libs": {
@@ -9016,10 +9016,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.2.0-master"
+            "version": "3.0.0-master"
           }
         },
-        "sha": "2df1b9125ca0618d0961b4dc3c6fa066ca733d41"
+        "sha": "8ed0c217a3ff2db4655d85b4e5446edfa0ecade0"
       },
       "v1.0": {
         "libs": {
@@ -9132,6 +9132,18 @@
           }
         },
         "sha": "a4c5354523423ab90405ebecd61ff39ebcfbf882"
+      },
+      "v3.0.0": {
+        "libs": {
+          "PNlib": {
+            "path": "PNlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "cef401c307c63ce30a8cb456f2a0fda4a58f199c"
       }
     }
   },
@@ -10309,7 +10321,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "39e521d42a3c17629ba11d8485112f34641c5686"
+        "sha": "acda6e10818a8ad747786ce48f088f712f04e70c"
       },
       "issue11636": {
         "libs": {
