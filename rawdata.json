@@ -1469,6 +1469,28 @@
   },
   "Buildings": {
     "refs": {
+      "maint.10.0.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "10.1.0-maint.10.0.x"
+          }
+        },
+        "sha": "f4199fa2bb6f0fb2808f6ee11e1fd59f2a1b0139"
+      },
       "maint.7.0.x": {
         "libs": {
           "Buildings": {
@@ -1571,7 +1593,7 @@
             "version": "9.1.2-maint.9.1.x"
           }
         },
-        "sha": "074a6c4d8a2d0ad5bd3b011434cc0f2d20ae9954"
+        "sha": "a9750a01e5bf6b463f12aecb93278bf5ebf3b3dd"
       },
       "master": {
         "libs": {
