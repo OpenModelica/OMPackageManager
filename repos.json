@@ -233,7 +233,8 @@
     "branches": {"main": "main"},
     "ignore-uses": ["FluidDissipation", "ClaRa_Dev"],
     "support": [
-      ["*", "experimental"]
+      [">=1.8.1", "support"],
+      ["main", "experimental"]
     ]
   },
   "ComplexLib": {
