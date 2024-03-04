@@ -233,6 +233,7 @@
     "branches": {"main": "main"},
     "ignore-uses": ["FluidDissipation", "ClaRa_Dev"],
     "support": [
+      ["prerelease", "noSupport"],
       [">=1.8.1", "support"],
       ["main", "experimental"]
     ]
