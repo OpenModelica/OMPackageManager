@@ -7157,10 +7157,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.3.0-main"
+            "version": "2.3.1-main"
           }
         },
-        "sha": "6ec4fabb821194d0343c9209b9c7858344a206dd"
+        "sha": "717de4afcf08a8ef8580a797caac3120998d761e"
       },
       "v1.0.0": {
         "libs": {
@@ -7317,6 +7317,18 @@
           }
         },
         "sha": "cf8a27d86e8e6739a6f0974c44b1fdc03c09ed0e"
+      },
+      "v2.3.1": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.1"
+          }
+        },
+        "sha": "717de4afcf08a8ef8580a797caac3120998d761e"
       }
     }
   },
