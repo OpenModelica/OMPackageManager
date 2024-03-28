@@ -1616,7 +1616,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "cf73e6f1e127f27aca3aff658b6a18d59a550059"
+        "sha": "06c76929c08fd2c08a8ba8bc73a15d333ff670fc"
       },
       "v1.4_build1": {
         "libs": {
@@ -7706,13 +7706,13 @@
             ],
             "path": "Modelica_LinearSystems2",
             "uses": {
-              "DymolaCommands": "1.11.0",
+              "DymolaCommands": "1.17.0",
               "Modelica": "4.0.0"
             },
-            "version": "2.5.0-master"
+            "version": "3.0.0-master"
           }
         },
-        "sha": "770285f097f051c57053e1c6e9d74c27ba139365"
+        "sha": "19620c23a40b06af9faf0a081cb4030205f8e523"
       },
       "v.4.1": {
         "libs": {
