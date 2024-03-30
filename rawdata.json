@@ -1616,7 +1616,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "d70a3e8a55999e5f6607b06de48addba5fda95aa"
+        "sha": "4a50b00468d6bf9da07eac18417160881625241e"
       },
       "v1.4_build1": {
         "libs": {
@@ -7157,10 +7157,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.3.1-main"
+            "version": "2.3.2-main"
           }
         },
-        "sha": "23267b4c9ebc6dbfb99feb29a1dc2dfc1f70dc5d"
+        "sha": "04d6b72fef00ce80488c8f0a7b2bbdf721f7c8a2"
       },
       "v1.0.0": {
         "libs": {
@@ -7329,6 +7329,18 @@
           }
         },
         "sha": "717de4afcf08a8ef8580a797caac3120998d761e"
+      },
+      "v2.3.2": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.2"
+          }
+        },
+        "sha": "04d6b72fef00ce80488c8f0a7b2bbdf721f7c8a2"
       }
     }
   },
