@@ -1593,7 +1593,7 @@
             "version": "9.1.2-maint.9.1.x"
           }
         },
-        "sha": "6fe3c0f062afa4bc3af6c6c3faa207ad40c0b09b"
+        "sha": "bfd98bf211a0fbb36b3e797c04bce1bd758a14b2"
       },
       "master": {
         "libs": {
@@ -1616,7 +1616,7 @@
             "version": "11.0.0-master"
           }
         },
-        "sha": "b508ad9a9163fd02f45f1bf28cd297176086d024"
+        "sha": "eb4ca9682a5dce538e35e582ba40b7e1738a6a3d"
       },
       "v1.4_build1": {
         "libs": {
@@ -7153,14 +7153,31 @@
       "main": {
         "libs": {
           "ModelicaTableAdditions": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "2.0.0",
+              "2.0.1",
+              "2.0.2",
+              "2.1.0",
+              "2.1.1",
+              "2.2.0",
+              "2.2.1",
+              "2.2.2",
+              "2.2.3",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2"
+            ],
             "path": "ModelicaTableAdditions",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.3.2-main"
+            "version": "3.0.0-main"
           }
         },
-        "sha": "27f04bb53800257be331a6e27bbc0be6c07d3c4f"
+        "sha": "0430ba5cf79ff1720359c6448d90772d65222dde"
       },
       "v1.0.0": {
         "libs": {
@@ -7341,6 +7358,35 @@
           }
         },
         "sha": "04d6b72fef00ce80488c8f0a7b2bbdf721f7c8a2"
+      },
+      "v3.0.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "2.0.0",
+              "2.0.1",
+              "2.0.2",
+              "2.1.0",
+              "2.1.1",
+              "2.2.0",
+              "2.2.1",
+              "2.2.2",
+              "2.2.3",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2"
+            ],
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "0430ba5cf79ff1720359c6448d90772d65222dde"
       }
     }
   },
