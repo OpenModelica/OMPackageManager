@@ -1484,13 +1484,17 @@
               "9.1.2"
             ],
             "path": "Buildings",
+            "provides": [
+              "10.0.0",
+              "10.1.0"
+            ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "10.1.0-maint.10.0.x"
+            "version": "10.1.1-maint.10.0.x"
           }
         },
-        "sha": "14607990d942924a4d8922ab14ab02c0635d5d2c"
+        "sha": "4509df475e000edbbb82374b75906b0cb36d6bed"
       },
       "maint.7.0.x": {
         "libs": {
@@ -1586,15 +1590,16 @@
             "provides": [
               "9.0.0",
               "9.1.0",
-              "9.1.1"
+              "9.1.1",
+              "9.1.2"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "9.1.2-maint.9.1.x"
+            "version": "9.1.3-maint.9.1.x"
           }
         },
-        "sha": "faf456fced0680f29697ac3a9db341f1a2642be7"
+        "sha": "2ddad9edfb6b6a28f02c922b309fe52124a8e9d8"
       },
       "master": {
         "libs": {
@@ -1616,10 +1621,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "11.0.0-master"
+            "version": "11.0.1-master"
           }
         },
-        "sha": "9ea7b9d9b200b3476855126dc4b1c48f66c3e376"
+        "sha": "9b0f64232c7d47d498290cddb18cf2437208fe01"
       },
       "v1.4_build1": {
         "libs": {
