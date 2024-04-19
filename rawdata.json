@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "b56a56bd4598221f7e0fc3750e8445a0b3674ec0"
+        "sha": "f4f05a07dc936dba625000278431c6bfdccd0011"
       }
     }
   },
@@ -112,7 +112,7 @@
             "version": "1.1.0-master"
           }
         },
-        "sha": "e2ecc57db1e0106b077607717a88214a068ab512"
+        "sha": "ec6ad9de3c95cc2235dd625cf42e82386af4b1df"
       },
       "v0.9.0": {
         "libs": {
@@ -201,10 +201,10 @@
               "Modelica_DeviceDrivers": "2.1.1",
               "SDF": "0.4.2"
             },
-            "version": "1.3.2-development"
+            "version": "1.4.0-development"
           }
         },
-        "sha": "1f18a83cd5c0e4bdaaa9e203dd8d4178745beba3"
+        "sha": "26e999fa9b726adc28378593e523bc71f0211f94"
       },
       "master": {
         "libs": {
@@ -220,7 +220,7 @@
             "version": "1.3.0-master"
           }
         },
-        "sha": "6844c894d5a5478a37094ef0daeeff7d1ed7c4c2"
+        "sha": "229c36287ea65fdd3af34b94e58c859f783c617c"
       },
       "v0.2.0": {
         "libs": {
@@ -531,7 +531,7 @@
             "version": "1.0.1-master"
           }
         },
-        "sha": "28420f5c1a88c9cd069defbd8c05e4a78a090675"
+        "sha": "5c6203d3065ca7f31fcca02bfa6c1758ec3bc0b8"
       }
     }
   },
@@ -753,6 +753,22 @@
       }
     }
   },
+  "BidiDCDC": {
+    "refs": {
+      "main": {
+        "libs": {
+          "BidiDCDC": {
+            "path": "BidiDCDC",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0-main"
+          }
+        },
+        "sha": "f7ceb67409a786eefbf69725af3ab79e67908b72"
+      }
+    }
+  },
   "BioChem": {
     "refs": {
       "master": {
@@ -765,7 +781,7 @@
             "version": "1.1.2-master"
           }
         },
-        "sha": "44d4a9f6a888327403bcdf347c13e69070f4ed79"
+        "sha": "c3876e8a6e8d6e5ce4eadf6997e20d918d02db21"
       },
       "v1.0": {
         "libs": {
@@ -1205,7 +1221,7 @@
             "version": "3.5.0-master"
           }
         },
-        "sha": "4b057cc98ee156533fd571c26c20c7ff38d25181"
+        "sha": "32e636b2b5425f2a9970e974f66f22e39250a3c5"
       },
       "v2.0.0": {
         "libs": {
@@ -1328,6 +1344,21 @@
           }
         },
         "sha": "3deab2b5edc84ba657d9a536de47160bc6fec8e2"
+      },
+      "v3.6.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "3.4.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.6.0"
+          }
+        },
+        "sha": "32e636b2b5425f2a9970e974f66f22e39250a3c5"
       }
     }
   },
@@ -1408,7 +1439,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "b972c2db3cbc3254d5178970a5fea0867c22112d"
+        "sha": "2787f24d35fab72fb798d92ba10489ce4346c524"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -1438,6 +1469,33 @@
   },
   "Buildings": {
     "refs": {
+      "maint.10.0.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "10.0.0",
+              "10.1.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "10.1.1-maint.10.0.x"
+          }
+        },
+        "sha": "76c3fb19f56ad5a88061e007c4c426d45e970424"
+      },
       "maint.7.0.x": {
         "libs": {
           "Buildings": {
@@ -1494,7 +1552,7 @@
             "version": "8.1.4-maint.8.1.x"
           }
         },
-        "sha": "31ac606fad24c9abe769cb638a74eb7d77c146af"
+        "sha": "68f3c363ad37e05294dca97129a317fec50573f6"
       },
       "maint.9.0.x": {
         "libs": {
@@ -1531,15 +1589,17 @@
             "path": "Buildings",
             "provides": [
               "9.0.0",
-              "9.1.0"
+              "9.1.0",
+              "9.1.1",
+              "9.1.2"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "9.1.1-maint.9.1.x"
+            "version": "9.1.3-maint.9.1.x"
           }
         },
-        "sha": "d3ac4da08147f1e80d1ff00a794fc10640fb2ad2"
+        "sha": "999e875d389f9fafa16703d73c89460c35cb57e3"
       },
       "master": {
         "libs": {
@@ -1551,16 +1611,20 @@
               "8.1.2",
               "8.1.3",
               "9.0.0",
-              "9.1.0"
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0"
             ],
             "path": "Buildings",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "10.0.0-master"
+            "version": "11.0.1-master"
           }
         },
-        "sha": "e1e6ebd23c6f44c1ed8e32272fdc5c09e30d8d06"
+        "sha": "c7220f48b7f1bb04e72c530feafefc34b6a2dde4"
       },
       "v1.4_build1": {
         "libs": {
@@ -1671,6 +1735,76 @@
           }
         },
         "sha": "bca6399e7f5504ae13529183f7707f3634622f21"
+      },
+      "v10.0.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "10.0.0"
+          }
+        },
+        "sha": "fba6d6f3b3e61c22d6c1fabf707b94de8112e7c6"
+      },
+      "v10.1.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "10.1.0"
+          }
+        },
+        "sha": "14607990d942924a4d8922ab14ab02c0635d5d2c"
+      },
+      "v11.0.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "11.0.0"
+          }
+        },
+        "sha": "471527a7fcd1597480149d2023de155fb0acb451"
       },
       "v2.0.0": {
         "libs": {
@@ -2035,6 +2169,53 @@
           }
         },
         "sha": "d34a259960ca12b2126ef188f2d20fc8148eafb2"
+      },
+      "v9.1.1": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "9.0.0",
+              "9.1.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "9.1.1"
+          }
+        },
+        "sha": "bcba32fb0dcdfd3513ed79f69877e29a7c136092"
+      },
+      "v9.1.2": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "9.0.0",
+              "9.1.0",
+              "9.1.1"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "9.1.2"
+          }
+        },
+        "sha": "faf456fced0680f29697ac3a9db341f1a2642be7"
       }
     }
   },
@@ -2045,12 +2226,12 @@
           "BusinessSimulation": {
             "path": "BusinessSimulation",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "2.2.0-main"
           }
         },
-        "sha": "8acde2af16a97d495e2afd336a6782ba5be9202e"
+        "sha": "608cf499af56233766130afe2cfa0a7b80d5cc6d"
       },
       "v1.0.1": {
         "libs": {
@@ -2087,6 +2268,30 @@
           }
         },
         "sha": "8acde2af16a97d495e2afd336a6782ba5be9202e"
+      },
+      "v2.1.1": {
+        "libs": {
+          "BusinessSimulation": {
+            "path": "BusinessSimulation",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.1.1"
+          }
+        },
+        "sha": "b1f7e477a92d0af12caecdd3d777074c66223f44"
+      },
+      "v2.2.0": {
+        "libs": {
+          "BusinessSimulation": {
+            "path": "BusinessSimulation",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.2.0"
+          }
+        },
+        "sha": "608cf499af56233766130afe2cfa0a7b80d5cc6d"
       }
     }
   },
@@ -2106,10 +2311,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.4.0-master"
+            "version": "1.4.1-master"
           }
         },
-        "sha": "5645573fced862430b7b598b4d7ec1a39c7aa0fa"
+        "sha": "245138d95c80db00e3aae1a930a4cad5b76e1002"
       },
       "v1.0.0": {
         "libs": {
@@ -2236,12 +2441,411 @@
           }
         },
         "sha": "65b1bfe4c2fefc2452e0b5efe74abbe21e287949"
+      },
+      "v1.4.1": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1"
+            ],
+            "path": "Chemical",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.4.1"
+          }
+        },
+        "sha": "245138d95c80db00e3aae1a930a4cad5b76e1002"
       }
     }
   },
   "ClaRa": {
     "refs": {
-      "master": {
+      "1.3.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.3.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.0-ClaRa"
+            },
+            "version": "1.3.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.3.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.0-ClaRa"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "sha": "b9639cb1ef4b415516a3c5e698004fde577a83ee"
+      },
+      "1.3.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.3.1",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.1-ClaRa"
+            },
+            "version": "1.3.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.3.1",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.1-ClaRa"
+            },
+            "version": "1.3.1"
+          }
+        },
+        "sha": "eba4f97dccf8f246edda4fc20bb7103af34f1d7a"
+      },
+      "1.4.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.4.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.4.0-ClaRa"
+            },
+            "version": "1.4.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.4.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.4.0-ClaRa"
+            },
+            "version": "1.4.0"
+          }
+        },
+        "sha": "5175322bd16a9020e896bab1d9b91118f63c8bf7"
+      },
+      "1.4.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.4.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.4.1-ClaRa"
+            },
+            "version": "1.4.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.4.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.4.1-ClaRa"
+            },
+            "version": "1.4.1"
+          }
+        },
+        "sha": "0afeb39a64cfda12a8b76ae8dd3b463d668b1e4f"
+      },
+      "1.5.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.5.0",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.0-ClaRa"
+            },
+            "version": "1.5.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.5.0",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.0-ClaRa"
+            },
+            "version": "1.5.0"
+          }
+        },
+        "sha": "0b9ee85eac222ca188d8a574632a916ba9d11dbb"
+      },
+      "1.5.1": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.5.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.5.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.5.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.5.1"
+          }
+        },
+        "sha": "b3155647444534d77821fd5b63fb5977f3842e56"
+      },
+      "1.6.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.6.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.6.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "2c497b1263ee651196998b0c121811338712747d"
+      },
+      "1.7.0": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.7.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0",
+              "TILMedia": "1.7.0-ClaRa"
+            },
+            "version": "1.7.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.7.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.7.0-ClaRa"
+            },
+            "version": "1.7.0"
+          }
+        },
+        "sha": "f3308a14c043038eff47b2d74ce216315ef346c2"
+      },
+      "1.8.0": {
         "libs": {
           "ClaRa": {
             "convertFromVersion": [
@@ -2264,22 +2868,605 @@
               "1.6.1",
               "1.7.0"
             ],
-            "path": "",
+            "path": "ClaRa",
             "uses": {
               "Modelica": "4.0.0",
               "TILMedia": "1.8.0-ClaRa"
             },
-            "version": "1.8.0-master"
+            "version": "1.8.0"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.0-ClaRa"
+            },
+            "version": "1.8.0"
           }
         },
-        "sha": "950f1712b02297932e388e65d18e958b4179f643"
-      }
-    }
-  },
-  "ClaRa_Obsolete": {
-    "refs": {
-      "master": {
+        "sha": "7240de943923575973f5a0007cbffeecf0939f28"
+      },
+      "1.8.1": {
         "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.1"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.1",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.1"
+          }
+        },
+        "sha": "c9c9e706fb247fa3fd3d893d48b865ed76414e3d"
+      },
+      "ClaRa_1.3.0_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.3.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.0-ClaRa"
+            },
+            "version": "1.3.0-ClaRa_1.3.0_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.3.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.0-ClaRa"
+            },
+            "version": "1.3.0-ClaRa_1.3.0_Release"
+          }
+        },
+        "sha": "b9639cb1ef4b415516a3c5e698004fde577a83ee"
+      },
+      "ClaRa_1.3.1_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.3.1",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.1-ClaRa"
+            },
+            "version": "1.3.1-ClaRa_1.3.1_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.3.1",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.3.1-ClaRa"
+            },
+            "version": "1.3.1-ClaRa_1.3.1_Release"
+          }
+        },
+        "sha": "eba4f97dccf8f246edda4fc20bb7103af34f1d7a"
+      },
+      "ClaRa_1.4.0_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.4.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.4.0-ClaRa"
+            },
+            "version": "1.4.0-ClaRa_1.4.0_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.4.0",
+              "Modelica": "3.2.2",
+              "TILMedia": "1.4.0-ClaRa"
+            },
+            "version": "1.4.0-ClaRa_1.4.0_Release"
+          }
+        },
+        "sha": "5175322bd16a9020e896bab1d9b91118f63c8bf7"
+      },
+      "ClaRa_1.4.1_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.4.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.4.1-ClaRa"
+            },
+            "version": "1.4.1-ClaRa_1.4.1_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.4.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.4.1-ClaRa"
+            },
+            "version": "1.4.1-ClaRa_1.4.1_Release"
+          }
+        },
+        "sha": "0afeb39a64cfda12a8b76ae8dd3b463d668b1e4f"
+      },
+      "ClaRa_1.5.0_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.5.0",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.0-ClaRa"
+            },
+            "version": "1.5.0-ClaRa_1.5.0_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.5.0",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.0-ClaRa"
+            },
+            "version": "1.5.0-ClaRa_1.5.0_Release"
+          }
+        },
+        "sha": "0b9ee85eac222ca188d8a574632a916ba9d11dbb"
+      },
+      "ClaRa_1.5.1_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.5.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.5.1-ClaRa_1.5.1_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.5.1",
+              "Modelica": "3.2.3",
+              "TILMedia": "1.5.1-ClaRa"
+            },
+            "version": "1.5.1-ClaRa_1.5.1_Release"
+          }
+        },
+        "sha": "b3155647444534d77821fd5b63fb5977f3842e56"
+      },
+      "ClaRa_1.6.0_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.6.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0-ClaRa_1.6.0_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.6.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.6.0-ClaRa"
+            },
+            "version": "1.6.0-ClaRa_1.6.0_Release"
+          }
+        },
+        "sha": "2c497b1263ee651196998b0c121811338712747d"
+      },
+      "ClaRa_1.7.0_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "ClaRa_Obsolete": "1.7.0",
+              "Modelica": "4.0.0",
+              "ObsoleteModelica4": "4.0.0",
+              "TILMedia": "1.7.0-ClaRa"
+            },
+            "version": "1.7.0-ClaRa_1.7.0_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.7.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.7.0-ClaRa"
+            },
+            "version": "1.7.0-ClaRa_1.7.0_Release"
+          }
+        },
+        "sha": "f3308a14c043038eff47b2d74ce216315ef346c2"
+      },
+      "ClaRa_1.8.0_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.0-ClaRa"
+            },
+            "version": "1.8.0-ClaRa_1.8.0_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.0-ClaRa"
+            },
+            "version": "1.8.0-ClaRa_1.8.0_Release"
+          }
+        },
+        "sha": "7240de943923575973f5a0007cbffeecf0939f28"
+      },
+      "ClaRa_1.8.1_Release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.1-ClaRa_1.8.1_Release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.0.1",
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.1",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.1-ClaRa_1.8.1_Release"
+          }
+        },
+        "sha": "c9c9e706fb247fa3fd3d893d48b865ed76414e3d"
+      },
+      "main": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "SMArtIInt": "0.2.2",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.2-main"
+          },
           "ClaRa_Obsolete": {
             "convertFromVersion": [
               "0.0.0",
@@ -2288,19 +3475,19 @@
               "0.2.1-alpha",
               "1.0.1"
             ],
-            "path": "",
+            "path": "ClaRa_Obsolete",
             "provides": [
               "1.2.2"
             ],
             "uses": {
-              "ClaRa": "1.8.0",
+              "ClaRa": "1.8.2",
               "Modelica": "4.0.0",
-              "TILMedia": "1.8.0-ClaRa"
+              "TILMedia": "1.8.1-ClaRa"
             },
-            "version": "1.8.0-master"
+            "version": "1.8.2-main"
           }
         },
-        "sha": "4e809b6524acb086201e262d02e93dcf7bd247ce"
+        "sha": "69b907f9dff07088ef2894ddee7a19e5747b926e"
       }
     }
   },
@@ -2329,7 +3516,7 @@
             "version": "3.2.0-master"
           }
         },
-        "sha": "8a91e75d8a26acc4de30fc0e5d5e9db83c970bd6"
+        "sha": "4b50a72ff2c597d53bdc09b64b6dcdd0d74e6b05"
       }
     }
   },
@@ -2370,7 +3557,7 @@
             "version": "0.1.0-main"
           }
         },
-        "sha": "ee24ae1a7a687b1c69c21df9e585c792821ebc50"
+        "sha": "3618bf4d5c5a9ca55ff61cf0020ff2c285f02d67"
       },
       "v0.1.0": {
         "libs": {
@@ -2541,6 +3728,23 @@
       }
     }
   },
+  "DroneLibrary": {
+    "refs": {
+      "v1.0.0": {
+        "libs": {
+          "DroneLibrary": {
+            "path": "A_Modelica/DroneLibrary",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "66468f43d3b9d14c1dec24ce0e5c10023d8fe89d"
+      }
+    }
+  },
   "DymolaCommands": {
     "refs": {
       "master": {
@@ -2564,6 +3768,64 @@
           }
         },
         "sha": "706b43d3a7eeda59ba70f7df7cf9bf30d06ddac0"
+      }
+    }
+  },
+  "EHPTexamples": {
+    "refs": {
+      "main": {
+        "libs": {
+          "EHPTexamples": {
+            "path": "EHPTexamples",
+            "uses": {
+              "EHPTlib": "2.1.4",
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
+      },
+      "v2.1.4": {
+        "libs": {
+          "EHPTexamples": {
+            "path": "EHPTexamples",
+            "uses": {
+              "EHPTlib": "2.1.4",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.4"
+          }
+        },
+        "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
+      }
+    }
+  },
+  "EHPTlib": {
+    "refs": {
+      "main": {
+        "libs": {
+          "EHPTlib": {
+            "path": "EHPTlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.4-main"
+          }
+        },
+        "sha": "74273c4ccb0fc921458681e690236b0ccbab16f2"
+      },
+      "v2.1.4": {
+        "libs": {
+          "EHPTlib": {
+            "path": "EHPTlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.4"
+          }
+        },
+        "sha": "fd9b23dda37740e0824efa5d909e5c5995272755"
       }
     }
   },
@@ -2987,10 +4249,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.3-master"
+            "version": "3.0.4-master"
           }
         },
-        "sha": "d4f4724141e9ff9eb43dff61c2482cc99269210f"
+        "sha": "df6c5c077fe1c28337fc1259c6a45a45fe7aaad4"
       },
       "v1.0.0": {
         "libs": {
@@ -3243,6 +4505,18 @@
           }
         },
         "sha": "84007519841b29b533172d196e000aec78c0ec07"
+      },
+      "v3.0.4": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.4"
+          }
+        },
+        "sha": "a9c68cceca613ee384ef820a4032944c9d2c0fcb"
       }
     }
   },
@@ -3255,7 +4529,7 @@
             "version": "main"
           }
         },
-        "sha": "94af8975e193f753f49b1dbe15fba25ff5d41ec6"
+        "sha": "c6dadc6a9989bcba62d19f6603eeb3afe5ed5eac"
       },
       "master": {
         "libs": {
@@ -3270,10 +4544,10 @@
   },
   "ExternalMedia": {
     "refs": {
-      "master": {
+      "3.3.2": {
         "libs": {
           "ExternalMedia": {
-            "path": "Modelica/ExternalMedia",
+            "path": "ExternalMedia",
             "provides": [
               "3.3.0",
               "3.3.1"
@@ -3281,46 +4555,27 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "3.3.2-master"
+            "version": "3.3.2"
           }
         },
-        "sha": "f580437946184de141617d78924538eba788f0f5"
+        "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v3.3.2/ExternalMedia-3.3.2.zip"
       },
-      "v3.2.1": {
+      "4.0.0": {
         "libs": {
           "ExternalMedia": {
-            "path": "Modelica/ExternalMedia 3.2.1",
+            "path": "ExternalMedia",
+            "provides": [
+              "3.3.0",
+              "3.3.1",
+              "3.3.2"
+            ],
             "uses": {
-              "Modelica": "3.2.1"
+              "Modelica": "4.0.0"
             },
-            "version": "3.2.1"
+            "version": "4.0.0"
           }
         },
-        "sha": "1b77869b31dc3509defeccb1236db4b05d2f6f5b"
-      },
-      "v3.3.0": {
-        "libs": {
-          "ExternalMedia": {
-            "path": "Modelica/ExternalMedia 3.3.0",
-            "uses": {
-              "Modelica": "3.2.3"
-            },
-            "version": "3.3.0"
-          }
-        },
-        "sha": "0f5f0fc74f48f083a6a54e3ec00eda70246fcb81"
-      },
-      "v3.3.1": {
-        "libs": {
-          "ExternalMedia": {
-            "path": "Modelica/ExternalMedia 3.3.1",
-            "uses": {
-              "Modelica": "3.2.3"
-            },
-            "version": "3.3.1"
-          }
-        },
-        "sha": "9189347f894593bee0e467ba5e0edd2cebd1e9f9"
+        "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
       }
     }
   },
@@ -3852,7 +5107,7 @@
             "version": "2.7.0-master"
           }
         },
-        "sha": "e3adc3eeaddacab0da6f4ae8e553c3b0977b5952"
+        "sha": "c6b67ca8b5ca9cdba5ddba1b793d078389df9e55"
       }
     }
   },
@@ -3889,12 +5144,12 @@
           "GNU_ScientificLibrary": {
             "path": "GNU_ScientificLibrary",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "9235ab28bdd7f0fe3e7abba48af53d73332858ec"
+        "sha": "6918f1e794e905d0eba07f3fc5e231d30bfeeb4f"
       }
     }
   },
@@ -3904,15 +5159,16 @@
         "libs": {
           "Greenhouses": {
             "path": "Greenhouses",
+            "provides": [
+              "0.0.0"
+            ],
             "uses": {
-              "DymolaCommands": "1.1.0",
-              "Modelica": "3.2.2",
-              "conversion": "0.0.0-default"
+              "Modelica": "4.0.0"
             },
-            "version": "master"
+            "version": "1.0.0-master"
           }
         },
-        "sha": "89ae0e8097eb0751abce2013d304fa5f9c09b885"
+        "sha": "845525ed51e3048447839e8896e25f3690c02eb9"
       }
     }
   },
@@ -4322,7 +5578,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "fdd6a88a2b8fb6f9e44ff78ef4bad278b326312c"
+        "sha": "11bab981d65525c146bea68db7828e158dc1005a"
       },
       "v2.0.0": {
         "libs": {
@@ -4381,7 +5637,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "2488d287557f78bbd92a27cabdda6eec46b6028f"
+        "sha": "b13fe57bd2bc2b7ca7e6a6fe7dab291924af9f50"
       },
       "v1.0.0": {
         "libs": {
@@ -4883,6 +6139,22 @@
       }
     }
   },
+  "MagLev": {
+    "refs": {
+      "main": {
+        "libs": {
+          "MagLev": {
+            "path": "MagLev",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.0-main"
+          }
+        },
+        "sha": "34afdc6b811ed496391c667edac244a48cd2331a"
+      }
+    }
+  },
   "ManualTracking": {
     "refs": {
       "master": {
@@ -4981,7 +6253,7 @@
             "version": "4.0.0+default.modelica.association"
           }
         },
-        "sha": "2308ab206ffa874188d24b64962fa42dfeb3c81f"
+        "sha": "d2dcb39e055ceb88fef5328a26255cdd094389bd"
       },
       "4.0.0+maint.om": {
         "libs": {
@@ -5051,7 +6323,7 @@
             "version": "4.0.0+maint.om"
           }
         },
-        "sha": "74d056ef1b4a89463408ba70fc4ea4db83a6296f"
+        "sha": "96032134c36668898e1693e69bd9f81aa38de3dd"
       },
       "master": {
         "libs": {
@@ -5062,9 +6334,10 @@
               "1.1.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "Modelica": {
             "convertFromVersion": [
@@ -5077,15 +6350,18 @@
               "3.2.3"
             ],
             "path": "Modelica",
+            "provides": [
+              "4.0.0"
+            ],
             "uses": {
-              "Complex": "4.0.0",
-              "ModelicaServices": "4.0.0"
+              "Complex": "4.1.0",
+              "ModelicaServices": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -5095,33 +6371,34 @@
               "1.2.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaTest": {
             "path": "ModelicaTest",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           }
         },
-        "sha": "f735b095c4af6dae1fa7fba5837ffbc6beb7f1bd"
+        "sha": "9c4bca2b84ee6125159afa1aced27f7b512ad12f"
       },
       "trunk": {
         "libs": {
@@ -5132,7 +6409,8 @@
               "1.1.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
             "version": "trunk"
           },
@@ -5147,6 +6425,9 @@
               "3.2.3"
             ],
             "path": "Modelica",
+            "provides": [
+              "4.0.0"
+            ],
             "uses": {
               "Complex": "0.0.0-trunk",
               "ModelicaServices": "0.0.0-trunk"
@@ -5155,7 +6436,7 @@
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.0.0-trunk"
+            "version": "4.1.0-trunk"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -5165,7 +6446,8 @@
               "1.2.0",
               "3.2.1",
               "3.2.2",
-              "3.2.3"
+              "3.2.3",
+              "4.0.0"
             ],
             "uses": {
               "Modelica": "0.0.0-trunk"
@@ -5182,19 +6464,19 @@
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-trunk"
+            "version": "4.1.0-trunk"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "4.0.0-trunk"
+            "version": "4.1.0-trunk"
           }
         },
-        "sha": "e82537767ad70cd2eab1eb3dc087f8e7b1c87248"
+        "sha": "af8af752b1c7ab47aa2383e22807b692e4f1ee6c"
       },
       "v1.3.1": {
         "libs": {
@@ -5606,7 +6888,7 @@
             "version": "3.2.3+default.modelica.association"
           }
         },
-        "sha": "94f2be9f84e4056acbb6210cd48cca2054ae23c4"
+        "sha": "812787747d28e74f150ffa1e61b39e6592cd545d"
       },
       "v3.2.3+maint.om": {
         "libs": {
@@ -5679,7 +6961,7 @@
             "version": "3.2.3+maint.om"
           }
         },
-        "sha": "e68d7a0317c565ee00c1b8d44c527979ea0304bf"
+        "sha": "efd981a1176f124938d6d6759f7c09e0fbf55ddf"
       }
     }
   },
@@ -5762,7 +7044,7 @@
             "version": "0.5.0-master"
           }
         },
-        "sha": "a8677a650f4d84322914e18b06b26c8f1e7c387f"
+        "sha": "b07a59eb08814a1be48ddf30e70a36cef4ee6835"
       },
       "review1": {
         "libs": {
@@ -5963,14 +7245,31 @@
       "main": {
         "libs": {
           "ModelicaTableAdditions": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "2.0.0",
+              "2.0.1",
+              "2.0.2",
+              "2.1.0",
+              "2.1.1",
+              "2.2.0",
+              "2.2.1",
+              "2.2.2",
+              "2.2.3",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2"
+            ],
             "path": "ModelicaTableAdditions",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.2.3-main"
+            "version": "3.0.0-main"
           }
         },
-        "sha": "0f44c2141f5b67fd4e0e9d332edd1621ac328a58"
+        "sha": "f6a0b7c875e75048f1f95996987fe1424494d4a9"
       },
       "v1.0.0": {
         "libs": {
@@ -6115,6 +7414,71 @@
           }
         },
         "sha": "33305e657ebaeb23ad01d8b9d81f2fd313ebeb80"
+      },
+      "v2.3.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "cf8a27d86e8e6739a6f0974c44b1fdc03c09ed0e"
+      },
+      "v2.3.1": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.1"
+          }
+        },
+        "sha": "717de4afcf08a8ef8580a797caac3120998d761e"
+      },
+      "v2.3.2": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.2"
+          }
+        },
+        "sha": "04d6b72fef00ce80488c8f0a7b2bbdf721f7c8a2"
+      },
+      "v3.0.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "2.0.0",
+              "2.0.1",
+              "2.0.2",
+              "2.1.0",
+              "2.1.1",
+              "2.2.0",
+              "2.2.1",
+              "2.2.2",
+              "2.2.3",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2"
+            ],
+            "path": "ModelicaTableAdditions",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "0430ba5cf79ff1720359c6448d90772d65222dde"
       }
     }
   },
@@ -6140,7 +7504,7 @@
             "version": "2.1.1-master"
           }
         },
-        "sha": "8ac7971cf17aa4d8102dff30312266ff51ef428e"
+        "sha": "8e6921a9270d3b6b9af938c42eafec3804359c3b"
       },
       "v1.0": {
         "libs": {
@@ -6492,13 +7856,13 @@
             ],
             "path": "Modelica_LinearSystems2",
             "uses": {
-              "DymolaCommands": "1.11.0",
+              "DymolaCommands": "1.17.0",
               "Modelica": "4.0.0"
             },
-            "version": "2.5.0-master"
+            "version": "3.0.0-master"
           }
         },
-        "sha": "a69999dce541c419d341c6dff069bf5d6db6ed55"
+        "sha": "6860aae87239dc9db9a7c6c4ffad939c8b5001ca"
       },
       "v.4.1": {
         "libs": {
@@ -7264,13 +8628,43 @@
         "libs": {
           "ObjectStab": {
             "path": "ObjectStab",
+            "provides": [
+              "1.1.0-Dev"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-master"
+          }
+        },
+        "sha": "5ccca21c3c14d79d51b6522155ab23bbfeeb1311"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ObjectStab": {
+            "path": "ObjectStab",
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.1.0-master"
+            "version": "1.1.0-Dev"
           }
         },
         "sha": "14a178c837390a0411613f85b11372503ee067ea"
+      },
+      "v2.0.0": {
+        "libs": {
+          "ObjectStab": {
+            "path": "ObjectStab",
+            "provides": [
+              "1.1.0-Dev"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "5ccca21c3c14d79d51b6522155ab23bbfeeb1311"
       }
     }
   },
@@ -7440,6 +8834,44 @@
       }
     }
   },
+  "OpenIMDML": {
+    "refs": {
+      "main": {
+        "libs": {
+          "OpenIMDML": {
+            "path": "OpenIMDML",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "OpenIPSL": "3.0.1"
+            },
+            "version": "1.0.0-main"
+          }
+        },
+        "sha": "ebb7d60d2570b9c63db5ec9ea9b81b3eb272c36a"
+      },
+      "v1.0.0": {
+        "libs": {
+          "OpenIMDML": {
+            "path": "OpenIMDML",
+            "provides": [
+              "0.0.0"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0",
+              "OpenIPSL": "3.0.1"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "8c688f39200fe55c4736b871537dff4892013c13"
+      }
+    }
+  },
   "OpenIPSL": {
     "refs": {
       "FOSSEE1_initial": {
@@ -7583,7 +9015,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "ebec3242dbbf87f3912b84531ade798a6769cfd7"
+        "sha": "a8c6758fffa7bd23f925063e9aa075f271ac71ee"
       },
       "v1.0.0": {
         "libs": {
@@ -7766,12 +9198,12 @@
           "PNlib": {
             "path": "PNlib",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "2.2.0-master"
+            "version": "3.0.0-master"
           }
         },
-        "sha": "059545d48dd9ceeccfa3b4e47689ec8dd334dcd8"
+        "sha": "8ed0c217a3ff2db4655d85b4e5446edfa0ecade0"
       },
       "v1.0": {
         "libs": {
@@ -7884,6 +9316,18 @@
           }
         },
         "sha": "a4c5354523423ab90405ebecd61ff39ebcfbf882"
+      },
+      "v3.0.0": {
+        "libs": {
+          "PNlib": {
+            "path": "PNlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "cef401c307c63ce30a8cb456f2a0fda4a58f199c"
       }
     }
   },
@@ -8575,17 +10019,18 @@
               "2.2.0",
               "2.3.0",
               "2.3.1",
-              "2.3.2"
+              "2.3.2",
+              "3.0.0-alpha11"
             ],
             "path": "Physiolibrary",
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "3.0.0-master"
+            "version": "3.1.0-master"
           }
         },
-        "sha": "7b30d59c57b3e95d91468994a767e4fdad5caf33"
+        "sha": "643312746498a9a0a806003f1139d114e4d615bb"
       },
       "v1.0.0": {
         "libs": {
@@ -8786,6 +10231,37 @@
           }
         },
         "sha": "7597498ffe49fea2723bafdc8a0f275c0dcecb83"
+      },
+      "v3.0.0": {
+        "libs": {
+          "Physiolibrary": {
+            "convertFromVersion": [
+              "0.0.0-BioChem-1.0.1",
+              "0.4980.0",
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "2.0.0",
+              "2.1.0",
+              "2.1.0",
+              "2.1.1",
+              "2.1.2",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "3.0.0-alpha11"
+            ],
+            "path": "Physiolibrary",
+            "uses": {
+              "Chemical": "1.4.0",
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "0ef8b5848b8bd08912a1713d0641b6bb03c3e3b2"
       }
     }
   },
@@ -8831,19 +10307,18 @@
             "convertFromVersion": [
               "1.3.0",
               "1.4.0",
-              "1.4.1"
+              "1.4.1",
+              "1.5.0",
+              "1.5.1"
             ],
             "path": "PlanarMechanics",
-            "provides": [
-              "1.5.0"
-            ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.5.1-master"
+            "version": "1.6.0-master"
           }
         },
-        "sha": "394c7d1bf7be52058b1da243cafd1a1054b21f86"
+        "sha": "bf13759379ed150ac7bc62a8adbec126111f0a56"
       },
       "v1.2.0": {
         "libs": {
@@ -8975,11 +10450,75 @@
           }
         },
         "sha": "995e4d9d2395d025af870a6251f4d0e781c6dd98"
+      },
+      "v1.6.0": {
+        "libs": {
+          "PlanarMechanics": {
+            "convertFromVersion": [
+              "1.3.0",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.5.1"
+            ],
+            "path": "PlanarMechanics",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "3ae99d218bf1331901efb7c93569f44b9c3c573a"
+      },
+      "v1.6.0-alpha": {
+        "libs": {
+          "PlanarMechanics": {
+            "convertFromVersion": [
+              "1.3.0",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "PlanarMechanics",
+            "provides": [
+              "1.5.0",
+              "1.5.1"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.6.0-alpha"
+          }
+        },
+        "sha": "a57a6ef5429d30f1141f9b54df87ca894f31a13d"
       }
     }
   },
   "PowerGrids": {
     "refs": {
+      "develop": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-develop"
+          }
+        },
+        "sha": "c3b82bfbfac655125f0ad80e4a98f02e17f0d929"
+      },
+      "issue11636": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-issue11636"
+          }
+        },
+        "sha": "65420fb15172260b2c0e844b2601ce2060c20a07"
+      },
       "master": {
         "libs": {
           "PowerGrids": {
@@ -9039,6 +10578,35 @@
           }
         },
         "sha": "98bbd943f03846c6b83bf855ebfe46e68c6db687"
+      },
+      "v1.0.3": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "provides": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.3"
+          }
+        },
+        "sha": "1858e8b1d5234a3d9506e89da89c3c1df793b866"
+      },
+      "wrong_multiple_inheritance": {
+        "libs": {
+          "PowerGrids": {
+            "path": "PowerGrids",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-wrong_multiple_inheritance"
+          }
+        },
+        "sha": "cc936a1f63141a8fcdbcd024a938d74dedffcebc"
       }
     }
   },
@@ -9348,12 +10916,12 @@
           "PropulsionSystem": {
             "path": "",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "061f9d1f4a7727089ed754b94d77047c447c9dd3"
+        "sha": "cc4bb22d12d13457e8a926c0b7778faadfa37b0d"
       },
       "ver.2022.12.17": {
         "libs": {
@@ -9542,6 +11110,82 @@
       }
     }
   },
+  "SMArtIInt": {
+    "refs": {
+      "Release_Dymola_2023x_Refresh_1": {
+        "libs": {
+          "SMArtIInt": {
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.1.1-Release_Dymola_2023x_Refresh_1"
+          }
+        },
+        "sha": "19cf6415516b4f69faeafd2b10fb6f8b24680a13"
+      },
+      "main": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.2-main"
+          }
+        },
+        "sha": "895e25e39e12c1d7617c5df0405af6a6888560f4"
+      },
+      "v0.2.0": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "08b5b52b568f9812cca1555e0628a71e17fbe3b6"
+      },
+      "v0.2.1": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "bb84dc18721af9a4c79cd2a3db4e9a8ad8d03d6a"
+      },
+      "v0.2.2": {
+        "libs": {
+          "SMArtIInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtIInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.2"
+          }
+        },
+        "sha": "d0e8b787082356f51471f4e894ad1f83556ffb59"
+      }
+    }
+  },
   "SMEHV": {
     "refs": {
       "master": {
@@ -9602,7 +11246,7 @@
             "version": "1.1.0-master"
           }
         },
-        "sha": "e64ad00c4ad80f85e61b596f1032b640bfaba94a"
+        "sha": "b57ee295ec2c349ca0be5368988840d0bb52dbb8"
       },
       "v1.1.0": {
         "libs": {
@@ -9638,7 +11282,7 @@
             "version": "2.2.0-master"
           }
         },
-        "sha": "e6dcfb489b7e2d07198d93f00858459aa0611267"
+        "sha": "b956d494e48c8e9766142319acf0bf30c5684722"
       },
       "v1.0.0": {
         "libs": {
@@ -10164,7 +11808,7 @@
             "version": "0.2.0-master"
           }
         },
-        "sha": "220f60f6c717198f0179e81506acc73ee728246a"
+        "sha": "bf4cbbe52414cbfea9b63e59d326f4df8e9e0bc7"
       }
     }
   },
@@ -10307,7 +11951,7 @@
             "version": "master"
           }
         },
-        "sha": "127b5e65b875872b4b42fc0899dc2ab6f3e0f46a"
+        "sha": "8df976f13fce98d1e8684d6bce32f6625a6e59cc"
       },
       "v2.0.1": {
         "libs": {
@@ -10429,6 +12073,18 @@
         },
         "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
       },
+      "1.8.1": {
+        "libs": {
+          "TILMedia": {
+            "path": "TILMedia",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.8.1-ClaRa"
+          }
+        },
+        "sha": "010603eb27287ce477b3902926296ee9b305af50"
+      },
       "main": {
         "libs": {
           "TILMedia": {
@@ -10436,10 +12092,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.8.0-main"
+            "version": "1.8.1-main"
           }
         },
-        "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
+        "sha": "010603eb27287ce477b3902926296ee9b305af50"
       }
     }
   },
@@ -10473,7 +12129,7 @@
             "version": "0.5.0-master"
           }
         },
-        "sha": "32210792356fc2221cfcc7949cdb3297470b75b5"
+        "sha": "8fade7e0253d00ec13bae32852308bddfbae85d3"
       },
       "v0.1-beta": {
         "libs": {
@@ -10553,7 +12209,7 @@
             "version": "0.2.0-master"
           }
         },
-        "sha": "42820d71eaad0dd75bcd0651b8e97d8838793395"
+        "sha": "709797e2fa1491e9d2be81aec8be6524bab18532"
       }
     }
   },
@@ -10728,7 +12384,7 @@
             "version": "1.1.0-main"
           }
         },
-        "sha": "41ef3e02b94ad6dcd1aaaaef0e28cba9b4ec3eff"
+        "sha": "15c25e3f21f6eefa279e46d317cf3287e7ef3612"
       },
       "v0.1-beta": {
         "libs": {
@@ -10818,6 +12474,28 @@
           }
         },
         "sha": "cffa9282daf1821f2792fdc1fb5878325ea9a2a2"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ThermofluidStream": {
+            "convertFromVersion": [
+              "0.2.1",
+              "1.0.0"
+            ],
+            "path": "ThermofluidStream",
+            "provides": [
+              "0.3.0",
+              "0.4.1",
+              "0.5.0"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "c108e09803d6270804389fc9996403648112f151"
       }
     }
   },
@@ -10835,23 +12513,23 @@
               "1.3.1",
               "2.0.0"
             ],
-            "path": "",
+            "path": "TransiEnt 2.0.2-dev",
             "uses": {
-              "Buildings": "7.0.0",
-              "ClaRa": "1.7.0",
+              "Buildings": "9.0.0",
+              "ClaRa": "1.8.0",
               "DataFiles": "1.0.5",
               "Design": "1.0.7",
               "DymolaCommands": "1.11.0",
               "Modelica": "4.0.0",
               "ModelicaReference": "4.0.0",
               "Modelica_LinearSystems2": "2.4.0",
-              "Modelica_StateGraph2": "2.0.4",
-              "TILMedia": "1.7.0-ClaRa"
+              "Modelica_StateGraph2": "2.1.0",
+              "TILMedia": "1.8.0-ClaRa"
             },
-            "version": "2.0.1-master"
+            "version": "2.0.2-master"
           }
         },
-        "sha": "9c95be744c91cc4417cae641522e96d33c8026d1"
+        "sha": "9c0bd25f9ed0ee6ebf0ed0504e1b6ec18f8682e0"
       }
     }
   },
@@ -10928,7 +12606,7 @@
             "version": "2.0.1-master"
           }
         },
-        "sha": "5e3df138d0cc13e9d88201abe8309abe2dd91e6c"
+        "sha": "ea39eeea2e3ee58238a1e7fa8eb42cea90a7c53e"
       },
       "v1.2.1": {
         "libs": {

@@ -126,7 +126,7 @@ def main():
       for (name,sha) in tags:
         if name not in ignoreTags:
           objects.append((name, sha))
-          
+
       if not objects:
         raise Exception("No commits or zip-files found for %s" % key)
 
@@ -180,7 +180,18 @@ def main():
                 pass
               shutil.copytree(repopath+".git", repopath)
             except:
-              print("Failed to checkout %s with SHA %s" % (tagName, sha))
+              print("Failed to checkout %s from repo: %s with SHA %s" % (tagName, repopath, sha))
+              print("Usually this error happens if somebody force-pushed to a repository.")
+              print("We will delete our own cache of %s now!", repopath)
+              print("PLEASE RERUN THIS SCRIPT!")
+              try:
+                os.unlink(repopath)
+              except:
+                pass
+              try:
+                shutil.rmtree(repopath)
+              except FileNotFoundError:
+                pass
               raise
           omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
@@ -249,6 +260,8 @@ def main():
             if version.startswith("+"):
               version = version[1:]
             uses = sorted([[e[0],str(common.VersionNumber(e[1]))] for e in omc.sendExpression("getUses(%s)" % libname)])
+            for ignore in entry.get("ignore-uses", []):
+              uses = [use for use in uses if use[0] != ignore]
             # Get conversions
             (withoutConversion,withConversion) = omc.sendExpression("getConversionsFromVersions(%s)" % libname)
             withoutConversion = list(filter(None, [str(ver) for ver in sorted([common.VersionNumber(v) for v in withoutConversion])]))
@@ -284,5 +297,6 @@ def main():
       raise Exception("Don't know how to handle entry for %s: %s" % (key, entry))
   with open("rawdata.json","w") as io:
     json.dump(serverdata, io, sort_keys=True, indent=2)
+
 if __name__ == '__main__':
   main()

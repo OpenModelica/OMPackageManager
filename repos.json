@@ -62,7 +62,7 @@
   "Annex60": {
     "names": ["Annex60"],
     "github": "ibpsa/modelica-ibpsa",
-    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v2.0.0", "v3.0.0"],
+    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v0.3.0", "v2.0.0", "v2.1.0", "v3.0.0", "_LinearisationPaper"],
     "support": [
       ["*", "obsolete"]
     ]
@@ -104,6 +104,16 @@
     "support": [
       ["prerelease", "noSupport"],
       ["*", "support"]
+    ]
+  },
+  "BidiDCDC": {
+    "names": ["BidiDCDC"],
+    "github": "rea40157/BidiDCDC",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
     ]
   },
   "BioChem": {
@@ -165,7 +175,8 @@
       "maint_8.0.x": "maint.8.0.x",
       "maint_8.1.x": "maint.8.1.x",
       "maint_9.0.x": "maint.9.0.x",
-      "maint_9.1.x": "maint.9.1.x"
+      "maint_9.1.x": "maint.9.1.x",
+      "maint_10.0.x": "maint.10.0.x"
     },
     "support": [
       ["prerelease", "noSupport"],
@@ -180,7 +191,6 @@
     "semverTagOverridesAnnotation": true,
     "semverPrereleaseOverridesAnnotation": true,
     "support": [
-      ["prerelease", "noSupport"],
       [">=2.0.0", "support"],
       ["*", "obsolete"]
     ]
@@ -218,21 +228,14 @@
     ]
   },
   "ClaRa": {
-    "names": ["ClaRa"],
-    "github": "ClaRaLibrary/ClaRa",
-    "branches": {"master": "master"},
+    "names": ["ClaRa", "ClaRa_Obsolete"],
+    "github": "xrg-simulation/ClaRa-official",
+    "branches": {"main": "main"},
+    "ignore-uses": ["FluidDissipation", "ClaRa_Dev"],
     "support": [
       ["prerelease", "noSupport"],
-      ["*", "noSupport"]
-    ]
-  },
-  "ClaRa_Obsolete": {
-    "names": ["ClaRa_Obsolete"],
-    "github": "ClaRaLibrary/ClaRa_Obsolete",
-    "branches": {"master": "master"},
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "noSupport"]
+      [">=1.8.1", "support"],
+      ["main", "experimental"]
     ]
   },
   "ComplexLib": {
@@ -327,6 +330,34 @@
       ["*", "obsolete"]
     ]
   },
+  "DroneLibrary": {
+    "names": ["DroneLibrary"],
+    "github": "ALSETLab/Modelica-Drone-3D-FMI",
+    "search-extra-paths": ["A_Modelica"],
+    "ignore-tags": ["v.1.beta","v.1.alpha","start"],
+    "ignore-uses": ["Visualization"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
+  "EHPTlib": {
+    "names": ["EHPTlib"],
+    "github": "ceraolo/EHPTlib",
+    "branches": {"main": "main"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
+  "EHPTexamples": {
+    "names": ["EHPTexamples"],
+    "github": "ceraolo/EHPTexamples",
+    "branches": {"main": "main"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
   "ElectricalEnergyStorage": {
     "names": ["ElectricalEnergyStorage"],
     "github": "modelica-3rdparty/ElectricalEnergyStorage",
@@ -381,12 +412,12 @@
   },
   "ExternalMedia": {
     "names": ["ExternalMedia"],
-    "github": "modelica-3rdparty/ExternalMedia",
-    "search-extra-paths": ["Modelica"],
-    "branches": {"master": "master"},
+    "zipfiles": {
+      "3.3.2": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v3.3.2/ExternalMedia-3.3.2.zip",
+      "4.0.0": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
+    },
     "support": [
-      ["prerelease", "noSupport"],
-      [">=3.3.1", "experimental"],
+      [">=3.3.2", "fullSupport"],
       ["*", "obsolete"]
     ]
   },
@@ -468,7 +499,7 @@
       ["prerelease", "noSupport"],
       ["*", "noSupport"]
     ]
-  },  
+  },
   "FMITest": {
     "names": ["FMITest"],
     "github": "DLR-SR/FMITest",
@@ -529,7 +560,7 @@
   },
   "GNU_ScientificLibrary": {
     "names": ["GNU_ScientificLibrary"],
-    "github": "greenwoodms06/Modelica-GNU_ScientificLibrary",
+    "github": "ORNL-Modelica/Modelica-GNU_ScientificLibrary",
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
@@ -539,7 +570,7 @@
   "Greenhouses": {
     "names": ["Greenhouses"],
     "branches": {"master": "master"},
-    "github": "queraltab/Greenhouses-Library",
+    "github": "adrpo/Greenhouses-Library",
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
@@ -570,7 +601,7 @@
   "IBPSA": {
     "names": ["IBPSA"],
     "github": "ibpsa/modelica-ibpsa",
-    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v1.0.0"],
+    "ignore-tags": ["pub_2015_ModelicaConfSpeed", "speed", "v0.3.0", "v1.0.0", "v2.0.0", "v2.1.0", "_LinearisationPaper"],
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
@@ -942,6 +973,16 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenIMDML": {
+    "names": ["OpenIMDML"],
+    "github": "ALSETLab/OpenIMDML",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "OpenIPSL": {
     "names": ["OpenIPSL"],
     "github": "OpenIPSL/OpenIPSL",
@@ -996,7 +1037,7 @@
   },
   "PNlib": {
     "names": ["PNlib"],
-    "github": "AMIT-FHBielefeld/PNlib",
+    "github": "AMIT-HSBI/PNlib",
     "branches": {"master": "master"},
     "semverTagOverridesAnnotation": true,
     "support": [
@@ -1020,6 +1061,7 @@
     "names": ["Physiolibrary"],
     "github": "MarekMatejak/Physiolibrary",
     "ignore-tags": [],
+    "ignore-uses": ["Chemical"],
     "semverTagOverridesAnnotation": true,
     "branches": {"master": "master"},
     "support": [
@@ -1052,7 +1094,7 @@
   "PowerGrids": {
     "names": ["PowerGrids"],
     "github": "PowerGrids/PowerGrids",
-    "branches": {"master": "master"},
+    "branches": {"develop": "develop"},
     "ignore-tags": [],
     "support": [
       ["prerelease", "noSupport"],
@@ -1202,6 +1244,14 @@
       ["*", "obsolete"]
     ]
   },
+  "SMArtIInt": {
+    "names": ["SMArtIInt"],
+    "github": "xrg-simulation/SMArtIInt",
+    "branches": {"main": "main"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
   "SMEHV": {
     "names": ["wbEHPTlib", "wbEHVpkg"],
     "github": "max-privato/SMEHV",
@@ -1333,8 +1383,7 @@
       ["*", "latest"]
     ],
     "support": [
-      ["prerelease", "noSupport"],
-      ["*", "obsolete"]
+      ["*", "experimental"]
     ]
   },
   "ThermoSysPro": {
@@ -1359,7 +1408,8 @@
   },
   "TransiEnt": {
     "names": ["TransiEnt"],
-    "github": "ClaRaLibrary/TransiEnt",
+    "github": "adrpo/transient-lib",
+    "ignore-tags": ["v2.0.2"],
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],

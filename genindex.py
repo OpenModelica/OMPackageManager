@@ -124,8 +124,10 @@ def main():
           entry['zipfile'] = r["zip"]
         elif "github" in repos[firstKey]:
           entry['zipfile'] = "https://github.com/%s/archive/%s.zip" % (repos[firstKey]["github"], r['sha'])
-        else:
+        elif "zipfile" in repos[firstKey]:
           entry['zipfile'] = repos[firstKey]["zipfile"].format(r['sha'])
+        else:
+          raise Exception("Entry does not list an entry \"zip\" (manually added zip-file), \"github\" (project name), or \"zipfile\" URL from where to download the git hash (gitlab/etc):\n"+str(r))
         if 'provides' in lib:
           entry['provides'] = lib['provides']
         if 'uses' in lib:
@@ -139,7 +141,7 @@ def main():
         libdict[lib['version']] = entry
         # print(entry)
     # for lib in data["libs"].keys():
-  
+
   for libName in indexdata["libs"].keys():
     versions = indexdata["libs"][libName]["versions"]
     for version in versions.keys():

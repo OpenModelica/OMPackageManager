@@ -21,7 +21,6 @@ def filename(url):
         return os.path.join(args.destination, url.removeprefix("https://"))
     raise Exception(url)
 
-
 urls = set()
 for index in [json.loads(requests.get("https://raw.githubusercontent.com/OpenModelica/OpenModelica/%s/libraries/%s" % branch_file).content) for branch_file in itertools.product(["master", "maintenance/v1.20"],["index.json","install-index.json"])] + [json.load(open("index.json"))]:
     for lib in index["libs"].values():
