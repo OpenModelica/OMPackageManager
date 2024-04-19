@@ -3913,12 +3913,30 @@
             "uses": {
               "Modelica": "4.0.0",
               "ModelicaServices": "4.0.0",
-              "VehicleInterfaces": "2.0.0"
+              "VehicleInterfaces": "2.0.1"
             },
-            "version": "1.9.0-master"
+            "version": "1.9.1-master"
           }
         },
-        "sha": "59a42ac52f2d99f777df975d341b60813361b0c0"
+        "sha": "1beb919f0c3d353902854cc20c83ab664d5a8c35"
+      },
+      "v.1.9.1": {
+        "libs": {
+          "EMOTH": {
+            "convertFromVersion": [
+              "1.4.1",
+              "1.5.0"
+            ],
+            "path": "EMOTH",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "VehicleInterfaces": "2.0.1"
+            },
+            "version": "1.9.1-.1.9.1"
+          }
+        },
+        "sha": "1beb919f0c3d353902854cc20c83ab664d5a8c35"
       },
       "v1.6.0": {
         "libs": {
