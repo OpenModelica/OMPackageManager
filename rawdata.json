@@ -1624,7 +1624,7 @@
             "version": "11.0.1-master"
           }
         },
-        "sha": "47530efc593696aec2c4fe608034b5c88381013a"
+        "sha": "c657d7f06fcf7ccf6fe015a298996176b5fbbf3b"
       },
       "v1.4_build1": {
         "libs": {
@@ -3570,6 +3570,18 @@
           }
         },
         "sha": "d5832edf83673c81fc07d642c59268e9302db91f"
+      },
+      "v0.2.0-alpha.1": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0-alpha.1"
+          }
+        },
+        "sha": "7d8d590060266b3630b44934cca6fd5d9c2b7988"
       }
     }
   },
@@ -6416,7 +6428,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "9c4bca2b84ee6125159afa1aced27f7b512ad12f"
+        "sha": "c57afeef4d13f371f0c5da3f22f788588032cc71"
       },
       "trunk": {
         "libs": {
@@ -6494,7 +6506,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "af8af752b1c7ab47aa2383e22807b692e4f1ee6c"
+        "sha": "36cd5452ffc1523f75eb3c9063bba81667d3228d"
       },
       "v1.3.1": {
         "libs": {
@@ -10364,7 +10376,7 @@
             "version": "1.6.0-master"
           }
         },
-        "sha": "bf13759379ed150ac7bc62a8adbec126111f0a56"
+        "sha": "6275fbfd75ecb8bb48cb6e4ebfc83174f521c3f3"
       },
       "v1.2.0": {
         "libs": {
