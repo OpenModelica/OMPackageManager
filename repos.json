@@ -176,11 +176,13 @@
       "maint_8.1.x": "maint.8.1.x",
       "maint_9.0.x": "maint.9.0.x",
       "maint_9.1.x": "maint.9.1.x",
-      "maint_10.0.x": "maint.10.0.x"
+      "maint_10.0.x": "maint.10.0.x",
+      "maint_11.x": "maint.11.x"
     },
     "support": [
       ["prerelease", "noSupport"],
-      [">=7.0.0", "fullSupport"],
+      [">=10.0.0", "fullSupport"],
+      [">=8.0.0", "Support"],
       ["*", "obsolete"]
     ]
   },
