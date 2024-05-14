@@ -1618,13 +1618,16 @@
               "10.1.0"
             ],
             "path": "Buildings",
+            "provides": [
+              "11.0.0"
+            ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "11.0.1-master"
+            "version": "11.1.0-master"
           }
         },
-        "sha": "8cb67d663910f1083c1397e2691cd8def39215cb"
+        "sha": "c8a274631b055cad9336b656d5c12a9ec36a17d2"
       },
       "v1.4_build1": {
         "libs": {
