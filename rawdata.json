@@ -4309,10 +4309,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.4-master"
+            "version": "3.0.5-master"
           }
         },
-        "sha": "df6c5c077fe1c28337fc1259c6a45a45fe7aaad4"
+        "sha": "3ad1c155351d59702eb40de100d983af7653f3b7"
       },
       "v1.0.0": {
         "libs": {
@@ -4577,6 +4577,18 @@
           }
         },
         "sha": "a9c68cceca613ee384ef820a4032944c9d2c0fcb"
+      },
+      "v3.0.5": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.5"
+          }
+        },
+        "sha": "3ad1c155351d59702eb40de100d983af7653f3b7"
       }
     }
   },
@@ -12229,7 +12241,7 @@
             "version": "0.5.0-master"
           }
         },
-        "sha": "9bee6ebbb4957b09c3382b2fcd2f61f80183eb0f"
+        "sha": "65b872f4704d2c7b26c4fa9808f324545b8c93e7"
       },
       "v0.1-beta": {
         "libs": {
