@@ -349,6 +349,7 @@
     "github": "ceraolo/EHPTlib",
     "branches": {"main": "main"},
     "support": [
+      ["prerelease", "noSupport"],
       ["*", "experimental"]
     ]
   },
@@ -366,7 +367,6 @@
     "github": "modelica-3rdparty/ElectricalEnergyStorage",
     "branches": {"master": "master"},
     "support": [
-      ["prerelease", "noSupport"],
       ["*", "obsolete"]
     ]
   },
