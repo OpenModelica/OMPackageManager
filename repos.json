@@ -1303,6 +1303,14 @@
       ["*", "obsolete"]
     ]
   },
+  "SOFCPoliMi": {
+    "names": ["SOFCPoliMi"],
+    "github": "looms-polimi/SOFCPoliMi",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
   "SystemDynamics": {
     "names": ["SystemDynamics"],
     "github": "modelica-3rdparty/SystemDynamics",
