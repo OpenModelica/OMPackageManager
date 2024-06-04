@@ -11362,6 +11362,23 @@
       }
     }
   },
+  "SOFCPoliMi": {
+    "refs": {
+      "master": {
+        "libs": {
+          "SOFCPoliMi": {
+            "path": "SOFCPoliMi",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "ef33b365e341eeece911a0615c260d4636a2352e"
+      }
+    }
+  },
   "ScalableTestGrids": {
     "refs": {
       "1.0.0": {
