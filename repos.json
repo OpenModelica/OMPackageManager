@@ -1134,7 +1134,7 @@
   },
   "PraxisSimulationstechnik": {
     "names": ["PraxisSimulationstechnik", "PJLoeslib", "PJlib"],
-    "github": "tbeu/PraxisSimulationstechnik",
+    "github": "modelica-3rdparty/PraxisSimulationstechnik",
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
