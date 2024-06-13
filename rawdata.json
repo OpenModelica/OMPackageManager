@@ -3601,6 +3601,18 @@
         },
         "sha": "d5832edf83673c81fc07d642c59268e9302db91f"
       },
+      "v0.2.0": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "ee11c172125943086d84d8598ff47dd2765296a0"
+      },
       "v0.2.0-alpha.1": {
         "libs": {
           "Credibility": {
