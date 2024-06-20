@@ -735,6 +735,8 @@
       "OM/maint/3.2.3": "v3.2.3+maint.om",
       "MA/maint/4.0.x": {"version": "4.0.0+default.modelica.association", "names": ["ModelicaServices"]},
       "OM/maint/4.0.x": "4.0.0+maint.om",
+      "MA/maint/4.1.x": {"version": "4.1.0+default.modelica.association", "names": ["ModelicaServices"]},
+      "OM/maint/4.1.x": "4.1.0-beta.om",
       "OM/master": "master",
       "OM/trunk": "trunk"
     },
