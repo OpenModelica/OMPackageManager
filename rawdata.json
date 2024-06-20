@@ -5662,7 +5662,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "addf2906bb8764afbae42acf4ff7e59dbe3aaed2"
+        "sha": "1c7fe82a14ca2dac2a084a297ff0acda34e61828"
       },
       "v2.0.0": {
         "libs": {
@@ -6408,6 +6408,102 @@
           }
         },
         "sha": "96032134c36668898e1693e69bd9f81aa38de3dd"
+      },
+      "4.1.0+default.modelica.association": {
+        "libs": {
+          "ModelicaServices": {
+            "path": "ModelicaServices",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "4.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0+default.modelica.association"
+          }
+        },
+        "sha": "715668b515099568a99de62f4dd3706f4a33555a"
+      },
+      "4.1.0-beta.om": {
+        "libs": {
+          "Complex": {
+            "path": "Complex.mo",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "4.0.0"
+            ],
+            "version": "4.1.0-beta.om"
+          },
+          "Modelica": {
+            "convertFromVersion": [
+              "3.0.0",
+              "3.0.1",
+              "3.1.0",
+              "3.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3"
+            ],
+            "path": "Modelica",
+            "provides": [
+              "4.0.0"
+            ],
+            "uses": {
+              "Complex": "4.1.0",
+              "ModelicaServices": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaReference": {
+            "path": "ModelicaReference",
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaServices": {
+            "path": "ModelicaServices",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "4.0.0"
+            ],
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaTest": {
+            "path": "ModelicaTest",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaTestOverdetermined": {
+            "path": "ModelicaTestOverdetermined.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          },
+          "ObsoleteModelica4": {
+            "path": "ObsoleteModelica4.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          }
+        },
+        "sha": "e4dec3328af4939d9e7adcd060548e838f2547ba"
       },
       "master": {
         "libs": {
