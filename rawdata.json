@@ -3584,10 +3584,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.1.0-main"
+            "version": "0.2.0-main"
           }
         },
-        "sha": "3310455a3dc7a3acd07fbf28919698c3d2c13a3d"
+        "sha": "ee11c172125943086d84d8598ff47dd2765296a0"
       },
       "v0.1.0": {
         "libs": {
@@ -8071,10 +8071,38 @@
             ],
             "path": "Modelica_LinearSystems2",
             "uses": {
+              "Complex": "4.0.0",
               "DymolaCommands": "1.17.0",
               "Modelica": "4.0.0"
             },
             "version": "3.0.0-master"
+          }
+        },
+        "sha": "a4f1eadc43b559aef4b9a7f080de19944f1a61d4"
+      },
+      "master_before_ff_on_v3.0.x": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-dev"
           }
         },
         "sha": "81bcc6289bfd5910033c69a19cb11c39e2a3e958"
@@ -8492,6 +8520,34 @@
           }
         },
         "sha": "0846a599e9ab7db680b1ef0c9bbabd05c233060e"
+      },
+      "v3.0.0": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Complex": "4.0.0",
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "a18451616a3f17e094b5148859c8862c2b135b74"
       },
       "v3.0.0-alpha.1": {
         "libs": {
@@ -12537,7 +12593,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "d028b9ee4ba18ff148726fffe50917de29102a0b"
+        "sha": "e2b011ac7fd90f9cf5771f29f1aefa160550b6ee"
       },
       "release.2.0": {
         "libs": {
