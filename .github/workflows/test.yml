@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install semantic_version PyGithub atlassian-python-api pygit2
+          pip install OMPython semantic_version PyGithub atlassian-python-api pygit2
 
       - name: Generate package index
         run: |
