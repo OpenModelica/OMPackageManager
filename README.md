@@ -85,3 +85,35 @@ file; whenever a new version of a library is released, the [repos.json](repos.js
 is automatically updated to make it available. However, it is also possible to manage versions of the library that are located on specific named
 branches, e.g. master or maintenance branches. This is useful if you want to track development versions or you want to get the latest fixes
 before the official release.
+
+## Generate Package Index
+
+Install dependencies:
+
+  - Python 3
+  - OpenModelica
+
+```bash
+pip install -r requirements.txt
+```
+
+Create a public_repo personal access token for GitHub and define an environment variable `GITHUB_AUTH`:
+
+```bash
+export GITHUB_AUTH=<your PAT>
+```
+
+Generate index file `index.json`.
+```bash
+rm -rf cache/
+rm -f index.json
+python updateinfo.py
+python genindex.py
+```
+
+To test the index file copy it into your OpenModelica libraries directory
+and test it via OMEdit / scripting API:
+
+```bash
+cp index.json ~/.openmodelica/libraries/index.json
+````
