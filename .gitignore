@@ -1,4 +1,6 @@
-cache
-*.pyc
 __pycache__
+*.pyc
+/.venv/
+/.vscode/
+cache
 index.json
