@@ -91,13 +91,11 @@ before the official release.
 Install dependencies:
 
   - Python 3
-    - semantic_version
-    - PyGithub
-    - atlassian-python-api
-    - pygit2
-    - OMPython
-    - distutils
   - OpenModelica
+
+```bash
+pip install -r requirements.txt
+```
 
 Create a public_repo personal access token for GitHub and define an environment variable `GITHUB_AUTH`:
 
