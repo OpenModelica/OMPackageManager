@@ -5,9 +5,7 @@ on:
   pull_request:
   push:
     branches:
-      - main
-      - 'releases/*'
-    tags: 'v*'
+      - master
 
 jobs:
   test-generate:
@@ -16,7 +14,8 @@ jobs:
       contents: read
     strategy:
       matrix:
-        python-version: ["3.10"]
+        python-version: ['3.10']
+        omc-version: ['stable']
 
     steps:
       - name: Checkout code
@@ -25,7 +24,7 @@ jobs:
       - name: "Set up OpenModelica Compiler"
         uses: OpenModelica/setup-openmodelica@v1.0
         with:
-          version: stable
+          version: ${{ matrix.omc-version }}
           packages: |
             omc
 
