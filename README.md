@@ -105,6 +105,8 @@ export GITHUB_AUTH=<your PAT>
 
 Generate index file `index.json`.
 ```bash
+rm -rf cache/
+rm -f index.json
 python updateinfo.py
 python genindex.py
 ```
