@@ -1494,7 +1494,7 @@
             "version": "10.1.1-maint.10.0.x"
           }
         },
-        "sha": "0155bb03d56c2f8900d456fc279e847e29293707"
+        "sha": "4c032e3ee95711c61fd48b81780f7036f9e0a3ec"
       },
       "maint.11.x": {
         "libs": {
@@ -1522,7 +1522,7 @@
             "version": "11.1.0-maint.11.x"
           }
         },
-        "sha": "d1cdc4bdb1774bb2a5480e00f9d12876286a90c3"
+        "sha": "07baddb307c4a6374ef88bfde79479a9640066a9"
       },
       "maint.7.0.x": {
         "libs": {
@@ -1627,7 +1627,7 @@
             "version": "9.1.3-maint.9.1.x"
           }
         },
-        "sha": "999e875d389f9fafa16703d73c89460c35cb57e3"
+        "sha": "69083480ddfd57126cbad2bda27f80d9929aee5e"
       },
       "master": {
         "libs": {
@@ -1654,7 +1654,7 @@
             "version": "12.0.0-master"
           }
         },
-        "sha": "a07fc8904d530b227d5ec805b4ca74c0fca06954"
+        "sha": "6eb5f6f039fe5ffc09dce8a6b77e9de5964472bb"
       },
       "v1.4_build1": {
         "libs": {
@@ -3867,7 +3867,7 @@
             "version": "2.1.4-main"
           }
         },
-        "sha": "92ece60675fd3b618d204d7c41d075ffc850e96a"
+        "sha": "aaa17bf0337a72e6f4e303af83e63116be30f13c"
       },
       "v2.1.4": {
         "libs": {
@@ -5662,7 +5662,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "180d3192cdd6deaa5b99514837235ce185aeabbd"
+        "sha": "7b37531559618b62d7f2f20c3c0228b800097b17"
       },
       "v2.0.0": {
         "libs": {
@@ -8935,6 +8935,18 @@
   },
   "NeuralNetwork": {
     "refs": {
+      "main": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0-main"
+          }
+        },
+        "sha": "95975438200c697967933957202c988d998d5e2c"
+      },
       "v1.0": {
         "libs": {
           "NeuralNetwork": {
@@ -8946,6 +8958,30 @@
           }
         },
         "sha": "c44e4d1fe97fd4f86dafcd05ad3713692e3f1806"
+      },
+      "v2.0.0": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "f0d1bf981bb43851c83c85bbe96ccbd7c12ba235"
+      },
+      "v2.1.0": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "95975438200c697967933957202c988d998d5e2c"
       }
     }
   },
