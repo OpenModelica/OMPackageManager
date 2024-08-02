@@ -5230,10 +5230,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "master"
+            "version": "1.0.0-master"
           }
         },
-        "sha": "6918f1e794e905d0eba07f3fc5e231d30bfeeb4f"
+        "sha": "3b13f4fc2e76878aba2ab4797008d79eaba0a647"
       }
     }
   },
