@@ -350,6 +350,7 @@
     "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
+      [">=2.1.4", "fullSupport"],
       ["*", "experimental"]
     ]
   },
@@ -359,6 +360,7 @@
     "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
+      [">=2.1.4", "fullSupport"],
       ["*", "experimental"]
     ]
   },
