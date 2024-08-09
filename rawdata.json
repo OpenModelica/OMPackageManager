@@ -1212,16 +1212,16 @@
         "libs": {
           "BuildSysPro": {
             "convertFromVersion": [
-              "3.4.0"
+              "3.5.0"
             ],
             "path": "BuildSysPro",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.5.0-master"
+            "version": "3.6.0-master"
           }
         },
-        "sha": "32e636b2b5425f2a9970e974f66f22e39250a3c5"
+        "sha": "27334b5a88e29b012d779eb903e052782eae28aa"
       },
       "v2.0.0": {
         "libs": {
@@ -5877,17 +5877,18 @@
       "master": {
         "libs": {
           "IndustrialControlSystems": {
-            "path": "IndustrialControlSystems",
-            "provides": [
-              "0.0.0"
+            "convertFromVersion": [
+              "1.1.0",
+              "1.2.0"
             ],
+            "path": "IndustrialControlSystems",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "1.1.0-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "d2d882d78be9af6c9b95a349879d4380dd820593"
+        "sha": "148672debbeffe842dc7be441cc4b896ea677284"
       },
       "v1.0": {
         "libs": {
@@ -5918,6 +5919,37 @@
           }
         },
         "sha": "d2d882d78be9af6c9b95a349879d4380dd820593"
+      },
+      "v1.2.0": {
+        "libs": {
+          "IndustrialControlSystems": {
+            "path": "IndustrialControlSystems",
+            "provides": [
+              "1.1.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "bd263e7b5244e5d128ced2b52bcf2f22a88c728c"
+      },
+      "v2.0.0": {
+        "libs": {
+          "IndustrialControlSystems": {
+            "convertFromVersion": [
+              "1.1.0",
+              "1.2.0"
+            ],
+            "path": "IndustrialControlSystems",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "148672debbeffe842dc7be441cc4b896ea677284"
       }
     }
   },
@@ -6578,7 +6610,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "fd33ebdd761d82825a06d8e24c09765615e3d89f"
+        "sha": "50d2143b189e9723918755bf577bda90df004409"
       },
       "trunk": {
         "libs": {
@@ -6656,7 +6688,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "c75d7ae2679cadb7ffaed3fefb7b6935893b25fc"
+        "sha": "bb08660c52567659c93980e2bb85c390f59f0073"
       },
       "v1.3.1": {
         "libs": {
@@ -8078,7 +8110,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "4726bd27dab7b05cc48fd7e53da8787520e7d234"
+        "sha": "fbd1d75b4585c3580001a47f64df2b973ee70d2a"
       },
       "master_before_ff_on_v3.0.x": {
         "libs": {
@@ -8945,7 +8977,7 @@
             "version": "2.1.0-main"
           }
         },
-        "sha": "95975438200c697967933957202c988d998d5e2c"
+        "sha": "82c52c96e8bdef7af1627c8ca731a3a1c45b682d"
       },
       "v1.0": {
         "libs": {
@@ -10681,7 +10713,7 @@
             "version": "1.6.0-master"
           }
         },
-        "sha": "829356ac46b0406a3bcf2e472b251abc0fea03db"
+        "sha": "976f6970e5d027431dc2afbe32353c3b03e1beca"
       },
       "v1.2.0": {
         "libs": {
@@ -12975,7 +13007,7 @@
             "version": "2.0.1-master"
           }
         },
-        "sha": "45f811bbd086b307ac04de8b9e2d41a89d0e24cf"
+        "sha": "c4fda44617aa0d3b0fd21bd49ff873b40352d7cb"
       },
       "v1.2.1": {
         "libs": {
