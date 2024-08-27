@@ -3838,7 +3838,7 @@
             "version": "main"
           }
         },
-        "sha": "17804447dd40ef08b15d46603e517afb30b2f03e"
+        "sha": "fd1bbb9d780c6cee9b0b5c12669445580132b1be"
       },
       "v2.1.4": {
         "libs": {
@@ -3867,7 +3867,7 @@
             "version": "2.1.4-main"
           }
         },
-        "sha": "499ca08267296983a2496aaf910b8d5f3414cce3"
+        "sha": "b2ae6cb73911bedbe5b12481f9eb6d9543a2b404"
       },
       "v2.1.4": {
         "libs": {
@@ -5968,10 +5968,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.11.0-master"
+            "version": "0.13.0-master"
           }
         },
-        "sha": "c154168e07b439eb740408024e9f093581cca571"
+        "sha": "843b6c85f075d62ecdf7b471a5897687cd689b89"
       },
       "v0.1.0": {
         "libs": {
@@ -6020,6 +6020,24 @@
           }
         },
         "sha": "e43d2f4f2ac44b6fb3780ee19acfb3835d90bbfc"
+      },
+      "v0.12.0": {
+        "libs": {
+          "KeyWordIO": {
+            "convertFromVersion": [
+              "0.6.0",
+              "0.7.0",
+              "0.8.0",
+              "0.9.0"
+            ],
+            "path": "KeyWordIO",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.12.0"
+          }
+        },
+        "sha": "a626825c764efab2be68eafdcff55459fe31ad79"
       },
       "v0.2.0": {
         "libs": {
