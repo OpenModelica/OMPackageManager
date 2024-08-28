@@ -483,6 +483,20 @@
           }
         },
         "sha": "5783775e3b703ba16eec3adef7128fc231ef9b49"
+      },
+      "v2.0.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "SDF": "0.4.2"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "ab02aa089ec56535a11d70057635b3fd2e6cc198"
       }
     }
   },
