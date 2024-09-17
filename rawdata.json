@@ -3881,7 +3881,7 @@
             "version": "2.1.4-main"
           }
         },
-        "sha": "999b6006198752e58b48738fc3df08f29dddd07d"
+        "sha": "e6e31bdfeb56d1579a56c2200d4ed94f8ee8b4c1"
       },
       "v2.1.4": {
         "libs": {
@@ -12559,10 +12559,10 @@
               "Modelica": "4.0.0",
               "ModelicaServices": "4.0.0"
             },
-            "version": "0.5.0-master"
+            "version": "1.0.0-master"
           }
         },
-        "sha": "21b39e35c884c4541ed7ddd7b377d8ce97980592"
+        "sha": "673d13d85cbbd330f7ee3c9aceb3b036c569aa27"
       },
       "v0.1-beta": {
         "libs": {
