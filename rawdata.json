@@ -957,6 +957,22 @@
       }
     }
   },
+  "BoundaryInitBlocks": {
+    "refs": {
+      "master": {
+        "libs": {
+          "BoundaryInitBlocks": {
+            "path": "BoundaryInitBlocks",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0-master"
+          }
+        },
+        "sha": "54a78a7fb979e3f655d31feecd774ccbbc72cfbb"
+      }
+    }
+  },
   "BrineProp": {
     "refs": {
       "v0.1.9": {
@@ -9435,6 +9451,9 @@
               "2.0.0"
             ],
             "path": "OpenIPSL",
+            "provides": [
+              "3.0.0"
+            ],
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
@@ -9442,7 +9461,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "0b5a3ef00dfa0ce3f39d6910f35c86dedd0cc019"
+        "sha": "257dfe4fb8f8279245c0e04de59ccfa6fa9fe11d"
       },
       "v1.0.0": {
         "libs": {
