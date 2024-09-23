@@ -144,6 +144,14 @@
       ["*", "obsolete"]
     ]
   },
+  "BoundaryInitBlocks": {
+    "names": ["BoundaryInitBlocks"],
+    "github": "looms-polimi/BoundaryInitBlocks",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
   "BrineProp": {
     "names": ["BrineProp"],
     "git": "https://git.gfz-potsdam.de/francke/BrineProp.git",
