@@ -12552,6 +12552,18 @@
         },
         "sha": "010603eb27287ce477b3902926296ee9b305af50"
       },
+      "1.8.2": {
+        "libs": {
+          "TILMedia": {
+            "path": "TILMedia",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.8.2-ClaRa"
+          }
+        },
+        "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
+      },
       "main": {
         "libs": {
           "TILMedia": {
@@ -12559,10 +12571,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.8.1-main"
+            "version": "1.8.2-main"
           }
         },
-        "sha": "010603eb27287ce477b3902926296ee9b305af50"
+        "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
       }
     }
   },
