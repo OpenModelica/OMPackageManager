@@ -3024,6 +3024,61 @@
         },
         "sha": "c9c9e706fb247fa3fd3d893d48b865ed76414e3d"
       },
+      "1.8.2": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0",
+              "1.8.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "SMArtIInt": "0.2.2",
+              "TILMedia": "1.8.2-ClaRa"
+            },
+            "version": "1.8.2"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.2",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.2"
+          }
+        },
+        "sha": "11fb839158f554ab7cbe47e51a1137118b0adabd"
+      },
       "ClaRa_1.3.0_Release": {
         "libs": {
           "ClaRa": {
@@ -3538,7 +3593,7 @@
             "uses": {
               "Modelica": "4.0.0",
               "SMArtIInt": "0.2.2",
-              "TILMedia": "1.8.1-ClaRa"
+              "TILMedia": "1.8.2-ClaRa"
             },
             "version": "1.8.2-main"
           },
@@ -3562,7 +3617,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "2538588c1f35e1cad7cf562cbdc4574496486306"
+        "sha": "a1f2bab443384df25e25464a93c0f53ead5032c4"
       }
     }
   },
@@ -11685,7 +11740,7 @@
             "version": "master"
           }
         },
-        "sha": "c08f438f0d45f5602dbe0cf8506dbb4bb3a2a715"
+        "sha": "74ae525ae855ca247e4c8f3e42da7c4bee05729e"
       }
     }
   },
