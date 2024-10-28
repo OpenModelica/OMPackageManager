@@ -6578,7 +6578,7 @@
             "version": "4.1.0+default.modelica.association"
           }
         },
-        "sha": "f6037d4da46085e41e150d1b0df21508815ef33e"
+        "sha": "72d5551a9a68b24ec80b1c7974f5a39c21c61e57"
       },
       "4.1.0-beta.om": {
         "libs": {
@@ -6653,7 +6653,7 @@
             "version": "4.1.0-beta.om"
           }
         },
-        "sha": "f00fc7d70cb7b40ace57efceb07d20ced52f00a2"
+        "sha": "6364d93dbec49328dbc149de63096cb8478e8553"
       },
       "master": {
         "libs": {
