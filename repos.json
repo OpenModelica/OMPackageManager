@@ -352,6 +352,20 @@
       ["*", "obsolete"]
     ]
   },
+  "Dynawo": {
+    "names": ["Dynawo"],
+    "github": "casella/dynawo",
+    "search-extra-paths": ["dynawo/sources/Models/Modelica"],
+    "branches": {
+      "master": "master",
+      "maint_1.6.x": "maint.1.6.x"
+    },
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.6.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "EHPTlib": {
     "names": ["EHPTlib"],
     "github": "ceraolo/EHPTlib",
