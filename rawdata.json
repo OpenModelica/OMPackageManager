@@ -3927,6 +3927,18 @@
   },
   "Dynawo": {
     "refs": {
+      "maint.1.6.x": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.7.0-maint.1.6.x"
+          }
+        },
+        "sha": "4b9e0f151f00062402f607f25167a63225c8914f"
+      },
       "master": {
         "libs": {
           "Dynawo": {
