@@ -3925,6 +3925,226 @@
       }
     }
   },
+  "Dynawo": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.7.0-master"
+          }
+        },
+        "sha": "4b9e0f151f00062402f607f25167a63225c8914f"
+      },
+      "nightly": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.7.0-nightly"
+          }
+        },
+        "sha": "4b9e0f151f00062402f607f25167a63225c8914f"
+      },
+      "nightly-release": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1-nightly-release"
+          }
+        },
+        "sha": "acbe65a4c7b279914fedb911102416664f2227b7"
+      },
+      "v0.1.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "598ed68ecbf2cb8f85315e6575f9f71011f27c9b"
+      },
+      "v0.1.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "35556bd1e651029e69abcbb4939f3bffb63bdfe1"
+      },
+      "v1.0.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "924099dd9002f0447c10a4b3842aec8df607c336"
+      },
+      "v1.0.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "748ecc1ecbf2bee1b04ac9df744fed6ad4fa32e4"
+      },
+      "v1.1.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "37db5247fb779a39b30965ef40960eaf68fad9e7"
+      },
+      "v1.2.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "be83bb72271ba19770cd9176b6f220b4d449eda3"
+      },
+      "v1.2.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "150087f58fa1b1bf91f9996ef136c3de38fdf442"
+      },
+      "v1.2.2": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "ebd9e766c31a19393f579fbafaa7f03064538b27"
+      },
+      "v1.3.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "c8285e23ec42aeb02d1185e572edb9fa070f6aa5"
+      },
+      "v1.3.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "38413d4f6e23c74fc593e88301f8f59bfeaa6a48"
+      },
+      "v1.3.2": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "92b09698c6cf1e4ef76196199b6ff4d71684733b"
+      },
+      "v1.4.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "5f6fb3d0c6e9d82343d6785f966f66b15225c37e"
+      },
+      "v1.4.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "0185d2ee2524733156b7c2f390cc25bf687c5223"
+      },
+      "v1.5.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "71950329b6d36f7cc890187d0811e403c93c2247"
+      },
+      "v1.6.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "cc53d0b0949acbcfb32f28e708746ec0ce03958c"
+      },
+      "vMaster": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.7.0-Master"
+          }
+        },
+        "sha": "4b9e0f151f00062402f607f25167a63225c8914f"
+      }
+    }
+  },
   "EHPTexamples": {
     "refs": {
       "main": {
