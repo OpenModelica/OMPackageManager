@@ -1671,7 +1671,7 @@
             "version": "9.1.3-maint.9.1.x"
           }
         },
-        "sha": "c4c54b37ce2430d264184a2b0d46a1e7230ed3fc"
+        "sha": "87b8ef2fc7af9a2922bd6a3cd7c8305b36a5036d"
       },
       "master": {
         "libs": {
@@ -4170,7 +4170,7 @@
             "version": "main"
           }
         },
-        "sha": "29ec1fae41f97e58f2c645a20915e65866d4a5ac"
+        "sha": "145b14e7585f082dc21477efdbc1bf3e72d92688"
       },
       "v2.1.4": {
         "libs": {
@@ -4184,6 +4184,19 @@
           }
         },
         "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
+      },
+      "v3.0.0": {
+        "libs": {
+          "EHPTexamples": {
+            "path": "EHPTexamples",
+            "uses": {
+              "EHPTlib": "3.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "145b14e7585f082dc21477efdbc1bf3e72d92688"
       }
     }
   },
@@ -4212,6 +4225,18 @@
           }
         },
         "sha": "fd9b23dda37740e0824efa5d909e5c5995272755"
+      },
+      "v3.0.0": {
+        "libs": {
+          "EHPTlib": {
+            "path": "EHPTlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "6c8ccddcfee7079232d49e852c561dc15db4c2e3"
       }
     }
   },
