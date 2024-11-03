@@ -5545,10 +5545,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.7.0-master"
+            "version": "3.2.1-master"
           }
         },
-        "sha": "c6b67ca8b5ca9cdba5ddba1b793d078389df9e55"
+        "sha": "4e6427b01615d46d72e95b6b3408bd4d12ff0a20"
       }
     }
   },
