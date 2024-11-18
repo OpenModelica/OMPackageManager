@@ -1538,7 +1538,7 @@
             "version": "10.1.1-maint.10.0.x"
           }
         },
-        "sha": "fe6766c008a8a7be4e52921d595db3bedf5aff0c"
+        "sha": "55c354c7046f03640a859b85f7a3da92a7a7577c"
       },
       "maint.11.x": {
         "libs": {
@@ -1566,7 +1566,7 @@
             "version": "11.1.0-maint.11.x"
           }
         },
-        "sha": "4717703c635a1581457ff8dcc4aa7efdd9fad39e"
+        "sha": "e16e1626c49318af98f69186960938d096bcdf11"
       },
       "maint.7.0.x": {
         "libs": {
@@ -1671,7 +1671,7 @@
             "version": "9.1.3-maint.9.1.x"
           }
         },
-        "sha": "f515686f575b140f4381dd44e401f6df40158cac"
+        "sha": "1648e6a7cc318163392e96b9e6bfe694fa244a63"
       },
       "master": {
         "libs": {
@@ -1698,7 +1698,7 @@
             "version": "12.0.0-master"
           }
         },
-        "sha": "a8b04098cb8c05474b9711e752bf2fba0cfd2efa"
+        "sha": "07dfbd56db0f683827470f7ebf77e2248adaf19e"
       },
       "v1.4_build1": {
         "libs": {
@@ -3617,7 +3617,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "d6f0615fec37edf14f3721a400edb6bf2de1fbaa"
+        "sha": "42d0b37c4fadac85d92cbbb2f9926d7ac8c9e9f2"
       }
     }
   },
@@ -6985,7 +6985,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "d304b464c0218d17cea771312fc1ebff80472c49"
+        "sha": "03838bcf1b2ad8eca28184043b9a759e441c1825"
       },
       "trunk": {
         "libs": {
@@ -7063,7 +7063,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "4e0c61a31efb00a7f617f7d5ffc275fcb891a63a"
+        "sha": "48dad44db5c99b288611ef57dbb8bbc4af294292"
       },
       "v1.3.1": {
         "libs": {
@@ -13166,16 +13166,17 @@
             "provides": [
               "0.3.0",
               "0.4.1",
-              "0.5.0"
+              "0.5.0",
+              "1.1.0"
             ],
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "1.1.0-main"
+            "version": "1.2.0-main"
           }
         },
-        "sha": "f8f86dcd187bce972ceca41e69c28190b5e1d0a6"
+        "sha": "8d2287a558d9d5e3a6235c981d5a60044dae5b61"
       },
       "v0.1-beta": {
         "libs": {
