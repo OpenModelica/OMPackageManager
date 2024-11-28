@@ -1538,7 +1538,7 @@
             "version": "10.1.1-maint.10.0.x"
           }
         },
-        "sha": "55c354c7046f03640a859b85f7a3da92a7a7577c"
+        "sha": "bbebf214c43b38df8fa3d11964fb47dfa3d11558"
       },
       "maint.11.x": {
         "libs": {
@@ -1698,7 +1698,7 @@
             "version": "12.0.0-master"
           }
         },
-        "sha": "98a6e4bebf17695898e316b9efc2330b7adec439"
+        "sha": "04215e9a6a2677e2b6ea3b61ed67bce9ca4ebc7a"
       },
       "v1.4_build1": {
         "libs": {
@@ -11911,18 +11911,18 @@
       },
       "main": {
         "libs": {
-          "SMArtIInt": {
+          "SMArtInt": {
             "convertFromVersion": [
               "0.1.1"
             ],
-            "path": "SMArtIInt",
+            "path": "SMArtInt",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.2.2-main"
+            "version": "0.3.1-main"
           }
         },
-        "sha": "895e25e39e12c1d7617c5df0405af6a6888560f4"
+        "sha": "b373b5779c9ebd3539b5c5e5ce1451fb6e4b7b05"
       },
       "v0.2.0": {
         "libs": {
@@ -11968,6 +11968,36 @@
           }
         },
         "sha": "d0e8b787082356f51471f4e894ad1f83556ffb59"
+      },
+      "v0.3.0": {
+        "libs": {
+          "SMArtInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "%version%"
+          }
+        },
+        "sha": "2610fd1c48134c0f6ef18bb20ba66cccb7af3f3c"
+      },
+      "v0.3.1": {
+        "libs": {
+          "SMArtInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.1"
+          }
+        },
+        "sha": "b373b5779c9ebd3539b5c5e5ce1451fb6e4b7b05"
       }
     }
   },
