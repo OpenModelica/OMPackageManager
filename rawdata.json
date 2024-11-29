@@ -998,6 +998,18 @@
           }
         },
         "sha": "54a78a7fb979e3f655d31feecd774ccbbc72cfbb"
+      },
+      "v1.0.0": {
+        "libs": {
+          "BoundaryInitBlocks": {
+            "path": "BoundaryInitBlocks",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "54a78a7fb979e3f655d31feecd774ccbbc72cfbb"
       }
     }
   },
@@ -3963,7 +3975,7 @@
             "version": "1.7.0-master"
           }
         },
-        "sha": "8aa4c498f7d9fe0768df1b242305ac941eec0fe0"
+        "sha": "006270995685bae8d6e29580bdc7620492b3ae29"
       },
       "nightly": {
         "libs": {
@@ -4167,7 +4179,7 @@
             "version": "1.7.0-Master"
           }
         },
-        "sha": "8aa4c498f7d9fe0768df1b242305ac941eec0fe0"
+        "sha": "006270995685bae8d6e29580bdc7620492b3ae29"
       }
     }
   },
