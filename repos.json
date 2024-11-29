@@ -41,7 +41,7 @@
   "AixLib": {
     "names": ["AixLib"],
     "github": "RWTH-EBC/AixLib",
-    "branches": {"development": "development", "master": "master"},
+    "branches": {"development": "development", "main": "main"},
     "ignore-tags": ["v0.7.2", "v0.7.1", "v0.7.0", "v0.1.0"],
     "support": [
       ["prerelease", "noSupport"],
