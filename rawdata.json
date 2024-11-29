@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "0cf155e001eb036809b61db386131e2b8b2bfedd"
+        "sha": "f94ecc02ee963fd56bb658259872e7edfbed6782"
       }
     }
   },
@@ -205,6 +205,20 @@
           }
         },
         "sha": "26e999fa9b726adc28378593e523bc71f0211f94"
+      },
+      "main": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "SDF": "0.4.2"
+            },
+            "version": "2.1.0-main"
+          }
+        },
+        "sha": "6743502629fb7c69af04af23bbf1ba7af28b47b9"
       },
       "master": {
         "libs": {
