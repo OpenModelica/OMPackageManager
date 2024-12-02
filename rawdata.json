@@ -3975,7 +3975,7 @@
             "version": "1.7.0-master"
           }
         },
-        "sha": "006270995685bae8d6e29580bdc7620492b3ae29"
+        "sha": "ad66d5f53ac890e9eddbce33cec108f30522c1bf"
       },
       "nightly": {
         "libs": {
@@ -3987,7 +3987,7 @@
             "version": "1.7.0-nightly"
           }
         },
-        "sha": "006270995685bae8d6e29580bdc7620492b3ae29"
+        "sha": "ad66d5f53ac890e9eddbce33cec108f30522c1bf"
       },
       "nightly-release": {
         "libs": {
@@ -4179,7 +4179,7 @@
             "version": "1.7.0-Master"
           }
         },
-        "sha": "006270995685bae8d6e29580bdc7620492b3ae29"
+        "sha": "ad66d5f53ac890e9eddbce33cec108f30522c1bf"
       }
     }
   },
