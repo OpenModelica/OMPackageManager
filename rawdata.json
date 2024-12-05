@@ -3963,7 +3963,7 @@
             "version": "1.6.1-maint.1.6.x"
           }
         },
-        "sha": "169357602c4b65b2a777ae3bbc807a0fc223621e"
+        "sha": "3e23c6b9ef0e0e71d88e3868993cace256276136"
       },
       "master": {
         "libs": {
@@ -3975,7 +3975,7 @@
             "version": "1.7.0-master"
           }
         },
-        "sha": "0d5b80dcb318380571cb6413c92b6191869dafaa"
+        "sha": "3a8ddf08815dfd100d70cccf7a93d57676fe2ffa"
       },
       "nightly": {
         "libs": {
@@ -4179,7 +4179,7 @@
             "version": "1.7.0-Master"
           }
         },
-        "sha": "0d5b80dcb318380571cb6413c92b6191869dafaa"
+        "sha": "3a8ddf08815dfd100d70cccf7a93d57676fe2ffa"
       }
     }
   },
