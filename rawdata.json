@@ -5571,10 +5571,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "4.2.2-master"
+            "version": "4.3.0-master"
           }
         },
-        "sha": "6b7d93b430167011e777fe30977e47f347210391"
+        "sha": "7080e8ae4557705072c8f5734413ed6d3f928ce8"
       }
     }
   },
