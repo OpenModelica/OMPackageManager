@@ -4704,10 +4704,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.5-master"
+            "version": "3.1.0-master"
           }
         },
-        "sha": "4d1eabfb8b3ada4430d0b701e48570c59e331462"
+        "sha": "1249ada51ebd8e55554e358f3204fbc4200b5b3a"
       },
       "v1.0.0": {
         "libs": {
