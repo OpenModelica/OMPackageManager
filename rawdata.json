@@ -3987,7 +3987,7 @@
             "version": "1.7.0-nightly"
           }
         },
-        "sha": "e60295df892c47caab545da278a2bccc60772616"
+        "sha": "a9d12ecd853193e5ab14b02ef42047e8c408e714"
       },
       "nightly-release": {
         "libs": {
@@ -4707,7 +4707,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "82bfb1a22d32f3bc3d1ee45a1d6a70d3703c384f"
+        "sha": "d4448a6d46ad25e72f0887efcf6eb2828c9063db"
       },
       "v1.0.0": {
         "libs": {
@@ -4984,6 +4984,18 @@
           }
         },
         "sha": "3ad1c155351d59702eb40de100d983af7653f3b7"
+      },
+      "v3.1.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.1.0"
+          }
+        },
+        "sha": "d4448a6d46ad25e72f0887efcf6eb2828c9063db"
       }
     }
   },
