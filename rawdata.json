@@ -3972,10 +3972,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "1.7.0-master"
+            "version": "1.8.0-master"
           }
         },
-        "sha": "835d9f174d922a4ee46d36bfa63746eef7b09149"
+        "sha": "d58817926d0bf4bac07095d8e830b5fc1f7fae73"
       },
       "nightly": {
         "libs": {
@@ -4176,10 +4176,10 @@
             "uses": {
               "Modelica": "3.2.3"
             },
-            "version": "1.7.0-Master"
+            "version": "1.8.0-Master"
           }
         },
-        "sha": "835d9f174d922a4ee46d36bfa63746eef7b09149"
+        "sha": "d58817926d0bf4bac07095d8e830b5fc1f7fae73"
       }
     }
   },
