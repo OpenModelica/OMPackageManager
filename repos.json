@@ -357,8 +357,7 @@
     "github": "dynawo/dynawo",
     "search-extra-paths": ["dynawo/sources/Models/Modelica"],
     "branches": {
-      "master": "master",
-      "v1.6": "maint.1.6.x"
+      "master": "master"
     },
     "support": [
       ["prerelease", "noSupport"],
