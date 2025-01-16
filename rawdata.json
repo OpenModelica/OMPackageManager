@@ -1281,17 +1281,14 @@
       "master": {
         "libs": {
           "BuildSysPro": {
-            "convertFromVersion": [
-              "3.5.0"
-            ],
             "path": "BuildSysPro",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.6.0-master"
+            "version": "3.7.0-master"
           }
         },
-        "sha": "7e8198a827d69e7127828bb09b07262ebcb621c9"
+        "sha": "7d30fb7b35c996f1946023dfc303601542102978"
       },
       "v2.0.0": {
         "libs": {
