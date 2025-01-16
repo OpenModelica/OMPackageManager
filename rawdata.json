@@ -1291,7 +1291,7 @@
             "version": "3.6.0-master"
           }
         },
-        "sha": "27334b5a88e29b012d779eb903e052782eae28aa"
+        "sha": "7e8198a827d69e7127828bb09b07262ebcb621c9"
       },
       "v2.0.0": {
         "libs": {
@@ -1429,6 +1429,21 @@
           }
         },
         "sha": "32e636b2b5425f2a9970e974f66f22e39250a3c5"
+      },
+      "v3.7.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "3.5.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.7.0"
+          }
+        },
+        "sha": "7e8198a827d69e7127828bb09b07262ebcb621c9"
       }
     }
   },
@@ -3975,7 +3990,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "461731b6aaf8bd456ee2676bf1f9c7f09fc9cfb6"
+        "sha": "2bb4204a440d05700b5b53fe9b580e208929647b"
       },
       "nightly": {
         "libs": {
@@ -4179,7 +4194,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "461731b6aaf8bd456ee2676bf1f9c7f09fc9cfb6"
+        "sha": "2bb4204a440d05700b5b53fe9b580e208929647b"
       }
     }
   },
