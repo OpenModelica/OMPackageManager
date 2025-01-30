@@ -3987,7 +3987,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "b33d558e8eaac39ed95d091cf1c223a60bec4770"
+        "sha": "0b958b2f6daa580e5948d28739f7f3c6af90a4d4"
       },
       "nightly": {
         "libs": {
@@ -3999,7 +3999,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "b33d558e8eaac39ed95d091cf1c223a60bec4770"
+        "sha": "0b958b2f6daa580e5948d28739f7f3c6af90a4d4"
       },
       "nightly-release": {
         "libs": {
@@ -4191,7 +4191,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "b33d558e8eaac39ed95d091cf1c223a60bec4770"
+        "sha": "0b958b2f6daa580e5948d28739f7f3c6af90a4d4"
       }
     }
   },
@@ -5598,7 +5598,7 @@
             "version": "4.7.0-master"
           }
         },
-        "sha": "e9220f7dc3810c86154ef178ba932179316394b7"
+        "sha": "8b203e99af47113f78abd881a656558a5c89563a"
       }
     }
   },
