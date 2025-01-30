@@ -3999,7 +3999,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "a65bf3cf41d4f4ca9785bb9875be5de1382ec86e"
+        "sha": "b33d558e8eaac39ed95d091cf1c223a60bec4770"
       },
       "nightly-release": {
         "libs": {
@@ -5595,10 +5595,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "4.6.0-master"
+            "version": "4.7.0-master"
           }
         },
-        "sha": "f58a92e03705efcca58adba69dce0bffd86efe3a"
+        "sha": "e9220f7dc3810c86154ef178ba932179316394b7"
       }
     }
   },
