@@ -152,17 +152,6 @@
       ["*", "experimental"]
     ]
   },
-  "BrineProp": {
-    "names": ["BrineProp"],
-    "git": "https://git.gfz-potsdam.de/francke/BrineProp.git",
-    "semverTagOverridesAnnotation": true,
-    "zipfile": "https://git.gfz-potsdam.de/francke/BrineProp/-/archive/{0}/BrineProp-{0}.zip",
-    "support": [
-      ["prerelease", "noSupport"],
-      [">=0.5.4", "experimental"],
-      ["*", "obsolete"]
-    ]
-  },
   "BuildingControlLib": {
     "names": ["BuildingControlLib"],
     "github": "TechnicalBuildingSystems/BuildingControlLib",
