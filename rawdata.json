@@ -1473,7 +1473,7 @@
             "version": "12.0.0-master"
           }
         },
-        "sha": "606b74830101ba4038a56f79ac620b5b54b24853"
+        "sha": "8712af7d680d5daa8a559e56f789346201306776"
       },
       "v1.4_build1": {
         "libs": {
@@ -3724,7 +3724,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "630d4387fc2186bb80b5e7bc98cf2f37692a0bba"
+        "sha": "c0a0c0c28e532a153f883ab36736fbefa09b6b0e"
       },
       "nightly": {
         "libs": {
@@ -3928,7 +3928,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "630d4387fc2186bb80b5e7bc98cf2f37692a0bba"
+        "sha": "c0a0c0c28e532a153f883ab36736fbefa09b6b0e"
       }
     }
   },
