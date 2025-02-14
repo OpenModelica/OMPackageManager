@@ -8878,12 +8878,12 @@
           "Modelica_Requirements": {
             "path": "Modelica_Requirements",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.0.0"
             },
-            "version": "0.6.0-master"
+            "version": "0.7.0-master"
           }
         },
-        "sha": "5b9c07bb5e6c55f1ab5f9b88b5719123a7d127fe"
+        "sha": "90397485985a57aa9bdca009dfe3c9f5bc25e809"
       },
       "v0.6.1": {
         "libs": {
@@ -8896,6 +8896,18 @@
           }
         },
         "sha": "5b9c07bb5e6c55f1ab5f9b88b5719123a7d127fe"
+      },
+      "v0.7.0": {
+        "libs": {
+          "Modelica_Requirements": {
+            "path": "Modelica_Requirements",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.7.0"
+          }
+        },
+        "sha": "90397485985a57aa9bdca009dfe3c9f5bc25e809"
       }
     }
   },
