@@ -3604,7 +3604,7 @@
             "version": "1.2.0-master"
           }
         },
-        "sha": "eb5e1dd6445e9e72950764deb8cb7c77a57f54a3"
+        "sha": "217f4016b06f317f82c3955bd4853f3ece36f5e7"
       },
       "v1.0.0": {
         "libs": {
@@ -3631,13 +3631,17 @@
         "libs": {
           "DriveControl": {
             "path": "DriveControl",
+            "provides": [
+              "4.0.0"
+            ],
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.1.0",
+              "ObsoleteModelica4": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           }
         },
-        "sha": "6a9c49fe8e0db0eb759d29facd67562890dd0d48"
+        "sha": "002b4d85a6de77acd0c5de43e2e5827e01752edd"
       }
     }
   },
