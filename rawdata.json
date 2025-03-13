@@ -1313,7 +1313,7 @@
             "version": "10.1.1-maint.10.0.x"
           }
         },
-        "sha": "53112a64db9e44de6ce34adb500e6459f381b7bc"
+        "sha": "5a4850ce733a69c61a92824397b7ca5a627690d7"
       },
       "maint.11.x": {
         "libs": {
@@ -1473,7 +1473,7 @@
             "version": "12.0.0-master"
           }
         },
-        "sha": "2711d1dc6f3609ed47ccabe4a62a224ad7a7b636"
+        "sha": "67b17a01fc7770548307b35a3c540df15c7a24d0"
       },
       "v1.4_build1": {
         "libs": {
@@ -5414,10 +5414,10 @@
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-master"
+            "version": "2.0.1-master"
           }
         },
-        "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
+        "sha": "6f8c15b4cc836cb4f45d3c7438618457f10ec60d"
       },
       "v0.10.0": {
         "libs": {
@@ -5548,6 +5548,19 @@
           }
         },
         "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
+      },
+      "v2.0.1": {
+        "libs": {
+          "HanserModelica": {
+            "path": "HanserModelica",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.1"
+          }
+        },
+        "sha": "6f8c15b4cc836cb4f45d3c7438618457f10ec60d"
       }
     }
   },
