@@ -13305,15 +13305,16 @@
             ],
             "path": "VehicleInterfaces",
             "provides": [
-              "2.0.0"
+              "2.0.0",
+              "2.0.1"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "2.0.1-master"
+            "version": "2.0.2-master"
           }
         },
-        "sha": "7b7d7778578c22c5f0a811decb3aa12aac5835d9"
+        "sha": "9ed09f88b3b0cba9ffb71752349216f76d31338f"
       },
       "v1.2.1": {
         "libs": {
@@ -13456,6 +13457,58 @@
         },
         "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
       },
+      "v2.0.0-beta.1": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-beta.1"
+          }
+        },
+        "sha": "7bfc3bf5effd2ed710c013fd04cbaed5ea4a0da9"
+      },
+      "v2.0.0-rc.1": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-rc.1"
+          }
+        },
+        "sha": "61073356f76ba63a77376cf72c6ccf4aebe16e84"
+      },
       "v2.0.1": {
         "libs": {
           "VehicleInterfaces": {
@@ -13482,6 +13535,34 @@
           }
         },
         "sha": "63fc631f0b539a85ee15e137a5e21629ca108182"
+      },
+      "v2.0.2-alpha": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "2.0.0",
+              "2.0.1"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "2.0.2-alpha"
+          }
+        },
+        "sha": "9ed09f88b3b0cba9ffb71752349216f76d31338f"
       }
     }
   },
