@@ -3455,7 +3455,7 @@
             "path": "ClaRa",
             "uses": {
               "Modelica": "4.0.0",
-              "SMArtIInt": "0.2.2",
+              "SMArtInt": "0.3.1",
               "TILMedia": "1.8.2-ClaRa"
             },
             "version": "1.8.2-main"
@@ -3480,7 +3480,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "51c804b3a1c242f505a4a7bd4f180d54d6570c47"
+        "sha": "902d7ea7b0702f3b8d2b1662600c7e8ad1d2ea99"
       }
     }
   },
@@ -3816,7 +3816,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "23e4e07e8a0fcc4f4e5963fe9099a91b2cc2a907"
+        "sha": "b7af4cba02344e13a9746c5366255ca4645fc7ea"
       },
       "nightly": {
         "libs": {
@@ -4020,7 +4020,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "23e4e07e8a0fcc4f4e5963fe9099a91b2cc2a907"
+        "sha": "b7af4cba02344e13a9746c5366255ca4645fc7ea"
       }
     }
   },
