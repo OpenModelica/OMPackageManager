@@ -1334,15 +1334,16 @@
             ],
             "path": "Buildings",
             "provides": [
-              "11.0.0"
+              "11.0.0",
+              "11.1.0"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "11.1.0-maint.11.x"
+            "version": "11.1.1-maint.11.x"
           }
         },
-        "sha": "e260ea7133510397fcaa32d68db3811b90260e66"
+        "sha": "4f29a0f2ad74bb3863626fa747be860f914a48e7"
       },
       "maint.12.x": {
         "libs": {
@@ -1509,7 +1510,7 @@
             "version": "12.0.1-master"
           }
         },
-        "sha": "97f14e68adf8c92ef2a89e014b55e1acfa70f55d"
+        "sha": "0dc21f245c2fed979fb57f52527ab029c0148bf5"
       },
       "v1.4_build1": {
         "libs": {
@@ -2273,16 +2274,18 @@
               "1.1.0",
               "1.2.0",
               "1.3.0",
-              "1.3.1"
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
             ],
             "path": "Chemical",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.4.1-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "6dcb3371f2ddf43752052e1c1a4f374f926accd9"
+        "sha": "bb58d37e61546a0bb6d4f264acc4865c5b691d52"
       },
       "v1.0.0": {
         "libs": {
@@ -6758,7 +6761,7 @@
             "version": "4.1.0+default.modelica.association"
           }
         },
-        "sha": "195051c347adab7232bce4e984757ecf2dff0902"
+        "sha": "98fe3c90ce55480423621d60b0bd40541b9e0e51"
       },
       "4.1.0-beta.om": {
         "libs": {
@@ -6833,7 +6836,7 @@
             "version": "4.1.0-beta.om"
           }
         },
-        "sha": "af3c38a1326b81903cd993659984107ce8d40a66"
+        "sha": "a5d1eb72646312e957cc6764c81fc0ba7e2902ff"
       },
       "master": {
         "libs": {
@@ -6908,7 +6911,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "bee103d7a71a6d2ded46ff20615f0031fcfb3826"
+        "sha": "9e16a28ba00d174b85f7b51387d28297bb1d34e2"
       },
       "trunk": {
         "libs": {
@@ -6986,7 +6989,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "ea141417c283bbd57b5f0864b89aed7338d98530"
+        "sha": "5669d68c457b4b59696dac6905acf0b0a9e16afc"
       },
       "v1.3.1": {
         "libs": {
