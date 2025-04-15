@@ -41,7 +41,7 @@
   "AixLib": {
     "names": ["AixLib"],
     "github": "RWTH-EBC/AixLib",
-    "branches": {"development": "development", "master": "master"},
+    "branches": {"development": "development", "main": "main"},
     "ignore-tags": ["v0.7.2", "v0.7.1", "v0.7.0", "v0.1.0"],
     "support": [
       ["prerelease", "noSupport"],
@@ -144,15 +144,12 @@
       ["*", "obsolete"]
     ]
   },
-  "BrineProp": {
-    "names": ["BrineProp"],
-    "git": "https://git.gfz-potsdam.de/francke/BrineProp.git",
-    "semverTagOverridesAnnotation": true,
-    "zipfile": "https://git.gfz-potsdam.de/francke/BrineProp/-/archive/{0}/BrineProp-{0}.zip",
+  "BoundaryInitBlocks": {
+    "names": ["BoundaryInitBlocks"],
+    "github": "looms-polimi/BoundaryInitBlocks",
+    "branches": {"master": "master"},
     "support": [
-      ["prerelease", "noSupport"],
-      [">=0.5.4", "experimental"],
-      ["*", "obsolete"]
+      ["*", "experimental"]
     ]
   },
   "BuildingControlLib": {
@@ -176,11 +173,14 @@
       "maint_8.1.x": "maint.8.1.x",
       "maint_9.0.x": "maint.9.0.x",
       "maint_9.1.x": "maint.9.1.x",
-      "maint_10.0.x": "maint.10.0.x"
+      "maint_10.0.x": "maint.10.0.x",
+      "maint_11.x": "maint.11.x",
+      "maint_12.x": "maint.12.x"
     },
     "support": [
       ["prerelease", "noSupport"],
-      [">=7.0.0", "fullSupport"],
+      [">=10.0.0", "fullSupport"],
+      [">=8.0.0", "Support"],
       ["*", "obsolete"]
     ]
   },
@@ -213,8 +213,8 @@
     "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
-      [">=1.0.0", "experimental"],
-      ["*", "obsolete"]
+      [">=2.2.0", "fullSupport"],
+      ["*", "noSupport"]
     ]
   },
   "Chemical": {
@@ -342,11 +342,26 @@
       ["*", "obsolete"]
     ]
   },
+  "Dynawo": {
+    "names": ["Dynawo"],
+    "github": "dynawo/dynawo",
+    "search-extra-paths": ["dynawo/sources/Models/Modelica"],
+    "branches": {
+      "master": "master"
+    },
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.6.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "EHPTlib": {
     "names": ["EHPTlib"],
     "github": "ceraolo/EHPTlib",
     "branches": {"main": "main"},
     "support": [
+      ["prerelease", "noSupport"],
+      [">=2.1.4", "experimental"],
       ["*", "experimental"]
     ]
   },
@@ -355,6 +370,8 @@
     "github": "ceraolo/EHPTexamples",
     "branches": {"main": "main"},
     "support": [
+      ["prerelease", "noSupport"],
+      [">=2.1.4", "experimental"],
       ["*", "experimental"]
     ]
   },
@@ -731,6 +748,8 @@
       "OM/maint/3.2.3": "v3.2.3+maint.om",
       "MA/maint/4.0.x": {"version": "4.0.0+default.modelica.association", "names": ["ModelicaServices"]},
       "OM/maint/4.0.x": "4.0.0+maint.om",
+      "MA/maint/4.1.x": {"version": "4.1.0+default.modelica.association", "names": ["ModelicaServices"]},
+      "OM/maint/4.1.x": "4.1.0-beta.om",
       "OM/master": "master",
       "OM/trunk": "trunk"
     },
@@ -917,9 +936,11 @@
   },
   "NeuralNetwork": {
     "names": ["NeuralNetwork"],
-    "github": "modelica-3rdparty/NeuralNetwork",
+    "github": "AMIT-HSBI/NeuralNetwork",
+    "branches": { "main": "main" },
     "support": [
       ["prerelease", "noSupport"],
+      [">=2.0.0", "experimental"],
       ["*", "obsolete"]
     ]
   },
@@ -1130,7 +1151,7 @@
   },
   "PraxisSimulationstechnik": {
     "names": ["PraxisSimulationstechnik", "PJLoeslib", "PJlib"],
-    "github": "tbeu/PraxisSimulationstechnik",
+    "github": "modelica-3rdparty/PraxisSimulationstechnik",
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
@@ -1245,19 +1266,10 @@
     ]
   },
   "SMArtIInt": {
-    "names": ["SMArtIInt"],
+    "names": ["SMArtIInt", "SMArtInt"],
     "github": "xrg-simulation/SMArtIInt",
     "branches": {"main": "main"},
     "support": [
-      ["*", "experimental"]
-    ]
-  },
-  "SMEHV": {
-    "names": ["wbEHPTlib", "wbEHVpkg"],
-    "github": "max-privato/SMEHV",
-    "branches": {"master": "master"},
-    "support": [
-      ["prerelease", "noSupport"],
       ["*", "experimental"]
     ]
   },
@@ -1297,6 +1309,14 @@
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
+    ]
+  },
+  "SOFCPoliMi": {
+    "names": ["SOFCPoliMi"],
+    "github": "looms-polimi/SOFCPoliMi",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "experimental"]
     ]
   },
   "SystemDynamics": {

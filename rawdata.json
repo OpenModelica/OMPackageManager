@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "f4f05a07dc936dba625000278431c6bfdccd0011"
+        "sha": "f94ecc02ee963fd56bb658259872e7edfbed6782"
       }
     }
   },
@@ -205,6 +205,20 @@
           }
         },
         "sha": "26e999fa9b726adc28378593e523bc71f0211f94"
+      },
+      "main": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "SDF": "0.4.2"
+            },
+            "version": "2.1.1-main"
+          }
+        },
+        "sha": "cc7189e6700b7b42c4155ec3ecc455876fae8118"
       },
       "master": {
         "libs": {
@@ -483,6 +497,34 @@
           }
         },
         "sha": "5783775e3b703ba16eec3adef7128fc231ef9b49"
+      },
+      "v2.0.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "SDF": "0.4.2"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "ab02aa089ec56535a11d70057635b3fd2e6cc198"
+      },
+      "v2.1.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "SDF": "0.4.2"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "fcf8bd30a526e7a423f444ad244a518164bda76e"
       }
     }
   },
@@ -943,266 +985,31 @@
       }
     }
   },
-  "BrineProp": {
+  "BoundaryInitBlocks": {
     "refs": {
-      "v0.1.9": {
+      "master": {
         "libs": {
-          "BrineProp": {
-            "path": "",
+          "BoundaryInitBlocks": {
+            "path": "BoundaryInitBlocks",
             "uses": {
-              "Modelica": "3.2.0"
+              "Modelica": "4.0.0"
             },
-            "version": "0.1.9"
+            "version": "1.0.0-master"
           }
         },
-        "sha": "97074112eba18aef44d5584ff22d74b6e03be4dd"
+        "sha": "54a78a7fb979e3f655d31feecd774ccbbc72cfbb"
       },
-      "v0.3.0": {
+      "v1.0.0": {
         "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
+          "BoundaryInitBlocks": {
+            "path": "BoundaryInitBlocks",
             "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.0"
+              "Modelica": "4.0.0"
             },
-            "version": "0.3.0"
+            "version": "1.0.0"
           }
         },
-        "sha": "ffcdfcb7a9f7991770bbb20bd65c295e97df436f"
-      },
-      "v0.3.1": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.3.1"
-          }
-        },
-        "sha": "d46cd0dfd35cfe864e73717b68649e4d5f9e7f71"
-      },
-      "v0.4.0": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.0"
-          }
-        },
-        "sha": "4ff46b4bc8296d83db3d3ce06b967ef8928d7aef"
-      },
-      "v0.4.1": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.1"
-          }
-        },
-        "sha": "88de3d94bd4ebcd05d5d4d013fe3f6d743402d91"
-      },
-      "v0.4.2": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.2"
-          }
-        },
-        "sha": "57307d85dfbcb72b3e9370a219e92d93047a2a5d"
-      },
-      "v0.4.3": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.3"
-          }
-        },
-        "sha": "a5dd98399c5c74e1f1f289f6c2084fb81b8b1f77"
-      },
-      "v0.4.4": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.4"
-          }
-        },
-        "sha": "0c5553829e7c6b28c918cbac29fe855e9695b162"
-      },
-      "v0.4.5": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.5"
-          }
-        },
-        "sha": "8bd1901343b5a7fa6838ae460c25b87442c555d1"
-      },
-      "v0.4.6": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.6"
-          }
-        },
-        "sha": "33445cb3f938700205dc6178c08de064f8ca8b4d"
-      },
-      "v0.4.7": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.4.7"
-          }
-        },
-        "sha": "82c0f2fd3ad47e88f713ef5d141b164a527ebeee"
-      },
-      "v0.5.0": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.5.0"
-          }
-        },
-        "sha": "cf7639da6d155cc1dd97db81c6915874672a46ab"
-      },
-      "v0.5.2": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.5.2"
-          }
-        },
-        "sha": "608a491061009a08a9614f7ebeaf61be9268b2b9"
-      },
-      "v0.5.3": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.5.3"
-          }
-        },
-        "sha": "06a70159c4d7f0bec3a2083f3c2a4ac362a4255a"
-      },
-      "v0.5.4": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.1"
-            },
-            "version": "0.5.4"
-          }
-        },
-        "sha": "76422f703e700f95f4fc5aa6cbef17148c4b4b99"
-      },
-      "v0.5.5": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.2"
-            },
-            "version": "0.5.5"
-          }
-        },
-        "sha": "a9ee3acaf7f91d427ebe23b8242f9e5b538ec582"
-      },
-      "v0.5.8": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.2"
-            },
-            "version": "0.5.8"
-          }
-        },
-        "sha": "1683591805e8ccf5c2f58eb98bb29794b2710c3b"
-      },
-      "v0.5.9": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.3"
-            },
-            "version": "0.5.9"
-          }
-        },
-        "sha": "225d5347fa0319d001aaceb2651e082f5557bdf1"
-      },
-      "v0.6.0": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.0",
-              "Modelica": "3.2.3"
-            },
-            "version": "0.6.0"
-          }
-        },
-        "sha": "c2f564ae284726a2df6252a8561856691681572b"
-      },
-      "v0.7.0": {
-        "libs": {
-          "BrineProp": {
-            "path": "BrineProp",
-            "uses": {
-              "DataFiles": "1.0.5",
-              "Modelica": "3.2.3"
-            },
-            "version": "0.7.0"
-          }
-        },
-        "sha": "72b561cbd53ebcf5542ce3ab24c7a917febc0e83"
+        "sha": "54a78a7fb979e3f655d31feecd774ccbbc72cfbb"
       }
     }
   },
@@ -1211,17 +1018,14 @@
       "master": {
         "libs": {
           "BuildSysPro": {
-            "convertFromVersion": [
-              "3.4.0"
-            ],
             "path": "BuildSysPro",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.5.0-master"
+            "version": "3.7.0-master"
           }
         },
-        "sha": "32e636b2b5425f2a9970e974f66f22e39250a3c5"
+        "sha": "7d30fb7b35c996f1946023dfc303601542102978"
       },
       "v2.0.0": {
         "libs": {
@@ -1359,6 +1163,21 @@
           }
         },
         "sha": "32e636b2b5425f2a9970e974f66f22e39250a3c5"
+      },
+      "v3.7.0": {
+        "libs": {
+          "BuildSysPro": {
+            "convertFromVersion": [
+              "3.5.0"
+            ],
+            "path": "BuildSysPro",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.7.0"
+          }
+        },
+        "sha": "7e8198a827d69e7127828bb09b07262ebcb621c9"
       }
     }
   },
@@ -1439,7 +1258,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "2787f24d35fab72fb798d92ba10489ce4346c524"
+        "sha": "ccfa438ad5617f33c74e4e0068a3ed235a1a6fdd"
       },
       "v2.0.0-beta": {
         "libs": {
@@ -1486,15 +1305,75 @@
             "path": "Buildings",
             "provides": [
               "10.0.0",
-              "10.1.0"
+              "10.1.0",
+              "10.1.1"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "10.1.1-maint.10.0.x"
+            "version": "10.1.2-maint.10.0.x"
           }
         },
-        "sha": "76c3fb19f56ad5a88061e007c4c426d45e970424"
+        "sha": "026fea1c33476d885598d9808eaef1281d3a4cf5"
+      },
+      "maint.11.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "11.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "11.1.0-maint.11.x"
+          }
+        },
+        "sha": "e260ea7133510397fcaa32d68db3811b90260e66"
+      },
+      "maint.12.x": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0",
+              "10.1.1",
+              "11.0.0",
+              "11.1.0"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "12.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "12.0.1-maint.12.x"
+          }
+        },
+        "sha": "7a5f219bb6c42dafc1522aef20d882fd4aec7b87"
       },
       "maint.7.0.x": {
         "libs": {
@@ -1599,7 +1478,7 @@
             "version": "9.1.3-maint.9.1.x"
           }
         },
-        "sha": "999e875d389f9fafa16703d73c89460c35cb57e3"
+        "sha": "1648e6a7cc318163392e96b9e6bfe694fa244a63"
       },
       "master": {
         "libs": {
@@ -1615,16 +1494,22 @@
               "9.1.1",
               "9.1.2",
               "10.0.0",
-              "10.1.0"
+              "10.1.0",
+              "10.1.1",
+              "11.0.0",
+              "11.1.0"
             ],
             "path": "Buildings",
+            "provides": [
+              "12.0.0"
+            ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "11.0.1-master"
+            "version": "12.0.1-master"
           }
         },
-        "sha": "c7220f48b7f1bb04e72c530feafefc34b6a2dde4"
+        "sha": "97f14e68adf8c92ef2a89e014b55e1acfa70f55d"
       },
       "v1.4_build1": {
         "libs": {
@@ -1781,6 +1666,33 @@
         },
         "sha": "14607990d942924a4d8922ab14ab02c0635d5d2c"
       },
+      "v10.1.1": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "10.0.0",
+              "10.1.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "10.1.1"
+          }
+        },
+        "sha": "767dc0f7b6c893fdd3b3139df42fe4cc6c1852cc"
+      },
       "v11.0.0": {
         "libs": {
           "Buildings": {
@@ -1805,6 +1717,62 @@
           }
         },
         "sha": "471527a7fcd1597480149d2023de155fb0acb451"
+      },
+      "v11.1.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "11.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "11.1.0"
+          }
+        },
+        "sha": "e260ea7133510397fcaa32d68db3811b90260e66"
+      },
+      "v12.0.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0",
+              "10.1.1",
+              "11.0.0",
+              "11.1.0"
+            ],
+            "path": "Buildings",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "12.0.0"
+          }
+        },
+        "sha": "20754a3d57aa6f18647ef17740fa360bbc37861c"
       },
       "v2.0.0": {
         "libs": {
@@ -2314,7 +2282,7 @@
             "version": "1.4.1-master"
           }
         },
-        "sha": "245138d95c80db00e3aae1a930a4cad5b76e1002"
+        "sha": "6dcb3371f2ddf43752052e1c1a4f374f926accd9"
       },
       "v1.0.0": {
         "libs": {
@@ -2950,6 +2918,61 @@
         },
         "sha": "c9c9e706fb247fa3fd3d893d48b865ed76414e3d"
       },
+      "1.8.2": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0",
+              "1.8.1"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "SMArtIInt": "0.2.2",
+              "TILMedia": "1.8.2-ClaRa"
+            },
+            "version": "1.8.2"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.8.2",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.2"
+          }
+        },
+        "sha": "11fb839158f554ab7cbe47e51a1137118b0adabd"
+      },
       "ClaRa_1.3.0_Release": {
         "libs": {
           "ClaRa": {
@@ -3457,13 +3480,14 @@
               "1.6.0",
               "1.6.1",
               "1.7.0",
-              "1.8.0"
+              "1.8.0",
+              "1.8.1"
             ],
             "path": "ClaRa",
             "uses": {
               "Modelica": "4.0.0",
-              "SMArtIInt": "0.2.2",
-              "TILMedia": "1.8.1-ClaRa"
+              "SMArtInt": "0.3.1",
+              "TILMedia": "1.8.2-ClaRa"
             },
             "version": "1.8.2-main"
           },
@@ -3487,7 +3511,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "69b907f9dff07088ef2894ddee7a19e5747b926e"
+        "sha": "902d7ea7b0702f3b8d2b1662600c7e8ad1d2ea99"
       }
     }
   },
@@ -3516,7 +3540,7 @@
             "version": "3.2.0-master"
           }
         },
-        "sha": "4b50a72ff2c597d53bdc09b64b6dcdd0d74e6b05"
+        "sha": "f5a011e42b01e26ed85e32fb2a7a41e4cb260bf9"
       }
     }
   },
@@ -3554,10 +3578,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.1.0-main"
+            "version": "0.2.0-main"
           }
         },
-        "sha": "3618bf4d5c5a9ca55ff61cf0020ff2c285f02d67"
+        "sha": "ee11c172125943086d84d8598ff47dd2765296a0"
       },
       "v0.1.0": {
         "libs": {
@@ -3570,6 +3594,30 @@
           }
         },
         "sha": "d5832edf83673c81fc07d642c59268e9302db91f"
+      },
+      "v0.2.0": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "ee11c172125943086d84d8598ff47dd2765296a0"
+      },
+      "v0.2.0-alpha.1": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.2.0-alpha.1"
+          }
+        },
+        "sha": "7d8d590060266b3630b44934cca6fd5d9c2b7988"
       }
     }
   },
@@ -3675,7 +3723,7 @@
             "version": "1.2.0-master"
           }
         },
-        "sha": "eb5e1dd6445e9e72950764deb8cb7c77a57f54a3"
+        "sha": "217f4016b06f317f82c3955bd4853f3ece36f5e7"
       },
       "v1.0.0": {
         "libs": {
@@ -3702,13 +3750,17 @@
         "libs": {
           "DriveControl": {
             "path": "DriveControl",
+            "provides": [
+              "4.0.0"
+            ],
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.1.0",
+              "ObsoleteModelica4": "4.1.0"
             },
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           }
         },
-        "sha": "6a9c49fe8e0db0eb759d29facd67562890dd0d48"
+        "sha": "002b4d85a6de77acd0c5de43e2e5827e01752edd"
       }
     }
   },
@@ -3771,6 +3823,238 @@
       }
     }
   },
+  "Dynawo": {
+    "refs": {
+      "maint.1.6.x": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.6.1-maint.1.6.x"
+          }
+        },
+        "sha": "3e23c6b9ef0e0e71d88e3868993cace256276136"
+      },
+      "master": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.8.0-master"
+          }
+        },
+        "sha": "449bd7b2f34c0865d867d9d14c9f494a244a6c4f"
+      },
+      "nightly": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.8.0-nightly"
+          }
+        },
+        "sha": "449bd7b2f34c0865d867d9d14c9f494a244a6c4f"
+      },
+      "nightly-release": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1-nightly-release"
+          }
+        },
+        "sha": "acbe65a4c7b279914fedb911102416664f2227b7"
+      },
+      "v0.1.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "598ed68ecbf2cb8f85315e6575f9f71011f27c9b"
+      },
+      "v0.1.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "35556bd1e651029e69abcbb4939f3bffb63bdfe1"
+      },
+      "v1.0.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "924099dd9002f0447c10a4b3842aec8df607c336"
+      },
+      "v1.0.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "version": "0.1.0"
+          }
+        },
+        "sha": "748ecc1ecbf2bee1b04ac9df744fed6ad4fa32e4"
+      },
+      "v1.1.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "37db5247fb779a39b30965ef40960eaf68fad9e7"
+      },
+      "v1.2.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "be83bb72271ba19770cd9176b6f220b4d449eda3"
+      },
+      "v1.2.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "150087f58fa1b1bf91f9996ef136c3de38fdf442"
+      },
+      "v1.2.2": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "ebd9e766c31a19393f579fbafaa7f03064538b27"
+      },
+      "v1.3.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "c8285e23ec42aeb02d1185e572edb9fa070f6aa5"
+      },
+      "v1.3.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "38413d4f6e23c74fc593e88301f8f59bfeaa6a48"
+      },
+      "v1.3.2": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "92b09698c6cf1e4ef76196199b6ff4d71684733b"
+      },
+      "v1.4.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "5f6fb3d0c6e9d82343d6785f966f66b15225c37e"
+      },
+      "v1.4.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "0185d2ee2524733156b7c2f390cc25bf687c5223"
+      },
+      "v1.5.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "71950329b6d36f7cc890187d0811e403c93c2247"
+      },
+      "v1.6.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.6.0"
+          }
+        },
+        "sha": "cc53d0b0949acbcfb32f28e708746ec0ce03958c"
+      },
+      "vMaster": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.8.0-Master"
+          }
+        },
+        "sha": "449bd7b2f34c0865d867d9d14c9f494a244a6c4f"
+      }
+    }
+  },
   "EHPTexamples": {
     "refs": {
       "main": {
@@ -3778,13 +4062,13 @@
           "EHPTexamples": {
             "path": "EHPTexamples",
             "uses": {
-              "EHPTlib": "2.1.4",
+              "EHPTlib": "3.0.0",
               "Modelica": "4.0.0"
             },
             "version": "main"
           }
         },
-        "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
+        "sha": "0e1ba99a66021f3259c10834375d945e77d554fd"
       },
       "v2.1.4": {
         "libs": {
@@ -3798,6 +4082,19 @@
           }
         },
         "sha": "055120c9087578a48f16c713ee5c10e0f04e8d84"
+      },
+      "v3.0.0": {
+        "libs": {
+          "EHPTexamples": {
+            "path": "EHPTexamples",
+            "uses": {
+              "EHPTlib": "3.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "145b14e7585f082dc21477efdbc1bf3e72d92688"
       }
     }
   },
@@ -3810,10 +4107,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.1.4-main"
+            "version": "3.0.0-main"
           }
         },
-        "sha": "74273c4ccb0fc921458681e690236b0ccbab16f2"
+        "sha": "c7b90f8e2b3f300a9b139e2ca77165810bf57d1b"
       },
       "v2.1.4": {
         "libs": {
@@ -3826,6 +4123,18 @@
           }
         },
         "sha": "fd9b23dda37740e0824efa5d909e5c5995272755"
+      },
+      "v3.0.0": {
+        "libs": {
+          "EHPTlib": {
+            "path": "EHPTlib",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "6c8ccddcfee7079232d49e852c561dc15db4c2e3"
       }
     }
   },
@@ -3913,12 +4222,30 @@
             "uses": {
               "Modelica": "4.0.0",
               "ModelicaServices": "4.0.0",
-              "VehicleInterfaces": "2.0.0"
+              "VehicleInterfaces": "2.0.1"
             },
-            "version": "1.9.0-master"
+            "version": "1.9.1-master"
           }
         },
-        "sha": "59a42ac52f2d99f777df975d341b60813361b0c0"
+        "sha": "1beb919f0c3d353902854cc20c83ab664d5a8c35"
+      },
+      "v.1.9.1": {
+        "libs": {
+          "EMOTH": {
+            "convertFromVersion": [
+              "1.4.1",
+              "1.5.0"
+            ],
+            "path": "EMOTH",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "VehicleInterfaces": "2.0.1"
+            },
+            "version": "1.9.1-.1.9.1"
+          }
+        },
+        "sha": "1beb919f0c3d353902854cc20c83ab664d5a8c35"
       },
       "v1.6.0": {
         "libs": {
@@ -4249,10 +4576,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.4-master"
+            "version": "3.1.0-master"
           }
         },
-        "sha": "df6c5c077fe1c28337fc1259c6a45a45fe7aaad4"
+        "sha": "15c1358d1172c1954e3331ca1384a0e5887174ec"
       },
       "v1.0.0": {
         "libs": {
@@ -4517,6 +4844,30 @@
           }
         },
         "sha": "a9c68cceca613ee384ef820a4032944c9d2c0fcb"
+      },
+      "v3.0.5": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.5"
+          }
+        },
+        "sha": "3ad1c155351d59702eb40de100d983af7653f3b7"
+      },
+      "v3.1.0": {
+        "libs": {
+          "ExternData": {
+            "path": "ExternData",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.1.0"
+          }
+        },
+        "sha": "d4448a6d46ad25e72f0887efcf6eb2828c9063db"
       }
     }
   },
@@ -4529,7 +4880,7 @@
             "version": "main"
           }
         },
-        "sha": "c6dadc6a9989bcba62d19f6603eeb3afe5ed5eac"
+        "sha": "6c902e7552c33db9f3721ad303a04ad66f91631e"
       },
       "master": {
         "libs": {
@@ -5104,10 +5455,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.7.0-master"
+            "version": "4.7.2-master"
           }
         },
-        "sha": "c6b67ca8b5ca9cdba5ddba1b793d078389df9e55"
+        "sha": "bf82ebbee90b05fbd58b0a59c011890f9cb7e4e5"
       }
     }
   },
@@ -5146,10 +5497,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "master"
+            "version": "1.0.10-master"
           }
         },
-        "sha": "6918f1e794e905d0eba07f3fc5e231d30bfeeb4f"
+        "sha": "d04591376224819c774fbf803fb9fedb40be0a33"
       }
     }
   },
@@ -5182,10 +5533,10 @@
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-master"
+            "version": "2.0.1-master"
           }
         },
-        "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
+        "sha": "6f8c15b4cc836cb4f45d3c7438618457f10ec60d"
       },
       "v0.10.0": {
         "libs": {
@@ -5316,6 +5667,19 @@
           }
         },
         "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
+      },
+      "v2.0.1": {
+        "libs": {
+          "HanserModelica": {
+            "path": "HanserModelica",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.1"
+          }
+        },
+        "sha": "6f8c15b4cc836cb4f45d3c7438618457f10ec60d"
       }
     }
   },
@@ -5578,7 +5942,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "11bab981d65525c146bea68db7828e158dc1005a"
+        "sha": "47ed8dd471d074dc17d922ae77aa7b0a7122f8f2"
       },
       "v2.0.0": {
         "libs": {
@@ -5637,7 +6001,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "b13fe57bd2bc2b7ca7e6a6fe7dab291924af9f50"
+        "sha": "d298b0ed3d8b9915ee66ee02c738f838c0ade9a6"
       },
       "v1.0.0": {
         "libs": {
@@ -5793,17 +6157,18 @@
       "master": {
         "libs": {
           "IndustrialControlSystems": {
-            "path": "IndustrialControlSystems",
-            "provides": [
-              "0.0.0"
+            "convertFromVersion": [
+              "1.1.0",
+              "1.2.0"
             ],
+            "path": "IndustrialControlSystems",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "1.1.0-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "d2d882d78be9af6c9b95a349879d4380dd820593"
+        "sha": "148672debbeffe842dc7be441cc4b896ea677284"
       },
       "v1.0": {
         "libs": {
@@ -5834,6 +6199,37 @@
           }
         },
         "sha": "d2d882d78be9af6c9b95a349879d4380dd820593"
+      },
+      "v1.2.0": {
+        "libs": {
+          "IndustrialControlSystems": {
+            "path": "IndustrialControlSystems",
+            "provides": [
+              "1.1.0"
+            ],
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "bd263e7b5244e5d128ced2b52bcf2f22a88c728c"
+      },
+      "v2.0.0": {
+        "libs": {
+          "IndustrialControlSystems": {
+            "convertFromVersion": [
+              "1.1.0",
+              "1.2.0"
+            ],
+            "path": "IndustrialControlSystems",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "148672debbeffe842dc7be441cc4b896ea677284"
       }
     }
   },
@@ -5852,10 +6248,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.11.0-master"
+            "version": "0.13.0-master"
           }
         },
-        "sha": "e43d2f4f2ac44b6fb3780ee19acfb3835d90bbfc"
+        "sha": "843b6c85f075d62ecdf7b471a5897687cd689b89"
       },
       "v0.1.0": {
         "libs": {
@@ -5904,6 +6300,24 @@
           }
         },
         "sha": "e43d2f4f2ac44b6fb3780ee19acfb3835d90bbfc"
+      },
+      "v0.12.0": {
+        "libs": {
+          "KeyWordIO": {
+            "convertFromVersion": [
+              "0.6.0",
+              "0.7.0",
+              "0.8.0",
+              "0.9.0"
+            ],
+            "path": "KeyWordIO",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.12.0"
+          }
+        },
+        "sha": "a626825c764efab2be68eafdcff55459fe31ad79"
       },
       "v0.2.0": {
         "libs": {
@@ -6325,6 +6739,102 @@
         },
         "sha": "96032134c36668898e1693e69bd9f81aa38de3dd"
       },
+      "4.1.0+default.modelica.association": {
+        "libs": {
+          "ModelicaServices": {
+            "path": "ModelicaServices",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "4.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0+default.modelica.association"
+          }
+        },
+        "sha": "195051c347adab7232bce4e984757ecf2dff0902"
+      },
+      "4.1.0-beta.om": {
+        "libs": {
+          "Complex": {
+            "path": "Complex.mo",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "4.0.0"
+            ],
+            "version": "4.1.0-beta.om"
+          },
+          "Modelica": {
+            "convertFromVersion": [
+              "3.0.0",
+              "3.0.1",
+              "3.1.0",
+              "3.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3"
+            ],
+            "path": "Modelica",
+            "provides": [
+              "4.0.0"
+            ],
+            "uses": {
+              "Complex": "4.1.0",
+              "ModelicaServices": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaReference": {
+            "path": "ModelicaReference",
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaServices": {
+            "path": "ModelicaServices",
+            "provides": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "3.2.1",
+              "3.2.2",
+              "3.2.3",
+              "4.0.0"
+            ],
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaTest": {
+            "path": "ModelicaTest",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          },
+          "ModelicaTestOverdetermined": {
+            "path": "ModelicaTestOverdetermined.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          },
+          "ObsoleteModelica4": {
+            "path": "ObsoleteModelica4.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.0-beta.om"
+          }
+        },
+        "sha": "af3c38a1326b81903cd993659984107ce8d40a66"
+      },
       "master": {
         "libs": {
           "Complex": {
@@ -6398,7 +6908,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "9c4bca2b84ee6125159afa1aced27f7b512ad12f"
+        "sha": "bee103d7a71a6d2ded46ff20615f0031fcfb3826"
       },
       "trunk": {
         "libs": {
@@ -6476,7 +6986,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "af8af752b1c7ab47aa2383e22807b692e4f1ee6c"
+        "sha": "ea141417c283bbd57b5f0864b89aed7338d98530"
       },
       "v1.3.1": {
         "libs": {
@@ -7044,7 +7554,7 @@
             "version": "0.5.0-master"
           }
         },
-        "sha": "b07a59eb08814a1be48ddf30e70a36cef4ee6835"
+        "sha": "2743bf3a7d956ba49e894f29fde81569dfee83ba"
       },
       "review1": {
         "libs": {
@@ -7263,13 +7773,16 @@
               "2.3.2"
             ],
             "path": "ModelicaTableAdditions",
+            "provides": [
+              "3.0.0"
+            ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.0.0-main"
+            "version": "3.1.0-main"
           }
         },
-        "sha": "f6a0b7c875e75048f1f95996987fe1424494d4a9"
+        "sha": "fb2f9551a7cd3003f7f622b2fa82165f303e43f0"
       },
       "v1.0.0": {
         "libs": {
@@ -7479,6 +7992,38 @@
           }
         },
         "sha": "0430ba5cf79ff1720359c6448d90772d65222dde"
+      },
+      "v3.1.0": {
+        "libs": {
+          "ModelicaTableAdditions": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "2.0.0",
+              "2.0.1",
+              "2.0.2",
+              "2.1.0",
+              "2.1.1",
+              "2.2.0",
+              "2.2.1",
+              "2.2.2",
+              "2.2.3",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2"
+            ],
+            "path": "ModelicaTableAdditions",
+            "provides": [
+              "3.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "3.1.0"
+          }
+        },
+        "sha": "9196ffcc3b1d2b8527dbaca848968431794104ca"
       }
     }
   },
@@ -7504,7 +8049,7 @@
             "version": "2.1.1-master"
           }
         },
-        "sha": "8e6921a9270d3b6b9af938c42eafec3804359c3b"
+        "sha": "8c8dd60b6f4d58e456717b3047096079744ef714"
       },
       "v1.0": {
         "libs": {
@@ -7856,13 +8401,41 @@
             ],
             "path": "Modelica_LinearSystems2",
             "uses": {
+              "Complex": "4.0.0",
               "DymolaCommands": "1.17.0",
               "Modelica": "4.0.0"
             },
             "version": "3.0.0-master"
           }
         },
-        "sha": "6860aae87239dc9db9a7c6c4ffad939c8b5001ca"
+        "sha": "dfe53dda6d47d44fae3fd86df22d0c91e3e16a4e"
+      },
+      "master_before_ff_on_v3.0.x": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-dev"
+          }
+        },
+        "sha": "81bcc6289bfd5910033c69a19cb11c39e2a3e958"
       },
       "v.4.1": {
         "libs": {
@@ -8278,6 +8851,90 @@
         },
         "sha": "0846a599e9ab7db680b1ef0c9bbabd05c233060e"
       },
+      "v3.0.0": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Complex": "4.0.0",
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "a18451616a3f17e094b5148859c8862c2b135b74"
+      },
+      "v3.0.0-alpha.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Complex": "4.0.0",
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-alpha.1"
+          }
+        },
+        "sha": "58668337c9e9da95171d247a2a3df16067290e87"
+      },
+      "v3.0.0-beta.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Complex": "4.0.0",
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-beta.1"
+          }
+        },
+        "sha": "2e245596e36326ff405734ab3765b6b7cc0237ac"
+      },
       "v3.0.0-dev": {
         "libs": {
           "Modelica_LinearSystems2": {
@@ -8357,12 +9014,36 @@
           "Modelica_Requirements": {
             "path": "Modelica_Requirements",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.0.0"
             },
-            "version": "0.6.0-master"
+            "version": "0.7.0-master"
           }
         },
-        "sha": "a427b5cb7997e9036c577d219e6b8a5d0c28389a"
+        "sha": "90397485985a57aa9bdca009dfe3c9f5bc25e809"
+      },
+      "v0.6.1": {
+        "libs": {
+          "Modelica_Requirements": {
+            "path": "Modelica_Requirements",
+            "uses": {
+              "Modelica": "3.2.2"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "5b9c07bb5e6c55f1ab5f9b88b5719123a7d127fe"
+      },
+      "v0.7.0": {
+        "libs": {
+          "Modelica_Requirements": {
+            "path": "Modelica_Requirements",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.7.0"
+          }
+        },
+        "sha": "90397485985a57aa9bdca009dfe3c9f5bc25e809"
       }
     }
   },
@@ -8608,6 +9289,18 @@
   },
   "NeuralNetwork": {
     "refs": {
+      "main": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0-main"
+          }
+        },
+        "sha": "060dd49de7834f365acaa96ce8874db54179e4a5"
+      },
       "v1.0": {
         "libs": {
           "NeuralNetwork": {
@@ -8619,6 +9312,30 @@
           }
         },
         "sha": "c44e4d1fe97fd4f86dafcd05ad3713692e3f1806"
+      },
+      "v2.0.0": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "f0d1bf981bb43851c83c85bbe96ccbd7c12ba235"
+      },
+      "v2.1.0": {
+        "libs": {
+          "NeuralNetwork": {
+            "path": "NeuralNetwork",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "95975438200c697967933957202c988d998d5e2c"
       }
     }
   },
@@ -8851,7 +9568,7 @@
             "version": "1.0.0-main"
           }
         },
-        "sha": "ebb7d60d2570b9c63db5ec9ea9b81b3eb272c36a"
+        "sha": "3447b44ba063802dce7fe7c66ce493d658dc3136"
       },
       "v1.0.0": {
         "libs": {
@@ -9008,6 +9725,9 @@
               "2.0.0"
             ],
             "path": "OpenIPSL",
+            "provides": [
+              "3.0.0"
+            ],
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
@@ -9015,7 +9735,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "a8c6758fffa7bd23f925063e9aa075f271ac71ee"
+        "sha": "541d54c6f9d799fad3b69bfdee2246efe81a36e4"
       },
       "v1.0.0": {
         "libs": {
@@ -9514,7 +10234,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-master"
+            "version": "2.1.0-master"
           },
           "PhotoVoltaics_TGM": {
             "convertFromVersion": [
@@ -9534,12 +10254,12 @@
             "uses": {
               "Buildings": "9.0.0",
               "Modelica": "4.0.0",
-              "PhotoVoltaics": "2.0.1"
+              "PhotoVoltaics": "2.1.0"
             },
-            "version": "2.0.1-master"
+            "version": "2.1.0-master"
           }
         },
-        "sha": "4cf6eb76dc00cabb9a7371f89d7f83ce6c0cd7f5"
+        "sha": "097631258eb78dd799e50b0ae750805b904b0306"
       },
       "v0.1.0": {
         "libs": {
@@ -9997,6 +10717,53 @@
           }
         },
         "sha": "ecc04b926187e5c1c3d8f699b433c2d590e1dd9b"
+      },
+      "v2.1.0": {
+        "libs": {
+          "PhotoVoltaics": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.3.2",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0"
+            ],
+            "path": "PhotoVoltaics",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.1.0"
+          },
+          "PhotoVoltaics_TGM": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.0.1",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.3.2",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0"
+            ],
+            "path": "PhotoVoltaics_TGM",
+            "uses": {
+              "Buildings": "9.0.0",
+              "Modelica": "4.0.0",
+              "PhotoVoltaics": "2.1.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "097631258eb78dd799e50b0ae750805b904b0306"
       }
     }
   },
@@ -10030,7 +10797,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "643312746498a9a0a806003f1139d114e4d615bb"
+        "sha": "d4f7db61f1e179a2dd0388541d1ea8f26953fd5f"
       },
       "v1.0.0": {
         "libs": {
@@ -10318,7 +11085,7 @@
             "version": "1.6.0-master"
           }
         },
-        "sha": "bf13759379ed150ac7bc62a8adbec126111f0a56"
+        "sha": "976f6970e5d027431dc2afbe32353c3b03e1beca"
       },
       "v1.2.0": {
         "libs": {
@@ -10505,7 +11272,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "c3b82bfbfac655125f0ad80e4a98f02e17f0d929"
+        "sha": "8d68fd7d0bd995c9c7dacbc27f76e26928c8c606"
       },
       "issue11636": {
         "libs": {
@@ -10716,7 +11483,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "67d22eba4d869276f4d3196bf525c2255d615c98"
+        "sha": "1ecfd2648d7cd54ed88926594455b713186529de"
       },
       "v0.2": {
         "libs": {
@@ -10801,6 +11568,18 @@
           }
         },
         "sha": "69fd1e7381fb50e6a0bc77d9ba168e9d6a7d9a6a"
+      },
+      "v2.0.0": {
+        "libs": {
+          "PowerSystems": {
+            "path": "PowerSystems",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "1ecfd2648d7cd54ed88926594455b713186529de"
       }
     }
   },
@@ -11126,18 +11905,18 @@
       },
       "main": {
         "libs": {
-          "SMArtIInt": {
+          "SMArtInt": {
             "convertFromVersion": [
               "0.1.1"
             ],
-            "path": "SMArtIInt",
+            "path": "SMArtInt",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.2.2-main"
+            "version": "0.3.1-main"
           }
         },
-        "sha": "895e25e39e12c1d7617c5df0405af6a6888560f4"
+        "sha": "b373b5779c9ebd3539b5c5e5ce1451fb6e4b7b05"
       },
       "v0.2.0": {
         "libs": {
@@ -11183,29 +11962,36 @@
           }
         },
         "sha": "d0e8b787082356f51471f4e894ad1f83556ffb59"
-      }
-    }
-  },
-  "SMEHV": {
-    "refs": {
-      "master": {
+      },
+      "v0.3.0": {
         "libs": {
-          "wbEHPTlib": {
-            "path": "wbEHPTLib.mo",
+          "SMArtInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtInt",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "master"
-          },
-          "wbEHVpkg": {
-            "path": "wbEHVpkg.mo",
-            "uses": {
-              "Modelica": "3.2.3"
-            },
-            "version": "master"
+            "version": "%version%"
           }
         },
-        "sha": "7932f8bb28b76707917a0c11553a5b9b0753dbf9"
+        "sha": "2610fd1c48134c0f6ef18bb20ba66cccb7af3f3c"
+      },
+      "v0.3.1": {
+        "libs": {
+          "SMArtInt": {
+            "convertFromVersion": [
+              "0.1.1"
+            ],
+            "path": "SMArtInt",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.1"
+          }
+        },
+        "sha": "b373b5779c9ebd3539b5c5e5ce1451fb6e4b7b05"
       }
     }
   },
@@ -11219,6 +12005,23 @@
           }
         },
         "sha": "d31575eef403553bdd5dc0974c102366d0afae2c"
+      }
+    }
+  },
+  "SOFCPoliMi": {
+    "refs": {
+      "master": {
+        "libs": {
+          "SOFCPoliMi": {
+            "path": "SOFCPoliMi",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "85098e6eef87802fc5a24ea56db0d6a6ccadbb38"
       }
     }
   },
@@ -11282,7 +12085,7 @@
             "version": "2.2.0-master"
           }
         },
-        "sha": "b956d494e48c8e9766142319acf0bf30c5684722"
+        "sha": "ce9eedecd9f6c487d11cfc2ed9724e75c0229323"
       },
       "v1.0.0": {
         "libs": {
@@ -11808,7 +12611,7 @@
             "version": "0.2.0-master"
           }
         },
-        "sha": "bf4cbbe52414cbfea9b63e59d326f4df8e9e0bc7"
+        "sha": "b5614b12ed96b3bb47b3f5d28c1b194110ed93de"
       }
     }
   },
@@ -11884,7 +12687,7 @@
             "version": "2.1.2-master"
           }
         },
-        "sha": "b986a2ea354ab550d627a392f857ad7c9997d961"
+        "sha": "e5aed2e3673616c0175c08ac8453a02c30d0d119"
       },
       "v2.0": {
         "libs": {
@@ -12085,6 +12888,18 @@
         },
         "sha": "010603eb27287ce477b3902926296ee9b305af50"
       },
+      "1.8.2": {
+        "libs": {
+          "TILMedia": {
+            "path": "TILMedia",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.8.2-ClaRa"
+          }
+        },
+        "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
+      },
       "main": {
         "libs": {
           "TILMedia": {
@@ -12092,10 +12907,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.8.1-main"
+            "version": "1.8.2-main"
           }
         },
-        "sha": "010603eb27287ce477b3902926296ee9b305af50"
+        "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
       }
     }
   },
@@ -12126,10 +12941,10 @@
               "Modelica": "4.0.0",
               "ModelicaServices": "4.0.0"
             },
-            "version": "0.5.0-master"
+            "version": "1.0.0-master"
           }
         },
-        "sha": "8fade7e0253d00ec13bae32852308bddfbae85d3"
+        "sha": "63b4e5123c0ed815eae5f4942c04bb81fb4de21e"
       },
       "v0.1-beta": {
         "libs": {
@@ -12237,7 +13052,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "d028b9ee4ba18ff148726fffe50917de29102a0b"
+        "sha": "e2b011ac7fd90f9cf5771f29f1aefa160550b6ee"
       },
       "release.2.0": {
         "libs": {
@@ -12375,16 +13190,17 @@
             "provides": [
               "0.3.0",
               "0.4.1",
-              "0.5.0"
+              "0.5.0",
+              "1.1.0"
             ],
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "1.1.0-main"
+            "version": "1.2.0-main"
           }
         },
-        "sha": "15c25e3f21f6eefa279e46d317cf3287e7ef3612"
+        "sha": "9e2fcba6dfea754f357793e381ec43eb7c10e169"
       },
       "v0.1-beta": {
         "libs": {
@@ -12496,6 +13312,29 @@
           }
         },
         "sha": "c108e09803d6270804389fc9996403648112f151"
+      },
+      "v1.2.0": {
+        "libs": {
+          "ThermofluidStream": {
+            "convertFromVersion": [
+              "0.2.1",
+              "1.0.0"
+            ],
+            "path": "ThermofluidStream",
+            "provides": [
+              "0.3.0",
+              "0.4.1",
+              "0.5.0",
+              "1.1.0"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "8d2287a558d9d5e3a6235c981d5a60044dae5b61"
       }
     }
   },
@@ -12598,15 +13437,16 @@
             ],
             "path": "VehicleInterfaces",
             "provides": [
-              "2.0.0"
+              "2.0.0",
+              "2.0.1"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "2.0.1-master"
+            "version": "2.0.2-master"
           }
         },
-        "sha": "ea39eeea2e3ee58238a1e7fa8eb42cea90a7c53e"
+        "sha": "10b6936fb781f3df00cff8b62b502f13ca90e3ed"
       },
       "v1.2.1": {
         "libs": {
@@ -12749,6 +13589,58 @@
         },
         "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
       },
+      "v2.0.0-beta.1": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-beta.1"
+          }
+        },
+        "sha": "7bfc3bf5effd2ed710c013fd04cbaed5ea4a0da9"
+      },
+      "v2.0.0-rc.1": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-rc.1"
+          }
+        },
+        "sha": "61073356f76ba63a77376cf72c6ccf4aebe16e84"
+      },
       "v2.0.1": {
         "libs": {
           "VehicleInterfaces": {
@@ -12775,6 +13667,62 @@
           }
         },
         "sha": "63fc631f0b539a85ee15e137a5e21629ca108182"
+      },
+      "v2.0.2": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "2.0.0",
+              "2.0.1"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "2.0.2"
+          }
+        },
+        "sha": "10b6936fb781f3df00cff8b62b502f13ca90e3ed"
+      },
+      "v2.0.2-alpha": {
+        "libs": {
+          "VehicleInterfaces": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.2.0",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.2.4",
+              "1.2.5"
+            ],
+            "path": "VehicleInterfaces",
+            "provides": [
+              "2.0.0",
+              "2.0.1"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "2.0.2-alpha"
+          }
+        },
+        "sha": "9ed09f88b3b0cba9ffb71752349216f76d31338f"
       }
     }
   },
@@ -12871,7 +13819,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "d9c1439868e8ad4bed2326dfe337fe91484dd43a"
+        "sha": "a4f6df4c8ac04ccd5ef2a6b9276f5ca328d62e04"
       },
       "v0.9.0": {
         "libs": {

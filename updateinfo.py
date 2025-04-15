@@ -221,6 +221,7 @@ def main():
                 hits += hitsNew
             if len(hits) != 1:
               print(str(len(hits)) + " hits for " + libname + " in " + tagName + ": " + str(hits))
+              print("Check that " + libname + "/package.mo exists in tag: " + tagName + ". Maybe wrong spelling? If different naming than the repo add it to the 'names' for the lib in repos.json")
               continue
             omc.sendExpression("clear()")
             if "standard" in entry:

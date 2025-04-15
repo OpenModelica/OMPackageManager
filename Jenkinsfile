@@ -1,5 +1,8 @@
 pipeline {
   agent none
+  parameters {
+    booleanParam(name: 'UPLOAD_AND_CACHE', defaultValue: true, description: 'Also do stages upload and cache')
+  }
   options {
     newContainerPerStage()
   }
@@ -35,6 +38,10 @@ pipeline {
     agent {
       label 'linux'
     }
+    when {
+      beforeAgent true
+      expression { params.UPLOAD_AND_CACHE }
+    }
     environment {
       HOME = '/tmp/dummy'
     }
@@ -61,6 +68,10 @@ pipeline {
   stage('cache') {
     agent {
       label 'r630-2'
+    }
+    when {
+      beforeAgent true
+      expression { params.UPLOAD_AND_CACHE }
     }
     environment {
       HOME = '/tmp/dummy'
