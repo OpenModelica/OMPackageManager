@@ -98,14 +98,6 @@
       ["*", "obsolete"]
     ]
   },
-  "BLDC": {
-    "names": ["BLDC"],
-    "github": "AHaumer/BLDC",
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "support"]
-    ]
-  },
   "BidiDCDC": {
     "names": ["BidiDCDC"],
     "github": "rea40157/BidiDCDC",
@@ -114,6 +106,22 @@
       ["prerelease", "noSupport"],
       [">=1.0.0", "experimental"],
       ["*", "obsolete"]
+    ]
+  },
+  "BikeTrailer": {
+    "names": ["BikeTrailer"],
+    "github": "AHaumer/BikeTrailer",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "support"]
+    ]
+  },
+  "BLDC": {
+    "names": ["BLDC"],
+    "github": "AHaumer/BLDC",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "support"]
     ]
   },
   "BioChem": {
@@ -381,6 +389,14 @@
     "branches": {"master": "master"},
     "support": [
       ["*", "obsolete"]
+    ]
+  },
+  "ElectricBraking": {
+    "names": ["ElectricBraking"],
+    "github": "AHaumer/ElectricBraking",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "support"]
     ]
   },
   "ElectroMechanicalDrives": {
