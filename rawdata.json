@@ -825,6 +825,19 @@
           }
         },
         "sha": "e45b3db0b2cbcac5fb6e5837683a0f3b4733902f"
+      },
+      "v1.2.0": {
+        "libs": {
+          "BikeTrailer": {
+            "path": "BikeTrailer",
+            "uses": {
+              "ElectricDrives": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "e45b3db0b2cbcac5fb6e5837683a0f3b4733902f"
       }
     }
   },
@@ -3781,6 +3794,22 @@
           }
         },
         "sha": "002b4d85a6de77acd0c5de43e2e5827e01752edd"
+      },
+      "v2.4.0": {
+        "libs": {
+          "DriveControl": {
+            "path": "DriveControl",
+            "provides": [
+              "4.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0",
+              "ObsoleteModelica4": "4.1.0"
+            },
+            "version": "4.1.0"
+          }
+        },
+        "sha": "002b4d85a6de77acd0c5de43e2e5827e01752edd"
       }
     }
   },
@@ -4333,6 +4362,18 @@
               "Modelica": "4.0.0"
             },
             "version": "1.0.0-main"
+          }
+        },
+        "sha": "118f4e32fd498e5af869fd011b53d38b65660918"
+      },
+      "v1.0.0": {
+        "libs": {
+          "ElectricBraking": {
+            "path": "ElectricBraking",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0"
           }
         },
         "sha": "118f4e32fd498e5af869fd011b53d38b65660918"
@@ -6599,6 +6640,18 @@
               "Modelica": "4.0.0"
             },
             "version": "2.3.0-main"
+          }
+        },
+        "sha": "34afdc6b811ed496391c667edac244a48cd2331a"
+      },
+      "v2.3.0": {
+        "libs": {
+          "MagLev": {
+            "path": "MagLev",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.0"
           }
         },
         "sha": "34afdc6b811ed496391c667edac244a48cd2331a"
