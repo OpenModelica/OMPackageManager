@@ -111,6 +111,7 @@
   "BikeTrailer": {
     "names": ["BikeTrailer"],
     "github": "AHaumer/BikeTrailer",
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "support"]
@@ -394,6 +395,7 @@
   "ElectricBraking": {
     "names": ["ElectricBraking"],
     "github": "AHaumer/ElectricBraking",
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       ["*", "support"]

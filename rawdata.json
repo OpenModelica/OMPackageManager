@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "f94ecc02ee963fd56bb658259872e7edfbed6782"
+        "sha": "76c03f91f6645147d3603376b3ac2335199fceba"
       }
     }
   },
@@ -811,6 +811,23 @@
       }
     }
   },
+  "BikeTrailer": {
+    "refs": {
+      "main": {
+        "libs": {
+          "BikeTrailer": {
+            "path": "BikeTrailer",
+            "uses": {
+              "ElectricDrives": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0-main"
+          }
+        },
+        "sha": "e45b3db0b2cbcac5fb6e5837683a0f3b4733902f"
+      }
+    }
+  },
   "BioChem": {
     "refs": {
       "master": {
@@ -1334,15 +1351,16 @@
             ],
             "path": "Buildings",
             "provides": [
-              "11.0.0"
+              "11.0.0",
+              "11.1.0"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "11.1.0-maint.11.x"
+            "version": "11.1.1-maint.11.x"
           }
         },
-        "sha": "e260ea7133510397fcaa32d68db3811b90260e66"
+        "sha": "4f29a0f2ad74bb3863626fa747be860f914a48e7"
       },
       "maint.12.x": {
         "libs": {
@@ -1509,7 +1527,7 @@
             "version": "12.0.1-master"
           }
         },
-        "sha": "97f14e68adf8c92ef2a89e014b55e1acfa70f55d"
+        "sha": "0dc21f245c2fed979fb57f52527ab029c0148bf5"
       },
       "v1.4_build1": {
         "libs": {
@@ -2273,16 +2291,18 @@
               "1.1.0",
               "1.2.0",
               "1.3.0",
-              "1.3.1"
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
             ],
             "path": "Chemical",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.4.1-master"
+            "version": "2.0.0-master"
           }
         },
-        "sha": "6dcb3371f2ddf43752052e1c1a4f374f926accd9"
+        "sha": "6b707da377897b7ebe7a9d04c76ec3a5d0bfcb1b"
       },
       "v1.0.0": {
         "libs": {
@@ -4300,6 +4320,22 @@
           }
         },
         "sha": "5584ea5481c53120697d469b7e4062732228cf9b"
+      }
+    }
+  },
+  "ElectricBraking": {
+    "refs": {
+      "main": {
+        "libs": {
+          "ElectricBraking": {
+            "path": "ElectricBraking",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0-main"
+          }
+        },
+        "sha": "118f4e32fd498e5af869fd011b53d38b65660918"
       }
     }
   },
@@ -6758,7 +6794,7 @@
             "version": "4.1.0+default.modelica.association"
           }
         },
-        "sha": "195051c347adab7232bce4e984757ecf2dff0902"
+        "sha": "0d6ec81c8d31c7a6a75509fcbe8cbd77136f13ea"
       },
       "4.1.0-beta.om": {
         "libs": {
@@ -6833,7 +6869,7 @@
             "version": "4.1.0-beta.om"
           }
         },
-        "sha": "af3c38a1326b81903cd993659984107ce8d40a66"
+        "sha": "629dea3dae6e5f4c6255cefe76013b1f06dc1444"
       },
       "master": {
         "libs": {
@@ -6908,7 +6944,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "bee103d7a71a6d2ded46ff20615f0031fcfb3826"
+        "sha": "3bd119803f344f7cc5d329902f008f2932ad254a"
       },
       "trunk": {
         "libs": {
@@ -6986,7 +7022,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "ea141417c283bbd57b5f0864b89aed7338d98530"
+        "sha": "d139ddef4f273ea32646df96c925d137233accc2"
       },
       "v1.3.1": {
         "libs": {
@@ -11085,7 +11121,7 @@
             "version": "1.6.0-master"
           }
         },
-        "sha": "976f6970e5d027431dc2afbe32353c3b03e1beca"
+        "sha": "7acbe06532a1045459cdb9e0ae317da34fe6737a"
       },
       "v1.2.0": {
         "libs": {
@@ -13446,7 +13482,7 @@
             "version": "2.0.2-master"
           }
         },
-        "sha": "10b6936fb781f3df00cff8b62b502f13ca90e3ed"
+        "sha": "29323222c2e9247b5770ed8a91b992864c91c6ea"
       },
       "v1.2.1": {
         "libs": {
