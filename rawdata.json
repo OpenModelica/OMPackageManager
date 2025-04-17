@@ -811,6 +811,23 @@
       }
     }
   },
+  "BikeTrailer": {
+    "refs": {
+      "main": {
+        "libs": {
+          "BikeTrailer": {
+            "path": "BikeTrailer",
+            "uses": {
+              "ElectricDrives": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0-main"
+          }
+        },
+        "sha": "e45b3db0b2cbcac5fb6e5837683a0f3b4733902f"
+      }
+    }
+  },
   "BioChem": {
     "refs": {
       "master": {
@@ -4303,6 +4320,22 @@
           }
         },
         "sha": "5584ea5481c53120697d469b7e4062732228cf9b"
+      }
+    }
+  },
+  "ElectricBraking": {
+    "refs": {
+      "main": {
+        "libs": {
+          "ElectricBraking": {
+            "path": "ElectricBraking",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0-main"
+          }
+        },
+        "sha": "118f4e32fd498e5af869fd011b53d38b65660918"
       }
     }
   },
