@@ -10000,6 +10000,34 @@
       }
     }
   },
+  "PLL": {
+    "refs": {
+      "main": {
+        "libs": {
+          "PLL": {
+            "path": "PLL",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.1-main"
+          }
+        },
+        "sha": "b479012c471fca6f8080ea7620ec01492be480c9"
+      },
+      "v1.0.1": {
+        "libs": {
+          "PLL": {
+            "path": "PLL",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.1"
+          }
+        },
+        "sha": "c0ddbbaa79707b76f22008b4c453d5cc3b36b1fe"
+      }
+    }
+  },
   "PNlib": {
     "refs": {
       "master": {
