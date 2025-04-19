@@ -1130,6 +1130,15 @@
       ["*", "obsolete"]
     ]
   },
+  "PLL": {
+    "names": ["PLL"],
+    "github": "AHaumer/PLL",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "support"]
+    ]
+  },
   "PowerGrids": {
     "names": ["PowerGrids"],
     "github": "PowerGrids/PowerGrids",
