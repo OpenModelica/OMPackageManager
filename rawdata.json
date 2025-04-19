@@ -818,13 +818,12 @@
           "BikeTrailer": {
             "path": "BikeTrailer",
             "uses": {
-              "ElectricDrives": "1.0.0",
               "Modelica": "4.0.0"
             },
             "version": "1.2.0-main"
           }
         },
-        "sha": "e45b3db0b2cbcac5fb6e5837683a0f3b4733902f"
+        "sha": "0acf47d6b36a56abc44c4ebbdfafa3b268f92fa5"
       },
       "v1.2.0": {
         "libs": {
@@ -10009,10 +10008,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.0.1-main"
+            "version": "1.1.0-main"
           }
         },
-        "sha": "b479012c471fca6f8080ea7620ec01492be480c9"
+        "sha": "2fa5675702292534d177df082e5f6f23468c99c7"
       },
       "v1.0.1": {
         "libs": {
