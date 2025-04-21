@@ -823,20 +823,19 @@
             "version": "1.2.0-main"
           }
         },
-        "sha": "0acf47d6b36a56abc44c4ebbdfafa3b268f92fa5"
+        "sha": "58628b56840289f37ec5bde47608f4266baffa5d"
       },
       "v1.2.0": {
         "libs": {
           "BikeTrailer": {
             "path": "BikeTrailer",
             "uses": {
-              "ElectricDrives": "1.0.0",
               "Modelica": "4.0.0"
             },
             "version": "1.2.0"
           }
         },
-        "sha": "e45b3db0b2cbcac5fb6e5837683a0f3b4733902f"
+        "sha": "58628b56840289f37ec5bde47608f4266baffa5d"
       }
     }
   },
@@ -1539,7 +1538,7 @@
             "version": "12.0.1-master"
           }
         },
-        "sha": "534ab35161bb00ec48a00db33fe1983cac883a4d"
+        "sha": "a15d21dd3aff4ebae800f90c062a15cb38dddcc4"
       },
       "v1.4_build1": {
         "libs": {
@@ -2293,6 +2292,46 @@
       }
     }
   },
+  "ChaoticCircuits": {
+    "refs": {
+      "main": {
+        "libs": {
+          "ChaoticCircuits": {
+            "path": "ChaoticCircuits",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.1-main"
+          }
+        },
+        "sha": "f3b55743fad7a6866f608250237caf76b485ce23"
+      },
+      "v1.1.0": {
+        "libs": {
+          "ChaoticCircuits": {
+            "path": "ChaoticCircuits",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "467a1941b10086498b82cbaba4f2ef8217c6c6a2"
+      },
+      "v1.1.1": {
+        "libs": {
+          "ChaoticCircuits": {
+            "path": "ChaoticCircuits",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.1.1"
+          }
+        },
+        "sha": "f3b55743fad7a6866f608250237caf76b485ce23"
+      }
+    }
+  },
   "Chemical": {
     "refs": {
       "master": {
@@ -2314,7 +2353,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "4264c3042e256797fab45cadfe16346f79f1e562"
+        "sha": "2ad8ef798536c4619abbb8e6842e97a5b984f651"
       },
       "v1.0.0": {
         "libs": {
@@ -4655,7 +4694,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "15c1358d1172c1954e3331ca1384a0e5887174ec"
+        "sha": "340b735bf5e167c69e9679a3e3532c59ae971d61"
       },
       "v1.0.0": {
         "libs": {
