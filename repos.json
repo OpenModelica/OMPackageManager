@@ -226,6 +226,15 @@
       ["*", "noSupport"]
     ]
   },
+  "ChaoticCircuits": {
+    "names": ["ChaoticCircuits"],
+    "github": "AHaumer/ChaoticCircuits",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "support"]
+    ]
+  },
   "Chemical": {
     "names": ["Chemical"],
     "github": "MarekMatejak/Chemical",
