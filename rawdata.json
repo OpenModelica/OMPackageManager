@@ -2301,10 +2301,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.1.1-main"
+            "version": "1.1.2-main"
           }
         },
-        "sha": "f3b55743fad7a6866f608250237caf76b485ce23"
+        "sha": "a97d4328292e1c4f4208969d3b9e24b432dfad73"
       },
       "v1.1.0": {
         "libs": {
@@ -4694,7 +4694,7 @@
             "version": "3.1.0-master"
           }
         },
-        "sha": "340b735bf5e167c69e9679a3e3532c59ae971d61"
+        "sha": "41e3d5083f7c85cae8b8e1d950d940319b58ea5c"
       },
       "v1.0.0": {
         "libs": {
@@ -6885,7 +6885,7 @@
             "version": "4.1.0+default.modelica.association"
           }
         },
-        "sha": "0d6ec81c8d31c7a6a75509fcbe8cbd77136f13ea"
+        "sha": "d86397d0967512592a43ffda920bbb70eb9c0027"
       },
       "4.1.0-beta.om": {
         "libs": {
@@ -6960,7 +6960,7 @@
             "version": "4.1.0-beta.om"
           }
         },
-        "sha": "629dea3dae6e5f4c6255cefe76013b1f06dc1444"
+        "sha": "206c92cbafbc4d9059e2bc14a17d2814a229bc67"
       },
       "master": {
         "libs": {
@@ -7035,7 +7035,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "3bd119803f344f7cc5d329902f008f2932ad254a"
+        "sha": "0cb88404508b8f62942606474c4234d51553047b"
       },
       "trunk": {
         "libs": {
@@ -7113,7 +7113,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "d139ddef4f273ea32646df96c925d137233accc2"
+        "sha": "6b9e6b4148906dfcd6be4b2de6e2c084b6e06e93"
       },
       "v1.3.1": {
         "libs": {
