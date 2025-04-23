@@ -2301,10 +2301,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.1.2-main"
+            "version": "1.2.0-main"
           }
         },
-        "sha": "a97d4328292e1c4f4208969d3b9e24b432dfad73"
+        "sha": "29a6c4ef13be515e74cee185be11227526b2d8d6"
       },
       "v1.1.0": {
         "libs": {
@@ -2329,6 +2329,18 @@
           }
         },
         "sha": "f3b55743fad7a6866f608250237caf76b485ce23"
+      },
+      "v1.2.0": {
+        "libs": {
+          "ChaoticCircuits": {
+            "path": "ChaoticCircuits",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "29a6c4ef13be515e74cee185be11227526b2d8d6"
       }
     }
   },
@@ -3946,7 +3958,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "42ec24eb722acf37186ed5b5ada1f105bc2b2b47"
+        "sha": "faadb32747913ab1c9fc8a1ac235fe6ba04922cb"
       },
       "nightly-release": {
         "libs": {
