@@ -2301,10 +2301,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.2.0-main"
+            "version": "1.2.1-main"
           }
         },
-        "sha": "29a6c4ef13be515e74cee185be11227526b2d8d6"
+        "sha": "d9e4c9b21557ac2cdb9b30fda29220cab57a9e8e"
       },
       "v1.1.0": {
         "libs": {
