@@ -820,10 +820,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.2.0-main"
+            "version": "1.3.0-main"
           }
         },
-        "sha": "58628b56840289f37ec5bde47608f4266baffa5d"
+        "sha": "b3ab4830c2fe835fd01bd30aeef9b4f79b57aa2c"
       },
       "v1.2.0": {
         "libs": {
@@ -836,6 +836,18 @@
           }
         },
         "sha": "58628b56840289f37ec5bde47608f4266baffa5d"
+      },
+      "v1.3.0": {
+        "libs": {
+          "BikeTrailer": {
+            "path": "BikeTrailer",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "sha": "b3ab4830c2fe835fd01bd30aeef9b4f79b57aa2c"
       }
     }
   },
@@ -3970,7 +3982,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "faadb32747913ab1c9fc8a1ac235fe6ba04922cb"
+        "sha": "30a12be73fa7257c3a61115cb874719fe0100622"
       },
       "nightly-release": {
         "libs": {
