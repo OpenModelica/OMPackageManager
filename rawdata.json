@@ -2311,12 +2311,13 @@
           "ChaoticCircuits": {
             "path": "ChaoticCircuits",
             "uses": {
+              "AnalogComputing": "1.0.0+x.x",
               "Modelica": "4.0.0"
             },
             "version": "1.0.0-main"
           }
         },
-        "sha": "e7785a62ab02e93d8eaa27bb2e48915f1b82d6a1"
+        "sha": "b014b275548c93554a6d57ef7c7e76f966fa8f89"
       },
       "v1.1.0": {
         "libs": {
