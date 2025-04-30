@@ -2313,10 +2313,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.4.0-main"
+            "version": "1.0.0-main"
           }
         },
-        "sha": "0b15de2421793323c2487c823a91e45e05eed9f9"
+        "sha": "80aa129fe8f2e3175b8b826fa267556bc9587286"
       },
       "v1.1.0": {
         "libs": {
