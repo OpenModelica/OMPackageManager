@@ -2316,7 +2316,7 @@
             "version": "1.0.0-main"
           }
         },
-        "sha": "6736a7a6968317965ccc84a8c0cf24dd6b2b4177"
+        "sha": "78ce99f57c4b195e882b3972d8d70b652d5ae916"
       },
       "v1.1.0": {
         "libs": {
@@ -13427,7 +13427,7 @@
             "version": "1.2.0-main"
           }
         },
-        "sha": "9e2fcba6dfea754f357793e381ec43eb7c10e169"
+        "sha": "34deae92e72edc8872cf9938a2d039b1ef014252"
       },
       "v0.1-beta": {
         "libs": {
