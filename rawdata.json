@@ -1547,10 +1547,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "12.0.1-master"
+            "version": "12.1.0-master"
           }
         },
-        "sha": "50b35852286330cb20d172b5ed323490392e1afa"
+        "sha": "6fa10fe5cb35f0277033a243eb38460655047445"
       },
       "v1.4_build1": {
         "libs": {
