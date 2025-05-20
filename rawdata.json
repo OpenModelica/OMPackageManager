@@ -1411,10 +1411,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "12.0.1-maint.12.x"
+            "version": "12.1.0-maint.12.x"
           }
         },
-        "sha": "53e3783a103ef78a9db1b148eedb6622823c10f5"
+        "sha": "143765fcd09b4b605a70bf3a29678f41f2ed6097"
       },
       "maint.7.0.x": {
         "libs": {
@@ -7167,7 +7167,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "a2ac3954d9c6ed66949c8900094e0fb189b2862b"
+        "sha": "b8203e652fad5f147e4666db30ac4fb566c1774a"
       },
       "trunk": {
         "libs": {
@@ -7245,7 +7245,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "5366bdfb539e07843854ba3540207b5d590d8007"
+        "sha": "3712dd46f3b922a23e9e031c860ad6be96cc673b"
       },
       "v1.3.1": {
         "libs": {
