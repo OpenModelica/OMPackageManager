@@ -776,7 +776,7 @@
       "MA/maint/4.0.x": {"version": "4.0.0+default.modelica.association", "names": ["ModelicaServices"]},
       "OM/maint/4.0.x": "4.0.0+maint.om",
       "MA/maint/4.1.x": {"version": "4.1.0+default.modelica.association", "names": ["ModelicaServices"]},
-      "OM/maint/4.1.x": "4.1.0-beta.om",
+      "OM/maint/4.1.x": "4.1.0+maint.om",
       "OM/master": "master",
       "OM/trunk": "trunk"
     },
@@ -792,7 +792,6 @@
     "support": [
       ["+default.modelica.association", "noSupport"],
       ["prerelease", "noSupport"],
-      [">=4.0.0", "fullSupport"],
       [">=3.2.3", "fullSupport"],
       ["*", "obsolete"]
     ]
