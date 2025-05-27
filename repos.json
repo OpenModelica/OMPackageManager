@@ -916,6 +916,7 @@
     "names": ["ModelicaTableAdditions"],
     "github": "tbeu/ModelicaTableAdditions",
     "branches": {"main": "main"},
+    "ignore-tags": ["v3.2.0"],
     "support": [
       ["prerelease", "noSupport"],
       [">=2.0.0", "experimental"],
