@@ -1083,6 +1083,15 @@
       ["*", "obsolete"]
     ]
   },
+  "Pharmacolibrary": {
+    "names": ["Pharmacolibrary"],
+    "github": "creative-connections/Pharmacolibrary",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "obsolete"]
+    ]
+  },
   "PNlib": {
     "names": ["PNlib"],
     "github": "AMIT-HSBI/PNlib",
