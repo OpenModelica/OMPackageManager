@@ -1414,7 +1414,7 @@
             "version": "12.1.0-maint.12.x"
           }
         },
-        "sha": "6695e2af776499850ec8b26dbfa80fa7565cf01c"
+        "sha": "560c8e4337169b95d6570716784ff0bff5d7ad4e"
       },
       "maint.7.0.x": {
         "libs": {
@@ -1814,6 +1814,37 @@
           }
         },
         "sha": "20754a3d57aa6f18647ef17740fa360bbc37861c"
+      },
+      "v12.1.0": {
+        "libs": {
+          "Buildings": {
+            "convertFromVersion": [
+              "8.0.0",
+              "8.1.0",
+              "8.1.1",
+              "8.1.2",
+              "8.1.3",
+              "9.0.0",
+              "9.1.0",
+              "9.1.1",
+              "9.1.2",
+              "10.0.0",
+              "10.1.0",
+              "10.1.1",
+              "11.0.0",
+              "11.1.0"
+            ],
+            "path": "Buildings",
+            "provides": [
+              "12.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "12.1.0"
+          }
+        },
+        "sha": "560c8e4337169b95d6570716784ff0bff5d7ad4e"
       },
       "v2.0.0": {
         "libs": {
@@ -10619,6 +10650,74 @@
           }
         },
         "sha": "da73b5d43284db6941426b16ffadad11a6dfa965"
+      }
+    }
+  },
+  "Pharmacolibrary": {
+    "refs": {
+      "main": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Bodylight": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "bb0215060ca13ef9cbf971e54ea817064b9fcac4"
+      },
+      "v25.04-beta.1": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "25.4.0-beta.1"
+          }
+        },
+        "sha": "9b3455463769697a184de09247cd6d803ba66b17"
+      },
+      "v25.05": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Bodylight": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "25.5.0"
+          }
+        },
+        "sha": "bb0215060ca13ef9cbf971e54ea817064b9fcac4"
+      },
+      "v25.05-beta.2": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Bodylight": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "25.5.0-beta.2"
+          }
+        },
+        "sha": "4ecc853898dd513e6db6599bf15d9d0ab29b937a"
+      },
+      "v25.05-beta3": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Bodylight": "1.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "25.5.0-beta3"
+          }
+        },
+        "sha": "4ecc853898dd513e6db6599bf15d9d0ab29b937a"
       }
     }
   },
