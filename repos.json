@@ -1181,10 +1181,8 @@
   },
   "PowerSysPro": {
     "names": ["PowerSysPro"],
-    "git": "https://bitbucket.org/simulage/powersyspro.git",
+    "github": "adrpo/powersyspro.git",
     "branches": {"master": "master"},
-    "zipfile": "https://bitbucket.org/simulage/powersyspro/get/{0}.zip",
-    "bitbucket-api-downloads-instead-of-tags": "simulage/powersyspro",
     "semverTagOverridesAnnotation": true,
     "singleFileStructureCopyAllFiles": true,
     "ignore-tags": [],
