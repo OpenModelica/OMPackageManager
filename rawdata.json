@@ -6392,7 +6392,7 @@
             "version": "3.0.0-master"
           }
         },
-        "sha": "70734bdb7a484d204295bc43ffdc5bf0f54570e4"
+        "sha": "686ceacf7d278a3bf169205bdbdfcebd67eca185"
       },
       "v1.0.0": {
         "libs": {
@@ -10782,7 +10782,7 @@
             "version": "main"
           }
         },
-        "sha": "ab0ae02aae50a086eb48c22c710614f9ec831781"
+        "sha": "6ff5bd473c9f9bf557b6addedff2383efb6b90d6"
       },
       "v25.04-beta.1": {
         "libs": {
