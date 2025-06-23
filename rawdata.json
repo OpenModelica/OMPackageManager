@@ -4198,7 +4198,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "d49a63c33ae5b2e465f972e80484786bd0c2cb2b"
+        "sha": "5119a99b6fce1896a3ecb98736e6402d1cd0399e"
       },
       "nightly": {
         "libs": {
@@ -4402,7 +4402,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "d49a63c33ae5b2e465f972e80484786bd0c2cb2b"
+        "sha": "5119a99b6fce1896a3ecb98736e6402d1cd0399e"
       }
     }
   },
@@ -5888,10 +5888,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.1.0-master"
+            "version": "1.1.1-master"
           }
         },
-        "sha": "4516971f3a9ba1c991c5324e812f5dc0924bdc10"
+        "sha": "9b71237688befe0b9347bf76b9c038a85d322092"
       }
     }
   },
