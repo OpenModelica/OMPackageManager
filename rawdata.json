@@ -4198,7 +4198,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "224bdb46f69d8a8ae2f1f86e09045539dd40afef"
+        "sha": "6993914b0375428536231f0faa941d60b44b9568"
       },
       "nightly": {
         "libs": {
@@ -4392,6 +4392,18 @@
         },
         "sha": "cc53d0b0949acbcfb32f28e708746ec0ce03958c"
       },
+      "v1.6.1": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.6.1"
+          }
+        },
+        "sha": "c6d66d4e9ab03183044bf724efd4af657ded9315"
+      },
       "vMaster": {
         "libs": {
           "Dynawo": {
@@ -4402,7 +4414,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "224bdb46f69d8a8ae2f1f86e09045539dd40afef"
+        "sha": "6993914b0375428536231f0faa941d60b44b9568"
       }
     }
   },
