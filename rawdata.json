@@ -10794,7 +10794,7 @@
             "version": "main"
           }
         },
-        "sha": "cfd87de33ad3914516620109fe83d43a5c4bb0d5"
+        "sha": "dffb66231379dd52c1295c927cbfcdefb22d932d"
       },
       "v25.04-beta.1": {
         "libs": {
@@ -10883,6 +10883,18 @@
           }
         },
         "sha": "ab0ae02aae50a086eb48c22c710614f9ec831781"
+      },
+      "v25.07": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "25.7.0"
+          }
+        },
+        "sha": "dffb66231379dd52c1295c927cbfcdefb22d932d"
       }
     }
   },
