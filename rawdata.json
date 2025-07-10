@@ -1567,7 +1567,7 @@
             "version": "13.0.0-master"
           }
         },
-        "sha": "56c4671632b439e9a521f881386bdb2a1e29a20b"
+        "sha": "fbde46c9d60786d1a54fa03fc3839952ded89acf"
       },
       "v1.4_build1": {
         "libs": {
@@ -3816,12 +3816,13 @@
               "1.6.1",
               "1.7.0",
               "1.8.0",
-              "1.8.1"
+              "1.8.1",
+              "1.8.2"
             ],
             "path": "ClaRa",
             "uses": {
               "Modelica": "4.0.0",
-              "SMArtInt": "0.3.1",
+              "SMArtInt": "0.5.1",
               "TILMedia": "1.8.2-ClaRa"
             },
             "version": "1.8.2-main"
@@ -3846,7 +3847,7 @@
             "version": "1.8.2-main"
           }
         },
-        "sha": "424b5519df8bd3e21bd08adfb1835ce07d61ee80"
+        "sha": "bc99a6646e9a1e9bdf22a22de24eae987d550775"
       }
     }
   },
@@ -6345,7 +6346,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "c51b0b0b5f90994b9f35dbb05f9773f0b35a640f"
+        "sha": "6a3b21d90d890a6b6afcbf6e50ae4afbb8049233"
       },
       "v2.0.0": {
         "libs": {
@@ -7398,7 +7399,7 @@
             "version": "4.1.0-master"
           }
         },
-        "sha": "357ca5ecb4e8a5de4bceb55a1800b5095f4c402a"
+        "sha": "7f18085fc914aaeb069d162ae33c00a9d6b931f3"
       },
       "trunk": {
         "libs": {
@@ -7476,7 +7477,7 @@
             "version": "4.1.0-trunk"
           }
         },
-        "sha": "0089336cd1fa8a5748ba4e3ea55effe9c79fa979"
+        "sha": "0fb2c38e7c51e5d2998a94d981a24c8ad7c77ec8"
       },
       "v1.3.1": {
         "libs": {
