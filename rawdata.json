@@ -4199,7 +4199,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "f101a7d7435b6989bf6d4ec5a6acc7890b4a81fc"
+        "sha": "41d14ca423441c83f0678eeb5c77cf92fdf49b59"
       },
       "nightly": {
         "libs": {
@@ -4415,7 +4415,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "f101a7d7435b6989bf6d4ec5a6acc7890b4a81fc"
+        "sha": "41d14ca423441c83f0678eeb5c77cf92fdf49b59"
       }
     }
   },
