@@ -12674,12 +12674,12 @@
           "ScalableTestGrids": {
             "path": "ScalableTestGrids",
             "uses": {
-              "PowerGrids": "1.0.2"
+              "PowerGrids": "1.0.3"
             },
-            "version": "1.1.0-master"
+            "version": "1.2.0-master"
           }
         },
-        "sha": "b57ee295ec2c349ca0be5368988840d0bb52dbb8"
+        "sha": "f18d08e87f948a85992343913e1adfd7d24cad95"
       },
       "v1.1.0": {
         "libs": {
@@ -12692,6 +12692,18 @@
           }
         },
         "sha": "85b44c5ef5c4386ea7a9cfcd3dfc2671e661eaf3"
+      },
+      "v1.2.0": {
+        "libs": {
+          "ScalableTestGrids": {
+            "path": "ScalableTestGrids",
+            "uses": {
+              "PowerGrids": "1.0.3"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "f18d08e87f948a85992343913e1adfd7d24cad95"
       }
     }
   },
