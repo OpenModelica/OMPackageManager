@@ -13578,17 +13578,49 @@
         },
         "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
       },
-      "main": {
+      "1.9.0": {
         "libs": {
           "TILMedia": {
+            "convertFromVersion": [
+              "1.6.0-ClaRa",
+              "1.7.0-ClaRa",
+              "1.8.0-ClaRa",
+              "1.8.1-ClaRa",
+              "1.8.2-ClaRa",
+              "1.8.2-ClaRa-1",
+              "1.8.2-ClaRa-2",
+              "1.8.2-ClaRa-3"
+            ],
             "path": "TILMedia",
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.8.2-main"
+            "version": "1.9.0-ClaRa"
           }
         },
-        "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
+        "sha": "1845376fb70a32e51c8bbf75ae999c27662b376e"
+      },
+      "main": {
+        "libs": {
+          "TILMedia": {
+            "convertFromVersion": [
+              "1.6.0-ClaRa",
+              "1.7.0-ClaRa",
+              "1.8.0-ClaRa",
+              "1.8.1-ClaRa",
+              "1.8.2-ClaRa",
+              "1.8.2-ClaRa-1",
+              "1.8.2-ClaRa-2",
+              "1.8.2-ClaRa-3"
+            ],
+            "path": "TILMedia",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.9.0-main"
+          }
+        },
+        "sha": "1845376fb70a32e51c8bbf75ae999c27662b376e"
       }
     }
   },
