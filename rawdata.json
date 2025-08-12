@@ -3364,6 +3364,62 @@
         },
         "sha": "d0b3d7d61cbf534db51ada4217b4aaea9cf5f557"
       },
+      "1.9.0-pre-release": {
+        "libs": {
+          "ClaRa": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "0.2.2-alpha",
+              "1.0.1",
+              "1.1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.2.3",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.6.0",
+              "1.6.1",
+              "1.7.0",
+              "1.8.0",
+              "1.8.1",
+              "1.8.2"
+            ],
+            "path": "ClaRa",
+            "uses": {
+              "Modelica": "4.0.0",
+              "SMArtInt": "0.5.1",
+              "TILMedia": "1.8.2-ClaRa"
+            },
+            "version": "1.9.0-pre-release"
+          },
+          "ClaRa_Obsolete": {
+            "convertFromVersion": [
+              "0.0.0",
+              "0.1.0-alpha",
+              "0.2.0-alpha",
+              "0.2.1-alpha",
+              "1.0.1"
+            ],
+            "path": "ClaRa_Obsolete",
+            "provides": [
+              "1.2.2"
+            ],
+            "uses": {
+              "ClaRa": "1.9.0",
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.2-ClaRa"
+            },
+            "version": "1.9.0-pre-release"
+          }
+        },
+        "sha": "3a966c14d604c0243dd7f140ef530241f0dd85e7"
+      },
       "ClaRa_1.3.0_Release": {
         "libs": {
           "ClaRa": {
@@ -3903,7 +3959,7 @@
             "version": "1.9.0-main"
           }
         },
-        "sha": "d0b3d7d61cbf534db51ada4217b4aaea9cf5f557"
+        "sha": "042f1e54880a60ba8f1c7ec3eed1140d850e4a60"
       }
     }
   },
