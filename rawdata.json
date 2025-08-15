@@ -215,10 +215,10 @@
               "Modelica_DeviceDrivers": "2.1.1",
               "SDF": "0.4.2"
             },
-            "version": "2.2.0-main"
+            "version": "3.0.0-main"
           }
         },
-        "sha": "c8159489d231959bc7a3b03670e169bb90eb0f8a"
+        "sha": "57a2fd297f814770c98bd020659f42f5a7dd0aaa"
       },
       "master": {
         "libs": {
