@@ -2617,7 +2617,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "8c1493f2e36f3433a7f8d90d8bf3073e10d20004"
+        "sha": "0b01042df50f8a25294dd76dfe91b007b5847fe0"
       },
       "v1.0.0": {
         "libs": {
@@ -6023,12 +6023,12 @@
           "GNU_ScientificLibrary": {
             "path": "GNU_ScientificLibrary",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "1.1.1-master"
+            "version": "1.1.2-master"
           }
         },
-        "sha": "9b71237688befe0b9347bf76b9c038a85d322092"
+        "sha": "b23b8fb9bd2200f89f7bd5d83d9a87156d29ca13"
       }
     }
   },
