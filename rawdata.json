@@ -2617,7 +2617,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "c4ece45dfc8b486e76cdf9c6db9e6582ac3d7412"
+        "sha": "2da36279db8adf3effa142a8dfa270c40b0e517d"
       },
       "v1.0.0": {
         "libs": {
@@ -2763,6 +2763,27 @@
           }
         },
         "sha": "245138d95c80db00e3aae1a930a4cad5b76e1002"
+      },
+      "v2.0.0": {
+        "libs": {
+          "Chemical": {
+            "convertFromVersion": [
+              "1.0.0",
+              "1.1.0",
+              "1.2.0",
+              "1.3.0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1"
+            ],
+            "path": "Chemical",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "2da36279db8adf3effa142a8dfa270c40b0e517d"
       }
     }
   },
