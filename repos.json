@@ -1089,7 +1089,7 @@
     "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
-      ["*", "obsolete"]
+      ["*", "fullSupport"]
     ]
   },
   "PNlib": {
