@@ -2617,7 +2617,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "7faf3b1a9a8dffd5e9afcfe2bbd66dc48cef522b"
+        "sha": "fc1f3886986d18ef0333205339a49ac70a18b10d"
       },
       "v1.0.0": {
         "libs": {
@@ -4332,7 +4332,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "9e7ea8824b2dca2e507b16881516db0b2c1b53f6"
+        "sha": "3fa744071f62bfec68233e40306d916b993fda47"
       },
       "nightly": {
         "libs": {
@@ -4560,7 +4560,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "9e7ea8824b2dca2e507b16881516db0b2c1b53f6"
+        "sha": "3fa744071f62bfec68233e40306d916b993fda47"
       }
     }
   },
