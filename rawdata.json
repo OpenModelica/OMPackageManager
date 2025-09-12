@@ -1567,7 +1567,7 @@
             "version": "13.0.0-master"
           }
         },
-        "sha": "eca2e95e3ed0366205b5c55600118087ccd5471f"
+        "sha": "eb4778bdd244a917ccc413933467f489c2e2907c"
       },
       "v1.4_build1": {
         "libs": {
@@ -7481,9 +7481,10 @@
               "3.2.1",
               "3.2.2",
               "3.2.3",
-              "4.0.0"
+              "4.0.0",
+              "4.1.0"
             ],
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           },
           "Modelica": {
             "convertFromVersion": [
@@ -7497,17 +7498,18 @@
             ],
             "path": "Modelica",
             "provides": [
-              "4.0.0"
+              "4.0.0",
+              "4.1.0"
             ],
             "uses": {
-              "Complex": "4.1.0",
-              "ModelicaServices": "4.1.0"
+              "Complex": "4.2.0-dev",
+              "ModelicaServices": "4.2.0-dev"
             },
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -7518,33 +7520,34 @@
               "3.2.1",
               "3.2.2",
               "3.2.3",
-              "4.0.0"
+              "4.0.0",
+              "4.1.0"
             ],
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           },
           "ModelicaTest": {
             "path": "ModelicaTest",
             "uses": {
-              "Modelica": "4.1.0"
+              "Modelica": "4.2.0-dev"
             },
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           },
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
-              "Modelica": "4.1.0"
+              "Modelica": "4.2.0-dev"
             },
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
-              "Modelica": "4.1.0"
+              "Modelica": "4.2.0-dev"
             },
-            "version": "4.1.0-master"
+            "version": "4.2.0-master"
           }
         },
-        "sha": "7f18085fc914aaeb069d162ae33c00a9d6b931f3"
+        "sha": "094ee7de94029fd4fb945d3ae3e9b917bf2ef52b"
       },
       "trunk": {
         "libs": {
@@ -7556,7 +7559,8 @@
               "3.2.1",
               "3.2.2",
               "3.2.3",
-              "4.0.0"
+              "4.0.0",
+              "4.1.0"
             ],
             "version": "trunk"
           },
@@ -7572,7 +7576,8 @@
             ],
             "path": "Modelica",
             "provides": [
-              "4.0.0"
+              "4.0.0",
+              "4.1.0"
             ],
             "uses": {
               "Complex": "0.0.0-trunk",
@@ -7582,7 +7587,7 @@
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.1.0-trunk"
+            "version": "4.2.0-trunk"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -7593,7 +7598,8 @@
               "3.2.1",
               "3.2.2",
               "3.2.3",
-              "4.0.0"
+              "4.0.0",
+              "4.1.0"
             ],
             "uses": {
               "Modelica": "0.0.0-trunk"
@@ -7610,19 +7616,19 @@
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
-              "Modelica": "4.1.0"
+              "Modelica": "4.2.0-dev"
             },
-            "version": "4.1.0-trunk"
+            "version": "4.2.0-trunk"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
-              "Modelica": "4.1.0"
+              "Modelica": "4.2.0-dev"
             },
-            "version": "4.1.0-trunk"
+            "version": "4.2.0-trunk"
           }
         },
-        "sha": "0fb2c38e7c51e5d2998a94d981a24c8ad7c77ec8"
+        "sha": "7ff5dda5965f992d410db74c36cc88916e03c035"
       },
       "v1.3.1": {
         "libs": {
@@ -10941,7 +10947,7 @@
             "version": "main"
           }
         },
-        "sha": "d8c8fc91ee2a304e000db17d9bcfde5af591a15c"
+        "sha": "04399a9ed45f360e7d1df1be70d70c17e5d92665"
       },
       "v25.04-beta.1": {
         "libs": {
