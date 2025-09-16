@@ -1,3 +1,4 @@
+from ompackagemanager import generate_cache
 import argparse
 import warnings
 
@@ -14,8 +15,6 @@ except ImportError as e:
     check_missing = None
     check_uses = None
     warnings.warn("Failed to load some modules!\n%s" % str(e))
-
-from ompackagemanager import generate_cache
 
 
 def main(argv=None):
