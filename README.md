@@ -174,5 +174,5 @@ All Python code is formatted with
 [autopep8](https://pypi.org/project/autopep8/):
 
 ```bash
-autopep8 --in-place --aggressive --aggressive ompackagemanager/*.py
+autopep8 --in-place --aggressive --recursive ompackagemanager
 ```
