@@ -29,6 +29,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run unit tests
+        env:
+          GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -m unittest discover -s tests
 
