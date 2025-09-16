@@ -1,10 +1,20 @@
-import argparse
-
-from ompackagemanager import updateinfo
-from ompackagemanager import genindex
 from ompackagemanager import generate_cache
-from ompackagemanager import check_missing
-from ompackagemanager import check_uses
+import argparse
+import warnings
+
+importError = False
+try:
+    from ompackagemanager import updateinfo
+    from ompackagemanager import genindex
+    from ompackagemanager import check_missing
+    from ompackagemanager import check_uses
+except ImportError as e:
+    importError = True
+    updateinfo = None
+    genindex = None
+    check_missing = None
+    check_uses = None
+    warnings.warn("Failed to load some modules!\n%s" % str(e))
 
 
 def main(argv=None):
@@ -15,12 +25,14 @@ def main(argv=None):
     # updateinfo command
     parser1 = subparsers.add_parser(
         'updateinfo', help='Generate up-to-date `rawdata.json`.')
-    parser1.set_defaults(func=updateinfo.main)
+    if not importError:
+        parser1.set_defaults(func=updateinfo.main)
 
     # genindex command
     parser2 = subparsers.add_parser(
         'genindex', help='Generate `index.json` from `rawdata.json`.')
-    parser2.set_defaults(func=genindex.main)
+    if not importError:
+        parser2.set_defaults(func=genindex.main)
 
     # generate-cache command
     parser3 = subparsers.add_parser(
@@ -34,11 +46,13 @@ def main(argv=None):
     parser4 = subparsers.add_parser(
         'check-missing',
         help='Print all GitHub repositories missing from modelica-3rdparty for packages from `repos.json`.')
-    parser4.set_defaults(func=check_missing.main)
+    if not importError:
+        parser4.set_defaults(func=check_missing.main)
 
     # check-uses
     parser5 = subparsers.add_parser('check-uses', help='Some help')
-    parser5.set_defaults(func=check_uses.main)
+    if not importError:
+        parser5.set_defaults(func=check_uses.main)
 
     args = parser.parse_args(argv)
     print(args.script)
