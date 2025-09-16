@@ -1,0 +1,36 @@
+name: autopep8 formatting
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  check-format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run:
+          pip install autopep8
+
+      - name: autopep8
+        run: |
+          autopep8 --in-place --aggressive --aggressive *.py
+          if ! git diff --exit-code; then
+            echo "❌ Code not formatted. Please run 'autopep8 --in-place --aggressive --aggressive *.py .' locally."
+            exit 1
+          else
+            echo "✅ Code is properly formatted."
+          fi
