@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
-
 import json
-import common
+
+from ompackagemanager import common
 
 
 class MissingUses(Exception):
@@ -115,6 +114,8 @@ def checkProvides(libName, lib, indexdata):
 
 
 def main():
+    """Generate `index.json` database from `rawdata.json`.
+    """
     repos = json.load(open("repos.json"))
     rawdata = json.load(open("rawdata.json"))
 
@@ -196,7 +197,3 @@ def main():
 
     with open("index.json", "w") as io:
         json.dump(indexdata, io, sort_keys=True, indent=0)
-
-
-if __name__ == '__main__':
-    main()

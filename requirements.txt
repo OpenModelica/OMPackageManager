@@ -1,3 +1,4 @@
+argparse
 atlassian-python-api
 OMPython
 pygit2

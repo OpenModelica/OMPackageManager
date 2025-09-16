@@ -29,8 +29,8 @@ pipeline {
       ln -s /var/lib/jenkins/gitcache/OMPackageManager cache
       '''
       sh 'test -f rawdata.json'
-      sh './updateinfo.py'
-      sh './genindex.py'
+      sh 'python3 -m ompackagemanager updateinfo'
+      sh 'python3 -m ompackagemanager genindex'
       stash name: 'files', includes: 'index.json, rawdata.json'
     }
   }
@@ -79,7 +79,7 @@ pipeline {
     steps {
       sh "du -csh /var/www/libraries.openmodelica.org/cache/* || true"
       sh "cp /var/www/libraries.openmodelica.org/index/v1/index.json ."
-      sh "./generate-cache.py --clean /var/www/libraries.openmodelica.org/cache"
+      sh "python3 -m ompackagemanager generate-cache --clean /var/www/libraries.openmodelica.org/cache"
       sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
     }
   }

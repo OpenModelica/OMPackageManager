@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import OMPython
 import os
 from github import Github
@@ -12,7 +10,7 @@ import shutil
 import requests
 import zipfile
 
-import common
+from ompackagemanager import common
 
 bitbucket = Bitbucket(url="https://api.bitbucket.org")
 
@@ -59,6 +57,10 @@ def insensitive_glob(pattern):
 
 
 def main():
+    """Generate up-to-date `rawdata.json` from `repos.json`.
+
+    Queries the repositories where the libraries are stored.
+    """
     gh_auth = os.environ["GITHUB_AUTH"]
     g = Github(gh_auth)
 
@@ -398,7 +400,3 @@ def main():
                 (key, entry))
     with open("rawdata.json", "w") as io:
         json.dump(serverdata, io, sort_keys=True, indent=2)
-
-
-if __name__ == '__main__':
-    main()

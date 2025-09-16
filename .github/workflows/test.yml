@@ -43,8 +43,8 @@ jobs:
           GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN }}
         run: |
           test -f rawdata.json
-          python updateinfo.py
-          python genindex.py
+          python -m ompackagemanager updateinfo
+          python -m ompackagemanager genindex
 
       - name: Upload package index
         uses: actions/upload-artifact@v4

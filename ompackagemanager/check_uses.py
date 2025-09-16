@@ -1,14 +1,9 @@
-#!/usr/bin/env python3
-
-from github import Github
 import json
-import os
-import pygit2
-
 import semantic_version
 
 
 def main():
+    """Print used libraries for all packages in `index.json`."""
     data = json.load(open("index.json"))
     versionsWeHave = {}
     for lib in data["libs"].keys():
@@ -36,7 +31,3 @@ def main():
                     print("%s %s uses %s %s" % (lib, version, use, uses[use]))
                 else:
                     pass  # print("Have %s %s" % (use, uses[use]))
-
-
-if __name__ == '__main__':
-    main()
