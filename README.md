@@ -158,3 +158,12 @@ test it via OMEdit / scripting API:
 ```bash
 cp index.json ~/.openmodelica/libraries/index.json
 ```
+
+## Development
+
+All Python code is formatted with
+[autopep8](https://pypi.org/project/autopep8/):
+
+```bash
+autopep8 --in-place --aggressive --aggressive *.py
+```
