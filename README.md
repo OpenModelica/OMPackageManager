@@ -104,17 +104,26 @@ see the OpenModelica Library Testing
 ## Configuration of the Package Manager server
 
 The database of managed libraries is kept in the [repos.json](repos.json) file,
-which is edited manually. Starting from this information, the `updateinfo.py`
+which is edited manually. Starting from this information, the `updateinfo`
 script queries the repositories where the libraries are stored and generates an
-up-to-date [rawdata.json](rawdata.json) file. This script is run by the [Update
-Package Index
-job](https://test.openmodelica.org/jenkins/job/Update%20Package%20Index/) on
-OSMC's Jenkins server four times a day to keep it up to date with library
+up-to-date [rawdata.json](rawdata.json) file.
+
+```bash
+python -m ompackagemanager updateinfo
+```
+
+This script is run by the
+[Update Package Index job](https://test.openmodelica.org/jenkins/job/Update%20Package%20Index/)
+on OSMC's Jenkins server four times a day to keep it up to date with library
 developments. Note that the query includes advanced Modelica-specific features,
 e.g. determining dependencies via the `uses` annotations, and determining
 backwards compatibility among versions via the `conversion` annotations. The
-`genindex.py` script is then run to generate the `index.json` database, which is
+`genindex` script is then run to generate the `index.json` database, which is
 queried by OMC clients to update the local package database.
+
+```bash
+python -m ompackagemanager genindex
+```
 
 The package manager preferably refers to official library releases, which are
 fetched automatically from the GitHub server without the need of naming them
@@ -148,8 +157,8 @@ Generate index file `index.json`.
 ```bash
 rm -rf cache/
 rm -f index.json
-python updateinfo.py
-python genindex.py
+python -m ompackagemanager updateinfo
+python -m ompackagemanager genindex
 ```
 
 To test the index file copy it into your OpenModelica libraries directory and
@@ -165,5 +174,5 @@ All Python code is formatted with
 [autopep8](https://pypi.org/project/autopep8/):
 
 ```bash
-autopep8 --in-place --aggressive --aggressive *.py
+autopep8 --in-place --aggressive --aggressive ompackagemanager/*.py
 ```
