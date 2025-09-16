@@ -67,7 +67,8 @@ def main():
 
     omc = OMPython.OMCSessionZMQ()
 
-    data = json.load(open("repos.json"))
+    with open("repos.json", "r") as f:
+        data = json.load(f)
     if os.path.exists("rawdata.json"):
         serverdata = json.load(open("rawdata.json"))
     else:

@@ -116,8 +116,10 @@ def checkProvides(libName, lib, indexdata):
 def main():
     """Generate `index.json` database from `rawdata.json`.
     """
-    repos = json.load(open("repos.json"))
-    rawdata = json.load(open("rawdata.json"))
+    with open("repos.json", "r") as f:
+        repos = json.load(f)
+    with open("rawdata.json", "r") as f:
+        rawdata = json.load(f)
 
     indexdata = {"libs": {}, "mirrors": [
         "https://libraries.openmodelica.org/cache/"]}

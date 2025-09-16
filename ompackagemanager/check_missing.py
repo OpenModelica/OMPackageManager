@@ -12,7 +12,8 @@ def main():
 
     token = Auth.Token(os.environ["GITHUB_AUTH"])
     github_api = Github(auth=token)
-    data = json.load(open("repos.json"))
+    with open("repos.json", "r") as f:
+        data = json.load(f)
     namesInRepos = set()
     for entry in data.values():
         if "github" in entry:
