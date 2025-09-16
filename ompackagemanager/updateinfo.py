@@ -1,4 +1,3 @@
-import OMPython
 import os
 from github import Github
 from atlassian import Bitbucket
@@ -8,7 +7,15 @@ import glob
 import re
 import shutil
 import requests
+import warnings
 import zipfile
+
+try:
+    import OMPython
+except ImportError:
+    OMPython = None
+    warnings.warn("Failed to load module OMPython.")
+
 
 from ompackagemanager import common
 
@@ -63,6 +70,9 @@ def main():
     """
     gh_auth = os.environ["GITHUB_AUTH"]
     g = Github(gh_auth)
+
+    if OMPython is None:
+        raise Exception("Module OMPython missing, aborting!")
 
     omc = OMPython.OMCSessionZMQ()
 
