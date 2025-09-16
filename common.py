@@ -4,15 +4,15 @@ import semantic_version
 
 
 def VersionNumber(s):
-  if s.startswith("v"):
-    s = s[1:]
-  if s == "":
-    return semantic_version.Version(major=0, minor=0, patch=0)
-  try:
-    return semantic_version.Version.coerce(s)
-  except BaseException:
-    return semantic_version.Version(
-      major=0, minor=0, patch=0, prerelease=(s,))
+    if s.startswith("v"):
+        s = s[1:]
+    if s == "":
+        return semantic_version.Version(major=0, minor=0, patch=0)
+    try:
+        return semantic_version.Version.coerce(s)
+    except BaseException:
+        return semantic_version.Version(
+            major=0, minor=0, patch=0, prerelease=(s,))
 
 
 def findMatchingLevel(s, levels):
