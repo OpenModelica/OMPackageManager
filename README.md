@@ -174,5 +174,11 @@ All Python code is formatted with
 [autopep8](https://pypi.org/project/autopep8/):
 
 ```bash
-autopep8 --in-place --aggressive --recursive ompackagemanager
+autopep8 --in-place --aggressive --recursive ompackagemanager/ tests/
+```
+
+Unit tests can be run with:
+
+```bash
+python -m unittest discover -s test
 ```

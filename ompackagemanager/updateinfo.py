@@ -7,7 +7,7 @@ import re
 import requests
 import shutil
 import zipfile
-from github import Github
+from github import Github, Auth
 from atlassian import Bitbucket
 
 from ompackagemanager import common
@@ -61,12 +61,14 @@ def main():
 
     Queries the repositories where the libraries are stored.
     """
-    gh_auth = os.environ["GITHUB_AUTH"]
-    g = Github(gh_auth)
+
+    token = Auth.Token(os.environ["GITHUB_AUTH"])
+    github_api = Github(auth=token)
 
     omc = OMPython.OMCSessionZMQ()
 
-    data = json.load(open("repos.json"))
+    with open("repos.json", "r") as f:
+        data = json.load(f)
     if os.path.exists("rawdata.json"):
         serverdata = json.load(open("rawdata.json"))
     else:
@@ -96,7 +98,7 @@ def main():
         if "github" in entry or "git" in entry or "zipfiles" in entry:
             if "github" in entry:
                 try:
-                    r = g.get_repo(entry["github"])
+                    r = github_api.get_repo(entry["github"])
                     branches = list((b.name, b.commit.sha)
                                     for b in r.get_branches())
                     tags = list((b.name, b.commit.sha) for b in r.get_tags())

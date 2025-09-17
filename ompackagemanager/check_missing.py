@@ -1,7 +1,6 @@
-from github import Github
+from github import Github, Auth
 import json
 import os
-import pygit2
 
 
 def main():
@@ -12,15 +11,16 @@ def main():
     Prints the missing repositories.
     """
 
-    gh_auth = os.environ["GITHUB_AUTH"]
-    g = Github(gh_auth)
-    data = json.load(open("repos.json"))
+    token = Auth.Token(os.environ["GITHUB_AUTH"])
+    github_api = Github(auth=token)
+    with open("repos.json", "r") as f:
+        data = json.load(f)
     namesInRepos = set()
     for entry in data.values():
         if "github" in entry:
             namesInRepos.add(entry["github"])
 
-    for repo in list(g.get_user("modelica-3rdparty").get_repos()):
+    for repo in list(github_api.get_user("modelica-3rdparty").get_repos()):
         if repo.full_name in namesInRepos:
             continue
         if repo.fork and repo.parent.full_name in namesInRepos:
