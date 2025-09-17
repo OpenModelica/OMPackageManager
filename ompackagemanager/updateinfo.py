@@ -1,14 +1,14 @@
+import glob
+import json
 import OMPython
 import os
+import pygit2
+import re
+import requests
+import shutil
+import zipfile
 from github import Github, Auth
 from atlassian import Bitbucket
-import json
-import pygit2
-import glob
-import re
-import shutil
-import requests
-import zipfile
 
 from ompackagemanager import common
 
