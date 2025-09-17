@@ -171,7 +171,11 @@ def new_libentry(libname: str,
         uses = [use for use in uses if use[0] != ignore]
 
     # Get conversions
-    (withoutConversion, withConversion) = omc.sendExpression("getConversionsFromVersions(%s)" % libname)
+    conversions = omc.sendExpression("getConversionsFromVersions(%s)" % libname)
+    if conversions is None:
+        withoutConversion, withConversion = [], []
+    else:
+        withoutConversion, withConversion = conversions
     withoutConversion = list(filter(None, [str(ver)
                              for ver in sorted([common.VersionNumber(v) for v in withoutConversion])]))
     withConversion = list(filter(None, [str(ver) for ver in sorted([common.VersionNumber(v) for v in withConversion])]))
