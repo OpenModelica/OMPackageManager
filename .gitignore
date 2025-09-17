@@ -2,5 +2,6 @@ __pycache__
 *.pyc
 /.venv/
 /.vscode/
-cache
+/cache/
 index.json
+tests/tmp-cache/

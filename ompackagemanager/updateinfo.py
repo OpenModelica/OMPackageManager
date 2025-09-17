@@ -73,9 +73,9 @@ def collect_branches_tags(entry: dict, key: str, repopath: str,
 
     if "github" in entry:
         try:
-            r = github_api.get_repo(entry["github"])
-            branches = list(Branch(b.name, b.commit.sha) for b in r.get_branches())
-            tags = list(Tag(b.name, b.commit.sha) for b in r.get_tags())
+            repo = github_api.get_repo(entry["github"])
+            branches = list(Branch(b.name, b.commit.sha) for b in repo.get_branches())
+            tags = list(Tag(b.name, b.commit.sha) for b in repo.get_tags())
             giturl = "https://github.com/%s.git" % entry["github"]
         except BaseException:
             print("Failed to get github entry: %s" % entry["github"])
@@ -104,7 +104,7 @@ def collect_branches_tags(entry: dict, key: str, repopath: str,
     return branches, tags, giturl
 
 
-def normalize_version(version: str, tagName: str, entry) -> str:
+def normalize_version(version: str, tagName: str, entry: dict) -> str:
     """Use tag name to normalize version string"""
 
     if version == "":
@@ -112,14 +112,17 @@ def normalize_version(version: str, tagName: str, entry) -> str:
     else:
         v1 = common.VersionNumber(version)
         v2 = common.VersionNumber(tagName)
-        if len(v2.prerelease) == 0 and entry.get("semverTagOverridesAnnotation") and (
-                v2 > v1 or entry["semverTagOverridesAnnotation"] == "alsoNewerVersions"):
+
+        tagOverride = entry.get("semverTagOverridesAnnotation", False)
+        if len(v2.prerelease) == 0 and tagOverride and (v2 > v1 or tagOverride == "alsoNewerVersions"):
             v1 = v2
-        if len(v2.prerelease) > 0 and (len(v1.prerelease) == 0 or entry.get(
-                "semverPrereleaseOverridesAnnotation") or tagName in ["master", "main", "trunk"]):
+
+        prereleaseOverride = entry.get("semverPrereleaseOverridesAnnotation")
+        if len(v2.prerelease) > 0 and (len(v1.prerelease) == 0 or prereleaseOverride):
             v1.prerelease = v2.prerelease
             if tagName in ["master", "main", "trunk"] and len(v2.build) == 0:
                 v1.build = []
+
         if v1.major == v2.major and v1.minor == v2.minor and v1.patch == v2.patch and len(
                 v1.prerelease) == 0 and len(v1.build) == 0:
             version = str(v2)
@@ -140,8 +143,7 @@ def new_libentry(libname: str,
                  entry,
                  hits: list[str],
                  repopath: str,
-                 omc: OMPython.OMCSessionZMQ) -> dict[str,
-                                                      str]:
+                 omc: OMPython.OMCSessionZMQ) -> dict[str, str]:
     """Create new entry for Modelica library.
 
     Args:
