@@ -1451,7 +1451,8 @@
   },
   "ThermoSysPro": {
     "names": ["ThermoSysPro"],
-    "github": "ThermoSysPro/ThermoSysPro",
+    "git": "https://gitlab.pam-retd.fr/thermosysproandco/ThermoSysPro.git",
+    "zipfile": "https://gitlab.pam-retd.fr/thermosysproandco/ThermoSysPro/-/archive/{0}/ThermoSysPro-{0}.zip",
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],

@@ -13971,10 +13971,10 @@
         "libs": {
           "ThermoSysPro": {
             "path": "ThermoSysPro",
-            "version": "4.0.0-master"
+            "version": "4.1.0-master"
           }
         },
-        "sha": "629cd07eaa494df493856777be19fa24ec861683"
+        "sha": "d3d2cc3b84b8a030c61907756c263e7140061f41"
       },
       "v3.2": {
         "libs": {
@@ -14000,6 +14000,15 @@
           }
         },
         "sha": "dfe1168ad22d0364dfd2b129b2931efb5ab4dcf5"
+      },
+      "v4.1": {
+        "libs": {
+          "ThermoSysPro": {
+            "path": "ThermoSysPro",
+            "version": "4.1.0"
+          }
+        },
+        "sha": "25100ea924673e6a524b3218618756508e197fd4"
       }
     }
   },
