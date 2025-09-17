@@ -14,7 +14,7 @@ class TestNewLibentry(unittest.TestCase):
     def setUpClass(cls):
         """Clone git repositories, start OMC session."""
 
-        def checkout_repo(github_repo:str, refname:str) -> str:
+        def checkout_repo(github_repo: str, refname: str) -> str:
             """Clone and checkout a git repository from GitHub"""
             giturl = "https://github.com/%s.git" % github_repo
             repopath = os.path.join(cls.cache_dir, github_repo.split("/")[-1])
@@ -34,7 +34,6 @@ class TestNewLibentry(unittest.TestCase):
 
             return os.path.normpath(os.path.join(gitrepo.path, os.pardir))
 
-
         cls.cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tmp-cache")
         os.makedirs(cls.cache_dir, exist_ok=True)
 
@@ -48,7 +47,7 @@ class TestNewLibentry(unittest.TestCase):
     def tearDownClass(cls):
         """Remove git repositories, stop OMC session."""
         cls.omc.sendExpression("exit")
-        #shutil.rmtree(cls.cache_dir)
+        shutil.rmtree(cls.cache_dir)
 
     def tearDown(self):
         """Clear omc session"""
@@ -81,12 +80,12 @@ class TestNewLibentry(unittest.TestCase):
         self.omc.sendExpression('loadFile("%s", uses=false)' % hits[0])
 
         libentry = new_libentry(
-            libname = libname,
-            tagName = tagName,
-            entry = entry,
-            hits = hits,
-            repopath = repopath,
-            omc = self.omc
+            libname=libname,
+            tagName=tagName,
+            entry=entry,
+            hits=hits,
+            repopath=repopath,
+            omc=self.omc
         )
 
         expected_libentry = {
@@ -98,7 +97,7 @@ class TestNewLibentry(unittest.TestCase):
                 "SDF": "0.4.2"
             },
             "convertFromVersion": [
-              "2.1.0"
+                "2.1.0"
             ],
         }
         self.assertDictEqual(libentry, expected_libentry)
@@ -134,36 +133,37 @@ class TestNewLibentry(unittest.TestCase):
         self.omc.sendExpression('loadFile("%s", uses=false)' % hits[0])
 
         libentry = new_libentry(
-            libname = libname,
-            tagName = branch,
-            entry = entry,
-            hits = hits,
-            repopath = repopath,
-            omc = self.omc
+            libname=libname,
+            tagName=branch,
+            entry=entry,
+            hits=hits,
+            repopath=repopath,
+            omc=self.omc
         )
 
         expected_libentry = {
             "version": "4.2.0-dev",
             "path": "Modelica",
             "uses": {
-              "Complex": "4.2.0-dev",
-              "ModelicaServices": "4.2.0-dev"
+                "Complex": "4.2.0-dev",
+                "ModelicaServices": "4.2.0-dev"
             },
             "provides": [
-              "4.0.0",
-              "4.1.0"
+                "4.0.0",
+                "4.1.0"
             ],
             "convertFromVersion": [
-              "3.0.0",
-              "3.0.1",
-              "3.1.0",
-              "3.2.0",
-              "3.2.1",
-              "3.2.2",
-              "3.2.3"
+                "3.0.0",
+                "3.0.1",
+                "3.1.0",
+                "3.2.0",
+                "3.2.1",
+                "3.2.2",
+                "3.2.3"
             ]
         }
         self.assertDictEqual(libentry, expected_libentry)
+
 
 if __name__ == "__main__":
     unittest.main()

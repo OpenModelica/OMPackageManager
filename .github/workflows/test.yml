@@ -13,10 +13,18 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.13']
+        omc-version: ['stable']
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: "Set up OpenModelica Compiler"
+        uses: OpenModelica/setup-openmodelica@v1.0
+        with:
+          version: ${{ matrix.omc-version }}
+          packages: |
+            omc
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
