@@ -856,7 +856,12 @@
   "Modelica_LinearSystems2": {
     "names": ["Modelica_LinearSystems2"],
     "github": "modelica/Modelica_LinearSystems2",
-    "branches": {"master": "master", "v3.0.0-dev": "v3.0.0-dev"},
+    "branches": {
+      "master": "master",
+      "maint/2.4.0": "maint/2.4.0",
+      "maint/2.4.1": "maint/2.4.1",
+      "maint/3.0.x": "maint/3.0.x"
+    },
     "support": [
       ["prerelease", "noSupport"],
       [">=3.0.0", "experimental"],
@@ -1014,7 +1019,7 @@
     "github": "cparedis/OpenHydraulics",
     "ignore-tags": [],
     "semverTagOverridesAnnotation": true,
-    "branches": {"master": "master"},
+    "branches": {"main": "main"},
     "support": [
       ["prerelease", "noSupport"],
       [">=1.0.0", "experimental"],

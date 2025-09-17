@@ -8478,6 +8478,84 @@
   },
   "Modelica_LinearSystems2": {
     "refs": {
+      "maint/2.4.0": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.4.0-maint/2.4.0"
+          }
+        },
+        "sha": "23eb514d4bf00d2402abce71c3008123758c8db5"
+      },
+      "maint/2.4.1": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "DymolaCommands": "1.11.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "2.4.1-maint/2.4.1"
+          }
+        },
+        "sha": "f4e6da2702284dce9b26cf266cef26a62a6bd195"
+      },
+      "maint/3.0.x": {
+        "libs": {
+          "Modelica_LinearSystems2": {
+            "convertFromVersion": [
+              "2.0.0",
+              "2.1.0",
+              "2.2.0",
+              "2.3.0",
+              "2.3.1",
+              "2.3.2",
+              "2.3.2",
+              "2.3.3",
+              "2.3.4",
+              "2.3.5",
+              "2.4.0",
+              "2.4.1"
+            ],
+            "path": "Modelica_LinearSystems2",
+            "uses": {
+              "Complex": "4.0.0",
+              "DymolaCommands": "1.17.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.0.0-maint/3.0.x"
+          }
+        },
+        "sha": "a4f1eadc43b559aef4b9a7f080de19944f1a61d4"
+      },
       "master": {
         "libs": {
           "Modelica_LinearSystems2": {
@@ -9423,6 +9501,18 @@
   },
   "OpenHydraulics": {
     "refs": {
+      "main": {
+        "libs": {
+          "OpenHydraulics": {
+            "path": "OpenHydraulics",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0-main"
+          }
+        },
+        "sha": "d7832e6af944702db67c4a23bbbb3b429c272dde"
+      },
       "v1.0": {
         "libs": {
           "OpenHydraulics": {
