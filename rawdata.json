@@ -1573,7 +1573,7 @@
             "version": "13.0.0-master"
           }
         },
-        "sha": "0acc53fe087d25b2842acc6c03b27381e4fe936e"
+        "sha": "df694bf67954bbb1319537eb5ed721e8d3aa0b2f"
       },
       "v1.4_build1": {
         "libs": {
@@ -6009,22 +6009,18 @@
   },
   "IDEAS": {
     "refs": {
-      "CrashCourse2021": {
+      "master": {
         "libs": {
           "IDEAS": {
-            "convertFromVersion": [
-              "0.2.0"
-            ],
             "path": "IDEAS",
             "uses": {
-              "Modelica": "3.2.3"
+              "Modelica": "4.0.0"
             },
-            "version": "2.2.0-CrashCourse2021"
+            "version": "4.0.0-master"
           }
         },
-        "sha": "7bd93fe1e126f1ab2967fc403cd86006383a9c3c"
+        "sha": "24eea8ff8c67d1b32d53429eaaec9c6a3fbaac84"
       },
-      "master": {},
       "v1.0.0": {
         "libs": {
           "IDEAS": {
