@@ -1,7 +1,7 @@
 import semantic_version
 
 
-def VersionNumber(s):
+def VersionNumber(s: str) -> semantic_version.Version:
     if s.startswith("v"):
         s = s[1:]
     if s == "":
@@ -9,19 +9,16 @@ def VersionNumber(s):
     try:
         return semantic_version.Version.coerce(s)
     except BaseException:
-        return semantic_version.Version(
-            major=0, minor=0, patch=0, prerelease=(s,))
+        return semantic_version.Version(major=0, minor=0, patch=0, prerelease=(s,))
 
 
-def findMatchingLevel(s, levels):
+def findMatchingLevel(s: str, levels: list[str]) -> str | None:
     try:
         vn = VersionNumber(s)
     except BaseException:
-        return
+        return None
     for level in levels:
-        matched = False
-        if level[0].startswith(
-                "+") and len(vn.build) > 0 and level[0][1:] == ".".join(vn.build):
+        if level[0].startswith("+") and len(vn.build) > 0 and level[0][1:] == ".".join(vn.build):
             return level[1]
         if level[0] == "prerelease" and len(vn.prerelease) > 0:
             return level[1]
@@ -31,10 +28,10 @@ def findMatchingLevel(s, levels):
             return level[1]
         elif level[0] == s:
             return level[1]
-    return
+    return None
 
 
-def getSupportLevel(tagName, levels):
+def getSupportLevel(tagName: str, levels: list[str]) -> str:
     res = findMatchingLevel(tagName, levels)
     if res is None:
         return "noSupport"

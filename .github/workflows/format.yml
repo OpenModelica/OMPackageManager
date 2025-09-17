@@ -27,9 +27,9 @@ jobs:
 
       - name: autopep8
         run: |
-          autopep8 --in-place --aggressive --recursive ompackagemanager/ tests/
+          autopep8 ompackagemanager/ tests/
           if ! git diff --exit-code; then
-            echo "❌ Code not formatted. Please run 'autopep8 --in-place --aggressive --recursive ompackagemanager/ tests/' locally."
+            echo "❌ Code not formatted. Please run 'autopep8 ompackagemanager/ tests/' locally."
             exit 1
           else
             echo "✅ Code is properly formatted."
