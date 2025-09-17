@@ -6878,7 +6878,7 @@
               "4.0.0",
               "4.1.0"
             ],
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           },
           "Modelica": {
             "convertFromVersion": [
@@ -6899,11 +6899,11 @@
               "Complex": "4.2.0-dev",
               "ModelicaServices": "4.2.0-dev"
             },
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -6917,28 +6917,28 @@
               "4.0.0",
               "4.1.0"
             ],
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           },
           "ModelicaTest": {
             "path": "ModelicaTest",
             "uses": {
               "Modelica": "4.2.0-dev"
             },
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           },
           "ModelicaTestOverdetermined": {
             "path": "ModelicaTestOverdetermined.mo",
             "uses": {
               "Modelica": "4.2.0-dev"
             },
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
               "Modelica": "4.2.0-dev"
             },
-            "version": "4.2.0-master"
+            "version": "4.2.0-dev"
           }
         },
         "sha": "0f27e460c7639c3e138766572f30842142367379"
@@ -6981,7 +6981,7 @@
           },
           "ModelicaReference": {
             "path": "ModelicaReference",
-            "version": "4.2.0-trunk"
+            "version": "4.2.0-dev"
           },
           "ModelicaServices": {
             "path": "ModelicaServices",
@@ -7012,14 +7012,14 @@
             "uses": {
               "Modelica": "4.2.0-dev"
             },
-            "version": "4.2.0-trunk"
+            "version": "4.2.0-dev"
           },
           "ObsoleteModelica4": {
             "path": "ObsoleteModelica4.mo",
             "uses": {
               "Modelica": "4.2.0-dev"
             },
-            "version": "4.2.0-trunk"
+            "version": "4.2.0-dev"
           }
         },
         "sha": "be25335e6d72e4ffab8c8cb70fb591aa703763bf"
@@ -8970,7 +8970,7 @@
             "uses": {
               "Modelica": "3.2.1"
             },
-            "version": "1.0.0-master"
+            "version": "1.0.0-Beta.1"
           }
         },
         "sha": "5fbae4513fa03d8937c27d4047670a146041c2d6"
@@ -9732,7 +9732,7 @@
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "3.1.0-master"
+            "version": "3.1.0-dev"
           }
         },
         "sha": "fe8aa5ceae90d123cc5b0f87be6362f6723cb116"
@@ -10974,7 +10974,7 @@
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "3.1.0-master"
+            "version": "3.1.0-alpha"
           }
         },
         "sha": "d4f7db61f1e179a2dd0388541d1ea8f26953fd5f"
@@ -11261,7 +11261,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "2.0.0-master"
+            "version": "2.0.0-dev"
           }
         },
         "sha": "22c7999846dd84964bbe174b3ec93d9c9a11d077"
@@ -13012,7 +13012,7 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "1.9.0-main"
+            "version": "1.9.0-ClaRa"
           }
         },
         "sha": "1845376fb70a32e51c8bbf75ae999c27662b376e"
