@@ -26,6 +26,7 @@ modelica-3rdparty/NeuralNetwork
 modelica-3rdparty/OpenHydraulics
 modelica-3rdparty/ShipSIM
 modelica-3rdparty/SMEHV
+modelica-3rdparty/ThermoSysPro
 modelica-3rdparty/urdfmodelica
 ''', out.getvalue())
         finally:
