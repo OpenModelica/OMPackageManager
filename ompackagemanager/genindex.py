@@ -141,7 +141,9 @@ def main():
                         indexdata["libs"][libName] = {"versions": {}}
                 libdict = indexdata["libs"][libName]["versions"]
                 if lib['version'] in libdict.keys():
-                    if len(common.VersionNumber(refKey).prerelease) > 0:
+                    prerelease = common.VersionNumber(refKey).prerelease
+                    if prerelease is not None and len(prerelease) > 0 and prerelease[0] not in [
+                            "master", "main", "trunk"]:
                         continue
                     print('Duplicate entry for %s %s (%s)' % (libName, lib['version'], refKey))
                 entry = {}
@@ -174,6 +176,11 @@ def main():
                 entry['support'] = common.getSupportLevel(lib['version'], repos[firstKey]['support'])
 
                 libdict[lib['version']] = entry
+
+                # Additional entry for main branch
+                if refKey in ["master", "main", "trunk"]:
+                    libdict[refKey] = entry
+
                 # print(entry)
         # for lib in data["libs"].keys():
 
