@@ -11260,12 +11260,12 @@
             ],
             "path": "PlanarMechanics",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "2.0.0-dev"
           }
         },
-        "sha": "239db35e90252b12d58a455c9cb74070b286c5c8"
+        "sha": "6fd2f59ce962bbf224970b84941261204e285174"
       },
       "v1.2.0": {
         "libs": {
@@ -11420,6 +11420,26 @@
           }
         },
         "sha": "a57a6ef5429d30f1141f9b54df87ca894f31a13d"
+      },
+      "v2.0.0-alpha": {
+        "libs": {
+          "PlanarMechanics": {
+            "convertFromVersion": [
+              "1.3.0",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.5.1",
+              "1.6.0"
+            ],
+            "path": "PlanarMechanics",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "2.0.0-dev"
+          }
+        },
+        "sha": "b96c772fb56b5e38211b953405f1f2e306544072"
       }
     }
   },
