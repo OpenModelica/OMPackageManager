@@ -1495,6 +1495,16 @@
       ["*", "experimental"]
     ]
   },
+  "URDFModelica": {
+    "names": ["URDFModelica"],
+    "github": "DLR-RM/urdfmodelica",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=0.3.2", "experimental"],
+      ["*", "noSupport"]
+    ]
+  },
   "VehicleInterfaces": {
     "names": ["VehicleInterfaces"],
     "github": "modelica/VehicleInterfaces",
