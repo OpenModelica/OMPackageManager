@@ -1,12 +1,11 @@
 import unittest
 import json
-import os
 from pathlib import Path
 import shutil
 import pygit2
 import OMPython
 
-from ompackagemanager.updateinfo import new_libentry, getgitrepo
+from ompackagemanager.updateinfo import new_libentry
 
 
 class TestNewLibentry(unittest.TestCase):
@@ -14,12 +13,12 @@ class TestNewLibentry(unittest.TestCase):
     def setUpClass(cls):
         """Clone git repositories, start OMC session."""
 
-        def checkout_repo(github_repo: str, refname: str) -> str:
+        def checkout_repo(github_repo: str, refname: str) -> Path:
             """Clone and checkout a git repository from GitHub"""
             giturl = "https://github.com/%s.git" % github_repo
-            repopath = os.path.join(cls.cache_dir, github_repo.split("/")[-1])
+            repopath = cls.cache_dir.joinpath(github_repo.split("/")[-1])
 
-            if not os.path.exists(repopath):
+            if not repopath.is_dir():
                 pygit2.clone_repository(giturl, repopath)
             gitrepo = pygit2.Repository(repopath)
 
@@ -32,10 +31,10 @@ class TestNewLibentry(unittest.TestCase):
                     gitrepo.get(refname),
                     strategy=pygit2.GIT_CHECKOUT_FORCE | pygit2.GIT_CHECKOUT_RECREATE_MISSING)
 
-            return os.path.normpath(os.path.join(gitrepo.path, os.pardir))
+            return Path(gitrepo.path).joinpath().parent.resolve()
 
-        cls.cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tmp-cache")
-        os.makedirs(cls.cache_dir, exist_ok=True)
+        cls.cache_dir = Path(__file__).parent.joinpath("tmp-cache")
+        Path.mkdir(cls.cache_dir, parents=True, exist_ok=True)
 
         cls.omc = OMPython.OMCSessionZMQ()
         cls.omc.sendExpression('setCommandLineOptions("--std=latest")')
@@ -76,7 +75,7 @@ class TestNewLibentry(unittest.TestCase):
 
         # Load package.mo
         repopath = self.aixlib_path
-        hits = [os.path.join(repopath, "AixLib", "package.mo")]
+        hits = [str(repopath.joinpath("AixLib", "package.mo"))]
         self.omc.sendExpression('loadFile("%s", uses=false)' % hits[0])
 
         libentry = new_libentry(
@@ -84,7 +83,7 @@ class TestNewLibentry(unittest.TestCase):
             tagName=tagName,
             entry=entry,
             hits=hits,
-            repopath=repopath,
+            repopath=str(repopath),
             omc=self.omc
         )
 
@@ -128,7 +127,7 @@ class TestNewLibentry(unittest.TestCase):
 
         # Load package.mo
         repopath = self.msl_path
-        hits = [os.path.join(repopath, "Modelica", "package.mo")]
+        hits = [str(repopath.joinpath("Modelica", "package.mo"))]
         self.omc.sendExpression('clear()')
         self.omc.sendExpression('loadFile("%s", uses=false)' % hits[0])
 
@@ -137,7 +136,7 @@ class TestNewLibentry(unittest.TestCase):
             tagName=branch,
             entry=entry,
             hits=hits,
-            repopath=repopath,
+            repopath=str(repopath),
             omc=self.omc
         )
 
