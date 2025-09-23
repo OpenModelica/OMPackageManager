@@ -13509,6 +13509,46 @@
       }
     }
   },
+  "URDFModelica": {
+    "refs": {
+      "0.3.2": {
+        "libs": {
+          "URDFModelica": {
+            "path": "URDFModelica",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.2"
+          }
+        },
+        "sha": "80dd82340aab7ca541971d0a8f2b2019ecdf3e17"
+      },
+      "0.3.3": {
+        "libs": {
+          "URDFModelica": {
+            "path": "URDFModelica",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.2"
+          }
+        },
+        "sha": "62ab982855719aa43f200bb2f1c6ba0d5f3a617d"
+      },
+      "main": {
+        "libs": {
+          "URDFModelica": {
+            "path": "URDFModelica",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.2-main"
+          }
+        },
+        "sha": "1ccf25ef9ad5c7e67b9a5f228407eabf54dbbce4"
+      }
+    }
+  },
   "UserInteraction": {
     "refs": {
       "master": {
