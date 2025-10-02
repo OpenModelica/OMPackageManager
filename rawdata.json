@@ -106,13 +106,19 @@
         "libs": {
           "AdvancedNoise": {
             "path": "AdvancedNoise",
+            "provides": [
+              "0.9.0",
+              "0.9.1",
+              "1.0.0",
+              "1.1.0"
+            ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "1.1.0-master"
+            "version": "1.2.0-master"
           }
         },
-        "sha": "ec6ad9de3c95cc2235dd625cf42e82386af4b1df"
+        "sha": "7fd853cf68c4f5f5b103a79491718685db91eac4"
       },
       "v0.9.0": {
         "libs": {
@@ -187,6 +193,24 @@
           }
         },
         "sha": "0ca7d8b55909410f2eb3eb983ef93136c71f7faa"
+      },
+      "v1.2.0": {
+        "libs": {
+          "AdvancedNoise": {
+            "path": "AdvancedNoise",
+            "provides": [
+              "0.9.0",
+              "0.9.1",
+              "1.0.0",
+              "1.1.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "7fd853cf68c4f5f5b103a79491718685db91eac4"
       }
     }
   },
@@ -3565,13 +3589,16 @@
         "libs": {
           "Credibility": {
             "path": "Credibility",
+            "provides": [
+              "0.2.0"
+            ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "0.2.0-main"
+            "version": "0.3.0-main"
           }
         },
-        "sha": "ee11c172125943086d84d8598ff47dd2765296a0"
+        "sha": "5f11021e7e2aa0a2dfa3c13b2efa248eee91bd25"
       },
       "v0.1.0": {
         "libs": {
@@ -3608,6 +3635,21 @@
           }
         },
         "sha": "7d8d590060266b3630b44934cca6fd5d9c2b7988"
+      },
+      "v0.3.0": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "provides": [
+              "0.2.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "d5e74b6bd86a96d7f3128722749aa766a655b371"
       }
     }
   },
@@ -13545,7 +13587,7 @@
             "version": "0.3.2-main"
           }
         },
-        "sha": "1ccf25ef9ad5c7e67b9a5f228407eabf54dbbce4"
+        "sha": "41dd4bb48244ed8fac4cd485dbb3e6267c82f569"
       }
     }
   },
