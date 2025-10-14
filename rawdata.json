@@ -6054,6 +6054,10 @@
       "master": {
         "libs": {
           "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0",
+              "2.2.1"
+            ],
             "path": "IDEAS",
             "uses": {
               "Modelica": "4.0.0"
@@ -6061,7 +6065,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "24eea8ff8c67d1b32d53429eaaec9c6a3fbaac84"
+        "sha": "a9cc4fd988fdc2e8d7dbec9b1f8b97f599f57c8b"
       },
       "v1.0.0": {
         "libs": {
@@ -6474,6 +6478,23 @@
           }
         },
         "sha": "74eeea2df4c54ace14f6eeb13106cdb290f0c5b0"
+      }
+    }
+  },
+  "LEPSE": {
+    "refs": {
+      "v1.1": {},
+      "v1.2": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "c63c76470fe2ef8139c9851eb98be72f5a8d5edf"
       }
     }
   },

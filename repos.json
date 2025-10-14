@@ -705,6 +705,18 @@
       ["*", "obsolete"]
     ]
   },
+  "LEPSE": {
+    "branches": {
+      "v1.1": "v1.1",
+      "v1.2": "v1.2"
+    },
+    "names": ["LEPSE"],
+    "github": "AndrejFlorinskii/LEPSE",
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
+    ]
+  },
   "LibRAS": {
     "branches": {"master": "master"},
     "names": ["LibRAS"],
