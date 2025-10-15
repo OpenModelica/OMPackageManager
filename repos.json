@@ -707,10 +707,11 @@
   },
   "LEPSE": {
     "branches": {
-      "v1.2": "v1.2"
+      "main": "main"
     },
     "names": ["LEPSE"],
     "github": "AndrejFlorinskii/LEPSE",
+    "ignore-tags": ["v1.1.0"],
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
