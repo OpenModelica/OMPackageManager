@@ -711,7 +711,7 @@
     },
     "names": ["LEPSE"],
     "github": "AndrejFlorinskii/LEPSE",
-    "ignore-tags": ["v1.1.0"],
+    "ignore-tags": ["v1.1.0", "v1.2.1"],
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
