@@ -941,8 +941,10 @@
   },
   "ModPowerSystems": {
     "names": ["ModPowerSystems"],
-    "github": "ModPowerSystems/ModPowerSystems",
+    "git": "https://git.rwth-aachen.de/acs/public/simulation/modpowersystems.git",
+    "zipfile": "https://git.rwth-aachen.de/acs/public/simulation/modpowersystems/-/archive/{0}/modpowersystems-{0}.zip",
     "branches": {"master": "master"},
+    "ignore-tags": ["msp_example"],
     "support": [
       ["prerelease", "noSupport"],
       ["*", "experimental"]
