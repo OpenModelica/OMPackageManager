@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "a82d9a7e49d7d8620e954b57788493911219d957"
+        "sha": "57a2c5cf146d4bb465673e167d5f8aca8fa2f941"
       },
       "nightly": {
         "libs": {
@@ -3895,7 +3895,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "a82d9a7e49d7d8620e954b57788493911219d957"
+        "sha": "57a2c5cf146d4bb465673e167d5f8aca8fa2f941"
       },
       "nightly-release": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "a82d9a7e49d7d8620e954b57788493911219d957"
+        "sha": "57a2c5cf146d4bb465673e167d5f8aca8fa2f941"
       }
     }
   },
@@ -6705,6 +6705,24 @@
           }
         },
         "sha": "9c8cb27c3812b17525a440443479df730c70fc48"
+      }
+    }
+  },
+  "ModPowerSystems": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ModPowerSystems": {
+            "path": "ModPowerSystems",
+            "uses": {
+              "Complex": "3.2.2",
+              "Modelica": "3.2.2",
+              "ModelicaServices": "3.2.2"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "df3afce27d5e935c4111f392275744a655abe216"
       }
     }
   },
