@@ -939,15 +939,6 @@
       ["*", "obsolete"]
     ]
   },
-  "ModPowerSystems": {
-    "names": ["ModPowerSystems"],
-    "github": "ModPowerSystems/ModPowerSystems",
-    "branches": {"master": "master"},
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "experimental"]
-    ]
-  },
   "MultiPhaseMixtureMedia": {
     "names": ["MultiPhaseMixture"],
     "github": "jwindahlModelon/MultiPhaseMixtureMedia",
