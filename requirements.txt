@@ -1,6 +1,6 @@
 argparse
 atlassian-python-api
-OMPython
+OMPython==4.0.0
 pygit2
 PyGithub
 semantic_version

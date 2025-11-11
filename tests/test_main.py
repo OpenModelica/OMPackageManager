@@ -32,20 +32,21 @@ class TestCLI(TestCaseBase):
 
             __main__.main(["check-missing"])
 
-            self.assertIn('''modelica-3rdparty/BuildSysPro
-modelica-3rdparty/electrolytemedia
-modelica-3rdparty/ExternalMedia
-modelica-3rdparty/FluidSystemComponents
-modelica-3rdparty/Greenhouses-Library
-modelica-3rdparty/HeatTransferComponents
-modelica-3rdparty/LCC_HVDC
-modelica-3rdparty/MoSDH
-modelica-3rdparty/NeuralNetwork
-modelica-3rdparty/OpenHydraulics
-modelica-3rdparty/ShipSIM
-modelica-3rdparty/SMEHV
-modelica-3rdparty/ThermoSysPro
-''', out.getvalue())
+            out_string = out.getvalue()
+            self.assertIn('modelica-3rdparty/BuildSysPro', out_string)
+            self.assertIn('modelica-3rdparty/electrolytemedia', out_string)
+            self.assertIn('modelica-3rdparty/ExternalMedia', out_string)
+            self.assertIn('modelica-3rdparty/FluidSystemComponents', out_string)
+            self.assertIn('modelica-3rdparty/Greenhouses-Library', out_string)
+            self.assertIn('modelica-3rdparty/HeatTransferComponents', out_string)
+            self.assertIn('modelica-3rdparty/LCC_HVDC', out_string)
+            self.assertIn('modelica-3rdparty/MoSDH', out_string)
+            self.assertIn('modelica-3rdparty/NeuralNetwork', out_string)
+            self.assertIn('modelica-3rdparty/OpenHydraulics', out_string)
+            self.assertIn('modelica-3rdparty/ShipSIM', out_string)
+            self.assertIn('modelica-3rdparty/SMEHV', out_string)
+            self.assertIn('modelica-3rdparty/ThermoSysPro', out_string)
+
         finally:
             sys.stdout = saved_stdout
 

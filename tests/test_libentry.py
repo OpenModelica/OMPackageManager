@@ -45,7 +45,6 @@ class TestNewLibentry(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         """Remove git repositories, stop OMC session."""
-        cls.omc.sendExpression("exit")
         shutil.rmtree(cls.cache_dir)
 
     def tearDown(self):
