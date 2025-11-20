@@ -1424,6 +1424,17 @@
       ["*", "obsolete"]
     ]
   },
+  "TILMedia_AddOn_Tests": {
+    "names": ["TILMedia_AddOn_Tests"],
+    "github": "TLK-Thermo/TILMediaClaRa",
+    "branches": {"main": "main"},
+    "ignore-tags": ["1.7.0"],
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.8.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "ThermalSeparation": {
     "names": ["ThermalSeparation"],
     "github": "modelica-3rdparty/ThermalSeparation",

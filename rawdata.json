@@ -13114,6 +13114,75 @@
       }
     }
   },
+  "TILMedia_AddOn_Tests": {
+    "refs": {
+      "1.8.0": {
+        "libs": {
+          "TILMedia_AddOn_Tests": {
+            "path": "TILMedia_AddOn_Tests",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.0-ClaRa"
+            },
+            "version": "1.8.0-ClaRa"
+          }
+        },
+        "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
+      },
+      "1.8.1": {
+        "libs": {
+          "TILMedia_AddOn_Tests": {
+            "path": "TILMedia_AddOn_Tests",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.1-ClaRa"
+            },
+            "version": "1.8.0-ClaRa"
+          }
+        },
+        "sha": "010603eb27287ce477b3902926296ee9b305af50"
+      },
+      "1.8.2": {
+        "libs": {
+          "TILMedia_AddOn_Tests": {
+            "path": "TILMedia_AddOn_Tests",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.8.2-ClaRa"
+            },
+            "version": "1.8.2-ClaRa"
+          }
+        },
+        "sha": "7798e9af2641d1624b275f0daafd179b4c23db44"
+      },
+      "1.9.0": {
+        "libs": {
+          "TILMedia_AddOn_Tests": {
+            "path": "TILMedia_AddOn_Tests",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.9.0-ClaRa"
+            },
+            "version": "1.9.0-ClaRa"
+          }
+        },
+        "sha": "1845376fb70a32e51c8bbf75ae999c27662b376e"
+      },
+      "main": {
+        "libs": {
+          "TILMedia_AddOn_Tests": {
+            "path": "TILMedia_AddOn_Tests",
+            "uses": {
+              "Modelica": "4.0.0",
+              "TILMedia": "1.9.0-ClaRa"
+            },
+            "version": "1.9.0-ClaRa"
+          }
+        },
+        "sha": "1845376fb70a32e51c8bbf75ae999c27662b376e"
+      }
+    }
+  },
   "TRANSFORM": {
     "refs": {
       "Before_MSL_4.0": {
