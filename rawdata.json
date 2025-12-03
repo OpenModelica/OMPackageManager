@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "9219c3d97194ac0bb6fe240be04a6edbe6e0ce3d"
+        "sha": "382bbced1473d3d0e29857e5c6398006c8b3bea3"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "9219c3d97194ac0bb6fe240be04a6edbe6e0ce3d"
+        "sha": "382bbced1473d3d0e29857e5c6398006c8b3bea3"
       }
     }
   },
@@ -6015,6 +6015,49 @@
           }
         },
         "sha": "753273b48975d76f6827bbd1ad69066f10f5c3bd"
+      },
+      "v1.0.0": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "cfd10ec3fea3b96aed5fec09aae63bab74c9b732"
+      },
+      "v2.0.0": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "provides": [
+              "1.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.0.0"
+          }
+        },
+        "sha": "134a61d65f7d0f82df859395c2b2475657a487a6"
+      },
+      "v2.1.0": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "provides": [
+              "1.0.0",
+              "2.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "2.1.0"
+          }
+        },
+        "sha": "2045ee572a098a340f377b0902a2206ba2444680"
       }
     }
   },
