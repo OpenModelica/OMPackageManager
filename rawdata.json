@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "382bbced1473d3d0e29857e5c6398006c8b3bea3"
+        "sha": "176c000317d40d2e02a4fcbb167ad281e05bb244"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "382bbced1473d3d0e29857e5c6398006c8b3bea3"
+        "sha": "176c000317d40d2e02a4fcbb167ad281e05bb244"
       }
     }
   },
@@ -5776,6 +5776,22 @@
   },
   "HelmholtzMedia": {
     "refs": {
+      "main": {
+        "libs": {
+          "HelmholtzMedia": {
+            "path": "HelmholtzMedia",
+            "provides": [
+              "1.0.0",
+              "2.0.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "2.1.0-main"
+          }
+        },
+        "sha": "2045ee572a098a340f377b0902a2206ba2444680"
+      },
       "master": {
         "libs": {
           "HelmholtzMedia": {
