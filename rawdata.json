@@ -13381,12 +13381,12 @@
               "0.1.0"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "0.2.0-master"
           }
         },
-        "sha": "709797e2fa1491e9d2be81aec8be6524bab18532"
+        "sha": "fd1928130a9a46effefb5f6a117d2e2c7c7637cf"
       }
     }
   },
