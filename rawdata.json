@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "cd9a3f829d0dfb5fccf4dd8830683f9b67366b1a"
+        "sha": "75b5d989cf693c39d62f295209662258ab144dc6"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "cd9a3f829d0dfb5fccf4dd8830683f9b67366b1a"
+        "sha": "75b5d989cf693c39d62f295209662258ab144dc6"
       }
     }
   },
@@ -9902,7 +9902,7 @@
             "version": "3.1.0-dev"
           }
         },
-        "sha": "88288b0f9178661ae4e2209b5fba9b5848cbdbbc"
+        "sha": "3df101c2f06432d307fe3a5f86d64bddd97dda90"
       },
       "v1.0.0": {
         "libs": {
@@ -13548,6 +13548,7 @@
               "0.3.0",
               "0.4.1",
               "0.5.0",
+              "1.1.0",
               "1.1.0"
             ],
             "uses": {
@@ -13557,7 +13558,7 @@
             "version": "1.2.0-main"
           }
         },
-        "sha": "d4b85ecb92d18bf4a86d09bca5a5ab2c8737a851"
+        "sha": "e68777c7a5c29ff2ee1ef201c8b21ec005b8a8e8"
       },
       "v0.1-beta": {
         "libs": {
