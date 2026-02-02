@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "bb06c535d05ed6f0659429b052c09298fbcd0758"
+        "sha": "58b03bb7e033b38e8d2633d3c00f3709e022b69d"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "bb06c535d05ed6f0659429b052c09298fbcd0758"
+        "sha": "58b03bb7e033b38e8d2633d3c00f3709e022b69d"
       }
     }
   },
@@ -6092,7 +6092,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "9f7f280f19858e918a0750739a4fc0e5c9914d2d"
+        "sha": "449953f260bbaadbe189735d92b6ec53c350daed"
       },
       "v3.0.0": {
         "libs": {
@@ -9663,6 +9663,19 @@
           }
         },
         "sha": "92bdf3cabeebcd246c60e92f2945ca0e9af074f8"
+      },
+      "v3.0.0": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "4.0.0",
+              "OpenIPSL": "3.0.0"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "89d04de59980fae3a227475ab3a46efd589ab9d3"
       }
     }
   },
