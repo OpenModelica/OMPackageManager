@@ -9676,6 +9676,19 @@
           }
         },
         "sha": "89d04de59980fae3a227475ab3a46efd589ab9d3"
+      },
+      "v3.0.1": {
+        "libs": {
+          "OpenHPL": {
+            "path": "OpenHPL",
+            "uses": {
+              "Modelica": "4.0.0",
+              "OpenIPSL": "3.0.0"
+            },
+            "version": "3.0.1"
+          }
+        },
+        "sha": "71008531a00e45db18e5e1aa9ae2fa1ef158f07b"
       }
     }
   },
