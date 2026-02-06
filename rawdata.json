@@ -13584,7 +13584,7 @@
             "version": "1.2.0-main"
           }
         },
-        "sha": "28ce2cb47ca05c3ed18471b0bac8923a3a822b0c"
+        "sha": "049904d82787acc75ad83ada86ab3b961816fe87"
       },
       "v0.1-beta": {
         "libs": {
@@ -13798,6 +13798,18 @@
         },
         "sha": "62ab982855719aa43f200bb2f1c6ba0d5f3a617d"
       },
+      "0.3.4": {
+        "libs": {
+          "URDFModelica": {
+            "path": "URDFModelica",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.4"
+          }
+        },
+        "sha": "1554a4537f0d8f91a0e1b7f8b76d5f9527baf768"
+      },
       "main": {
         "libs": {
           "URDFModelica": {
@@ -13805,10 +13817,10 @@
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "0.3.2-main"
+            "version": "0.3.4-main"
           }
         },
-        "sha": "41dd4bb48244ed8fac4cd485dbb3e6267c82f569"
+        "sha": "1554a4537f0d8f91a0e1b7f8b76d5f9527baf768"
       }
     }
   },
