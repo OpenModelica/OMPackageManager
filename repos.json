@@ -666,7 +666,7 @@
     "names": ["IDEAS"],
     "github": "open-ideas/IDEAS",
     "branches": {"master": "master"},
-    "ignore-tags": ["CrashCourse2021", "_LinearisationPaper", "v0.3.0", "v4.0.0", "master"],
+    "ignore-tags": ["CrashCourse2021", "_LinearisationPaper", "v0.3.0"],
     "support": [
       ["prerelease", "noSupport"],
       [">=3.0.0", "experimental"],
