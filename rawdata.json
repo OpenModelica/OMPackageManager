@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "49d22385c3e5f697c404f7ae2b381f5739dbfaa7"
+        "sha": "d4c2158629b65651e9994843e08350dc59db1505"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "49d22385c3e5f697c404f7ae2b381f5739dbfaa7"
+        "sha": "d4c2158629b65651e9994843e08350dc59db1505"
       }
     }
   },
@@ -9919,16 +9919,17 @@
             ],
             "path": "OpenIPSL",
             "provides": [
-              "3.0.0"
+              "3.0.0",
+              "3.0.1"
             ],
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
             },
-            "version": "3.1.0-dev"
+            "version": "3.2.0-dev"
           }
         },
-        "sha": "03fdcd3a9157c4cdaee44c79129f8632a2df7f50"
+        "sha": "7e3b984931877109581be88fa149fa982f845186"
       },
       "v1.0.0": {
         "libs": {
@@ -10037,6 +10038,30 @@
           }
         },
         "sha": "648ac5422769915f2e04a5ccd0370e413e3ff23e"
+      },
+      "v3.1.0": {
+        "libs": {
+          "OpenIPSL": {
+            "convertFromVersion": [
+              "0.8.0",
+              "0.8.1",
+              "1.0.0",
+              "1.5.0",
+              "2.0.0"
+            ],
+            "path": "OpenIPSL",
+            "provides": [
+              "3.0.0",
+              "3.0.1"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "3.1.0"
+          }
+        },
+        "sha": "0ee96c3bcf71330916fbaba60a82eeaac5e1ffb5"
       }
     }
   },
