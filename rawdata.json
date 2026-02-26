@@ -3895,7 +3895,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "a5c00f17a6ed78361ec8e756d64fee3cc76c87e5"
+        "sha": "d4c2158629b65651e9994843e08350dc59db1505"
       },
       "nightly-release": {
         "libs": {
@@ -7074,7 +7074,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "ea411f3efb70efcd5f4f18efc16ea085dc0801e8"
+        "sha": "7d40126e955124d8b550528f01a869566635de05"
       },
       "trunk": {
         "libs": {
@@ -7155,7 +7155,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "7832c68458be6add3aec454f637d238efbccabb0"
+        "sha": "71c7d4d5b42b71a4d1df97bcacfe5cfeea17c0d7"
       },
       "v1.3.1": {
         "libs": {
