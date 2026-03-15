@@ -458,7 +458,8 @@
     "names": ["ExternalMedia"],
     "zipfiles": {
       "3.3.2": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v3.3.2/ExternalMedia-3.3.2.zip",
-      "4.0.0": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
+      "4.0.0": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip",
+      "4.1.1": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.1.1/ExternalMedia-4.1.1.zip"
     },
     "support": [
       [">=3.3.2", "fullSupport"],
