@@ -1592,12 +1592,12 @@
               "12.1.0"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "13.0.0-master"
           }
         },
-        "sha": "ad4273c1f580eebace5d8fced36082243db70ab9"
+        "sha": "88e7ea4b03cb8226c507cf895296dbbd07ced552"
       },
       "v1.4_build1": {
         "libs": {
@@ -6369,12 +6369,12 @@
             ],
             "path": "KeyWordIO",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "0.13.0-master"
+            "version": "0.12.1-master"
           }
         },
-        "sha": "843b6c85f075d62ecdf7b471a5897687cd689b89"
+        "sha": "2b01072c522d58179f0d1d77b7ceffdc57f01236"
       },
       "v0.1.0": {
         "libs": {
@@ -6441,6 +6441,24 @@
           }
         },
         "sha": "a626825c764efab2be68eafdcff55459fe31ad79"
+      },
+      "v0.12.1": {
+        "libs": {
+          "KeyWordIO": {
+            "convertFromVersion": [
+              "0.6.0",
+              "0.7.0",
+              "0.8.0",
+              "0.9.0"
+            ],
+            "path": "KeyWordIO",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.12.1"
+          }
+        },
+        "sha": "2b01072c522d58179f0d1d77b7ceffdc57f01236"
       },
       "v0.2.0": {
         "libs": {
