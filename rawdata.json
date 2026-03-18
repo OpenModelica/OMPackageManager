@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "782f4904fa3ea9b0f9c8f64dd88360a513717341"
+        "sha": "2bd44906be263c83e5b2c445b37dd38e4f35742a"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "782f4904fa3ea9b0f9c8f64dd88360a513717341"
+        "sha": "2bd44906be263c83e5b2c445b37dd38e4f35742a"
       }
     }
   },
@@ -10488,7 +10488,7 @@
             "version": "25.9.0-main"
           }
         },
-        "sha": "94c8c6dc09a8a25e2b2fd14960bc716ea6a31549"
+        "sha": "de5fc7280ddaefacbac29ec6e89daea657dd2bbc"
       },
       "v25.04-beta.1": {
         "libs": {
@@ -10625,6 +10625,18 @@
           }
         },
         "sha": "62b5f7fbc15f91f10aa6e201010d57aec40bb311"
+      },
+      "v26.03": {
+        "libs": {
+          "Pharmacolibrary": {
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "25.9.0"
+          }
+        },
+        "sha": "de5fc7280ddaefacbac29ec6e89daea657dd2bbc"
       },
       "v26.03-beta1": {
         "libs": {
