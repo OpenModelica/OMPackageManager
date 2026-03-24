@@ -1455,12 +1455,12 @@
               "12.1.0"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "12.1.1-maint.12.x"
           }
         },
-        "sha": "d631fc5155df0a7de87bf80129efceafdd9284e5"
+        "sha": "8fbca51d4f79a1a88f2a6788a1c8ef7464db747c"
       },
       "maint.7.0.x": {
         "libs": {
