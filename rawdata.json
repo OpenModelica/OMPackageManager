@@ -1423,12 +1423,12 @@
               "11.1.0"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "11.1.1-maint.11.x"
           }
         },
-        "sha": "1f7eae7257aea42008ce2acd5defb19a6dff7b04"
+        "sha": "8ffaefad4792181db2d71f08f9077bcc535dee17"
       },
       "maint.12.x": {
         "libs": {
@@ -3883,7 +3883,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "f46f6aa4ac1da865404196ce63b5b339102d8c4d"
+        "sha": "52f7faed5b43039446767f4ea6217b339b769b51"
       },
       "nightly": {
         "libs": {
@@ -4111,7 +4111,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "f46f6aa4ac1da865404196ce63b5b339102d8c4d"
+        "sha": "52f7faed5b43039446767f4ea6217b339b769b51"
       }
     }
   },
@@ -6092,7 +6092,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "5a5a4a515934eac70d267b0af496eb86f83c49b0"
+        "sha": "ffe17cca0bb6bd7e06751892cf3b19194d0fd468"
       },
       "v3.0.0": {
         "libs": {
