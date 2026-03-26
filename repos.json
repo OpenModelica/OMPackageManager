@@ -1469,7 +1469,10 @@
   "ThermoPower": {
     "names": ["ThermoPower"],
     "github": "casella/ThermoPower",
-    "branches": {"master": "master"},
+    "branches": {
+	  "master": "master",
+	  "v4.0.0-dev": "v4.0.0-dev"
+	},
     "standard": [
       ["release.2.0", "2.x"],
       ["release.2.1", "2.x"],
