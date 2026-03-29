@@ -2382,6 +2382,27 @@
       }
     }
   },
+  "CRML": {
+    "refs": {
+      "main": {
+        "libs": {
+          "CRML": {
+            "path": "libraries/modelica/CRML.mo",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          },
+          "CRMLtoModelica": {
+            "path": "libraries/modelica/CRMLtoModelica.mo",
+            "version": "main"
+          }
+        },
+        "sha": "6a8ef6da8ad26a55ef80ebf119bb72da4f4e457f"
+      }
+    }
+  },
   "ChaoticCircuits": {
     "refs": {
       "main": {
