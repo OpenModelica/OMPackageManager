@@ -292,7 +292,9 @@ def main():
                             with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
                                 zip_ref.extractall(repopath)
                         except zipfile.BadZipfile:
-                            print("Failed to download or extract zip file from URL: %s downloaded to %s" % (sha, zipfilepath))
+                            print(
+                                "Failed to download or extract zip file from URL: %s downloaded to %s" % 
+                                (sha, zipfilepath))
                             raise
                     else:
                         gitrepo = getgitrepo(giturl, repopath + ".git")
