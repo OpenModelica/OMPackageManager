@@ -291,7 +291,7 @@ def main():
                                 fout.write(requests.get(sha, allow_redirects=True).content)
                             with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
                                 zip_ref.extractall(repopath)
-                        except:
+                        except zipfile.BadZipfile:
                             print("Failed to download or extract zip file from URL: %s" % zipfilepath)
                             raise
                     else:
