@@ -285,11 +285,15 @@ def main():
                         except FileNotFoundError:
                             pass
                         os.mkdir(repopath)
-                        zipfilepath = repopath + "-" + tagName + ".zip"
-                        with open(zipfilepath, 'wb') as fout:
-                            fout.write(requests.get(sha, allow_redirects=True).content)
-                        with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
-                            zip_ref.extractall(repopath)
+                        try:
+                            zipfilepath = repopath + "-" + tagName + ".zip"
+                            with open(zipfilepath, 'wb') as fout:
+                                fout.write(requests.get(sha, allow_redirects=True).content)
+                            with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
+                                zip_ref.extractall(repopath)
+                        except:
+                            print("Failed to download or extract zip file from URL: %s" % zipfilepath)
+                            raise
                     else:
                         gitrepo = getgitrepo(giturl, repopath + ".git")
                         try:
