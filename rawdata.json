@@ -1597,7 +1597,7 @@
             "version": "13.0.0-master"
           }
         },
-        "sha": "dc18485a811428470bad3288af1371c771173d82"
+        "sha": "c8d6753f48fc71aab4751bdc03803f7d0fb42ffe"
       },
       "v1.4_build1": {
         "libs": {
@@ -3904,7 +3904,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "ddda3d9759eac51186274272cf91ab72356ac534"
+        "sha": "9237cf7b6f515b91b80c19b87fc80ab01a2324ed"
       },
       "nightly": {
         "libs": {
@@ -3916,7 +3916,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "ddda3d9759eac51186274272cf91ab72356ac534"
+        "sha": "5808096e424bdebb65268aa7b3b32c674259ca4c"
       },
       "nightly-release": {
         "libs": {
@@ -4132,7 +4132,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "ddda3d9759eac51186274272cf91ab72356ac534"
+        "sha": "9237cf7b6f515b91b80c19b87fc80ab01a2324ed"
       }
     }
   },
@@ -5039,6 +5039,22 @@
           }
         },
         "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
+      },
+      "4.1.1": {
+        "libs": {
+          "ExternalMedia": {
+            "path": "",
+            "provides": [
+              "4.0.0",
+              "4.1.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.1"
+          }
+        },
+        "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.1.1/ExternalMedia-v4.1.1.zip"
       }
     }
   },
@@ -6145,7 +6161,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "a9cc4fd988fdc2e8d7dbec9b1f8b97f599f57c8b"
+        "sha": "6d2b722f0bdbeb411f15de853fb118542429acfe"
       },
       "v1.0.0": {
         "libs": {
@@ -6237,6 +6253,22 @@
           }
         },
         "sha": "a7be00b7e07943c0acda1b5799a8d32bea896d7b"
+      },
+      "v4.0.0": {
+        "libs": {
+          "IDEAS": {
+            "convertFromVersion": [
+              "0.2.0",
+              "2.2.1"
+            ],
+            "path": "IDEAS",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "4.0.0"
+          }
+        },
+        "sha": "24eea8ff8c67d1b32d53429eaaec9c6a3fbaac84"
       }
     }
   },
@@ -10509,7 +10541,7 @@
             "version": "25.9.0-main"
           }
         },
-        "sha": "bdd36a78f21d5c479483c81d7cab7121654ffe0c"
+        "sha": "5c4dc665d5be048df67eaf811185bc49e7c67abc"
       },
       "v25.04-beta.1": {
         "libs": {
