@@ -1,4 +1,4 @@
-FROM openmodelica/openmodelica:v1.25.1-ompython
+FROM openmodelica/openmodelica:v1.26.3-ompython
 
 RUN pip3 install --no-cache-dir \
   argparse \
