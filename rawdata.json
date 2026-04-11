@@ -11296,13 +11296,13 @@
             ],
             "path": "Physiolibrary",
             "uses": {
-              "Complex": "4.0.0",
-              "Modelica": "4.0.0"
+              "Complex": "4.1.0",
+              "Modelica": "4.1.0"
             },
-            "version": "3.1.0-alpha"
+            "version": "3.1.0-beta"
           }
         },
-        "sha": "c36fc29a9fd0c19c165f50b01fe79e780384e7c4"
+        "sha": "07dc77947555ea66247d45c08b98cec4ad747c84"
       },
       "v1.0.0": {
         "libs": {
