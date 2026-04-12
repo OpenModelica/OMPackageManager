@@ -13041,12 +13041,12 @@
           "Soltermica": {
             "path": "Soltermica",
             "uses": {
-              "Modelica": "3.2.2"
+              "Modelica": "4.0.0"
             },
             "version": "master"
           }
         },
-        "sha": "9f7224bd89335f95dffe1ccdaa094df5a3279fdf"
+        "sha": "12e1f5aa17be29ec5c6848aa76b8e1b34724b4f1"
       }
     }
   },
