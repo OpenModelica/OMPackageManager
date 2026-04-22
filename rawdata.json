@@ -1398,7 +1398,7 @@
             "version": "10.1.2-maint.10.0.x"
           }
         },
-        "sha": "8ebbdc8df3df8a5b1f176b04598396dc510c1cdd"
+        "sha": "282fe668f8a4e97ab2e232353eb041e4cd58ca9a"
       },
       "maint.11.x": {
         "libs": {
@@ -2387,7 +2387,7 @@
       "main": {
         "libs": {
           "CRML": {
-            "path": "libraries/modelica/CRML.mo",
+            "path": "libraries/modelica/CRML",
             "uses": {
               "Complex": "4.0.0",
               "Modelica": "4.0.0"
@@ -2399,7 +2399,7 @@
             "version": "main"
           }
         },
-        "sha": "b946941f98807e2cb017058f07531c33a2b1cd68"
+        "sha": "210152f784b4b45d27500411630cd8a21578cfa3"
       }
     }
   },
