@@ -1597,7 +1597,7 @@
             "version": "13.0.0-master"
           }
         },
-        "sha": "9f83a651912bad4d5e9b35cceb005fb3047ca3e1"
+        "sha": "7df5bc254da93cf70aa6045a41f537290366fe09"
       },
       "v1.4_build1": {
         "libs": {
@@ -2393,13 +2393,9 @@
               "Modelica": "4.0.0"
             },
             "version": "main"
-          },
-          "CRMLtoModelica": {
-            "path": "libraries/modelica/CRMLtoModelica.mo",
-            "version": "main"
           }
         },
-        "sha": "d2851c839147c4068ccde26a778a871973d56aa0"
+        "sha": "76e26adc58a9db450ad416e90db613f119b7ac7f"
       }
     }
   },
@@ -13728,7 +13724,7 @@
             "version": "1.2.0-main"
           }
         },
-        "sha": "46029dfb5b06736f1d4b16723399d1ccfcfbcd03"
+        "sha": "528a88d20a848ebfb55521f79caf1c158bce3bd9"
       },
       "v0.1-beta": {
         "libs": {
