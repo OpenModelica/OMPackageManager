@@ -79,7 +79,7 @@
             "version": "main"
           }
         },
-        "sha": "61273ea28762b2369292d6333fcdd3b7e902c09c"
+        "sha": "a9ed19c0e27bb9214261b23327830e4f9e219dd7"
       }
     }
   },
@@ -13724,7 +13724,7 @@
             "version": "1.2.0-main"
           }
         },
-        "sha": "528a88d20a848ebfb55521f79caf1c158bce3bd9"
+        "sha": "7ca3b935b75f0976164edf9e9034d78cf566eba0"
       },
       "v0.1-beta": {
         "libs": {
