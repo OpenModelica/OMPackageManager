@@ -1428,7 +1428,7 @@
             "version": "11.1.1-maint.11.x"
           }
         },
-        "sha": "c819a94c6d52b58d3cba23caa8cb871f1e97d2fd"
+        "sha": "16657dbfcd789e924daab8027b423f5abeeb00e2"
       },
       "maint.12.x": {
         "libs": {
@@ -1447,7 +1447,8 @@
               "10.1.0",
               "10.1.1",
               "11.0.0",
-              "11.1.0"
+              "11.1.0",
+              "11.1.1"
             ],
             "path": "Buildings",
             "provides": [
@@ -1460,7 +1461,7 @@
             "version": "12.1.1-maint.12.x"
           }
         },
-        "sha": "fe09072c92b91b605c9c712ddf54b9a64178b622"
+        "sha": "04b122f0c444f3a505163c76e7294db4964c62a8"
       },
       "maint.7.0.x": {
         "libs": {
@@ -1597,7 +1598,7 @@
             "version": "13.0.0-master"
           }
         },
-        "sha": "0d7cf53f81085ebd20a71b8cc29e366c236c6808"
+        "sha": "bf456b3a4a2e5ec26a38913aef7390afd62fa686"
       },
       "v1.4_build1": {
         "libs": {
@@ -6125,7 +6126,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "b9f9392fb4a9331d28482073d0863b34161e4da8"
+        "sha": "594227f9023291b06dcfb53f168463f6235f4629"
       },
       "v3.0.0": {
         "libs": {
