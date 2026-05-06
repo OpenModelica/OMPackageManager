@@ -1592,13 +1592,16 @@
               "12.1.1"
             ],
             "path": "Buildings",
+            "provides": [
+              "13.0.0"
+            ],
             "uses": {
               "Modelica": "4.1.0"
             },
-            "version": "13.0.0-master"
+            "version": "13.0.1-master"
           }
         },
-        "sha": "55abf579598ca81cae0a82f337350375958e6722"
+        "sha": "6e0f19a25b5b4f8dfb620d8c68d10b537dfdec2d"
       },
       "v1.4_build1": {
         "libs": {
@@ -3996,7 +3999,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "deab6f8539a714429c36b536b3c929eb3cc14326"
+        "sha": "967a657a3562291295185ea055977ebae8ca6ea5"
       },
       "nightly": {
         "libs": {
@@ -4224,7 +4227,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "deab6f8539a714429c36b536b3c929eb3cc14326"
+        "sha": "967a657a3562291295185ea055977ebae8ca6ea5"
       }
     }
   },
