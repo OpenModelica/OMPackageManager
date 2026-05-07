@@ -1454,15 +1454,16 @@
             "path": "Buildings",
             "provides": [
               "12.0.0",
-              "12.1.0"
+              "12.1.0",
+              "12.1.1"
             ],
             "uses": {
               "Modelica": "4.1.0"
             },
-            "version": "12.1.1-maint.12.x"
+            "version": "12.1.2-maint.12.x"
           }
         },
-        "sha": "451783ab30a673563aecd11cc30f5a22f38e8cdd"
+        "sha": "727d16efe9802af8942d2f006fa4fa0a049c54a2"
       },
       "maint.7.0.x": {
         "libs": {
