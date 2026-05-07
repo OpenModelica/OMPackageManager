@@ -1420,15 +1420,16 @@
             "provides": [
               "11.0.0",
               "11.1.0",
-              "11.1.0"
+              "11.1.0",
+              "11.1.1"
             ],
             "uses": {
               "Modelica": "4.1.0"
             },
-            "version": "11.1.1-maint.11.x"
+            "version": "11.1.2-maint.11.x"
           }
         },
-        "sha": "d14e4094b89d0bd248275efdd8b4bf0548ea6bf0"
+        "sha": "a0f19b2b62c22fef3c4a583df65c2f7cd81bd8d2"
       },
       "maint.12.x": {
         "libs": {
