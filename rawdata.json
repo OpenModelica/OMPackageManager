@@ -5722,10 +5722,10 @@
             "uses": {
               "Modelica": "4.1.0"
             },
-            "version": "1.1.2-master"
+            "version": "1.1.3-master"
           }
         },
-        "sha": "b23b8fb9bd2200f89f7bd5d83d9a87156d29ca13"
+        "sha": "76825cd67e1236498be2c3b74ec700a64a72ecbf"
       }
     }
   },
