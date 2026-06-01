@@ -569,6 +569,20 @@
           }
         },
         "sha": "b9d4d88d1fb38511d2af0958f11855c14064841a"
+      },
+      "v3.0.0": {
+        "libs": {
+          "AixLib": {
+            "path": "AixLib",
+            "uses": {
+              "Modelica": "4.0.0",
+              "Modelica_DeviceDrivers": "2.1.1",
+              "SDF": "0.4.2"
+            },
+            "version": "3.0.0"
+          }
+        },
+        "sha": "e716783b07f1bee5a4e45de1bcc1575576d7c974"
       }
     }
   },
@@ -2494,9 +2508,13 @@
               "Modelica": "4.0.0"
             },
             "version": "main"
+          },
+          "CRMLtoModelica": {
+            "path": "CRMLtoModelica.mo",
+            "version": "main"
           }
         },
-        "sha": "0df3b3adf6ad5436ab64eacf973673951a659176"
+        "sha": "2c8b7162149aca8e8328a7f0636fd2927b06fb68"
       }
     }
   },
