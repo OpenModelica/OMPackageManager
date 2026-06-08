@@ -1074,6 +1074,16 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenIWPI": {
+    "names": ["OpenIWPI"],
+    "github": "ALSETLab/OpenIWPI",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "OpenModelica_Microgrids": {
     "names": ["OpenModelica_Microgrids"],
     "github": "upb-lea/OpenModelica_Microgrids",
