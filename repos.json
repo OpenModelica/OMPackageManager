@@ -777,6 +777,16 @@
       ["*", "obsolete"]
     ]
   },
+  "MMChvdcLibrary": {
+    "names": ["MMChvdcLibrary"],
+    "github": "ALSETLab/MMChvdcLibrary",
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Modelica": {
     "names": ["Modelica","ModelicaReference","ModelicaServices","ModelicaTest","ModelicaTestOverdetermined","Complex","ObsoleteModelica3","ObsoleteModelica4"],
     "github": "OpenModelica/OpenModelica-ModelicaStandardLibrary",
