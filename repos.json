@@ -135,9 +135,9 @@
       ["*", "obsolete"]
     ]
   },
-  "Bodylight.mo": {
-    "names": ["Bodylight.mo"],
-    "github": "creative-connections/Bodylight.mo",
+  "Bodylight": {
+    "names": ["Bodylight"],
+    "github": "creative-connections/",
     "semverTagOverridesAnnotation": true,
     "branches": {"master": "master"},
     "support": [
