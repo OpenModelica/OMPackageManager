@@ -3464,7 +3464,7 @@
             "path": "ClaRa",
             "uses": {
               "Modelica": "4.0.0",
-              "SMArtIInt": "0.2.2",
+              "SMArtInt": "0.2.2",
               "TILMedia": "1.8.2-ClaRa"
             },
             "version": "1.8.2"
