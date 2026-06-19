@@ -1340,7 +1340,7 @@
   },
   "SMArtIInt": {
     "names": ["SMArtIInt", "SMArtInt"],
-    "github": "xrg-simulation/SMArtIInt",
+    "github": "xrg-simulation/SMArtInt",
     "branches": {"main": "main"},
     "support": [
       ["*", "experimental"]
