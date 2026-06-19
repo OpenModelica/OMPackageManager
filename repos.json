@@ -1338,8 +1338,8 @@
       ["*", "obsolete"]
     ]
   },
-  "SMArtIInt": {
-    "names": ["SMArtIInt", "SMArtInt"],
+  "SMArtInt": {
+    "names": ["SMArtInt"],
     "github": "xrg-simulation/SMArtInt",
     "branches": {"main": "main"},
     "support": [
