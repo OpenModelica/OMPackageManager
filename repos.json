@@ -1095,6 +1095,17 @@
       ["*", "obsolete"]
     ]
   },
+  "OpenRESV": {
+    "names": ["OpenRESV"],
+    "github": "ALSETLab/OpenRESV",
+    "search-extra-paths": ["Library"],
+    "branches": {"main": "main"},
+    "support": [
+      ["prerelease", "noSupport"],
+      [">=1.0.0", "experimental"],
+      ["*", "obsolete"]
+    ]
+  },
   "Optimisers": {
     "names": ["Optimisers"],
     "github": "harmanpa/Optimisers",
