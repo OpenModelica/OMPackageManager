@@ -137,7 +137,7 @@
   },
   "Bodylight": {
     "names": ["Bodylight"],
-    "github": "creative-connections/",
+    "github": "creative-connections/Bodylight.mo",
     "semverTagOverridesAnnotation": true,
     "branches": {"master": "master"},
     "support": [
