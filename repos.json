@@ -250,6 +250,7 @@
     "github": "xrg-simulation/ClaRa-official",
     "branches": {"main": "main"},
     "ignore-uses": ["FluidDissipation", "ClaRa_Dev"],
+	"ignore-tags": ["1.7.0","1.6.0","1.5.1","1.5.0","1.4.1"],
     "support": [
       ["prerelease", "noSupport"],
       [">=1.8.1", "support"],
