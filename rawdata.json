@@ -3534,7 +3534,7 @@
             "version": "0.3.0-main"
           }
         },
-        "sha": "ca86cfff4dc1e2bd4fe89739422de02e9764e692"
+        "sha": "981188391c54d5afd8dcd83aafc8a88cd8bd54b8"
       },
       "v0.1.0": {
         "libs": {
@@ -3586,6 +3586,21 @@
           }
         },
         "sha": "d5e74b6bd86a96d7f3128722749aa766a655b371"
+      },
+      "v0.3.0-build2": {
+        "libs": {
+          "Credibility": {
+            "path": "Credibility",
+            "provides": [
+              "0.2.0"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.3.0-build2"
+          }
+        },
+        "sha": "ce5321ca46bdca1990285fe1828c212f3e9689b8"
       }
     }
   },
