@@ -3846,7 +3846,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "b0982ed5f1296c605979d40465fad04a60600a32"
+        "sha": "dcebf915cf44344b3e633c9ed50e72e72fa4d24c"
       },
       "nightly-release": {
         "libs": {
@@ -13612,7 +13612,7 @@
             "version": "1.0.0-master"
           }
         },
-        "sha": "f672612cfaaeade177e3af5e9610cdfd9a341dfd"
+        "sha": "64a06562a6e3b9ea13f477b0f7a64db363e79ba5"
       },
       "v0.1-beta": {
         "libs": {
