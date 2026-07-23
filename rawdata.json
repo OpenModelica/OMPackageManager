@@ -9539,12 +9539,12 @@
           "NeuralNetwork": {
             "path": "NeuralNetwork",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "2.1.0-main"
           }
         },
-        "sha": "2add7e07681bba90d7f33b91feaaa43c2c0615e1"
+        "sha": "5def5523f06e2f178dd430932db15ff0ea394bca"
       },
       "v1.0": {
         "libs": {
