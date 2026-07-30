@@ -14135,6 +14135,18 @@
         },
         "sha": "1554a4537f0d8f91a0e1b7f8b76d5f9527baf768"
       },
+      "0.3.5": {
+        "libs": {
+          "URDFModelica": {
+            "path": "URDFModelica",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.4"
+          }
+        },
+        "sha": "94772c90456490385d3442e58e841b92fecaa4a7"
+      },
       "main": {
         "libs": {
           "URDFModelica": {
@@ -14145,7 +14157,7 @@
             "version": "0.3.4-main"
           }
         },
-        "sha": "1554a4537f0d8f91a0e1b7f8b76d5f9527baf768"
+        "sha": "94772c90456490385d3442e58e841b92fecaa4a7"
       }
     }
   },
