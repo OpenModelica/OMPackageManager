@@ -1525,7 +1525,7 @@
             "version": "12.1.2-maint.12.x"
           }
         },
-        "sha": "927a6b461a7cba8b09d96ca503000d8032fb9529"
+        "sha": "4e96182ec2ce24ea97d8d5b345603ad26760fe60"
       },
       "maint.7.0.x": {
         "libs": {
@@ -6566,6 +6566,18 @@
           }
         },
         "sha": "c63c76470fe2ef8139c9851eb98be72f5a8d5edf"
+      },
+      "v1.2.2": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.2"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
       }
     }
   },
