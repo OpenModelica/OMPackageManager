@@ -4613,12 +4613,12 @@
           "ExternData": {
             "path": "ExternData",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "3.2.0-master"
+            "version": "3.2.1-master"
           }
         },
-        "sha": "720b6c87696cfaade44484aedc31a207322ceb08"
+        "sha": "818456d09b622f489cf09da71932ed9c469345fb"
       },
       "v1.0.0": {
         "libs": {
