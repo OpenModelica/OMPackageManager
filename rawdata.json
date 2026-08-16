@@ -8022,15 +8022,16 @@
             "provides": [
               "3.0.0",
               "3.1.0",
-              "3.2.0"
+              "3.2.0",
+              "3.2.1"
             ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "3.2.1-main"
+            "version": "3.2.2-main"
           }
         },
-        "sha": "0c02e7c3fc75a00a775ca2e5999eb231672e459c"
+        "sha": "3f18e1a2d3682e8e12a520c7e0def8c4b83ab56a"
       },
       "v1.0.0": {
         "libs": {
