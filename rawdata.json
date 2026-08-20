@@ -4321,12 +4321,12 @@
           "ElectricBraking": {
             "path": "ElectricBraking",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "1.0.0-main"
           }
         },
-        "sha": "118f4e32fd498e5af869fd011b53d38b65660918"
+        "sha": "dbaefead4931eb6be4b8227d10bb11b855adbfe3"
       },
       "v1.0.0": {
         "libs": {
@@ -11950,7 +11950,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "39664e7d8fb96052fb9faa497936fffee70ab9b7"
+        "sha": "3cf8df301d7f5ab9e1c0a5c615e1f850df06b51d"
       },
       "issue11636": {
         "libs": {
