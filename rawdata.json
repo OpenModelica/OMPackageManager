@@ -11675,7 +11675,7 @@
             "version": "1.7.0-master"
           }
         },
-        "sha": "52b15aac17dc0ce30632dc9f01616dcbdf6eb1a1"
+        "sha": "35bf682bac3ed99d90c502b8850c835129ce2850"
       },
       "shall_be_current_master": {
         "libs": {
@@ -11950,7 +11950,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "3cf8df301d7f5ab9e1c0a5c615e1f850df06b51d"
+        "sha": "2cf42ecfc2566d89533b466431306e956585d30b"
       },
       "issue11636": {
         "libs": {
