@@ -12711,7 +12711,7 @@
             "version": "2.2.0-master"
           }
         },
-        "sha": "ce9eedecd9f6c487d11cfc2ed9724e75c0229323"
+        "sha": "13f3a73e31261d57d68e74259d699f7306a4a69f"
       },
       "v1.0.0": {
         "libs": {
@@ -13148,6 +13148,26 @@
           }
         },
         "sha": "e6dcfb489b7e2d07198d93f00858459aa0611267"
+      },
+      "v2.3.0": {
+        "libs": {
+          "LargeTestSuite": {
+            "path": "LargeTestSuite",
+            "uses": {
+              "Modelica": "4.0.0",
+              "ScalableTestSuite": "2.2.0"
+            },
+            "version": "2.3.0"
+          },
+          "ScalableTestSuite": {
+            "path": "ScalableTestSuite",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "2.3.0"
+          }
+        },
+        "sha": "13f3a73e31261d57d68e74259d699f7306a4a69f"
       }
     }
   },
