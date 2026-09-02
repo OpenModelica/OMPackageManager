@@ -781,7 +781,9 @@
   "MessagePack": {
     "names": ["MessagePack"],
     "github": "modelica-3rdparty/msgpack-modelica",
-    "branches": {"master": "master"},
+    "zipfiles": {
+      "0.2.0": "https://github.com/modelica-3rdparty/msgpack-modelica/releases/download/v0.2.0/MessagePack-0.2.0.zip"
+    },
     "support": [
       ["0.1.1-master", "fullSupport"],
       [">=0.1.0", "support"],
