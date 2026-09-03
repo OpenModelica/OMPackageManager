@@ -1032,6 +1032,18 @@
           }
         },
         "sha": "44d4a9f6a888327403bcdf347c13e69070f4ed79"
+      },
+      "v1.1.3": {
+        "libs": {
+          "BioChem": {
+            "path": "BioChem",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "1.1.3"
+          }
+        },
+        "sha": "b8040a8b211e2195fe483e5c707eca68c1e82a52"
       }
     }
   },
@@ -2559,7 +2571,7 @@
             "version": "main"
           }
         },
-        "sha": "0b8d23d612bf799f05f5eeee680b36144005188a"
+        "sha": "c5d5709a05f79b38b0aa1192bd9e505a760ce2ef"
       }
     }
   },
@@ -3534,7 +3546,7 @@
             "version": "0.3.0-main"
           }
         },
-        "sha": "f17cc21b8683379218d53de57790552b542d6d1d"
+        "sha": "2e68adf4f79c11f4e93f956caf43e9bffc25cc85"
       },
       "v0.1.0": {
         "libs": {
@@ -3846,7 +3858,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "cbb4e1f409f9102f135ccecf0262126d58d43ec8"
+        "sha": "1ce06cddbe6c1db689e60f06a1db099551ece32c"
       },
       "nightly-release": {
         "libs": {
@@ -6820,6 +6832,19 @@
           }
         },
         "sha": "9c8cb27c3812b17525a440443479df730c70fc48"
+      },
+      "v0.2.0": {
+        "libs": {
+          "MessagePack": {
+            "path": "MessagePack",
+            "provides": [
+              "0.1.1"
+            ],
+            "version": "0.2.0"
+          }
+        },
+        "sha": "153232ace37ca23d40f27884bcbf51e5dda9ec54",
+        "zip": "https://github.com/modelica-3rdparty/msgpack-modelica/releases/download/v0.2.0/MessagePack-0.2.0.zip"
       }
     }
   },
@@ -13645,20 +13670,6 @@
           }
         },
         "sha": "b0f2b6c721f5af631fb6daea0b54b1626ead7417"
-      },
-      "master": {
-        "libs": {
-          "TRANSFORM": {
-            "path": "TRANSFORM",
-            "uses": {
-              "Complex": "4.0.0",
-              "Modelica": "4.0.0",
-              "ModelicaServices": "4.0.0"
-            },
-            "version": "1.0.0-master"
-          }
-        },
-        "sha": "64a06562a6e3b9ea13f477b0f7a64db363e79ba5"
       },
       "v0.1-beta": {
         "libs": {
