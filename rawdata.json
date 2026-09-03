@@ -5759,18 +5759,6 @@
         },
         "sha": "2045ee572a098a340f377b0902a2206ba2444680"
       },
-      "master": {
-        "libs": {
-          "HelmholtzMedia": {
-            "path": "HelmholtzMedia",
-            "uses": {
-              "Modelica": "3.2.3"
-            },
-            "version": "master"
-          }
-        },
-        "sha": "258c87e6ad7e7e75636cfd425c5e9e8f36977876"
-      },
       "v0.5": {
         "libs": {
           "HelmholtzMedia": {
@@ -6824,15 +6812,6 @@
   },
   "MessagePack": {
     "refs": {
-      "master": {
-        "libs": {
-          "MessagePack": {
-            "path": "MessagePack",
-            "version": "0.1.1-master"
-          }
-        },
-        "sha": "49636e0f59ea14684384b90a12e065774de8b97b"
-      },
       "v0.1": {
         "libs": {
           "MessagePack": {

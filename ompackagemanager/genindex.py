@@ -127,16 +127,14 @@ def main():
                 raise Exception(firstKey + " " + refKey)
             for libName in r["libs"]:
                 lib = r["libs"][libName]
-                isgit = False
+                isgit = "github" in repos[firstKey] or "git" in repos[firstKey]
                 if libName not in indexdata["libs"]:
                     if "github" in repos[firstKey]:
                         indexdata["libs"][libName] = {
                             "git": "https://github.com/%s.git" %
                             repos[firstKey]["github"], "versions": {}}
-                        isgit = True
                     elif "git" in repos[firstKey]:
                         indexdata["libs"][libName] = {"git": repos[firstKey]["git"], "versions": {}}
-                        isgit = True
                     else:
                         indexdata["libs"][libName] = {"versions": {}}
                 libdict = indexdata["libs"][libName]["versions"]

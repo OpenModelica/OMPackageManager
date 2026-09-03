@@ -29,6 +29,8 @@ of information:
   field).
 - Optional tags to be ignored, if one wants to avoid them to be considered by
   the package manager (`ignore-tags` field).
+- Optionally use the zip-files attached to the GitHub releases instead of the
+  source tree of the git tag (`github-releases` field), see below.
 - The level of support in OpenModelica of the various versions of the library
   (`support` field), see below.
 
@@ -46,6 +48,37 @@ like the following to [repos.json](repos.json)
   },
 
 ```
+
+### Using the zip-files from GitHub releases
+
+By default a version is taken from the git tag it was released from, which
+means it only contains what is checked into the repository. If the release
+zip-file on GitHub contains more than that, e.g. pre-compiled binaries in
+`Resources/Library`, add `"github-releases": true` to use it instead:
+
+```json
+  "MyLibrary": {
+    "names": ["MyLibrary"],
+    "github": "myGithubName/MyLibrary",
+    "github-releases": true,
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+```
+
+The releases are read from the GitHub API, so new releases are picked up
+without editing [repos.json](repos.json). A tag whose release has no zip-file
+attached keeps being taken from git, so old releases predating the practice
+still work.
+
+The asset to use is the one matching the glob pattern `*.zip`. If a release
+has several of those, `updateinfo` fails and the pattern has to be narrowed by
+giving it instead of `true`, e.g. `"github-releases": "MyLibrary-*.zip"`.
+
+Libraries that are not on GitHub, or that are released somewhere else entirely,
+can list the zip-files explicitly in a `zipfiles` field instead; those versions
+are then not tied to a git tag.
 
 ## Library support levels in OpenModelica
 

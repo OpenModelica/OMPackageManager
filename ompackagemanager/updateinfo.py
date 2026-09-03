@@ -1,4 +1,5 @@
 import collections
+import fnmatch
 import glob
 import json
 import OMPython
@@ -63,13 +64,33 @@ def insensitive_glob(pattern: str) -> list[str]:
     return glob.glob(''.join(either(char) for char in pattern))
 
 
+def collect_release_zips(repo, pattern: str) -> dict[str, str]:
+    """Map git tag name to the release asset to use instead of the git tree."""
+
+    zipurls: dict[str, str] = {}
+    for release in repo.get_releases():
+        if release.draft:
+            continue
+        assets = [asset for asset in release.assets if fnmatch.fnmatch(asset.name, pattern)]
+        if not assets:
+            continue
+        if len(assets) > 1:
+            raise Exception(
+                "Release %s of %s has several assets matching %s: %s. "
+                "Set \"github-releases\" to a pattern that matches only one of them." %
+                (release.tag_name, repo.full_name, pattern, sorted(asset.name for asset in assets)))
+        zipurls[release.tag_name] = assets[0].browser_download_url
+    return zipurls
+
+
 def collect_branches_tags(entry: dict, key: str, repopath: str,
-                          github_api: Github) -> tuple[list[Branch], list[Tag], str]:
-    """Collect branches, tags and git URL for repos.json `entry`."""
+                          github_api: Github) -> tuple[list[Branch], list[Tag], str, dict[str, str]]:
+    """Collect branches, tags, git URL and release zip-files for repos.json `entry`."""
 
     branches: list[Branch] = []
     tags: list[Tag] = []
     giturl = ""
+    zipurls: dict[str, str] = {}
 
     if "github" in entry:
         try:
@@ -77,6 +98,9 @@ def collect_branches_tags(entry: dict, key: str, repopath: str,
             branches = list(Branch(b.name, b.commit.sha) for b in repo.get_branches())
             tags = list(Tag(b.name, b.commit.sha) for b in repo.get_tags())
             giturl = "https://github.com/%s.git" % entry["github"]
+            releases = entry.get("github-releases")
+            if releases:
+                zipurls = collect_release_zips(repo, releases if isinstance(releases, str) else "*.zip")
         except BaseException:
             print("Failed to get github entry: %s" % entry["github"])
             raise
@@ -93,15 +117,17 @@ def collect_branches_tags(entry: dict, key: str, repopath: str,
                     ver = common.VersionNumber(name[len(key):-4].strip("-").strip(" "))
                     if ver.major == 0 and ver.minor == 0 and ver.patch == 0:
                         continue
-                    tags.append(("v" + str(ver), download["links"]["self"]["href"]))
+                    tags.append(Tag("v" + str(ver), ""))
+                    zipurls["v" + str(ver)] = download["links"]["self"]["href"]
         else:
             tags = alltags(gitrepo)
     elif "zipfiles" in entry:
         branches = []
-        tags = list(entry["zipfiles"].items())
+        tags = [Tag(name, "") for name in entry["zipfiles"]]
+        zipurls = dict(entry["zipfiles"])
         giturl = ""
 
-    return branches, tags, giturl
+    return branches, tags, giturl, zipurls
 
 
 def normalize_version(version: str, tagName: str, entry: dict) -> str:
@@ -234,7 +260,7 @@ def main():
                 shutil.rmtree(d)
 
         if "github" in entry or "git" in entry or "zipfiles" in entry:
-            branches, tags, giturl = collect_branches_tags(entry, key, repopath, github_api)
+            branches, tags, giturl, zipurls = collect_branches_tags(entry, key, repopath, github_api)
 
             if key not in serverdata:
                 serverdata[key] = {}
@@ -247,22 +273,24 @@ def main():
             objects = []
             for (name, sha) in branches:
                 if name in (entry.get("branches") or []):
-                    objects.append((entry["branches"][name], sha))
+                    objects.append((entry["branches"][name], sha, None))
             for (name, sha) in tags:
                 if name not in ignoreTags:
-                    objects.append((name, sha))
+                    objects.append((name, sha, zipurls.get(name)))
 
             if not objects:
                 raise Exception("No commits or zip-files found for %s" % key)
 
             tagsDict = serverdata[key]["refs"]
+            refNames = set()
 
-            for (tagName, sha) in objects:
+            for (tagName, sha, zipurl) in objects:
                 if not isinstance(tagName, str):
                     names = tagName["names"]
                     tagName = tagName["version"]
                 else:
                     names = entry["names"]
+                refNames.add(tagName)
                 v = common.VersionNumber(tagName)
                 # v3.2.1+build.0-beta.1 is not a pre-release...
                 for build in v.build:
@@ -273,9 +301,11 @@ def main():
                 thisTagBackup = tagsDict[tagName]
                 thisTag = tagsDict[tagName]
 
-                entrykind = "zip" if ("zipfiles" in entry or sha.startswith("http")) else "sha"
-                if (entrykind not in thisTag) or (thisTag[entrykind] != sha):
-                    if entrykind == "zip":
+                refkeys = {"sha": sha} if sha else {}
+                if zipurl:
+                    refkeys["zip"] = zipurl
+                if any(thisTag.get(k) != val for (k, val) in refkeys.items()):
+                    if zipurl:
                         try:
                             os.unlink(repopath)
                         except BaseException:
@@ -288,13 +318,13 @@ def main():
                         try:
                             zipfilepath = repopath + "-" + tagName + ".zip"
                             with open(zipfilepath, 'wb') as fout:
-                                fout.write(requests.get(sha, allow_redirects=True).content)
+                                fout.write(requests.get(zipurl, allow_redirects=True).content)
                             with zipfile.ZipFile(zipfilepath, 'r') as zip_ref:
                                 zip_ref.extractall(repopath)
                         except zipfile.BadZipfile:
                             print(
                                 "Failed to download or extract zip file from URL: %s downloaded to %s" %
-                                (sha, zipfilepath))
+                                (zipurl, zipfilepath))
                             raise
                     else:
                         gitrepo = getgitrepo(giturl, repopath + ".git")
@@ -391,13 +421,21 @@ def main():
                         # + ":" + errorString)
                         print("Broken for " + key + " " + tagName)
                         tagsDict[tagName] = thisTagBackup
+                        if "libs" not in thisTagBackup:
+                            del tagsDict[tagName]
+                            refNames.discard(tagName)
                         continue
                     thisTag["libs"] = provided
-                    thisTag[entrykind] = sha
+                    thisTag.update(refkeys)
+                    for stale in {"sha", "zip"} - refkeys.keys():
+                        thisTag.pop(stale, None)
                     if "broken" in thisTag:
                         del thisTag["broken"]
                 # level = getSupportLevel(tagName, entry["support"])
                 # thisTag["support"] = level
+            for stale in sorted(set(tagsDict) - refNames):
+                print("Removing %s %s; it is no longer listed by repos.json" % (key, stale))
+                del tagsDict[stale]
             serverdata[key]["refs"] = tagsDict
         else:
             raise Exception("Don't know how to handle entry for %s: %s" % (key, entry))
