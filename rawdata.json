@@ -7136,6 +7136,7 @@
           "ModelicaTest": {
             "path": "ModelicaTest",
             "uses": {
+              "Complex": "4.2.0-dev",
               "Modelica": "4.2.0-dev"
             },
             "version": "4.2.0-dev"
@@ -7155,7 +7156,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "fa7b23aa6344332b531f9b56fd66982cde01e98b"
+        "sha": "5a102836faecfea0b3caf867dcc97478085b92e8"
       },
       "trunk": {
         "libs": {
@@ -7217,6 +7218,7 @@
           "ModelicaTest": {
             "path": "ModelicaTest",
             "uses": {
+              "Complex": "0.0.0-trunk",
               "Modelica": "0.0.0-trunk"
             },
             "version": "trunk"
@@ -7236,7 +7238,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "dca7ebccce0d491dd8602af939ccba11c74a32ed"
+        "sha": "d5d8f349a5776fb074c99047ddd9c26b9752668c"
       },
       "v1.3.1": {
         "libs": {
