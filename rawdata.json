@@ -6685,14 +6685,13 @@
             "path": "MMChvdcLibrary",
             "uses": {
               "Complex": "4.1.0",
-              "MMC_HVDC_BlackStart": "2.0.0",
               "Modelica": "4.1.0",
               "OpenIPSL": "3.1.0"
             },
             "version": "main"
           }
         },
-        "sha": "a97423ff2ec0a7e0ab41e024777a63cd8feb3540"
+        "sha": "a7bba7863238510ea96658dc426a2cff35dc7a1d"
       },
       "v1.0.0": {
         "libs": {
@@ -6738,6 +6737,20 @@
           }
         },
         "sha": "6c708dd11712ea21d148dcb7bc12d32ff99f5ffc"
+      },
+      "v1.0.0-gamma": {
+        "libs": {
+          "MMChvdcLibrary": {
+            "path": "MMChvdcLibrary",
+            "uses": {
+              "Complex": "4.1.0",
+              "Modelica": "4.1.0",
+              "OpenIPSL": "3.1.0"
+            },
+            "version": "1.0.0-gamma"
+          }
+        },
+        "sha": "a7bba7863238510ea96658dc426a2cff35dc7a1d"
       }
     }
   },
