@@ -1702,8 +1702,8 @@
   },
   "SDF": {
     "names": ["SDF"],
-    "github": "Modelica-OpenVendorSpecificLibraries/SDF",
-    "branches": {"master": "master"},
+    "github": "ScientificDataFormat/SDF-Modelica",
+    "github-releases": true,
     "support": [
       ["*", "noSupport"]
     ]
