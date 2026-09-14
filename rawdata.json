@@ -6059,7 +6059,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "eb357d2fd43cd79b9fc43eb13399fc69a02f5c09"
+        "sha": "93d17fe2deb655d650c0fb10f13d92cf230c89c2"
       },
       "v3.0.0": {
         "libs": {
@@ -11986,7 +11986,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "138081966f7d29dc3620f140f9f11632606a1529"
+        "sha": "d9dfca1f8b3bbb09ba7048b70312069974461171"
       },
       "issue11636": {
         "libs": {
@@ -12498,19 +12498,31 @@
   },
   "SDF": {
     "refs": {
-      "master": {
+      "v0.4.4": {
         "libs": {
           "SDF": {
             "path": "SDF",
-            "provides": [
-              "0.4.0",
-              "0.4.1",
-              "0.4.2"
-            ],
-            "version": "master"
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.4.3"
           }
         },
-        "sha": "51c71a079161223bd3952894e34f3f8c924e931a"
+        "sha": "74f04be023c640cbe02bbeadc8a49ff710c4cd14",
+        "zip": "https://github.com/ScientificDataFormat/SDF-Modelica/releases/download/v0.4.4/SDF-Modelica-0.4.4.zip"
+      },
+      "v0.4.5": {
+        "libs": {
+          "SDF": {
+            "path": "SDF",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.4.5"
+          }
+        },
+        "sha": "67c56dfd53f33ebb3a7179695b0eeb2aaae49d39",
+        "zip": "https://github.com/ScientificDataFormat/SDF-Modelica/releases/download/v0.4.5/SDF-Modelica-0.4.5.zip"
       }
     }
   },
