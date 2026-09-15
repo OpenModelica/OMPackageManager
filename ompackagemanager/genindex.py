@@ -22,6 +22,11 @@ def onlyMainVersion(ver):
     return "%d.%d.%d" % (v.major, v.minor, v.patch)
 
 
+def mergeProvides(provides, extra):
+    """Merge the `extra-provides` of repos.json into the ones from the conversion annotation."""
+    return [str(v) for v in sorted(common.VersionNumber(p) for p in set(provides) | set(extra))]
+
+
 def allProvidesAndVersion(lib):
     res = set()
     for provides in lib.get('provides', []):
@@ -116,6 +121,9 @@ def main():
     with open("rawdata.json", "r") as f:
         rawdata = json.load(f)
 
+    extraProvides = {key: repo["extra-provides"] for (key, repo) in repos.items() if "extra-provides" in repo}
+    unusedExtraProvides = {(key, version) for (key, versions) in extraProvides.items() for version in versions}
+
     indexdata = {"libs": {}, "mirrors": ["https://libraries.openmodelica.org/cache/"]}
     for firstKey in rawdata.keys():
         data = rawdata[firstKey]
@@ -163,8 +171,12 @@ def main():
                         "Entry does not list an entry \"zip\" (manually added zip-file), "
                         "\"github\" (project name), or \"zipfile\" URL from where to download "
                         "the git hash (gitlab/etc):\n" + str(r))
-                if 'provides' in lib:
-                    entry['provides'] = lib['provides']
+                provides = lib.get('provides', [])
+                if lib['version'] in extraProvides.get(firstKey, {}):
+                    provides = mergeProvides(provides, extraProvides[firstKey][lib['version']])
+                    unusedExtraProvides.discard((firstKey, lib['version']))
+                if provides:
+                    entry['provides'] = provides
                 if 'uses' in lib:
                     entry['uses'] = lib['uses']
                 if 'convertFromVersion' in lib:
@@ -181,6 +193,9 @@ def main():
 
                 # print(entry)
         # for lib in data["libs"].keys():
+
+    for (key, version) in sorted(unusedExtraProvides):
+        print('No version %s of %s to apply its "extra-provides" to' % (version, key))
 
     for libName in indexdata["libs"].keys():
         versions = indexdata["libs"][libName]["versions"]
