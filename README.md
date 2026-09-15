@@ -31,6 +31,8 @@ of information:
   the package manager (`ignore-tags` field).
 - Optionally use the zip-files attached to the GitHub releases instead of the
   source tree of the git tag (`github-releases` field), see below.
+- Optional fixups for releases whose own version metadata is wrong
+  (`semverTagOverridesAnnotation` and `extra-provides` fields), see below.
 - The level of support in OpenModelica of the various versions of the library
   (`support` field), see below.
 
@@ -79,6 +81,52 @@ giving it instead of `true`, e.g. `"github-releases": "MyLibrary-*.zip"`.
 Libraries that are not on GitHub, or that are released somewhere else entirely,
 can list the zip-files explicitly in a `zipfiles` field instead; those versions
 are then not tied to a git tag.
+
+### Working around wrong version metadata in a release
+
+A released version is named by the `version` of its `package.mo` annotation, and
+a `uses(MyLibrary(version="1.0.0"))` annotation resolves to that exact version,
+or to one whose `conversion(noneFromVersion="1.0.0")` annotation declares it a
+drop-in replacement. Neither can be corrected after the fact by the library
+developers, so the package manager can override both.
+
+If the version annotation was not bumped before tagging, the tag is the more
+trustworthy of the two. Add `"semverTagOverridesAnnotation": true` to take the
+version from the tag whenever it is the newer one, or
+`"semverTagOverridesAnnotation": "alsoNewerVersions"` to always take it:
+
+```json
+  "MyLibrary": {
+    "names": ["MyLibrary"],
+    "github": "myGithubName/MyLibrary",
+    "semverTagOverridesAnnotation": true,
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+```
+
+If a release is a drop-in replacement for older versions but has no conversion
+annotation saying so, `extra-provides` maps a version to the versions it
+additionally provides. Nothing else can load those older versions then, so this
+is also how a version that was never released on its own stays loadable:
+
+```json
+  "MyLibrary": {
+    "names": ["MyLibrary"],
+    "github": "myGithubName/MyLibrary",
+    "extra-provides": {
+      "1.2.0": ["1.0.0", "1.1.0"]
+    },
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+```
+
+These are merged with the versions from the conversion annotation, so an entry
+can be dropped again once a later release declares it upstream. `genindex`
+prints a line for every version listed here that no release has.
 
 ## Library support levels in OpenModelica
 
