@@ -3846,7 +3846,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "af64b9ec47e44cfbc23163b777493a06aca9ef8f"
+        "sha": "d692ab97caf85fb2e0eb5f777e97c2cfe4043c56"
       },
       "nightly": {
         "libs": {
@@ -4074,7 +4074,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "af64b9ec47e44cfbc23163b777493a06aca9ef8f"
+        "sha": "d692ab97caf85fb2e0eb5f777e97c2cfe4043c56"
       }
     }
   },
@@ -6054,12 +6054,12 @@
             ],
             "path": "IBPSA",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "4.0.0-master"
           }
         },
-        "sha": "4d246d67dcac6070d692ae0a773aabf218f7e4d0"
+        "sha": "ebfb98209fbfff765b7e6eff29a312495d5a547f"
       },
       "v3.0.0": {
         "libs": {
