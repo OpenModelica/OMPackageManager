@@ -2569,9 +2569,20 @@
               "Modelica": "4.0.0"
             },
             "version": "main"
+          },
+          "CRML_test": {
+            "path": "libraries/modelica/CRML_test",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          },
+          "CRMLtoModelica": {
+            "path": "libraries/modelica/CRMLtoModelica.mo",
+            "version": "main"
           }
         },
-        "sha": "c5d5709a05f79b38b0aa1192bd9e505a760ce2ef"
+        "sha": "ea1b9415e7a1132a456796a89be1647c6c446996"
       }
     }
   },
@@ -8815,7 +8826,7 @@
             "version": "3.0.1-master"
           }
         },
-        "sha": "114c33992591bb02fb86800e8720a6179990478d"
+        "sha": "9d6112cc11bc483708ea4ee65f7e7e6b952a7640"
       },
       "master_before_ff_on_v3.0.x": {
         "libs": {
