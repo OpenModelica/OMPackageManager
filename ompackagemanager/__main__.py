@@ -1,20 +1,5 @@
-from ompackagemanager import generate_cache
 import argparse
-import warnings
-
-importError = False
-try:
-    from ompackagemanager import updateinfo
-    from ompackagemanager import genindex
-    from ompackagemanager import check_missing
-    from ompackagemanager import check_uses
-except ImportError as e:
-    importError = True
-    updateinfo = None
-    genindex = None
-    check_missing = None
-    check_uses = None
-    warnings.warn("Failed to load some modules!\n%s" % str(e))
+import importlib
 
 
 def main(argv=None):
@@ -22,17 +7,18 @@ def main(argv=None):
     parser = argparse.ArgumentParser(prog='OMPackageManager')
     subparsers = parser.add_subparsers(dest='script', required=True)
 
+    # Each command imports only its own module, so a command whose dependencies are installed
+    # works even when another command's (e.g. OMPython for updateinfo) are missing.
+
     # updateinfo command
     parser1 = subparsers.add_parser(
         'updateinfo', help='Generate up-to-date `rawdata.json`.')
-    if not importError:
-        parser1.set_defaults(func=updateinfo.main)
+    parser1.set_defaults(module='updateinfo')
 
     # genindex command
     parser2 = subparsers.add_parser(
         'genindex', help='Generate `index.json` from `rawdata.json`.')
-    if not importError:
-        parser2.set_defaults(func=genindex.main)
+    parser2.set_defaults(module='genindex')
 
     # generate-cache command
     parser3 = subparsers.add_parser(
@@ -40,27 +26,26 @@ def main(argv=None):
         help='Cache indexed libraries in directory `destination`.')
     parser3.add_argument('--clean', action='store_true')
     parser3.add_argument('destination', help='Directory to cache packages in.')
-    parser3.set_defaults(func=generate_cache.main)
+    parser3.set_defaults(module='generate_cache')
 
     # check-missing command
     parser4 = subparsers.add_parser(
         'check-missing',
         help='Print all GitHub repositories missing from modelica-3rdparty for packages from `repos.json`.')
-    if not importError:
-        parser4.set_defaults(func=check_missing.main)
+    parser4.set_defaults(module='check_missing')
 
     # check-uses
     parser5 = subparsers.add_parser('check-uses', help='Some help')
-    if not importError:
-        parser5.set_defaults(func=check_uses.main)
+    parser5.set_defaults(module='check_uses')
 
     args = parser.parse_args(argv)
     print(args.script)
+    func = importlib.import_module('ompackagemanager.' + args.module).main
     match args.script:
         case 'generate-cache':
-            args.func(args.destination, args.clean)
+            func(args.destination, args.clean)
         case _:
-            args.func()
+            func()
 
 
 if __name__ == '__main__':
