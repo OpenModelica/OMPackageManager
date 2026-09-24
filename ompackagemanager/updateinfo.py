@@ -64,6 +64,39 @@ def insensitive_glob(pattern: str) -> list[str]:
     return glob.glob(''.join(either(char) for char in pattern))
 
 
+def find_library_files(repopath: str, libname: str, extraPaths: list[str] | None) -> list[str]:
+    """Find the files that could hold library `libname` in the repository root and in `extraPaths`."""
+
+    hits = []
+    for extraPath in ([""] + (extraPaths or [])):
+        p = os.path.join(repopath, extraPath) if extraPath != "" else repopath
+        hits += (
+            insensitive_glob(os.path.join(p, libname, "package.mo")) +
+            insensitive_glob(os.path.join(p, libname + " *", "package.mo")) +
+            insensitive_glob(os.path.join(p, libname + "-*", "package.mo")) +
+            insensitive_glob(os.path.join(p, libname + ".mo")) +
+            insensitive_glob(os.path.join(p, libname + " *.mo")) +
+            insensitive_glob(os.path.join(p, libname + "-*.mo")) +
+            insensitive_glob(os.path.join(p, libname + "*", libname + ".mo")) +
+            insensitive_glob(os.path.join(p, libname + "*", libname + "-*.mo")) +
+            insensitive_glob(os.path.join(p, libname + "*", libname + " *.mo")))
+    return hits
+
+
+def duplicate_library_warning(key: str, libname: str, tagName: str, hits: list[str], repopath: str) -> str:
+    """Banner for a library from `names` that was found more than once, which makes the updater skip it."""
+
+    rule = "!" * 100
+    lines = [rule,
+             "!!! WARNING: library %s of repos.json entry %s is found %d times in %s:" % (
+                 libname, key, len(hits), tagName)]
+    lines += ["!!!   " + os.path.relpath(hit, repopath) for hit in sorted(hits)]
+    lines += ["!!! %s is SKIPPED and will not be in the index for %s." % (libname, tagName),
+              "!!! Remove the extra copies from the repository or adjust search-extra-paths in repos.json.",
+              rule]
+    return "\n".join(lines)
+
+
 def collect_release_zips(repo, pattern: str) -> dict[str, str]:
     """Map git tag name to the release asset to use instead of the git tree."""
 
@@ -241,6 +274,8 @@ def main():
     if not os.path.exists("cache"):
         os.mkdir("cache")
 
+    duplicateWarnings = []
+
     namesInFile = set()
     for key in data.keys():
         for name in data[key].get("names", []):
@@ -365,24 +400,12 @@ def main():
                             if libname != entry["names"][0]:
                                 continue
                         else:
-                            hits = []
-                            for extraPath in ([""] + (entry.get("search-extra-paths") or [])):
-                                p = repopath
-                                if extraPath != "":
-                                    p = os.path.join(repopath, extraPath)
-                                else:
-                                    p = repopath
-                                hitsNew = (
-                                    insensitive_glob(os.path.join(p, libname, "package.mo")) +
-                                    insensitive_glob(os.path.join(p, libname + " *", "package.mo")) +
-                                    insensitive_glob(os.path.join(p, libname + "-*", "package.mo")) +
-                                    insensitive_glob(os.path.join(p, libname + ".mo")) +
-                                    insensitive_glob(os.path.join(p, libname + " *.mo")) +
-                                    insensitive_glob(os.path.join(p, libname + "-*.mo")) +
-                                    insensitive_glob(os.path.join(p, libname + "*", libname + ".mo")) +
-                                    insensitive_glob(os.path.join(p, libname + "*", libname + "-*.mo")) +
-                                    insensitive_glob(os.path.join(p, libname + "*", libname + " *.mo")))
-                                hits += hitsNew
+                            hits = find_library_files(repopath, libname, entry.get("search-extra-paths"))
+                        if len(hits) > 1:
+                            warning = duplicate_library_warning(key, libname, tagName, hits, repopath)
+                            print(warning)
+                            duplicateWarnings.append(warning)
+                            continue
                         if len(hits) != 1:
                             print(str(len(hits)) + " hits for " + libname + " in " + tagName + ": " + str(hits))
                             print(
@@ -441,3 +464,8 @@ def main():
             raise Exception("Don't know how to handle entry for %s: %s" % (key, entry))
     with open("rawdata.json", "w") as io:
         json.dump(serverdata, io, sort_keys=True, indent=2)
+
+    if duplicateWarnings:
+        print("\n%d libraries were skipped because they are found more than once:" % len(duplicateWarnings))
+        for warning in duplicateWarnings:
+            print(warning)
