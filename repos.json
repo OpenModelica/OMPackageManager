@@ -789,6 +789,13 @@
       ["*", "obsolete"]
     ]
   },
+  "MicroPythonMCU": {
+    "names": ["MicroPythonMCU"],
+    "git": "https://gitlab.com/bdelaup/modelica_micropython3.git",
+    "zipfile": "https://gitlab.com/bdelaup/modelica_micropython3/-/archive/{0}/modelica_micropython3-{0}.zip",
+    "semverTagOverridesAnnotation": true,
+    "support": [["*", "experimental"]]
+  },	
   "MMChvdcLibrary": {
     "names": ["MMChvdcLibrary"],
     "github": "ALSETLab/MMChvdcLibrary",
