@@ -6601,6 +6601,18 @@
           }
         },
         "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.3": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.3"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
       }
     }
   },
