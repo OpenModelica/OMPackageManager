@@ -128,6 +128,87 @@ These are merged with the versions from the conversion annotation, so an entry
 can be dropped again once a later release declares it upstream. `genindex`
 prints a line for every version listed here that no release has.
 
+### Prebuilt wasm modules for external "C" code
+
+The wasm-jit target of omc links external "C" code as WebAssembly modules, and
+an omc without a C compiler (the one in a browser) has no other way to run it.
+`build-wasm` prebuilds them for every version of every library in the index:
+omc's `getExternalFunctions` describes a library's external functions, and the
+package manager compiles their `Include` sources, with call wrappers from their
+C signatures, plus what a `wasm` entry adds:
+
+```json
+  "MyLibrary": {
+    "names": ["MyLibrary"],
+    "github": "myGithubName/MyLibrary",
+    "wasm": {
+      "include": ["wasm/MyLibrary/prototypes.h"],
+      "systemLibraries": ["ModelicaSDF"],
+      "configure": {
+        "Resources/src/config.h": {"from": "Resources/src/config.h.in", "values": {"VERSION": "1.0"}}
+      },
+      "common": {"includes": ["Resources/Include"], "defines": ["NDEBUG"]},
+      "libraries": {
+        "MyLibraryExternals": {
+          "sources": ["Resources/src/*.c"],
+          "exclude": ["Resources/src/win32.c"],
+          "hidden": ["Resources/src/thirdparty/*.c"],
+          "include": ["wasm/MyLibrary/wasi.h"],
+          "systemLibraries": ["hdf5", "zlib"]
+        }
+      }
+    },
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
+```
+
+`include` lists headers forced into the `Include` sources, for sources that do
+not compile on their own (a function called without a prototype does not link
+in wasm). `libraries` are recipes for the names of `Library` annotations, with
+paths relative to the library (`sources` may be glob patterns). With
+`latestRelease`, for a library whose C code stays backwards compatible such as
+the MSL, every release gets the modules of the newest one; a version
+without the sources, or one that ships `Resources/Library/wasm32-wasip1/<name>.wasm`
+itself, skips the recipe. `common` is added to every recipe. A recipe's
+`include` forces headers into its sources; `hidden` sources are linked in
+without exporting their symbols (a private copy of code another module may also
+define). `configure` writes files the way CMake's
+`configure_file` does, from a file of the library. `systemLibraries` names
+entries of [wasm-system-libraries.json](wasm-system-libraries.json), built once
+by their script and shared by every library and version that needs them; at
+the top level they provide `Library` names and headers that the library itself
+does not. One with `archives` and no `module` ships nothing: the archives,
+built with hidden symbols, are linked into each library using it. HDF5 is one,
+so the HDF5 versions of two libraries in one simulation never clash. A system
+library may use others (`systemLibraries` in its entry), whose output
+directories its script gets as `SYSLIB_<name>`. C++ sources compile against
+`libcxx` (libc++ with WebAssembly exceptions): its `cxxIncludes` are their
+headers, and linking its `links` puts `libc++.so` in the module's NEEDED.
+
+The modules of a version are zipped as `<Library>-wasm32-wasip1-<hash>.zip`, the
+hash of everything they were built from, so versions whose C code did not
+change share one zip-file. A library without external "C" code gets none.
+
+Everything is built against the package manager's own libc (the `libc` system
+library, shipped with every bundle, as one libc is loaded per simulation) and
+for a fixed set of wasm features that wasmtime, wasmer and V8 all run
+(`WASM_FEATURES` in `buildwasm.py`). Together with the toolchain these make a
+*generation* (`GENERATION`): omc installs a version's bundle under
+`Resources/Library/wasm32-wasip1/omc-<generation>`, keeps older generations, and
+runs a model with the newest generation all its libraries have. A new libc or
+toolchain means a new generation and every bundle rebuilt at once; omc needs no
+change for it. The index's `wasm` entries are keyed by the interface omc's
+loader expects (manifest and wrappers), which changes only with omc itself.
+
+The libc's sysroot is published too, as the index's `wasmToolchain`. omc's
+`installWasmToolchain()` installs it under
+`~/.openmodelica/wasm32-wasip1/omc-<generation>/sysroot`, and the wasm-jit target
+compiles a model's own `Include` sources against it with the system clang. Its
+`cxx` part adds libc++'s headers and `libc++.so` for C++ code
+(`installWasmToolchain(cxx=true)`).
+
 ## Library support levels in OpenModelica
 
 There are five levels of support:
@@ -214,6 +295,20 @@ make it available. However, it is also possible to manage versions of the
 library that are located on specific named branches, e.g. master or maintenance
 branches. This is useful if you want to track development versions or you want
 to get the latest fixes before the official release.
+
+The prebuilt wasm modules are built between the two, with an omc whose
+`getExternalFunctions` describes what to build, and `genindex` is run again to
+add them to the index:
+
+```bash
+python -m ompackagemanager build-wasm --omc /path/to/omc --output www-data/precompiled/wasm32-wasip1
+python -m ompackagemanager genindex
+```
+
+`wasmdata.json` records what was built, so a version is only built again when
+its source, its recipe or omc's wasm ABI changed. Building the system libraries
+needs clang, wasm-ld and llvm-ar, CMake, and the Python version of CPython's
+cross-build.
 
 ## Generate Package Index
 

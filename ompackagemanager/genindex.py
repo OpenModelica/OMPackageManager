@@ -113,6 +113,13 @@ def checkProvides(libName, lib, indexdata):
         del lib['provides']
 
 
+def wasmEntry(wasm):
+    """The index entry of a library version's prebuilt wasm externals, keyed by ABI."""
+    if not wasm or "zipfile" not in wasm:
+        return None
+    return {str(wasm["abi"]): {k: wasm[k] for k in ("generation", "zipfile", "sha256", "systemLibraries") if k in wasm}}
+
+
 def main():
     """Generate `index.json` database from `rawdata.json`.
     """
@@ -120,6 +127,12 @@ def main():
         repos = json.load(f)
     with open("rawdata.json", "r") as f:
         rawdata = json.load(f)
+    wasmdata = {}
+    try:
+        with open("wasmdata.json", "r") as f:
+            wasmdata = json.load(f)
+    except FileNotFoundError:
+        pass
 
     extraProvides = {key: repo["extra-provides"] for (key, repo) in repos.items() if "extra-provides" in repo}
     unusedExtraProvides = {(key, version) for (key, versions) in extraProvides.items() for version in versions}
@@ -184,6 +197,9 @@ def main():
                 if repos[firstKey].get('singleFileStructureCopyAllFiles'):
                     entry['singleFileStructureCopyAllFiles'] = True
                 entry['support'] = common.getSupportLevel(lib['version'], repos[firstKey]['support'])
+                wasm = wasmEntry(wasmdata.get("libs", {}).get(libName, {}).get(lib['version']))
+                if wasm:
+                    entry['wasm'] = wasm
 
                 libdict[lib['version']] = entry
 
@@ -206,6 +222,13 @@ def main():
                     checkProvides(libName, lib, indexdata)
                 except MissingUses:
                     pass
+
+    systemLibraries = {name: {"wasm": {str(lib["abi"]): {k: lib[k] for k in ("zipfile", "sha256", "version")}}}
+                       for (name, lib) in sorted(wasmdata.get("systemLibraries", {}).items()) if "zipfile" in lib}
+    if systemLibraries:
+        indexdata["systemLibraries"] = systemLibraries
+    if "toolchain" in wasmdata:
+        indexdata["wasmToolchain"] = wasmdata["toolchain"]
 
     with open("index.json", "w") as io:
         json.dump(indexdata, io, sort_keys=True, indent=0)
