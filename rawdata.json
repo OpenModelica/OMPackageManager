@@ -1679,7 +1679,7 @@
             "version": "14.0.0-master"
           }
         },
-        "sha": "ea8afbbd7f93749370e6336564487f5996ce060f"
+        "sha": "c4215ffc6d4d8d000d819e9ad554bcc5b98b74d6"
       },
       "v1.4_build1": {
         "libs": {
@@ -10079,7 +10079,7 @@
             "version": "3.2.0-dev"
           }
         },
-        "sha": "4a653ce7c41f6466fe0d11a5002a3d2d08e13419"
+        "sha": "4f903dc79f407f26a2a29baf18391b65127cfcdf"
       },
       "v1.0.0": {
         "libs": {
@@ -12141,13 +12141,16 @@
         "libs": {
           "PowerSystems": {
             "path": "PowerSystems",
+            "provides": [
+              "2.0.0"
+            ],
             "uses": {
               "Modelica": "4.0.0"
             },
             "version": "2.1.0-master"
           }
         },
-        "sha": "80343c524bb96a983374277732b84a19cf055052"
+        "sha": "a6ec86f7f0ac64a70155ffcb0bd8bb2d3c3612db"
       },
       "v0.2": {
         "libs": {
