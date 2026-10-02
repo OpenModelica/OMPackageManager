@@ -38,12 +38,27 @@ def main(argv=None):
     parser5 = subparsers.add_parser('check-uses', help='Some help')
     parser5.set_defaults(module='check_uses')
 
+    # build-wasm
+    parser6 = subparsers.add_parser(
+        'build-wasm', help='Build the prebuilt wasm external "C" modules of the indexed libraries.')
+    parser6.add_argument(
+        '--output',
+        default='www-data/precompiled/wasm32-wasip1',
+        help='Directory to store the zip-files in.')
+    parser6.add_argument('--omc', default='omc', help='The omc to build with; it needs the wasm-jit target.')
+    parser6.add_argument('--url', default='https://libraries.openmodelica.org/precompiled/wasm32-wasip1/',
+                         help='The URL the output directory is served at.')
+    parser6.add_argument('libraries', nargs='*', help='Only build these libraries.')
+    parser6.set_defaults(module='buildwasm')
+
     args = parser.parse_args(argv)
     print(args.script)
     func = importlib.import_module('ompackagemanager.' + args.module).main
     match args.script:
         case 'generate-cache':
             func(args.destination, args.clean)
+        case 'build-wasm':
+            func(args.output, args.omc, args.url, args.libraries)
         case _:
             func()
 

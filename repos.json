@@ -186,6 +186,15 @@
   "Buildings": {
     "names": ["Buildings"],
     "github": "lbl-srg/modelica-buildings",
+    "wasm": {
+      "include": ["wasm/Buildings/pythonWrapper.h"],
+      "libraries": {
+        "ModelicaBuildingsPython_3_8": {
+          "sources": ["Resources/src/python_3_8/pythonInterpreter.c"],
+          "systemLibraries": ["cpython"]
+        }
+      }
+    },
     "branches": {
       "master": "master",
       "maint_7.0.x": "maint.7.0.x",
@@ -486,7 +495,10 @@
     "support": [
       [">=3.3.2", "fullSupport"],
       ["*", "obsolete"]
-    ]
+    ],
+    "wasm": {
+      "systemLibraries": ["ExternalMediaLib"]
+    }
   },
   "ExternalMemoryLib": {
     "names": ["ExternalMemoryLib"],
@@ -501,6 +513,74 @@
     "names": ["ExternData"],
     "github": "modelica-3rdparty/ExternData",
     "ignore-tags": ["v1.0.1"],
+    "wasm": {
+      "common": {
+        "includes": [
+          "Resources/Include",
+          "Resources/C-Sources/bsxml-json",
+          "Resources/C-Sources/expat/lib",
+          "Resources/C-Sources/inih",
+          "Resources/C-Sources/libxls/include",
+          "Resources/C-Sources/minizip",
+          "Resources/C-Sources/modelica",
+          "Resources/C-Sources/parson",
+          "Resources/C-Sources/libxml2/include"
+        ],
+        "defines": [
+          "HAVE_UNISTD_H=1",
+          "HAVE_STDARG_H=1",
+          "HAVE_STDINT_H=1",
+          "HAVE_HIDDEN=1",
+          "HAVE_MEMCPY=1",
+          "HAVE_MEMMOVE=1",
+          "HAVE_ZLIB=1",
+          "HAVE_HDF5=1",
+          "NDEBUG",
+          "XML_POOR_ENTROPY",
+          "HAVE_EXPAT_CONFIG_H",
+          "LIBXML_STATIC"
+        ]
+      },
+      "libraries": {
+        "ED_CSVFile": {"sources": ["Resources/C-Sources/ED_CSVFile.c"]},
+        "ED_INIFile": {"sources": ["Resources/C-Sources/inih/ini.c", "Resources/C-Sources/ED_INIFile.c"]},
+        "ED_JSONFile": {"sources": ["Resources/C-Sources/ED_JSONFile.c"]},
+        "ED_MATFile": {
+          "sources": [
+            "Resources/C-Sources/modelica/ModelicaIO.c",
+            "Resources/C-Sources/modelica/ModelicaMatIO.c",
+            "Resources/C-Sources/modelica/snprintf.c",
+            "Resources/C-Sources/ED_MATFile.c"
+          ],
+          "hidden": ["Resources/C-Sources/modelica/*.c"],
+          "systemLibraries": ["hdf5", "zlib"],
+          "include": ["wasm/ExternData/wasi.h"]
+        },
+        "ED_XLSFile": {"sources": ["Resources/C-Sources/ED_XLSFile.c"]},
+        "ED_XLSXFile": {"sources": ["Resources/C-Sources/ED_XLSXFile.c"], "systemLibraries": ["zlib"]},
+        "ED_XMLFile": {"sources": ["Resources/C-Sources/ED_XMLFile.c"]},
+        "ED_XML2File": {"sources": ["Resources/C-Sources/ED_XML2File.c"]},
+        "bsxml-json": {"sources": ["Resources/C-Sources/bsxml-json/*.c"]},
+        "expat": {
+          "sources": [
+            "Resources/C-Sources/expat/lib/xmlparse.c",
+            "Resources/C-Sources/expat/lib/xmlrole.c",
+            "Resources/C-Sources/expat/lib/xmltok.c"
+          ]
+        },
+        "minizip": {
+          "sources": ["Resources/C-Sources/minizip/ioapi.c", "Resources/C-Sources/minizip/unzip.c"],
+          "systemLibraries": ["zlib"]
+        },
+        "parson": {"sources": ["Resources/C-Sources/parson/parson.c"]},
+        "xlsreader": {"sources": ["Resources/C-Sources/libxls/src/*.c"], "defines": ["_LITTLE_ENDIAN"]},
+        "xml2": {
+          "sources": ["Resources/C-Sources/libxml2/*.c"],
+          "systemLibraries": ["zlib"],
+          "include": ["wasm/ExternData/libxml2.h"]
+        }
+      }
+    },
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
@@ -802,6 +882,33 @@
   "Modelica": {
     "names": ["Modelica","ModelicaReference","ModelicaServices","ModelicaTest","ModelicaTestOverdetermined","Complex","ObsoleteModelica3","ObsoleteModelica4"],
     "github": "OpenModelica/OpenModelica-ModelicaStandardLibrary",
+    "wasm": {
+      "latestRelease": true,
+      "common": {
+        "includes": ["Resources/C-Sources"],
+        "defines": ["_POSIX_VERSION=200809L", "NO_MUTEX", "HAVE_ZLIB", "_LITTLE_ENDIAN"],
+        "include": ["wasm/wasi.h"]
+      },
+      "libraries": {
+        "ModelicaExternalC": {
+          "sources": [
+            "Resources/C-Sources/ModelicaInternal.c",
+            "Resources/C-Sources/ModelicaStrings.c",
+            "Resources/C-Sources/ModelicaRandom.c",
+            "Resources/C-Sources/ModelicaFFT.c",
+            "Resources/C-Sources/snprintf.c"
+          ]
+        },
+        "ModelicaMatIO": {
+          "sources": ["Resources/C-Sources/ModelicaMatIO.c", "Resources/C-Sources/snprintf.c"],
+          "hidden": ["Resources/C-Sources/snprintf.c"],
+          "defines": ["HAVE_HDF5=1"],
+          "systemLibraries": ["hdf5", "zlib"]
+        },
+        "ModelicaIO": {"sources": ["Resources/C-Sources/ModelicaIO.c"]},
+        "ModelicaStandardTables": {"sources": ["Resources/C-Sources/ModelicaStandardTables.c"]}
+      }
+    },
     "branches": {
       "MA/v1.3.1": "v1.3.1",
       "MA/v1.5": "v1.5.0",
@@ -1006,6 +1113,34 @@
   "NcDataReader2": {
     "names": ["NcDataReader2"],
     "github": "modelica-3rdparty/netCDF-DataReader",
+    "wasm": {
+      "configure": {
+        "Resources/src/config.h": {"from": "Resources/config.h.in", "values": {"NCDR_VERSION": "wasm"}},
+        "Resources/src/ncDataReader2.h": {"from": "Resources/src/ncDataReader2.h.in", "values": {"DLL_EXPORT": ""}},
+        "Resources/src/ncDataReaderEA.h": {"from": "Resources/src/ncDataReaderEA.h.in", "values": {"DLL_EXPORT": ""}}
+      },
+      "libraries": {
+        "ncDataReader2": {
+          "sources": ["Resources/src/Misc.c",
+                      "Resources/src/Lookup.c",
+                      "Resources/src/Chain.c",
+                      "Resources/src/ncVar1D.c",
+                      "Resources/src/ncDataSet1D.c",
+                      "Resources/src/IpLinear.c",
+                      "Resources/src/IpSinSteps.c",
+                      "Resources/src/IpAkima.c",
+                      "Resources/src/IpCosWin.c",
+                      "Resources/src/ncScattered2D.c",
+                      "Resources/src/csa.c",
+                      "Resources/src/svd.c",
+                      "Resources/src/ncDataReaderEA.c",
+                      "Resources/src/StringHashTable.c"],
+          "includes": ["Resources/src"],
+          "defines": ["MODELICA_ERROR_HANDLER"],
+          "systemLibraries": ["netcdf"]
+        }
+      }
+    },
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
@@ -1438,6 +1573,7 @@
   "SystemDynamics": {
     "names": ["SystemDynamics"],
     "github": "modelica-3rdparty/SystemDynamics",
+    "wasm": {"include": ["wasm/SystemDynamics/prototypes.h"]},
     "branches": {"master": "master"},
     "support": [
       ["2.1.1-master", "fullSupport"],
@@ -1704,6 +1840,7 @@
     "names": ["SDF"],
     "github": "ScientificDataFormat/SDF-Modelica",
     "github-releases": true,
+    "wasm": {"systemLibraries": ["ModelicaSDF"]},
     "semverTagOverridesAnnotation": true,
     "extra-provides": {
       "0.4.5": ["0.2.0", "0.3.0", "0.3.1", "0.4.0", "0.4.1", "0.4.2", "0.4.3", "0.4.4"]
