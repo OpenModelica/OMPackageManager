@@ -8,15 +8,16 @@ from ompackagemanager.genindex import wasmEntry
 
 class TestWasmEntry(unittest.TestCase):
     def test_keyed_by_abi(self):
-        wasm = {"abi": 1, "zipfile": "https://example.org/wasm/1/ab.zip", "sha256": "ab",
+        wasm = {"generation": 1, "zipfile": "https://example.org/wasm/omc-1/ab.zip", "sha256": "ab",
                 "systemLibraries": ["cpython"], "source": "0123"}
 
-        self.assertDictEqual(wasmEntry(wasm), {"1": {"zipfile": "https://example.org/wasm/1/ab.zip", "sha256": "ab",
-                                                     "systemLibraries": ["cpython"]}})
+        self.assertDictEqual(wasmEntry(wasm, 2), {"2": {"generation": 1, "sha256": "ab",
+                                                        "zipfile": "https://example.org/wasm/omc-1/ab.zip",
+                                                        "systemLibraries": ["cpython"]}})
 
     def test_nothing_to_install(self):
-        self.assertIsNone(wasmEntry({"abi": 1, "source": "0123"}))
-        self.assertIsNone(wasmEntry(None))
+        self.assertIsNone(wasmEntry({"source": "0123"}, 2))
+        self.assertIsNone(wasmEntry(None, 2))
 
 
 class TestWriteZip(unittest.TestCase):

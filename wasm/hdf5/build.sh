@@ -22,6 +22,7 @@ AR=${AR:-$(command -v llvm-ar || ls /usr/bin/llvm-ar-* | sort -V | tail -1)}
 src=$OUT/src
 build=$OUT/build
 mkdir -p "$src" "$build"
+cp "$HERE/wasi.h" "$build/wasi.h"
 if [ ! -f "$src/CMakeLists.txt" ]; then
   curl -sSfL "https://github.com/HDFGroup/hdf5/archive/refs/tags/$VERSION.tar.gz" | tar xz -C "$src" --strip-components=1
 fi
@@ -42,7 +43,7 @@ set(CMAKE_C_COMPILER $CLANG)
 set(CMAKE_C_COMPILER_TARGET wasm32-wasip1)
 set(CMAKE_SYSROOT $SYSROOT)
 set(CMAKE_AR $AR)
-set(CMAKE_C_FLAGS_INIT "$CPU -O2 -fPIC -fvisibility=hidden -resource-dir=$res -mllvm -wasm-enable-sjlj -D_WASI_EMULATED_SIGNAL -D_WASI_EMULATED_PROCESS_CLOCKS -D_WASI_EMULATED_MMAN -D_WASI_EMULATED_GETPID -I$SYSLIB_zlib/include -include $HERE/wasi.h")
+set(CMAKE_C_FLAGS_INIT "$CPU -O2 -fPIC -fvisibility=hidden -resource-dir=$res -mllvm -wasm-enable-sjlj -D_WASI_EMULATED_SIGNAL -D_WASI_EMULATED_PROCESS_CLOCKS -D_WASI_EMULATED_MMAN -D_WASI_EMULATED_GETPID -I$SYSLIB_zlib/include -include $build/wasi.h")
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(H5_HAVE_FLOCK "" CACHE INTERNAL "")
 set(H5_HAVE_FCNTL "" CACHE INTERNAL "")

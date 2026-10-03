@@ -12,7 +12,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     > /etc/apt/sources.list.d/openmodelica.list \
   && apt-get update \
   && apt-get install -qy --no-install-recommends \
-    omc cmake git make \
+    omc cmake git make unzip \
     clang lld llvm libclang-rt-dev-wasm32 \
     python3 python3-pip python3-github python3-psutil python3-pygit2 python3-requests \
     python3-semantic-version python3-zmq \

@@ -21,6 +21,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 import tempfile
 import zipfile
 
@@ -31,6 +32,9 @@ TARGET = "wasm32-wasip1"
 # Everything built with one toolchain and libc. Bumped when either changes; omc
 # installs generations side by side and never mixes them in one simulation.
 GENERATION = 1
+# Where a generation's zip-files go, under the output directory and the URL: what
+# omc installs them into too.
+GENERATION_DIR = "omc-%d" % GENERATION
 # The wasm features wasmtime, wasmer and V8 all run today, spelled out rather than
 # clang's moving default; features are not dropped, so the set only grows.
 WASM_FEATURES = ["-mcpu=mvp", "-mmutable-globals", "-msign-ext", "-mnontrapping-fptoint", "-mbulk-memory",
@@ -378,21 +382,25 @@ def recipe_hash(recipe: dict, systemlibs: dict) -> str:
         (n, l["entry"]["sha256"]) for n, l in systemlibs.items())])
 
 
-def build_system_library(name: str, spec: dict, toolchain: Toolchain, output: str, state: dict, abi: int,
+def system_workdir(cachedir: str, name: str, spec: dict) -> str:
+    return os.path.join(cachedir, "%s-%s" % (name, spec["version"]))
+
+
+def build_system_library(name: str, spec: dict, toolchain: Toolchain, output: str, state: dict,
                          base_url: str, cachedir: str, deps: dict) -> dict:
-    """Build a system library once per version and ABI. Its `build` script gets the
+    """Build a system library once per version and generation. Its `build` script gets the
     omc installation and an output directory, and fills `dist/` with what ships
     and `include/` with the headers the libraries using it are compiled against.
     One without a `module` ships nothing: its `archives` are linked into the
     libraries using it. The system libraries it uses (`deps`) are named by
     `SYSLIB_<name>` directories, and `OMC_WASM_FEATURES` the wasm features to target."""
     old = state.get("systemLibraries", {}).get(name)
-    workdir = os.path.join(cachedir, "%s-%s-abi%d" % (name, spec["version"], abi))
+    workdir = system_workdir(cachedir, name, spec)
     key = files_hash(
         [], [
             spec_hash(spec), GENERATION, WASM_FEATURES, sorted(
                 (n, d["entry"]["sha256"]) for n, d in deps.items())])
-    if old and old.get("spec") == key and old.get("abi") == abi and os.path.isdir(workdir):
+    if old and old.get("spec") == key and published(old, base_url) and os.path.isdir(workdir):
         return old
     shutil.rmtree(workdir, ignore_errors=True)
     os.makedirs(workdir)
@@ -401,19 +409,19 @@ def build_system_library(name: str, spec: dict, toolchain: Toolchain, output: st
                **{"SYSLIB_" + n.replace("-", "_"): d["workdir"] for n, d in deps.items()})
     subprocess.run([os.path.abspath(spec["build"]), workdir], check=True, env=env)
     if "module" not in spec:
-        entry = {"abi": abi, "version": spec["version"], "spec": key,
+        entry = {"version": spec["version"], "spec": key,
                  "sha256": files_hash([os.path.join(workdir, a) for a in spec.get("archives", [])], name)}
         state.setdefault("systemLibraries", {})[name] = entry
         return entry
-    zipdir = os.path.join(output, str(abi), "system")
+    zipdir = os.path.join(output, GENERATION_DIR, "system")
     os.makedirs(zipdir, exist_ok=True)
     tmp = os.path.join(zipdir, name + ".zip")
     write_zip(os.path.join(workdir, "dist"), tmp)
     digest = sha256_file(tmp)
     zipname = "%s-%s-%s-%s.zip" % (name, spec["version"], TARGET, digest[:16])
     os.replace(tmp, os.path.join(zipdir, zipname))
-    entry = {"abi": abi, "version": spec["version"], "sha256": digest, "spec": key,
-             "zipfile": "%s%d/system/%s" % (base_url, abi, zipname)}
+    entry = {"version": spec["version"], "sha256": digest, "spec": key,
+             "zipfile": "%s%s/system/%s" % (base_url, GENERATION_DIR, zipname)}
     state.setdefault("systemLibraries", {})[name] = entry
     return entry
 
@@ -422,16 +430,16 @@ def build_toolchain(libc: dict, libcxx: dict | None, output: str, base_url: str,
     """Zip the sysroot everything is built against, which omc installs to compile
     a model's own external C code for this generation, and, for C++ code, what
     libc++ adds to it: its headers and `libc++.so`."""
-    zipdir = os.path.join(output, "toolchain")
+    zipdir = os.path.join(output, GENERATION_DIR, "toolchain")
     os.makedirs(zipdir, exist_ok=True)
 
     def publish(src: str, stem: str) -> dict:
         tmp = os.path.join(zipdir, stem + ".zip")
         write_zip(src, tmp)
         digest = sha256_file(tmp)
-        zipname = "%s-%s-%d-%s.zip" % (stem, TARGET, GENERATION, digest[:16])
+        zipname = "%s-%s-%s.zip" % (stem, TARGET, digest[:16])
         os.replace(tmp, os.path.join(zipdir, zipname))
-        return {"sha256": digest, "zipfile": "%stoolchain/%s" % (base_url, zipname)}
+        return {"sha256": digest, "zipfile": "%s%s/toolchain/%s" % (base_url, GENERATION_DIR, zipname)}
 
     state["toolchain"] = dict(generation=GENERATION, **publish(os.path.join(libc["workdir"], "sysroot"), "sysroot"))
     if libcxx is not None:
@@ -574,18 +582,18 @@ writeFile("%(work)s/externals.json", getExternalFunctions(%(lib)s)); getErrorStr
 
         failed = {"failed": sorted(manifest["failed"])} if manifest.get("failed") else {}
         if not manifest["functions"] and not [f for f in os.listdir(bundle) if f.endswith(".wasm")]:
-            return dict(abi=abi, **failed)
+            return failed
         with open(manifest_path, "w") as f:
             json.dump(manifest, f, indent=2, sort_keys=True)
             f.write("\n")
         digest = hashlib.sha256("\n".join(inputs).encode()).hexdigest()
-        zipdir = os.path.join(output, str(abi))
+        zipdir = os.path.join(output, GENERATION_DIR)
         os.makedirs(zipdir, exist_ok=True)
         zipname = "%s-%s-%s.zip" % (libname, TARGET, digest[:16])
         zippath = os.path.join(zipdir, zipname)
         if not os.path.exists(zippath):
             write_zip(bundle, zippath)
-        entry = {"abi": abi, "generation": GENERATION, "zipfile": "%s%d/%s" % (base_url, abi, zipname),
+        entry = {"generation": GENERATION, "zipfile": "%s%s/%s" % (base_url, GENERATION_DIR, zipname),
                  "sha256": sha256_file(zippath)}
         if needed:
             entry["systemLibraries"] = sorted(needed)
@@ -618,9 +626,15 @@ def main(
     output = os.path.realpath(output)
     base_url = base_url if base_url.endswith("/") else base_url + "/"
     abi = query_abi(omc)
+    if state.get("abi") != abi:
+        state.pop("libs", None)
+    for versions in state.get("libs", {}).values():
+        for entry in versions.values():
+            entry.pop("abi", None)
 
     recipes = {name: repo["wasm"] for repo in repos.values() if "wasm" in repo for name in repo["names"]}
     systemlibs = {}
+    failed = []
 
     def system_library(s: str) -> dict | None:
         """The built system library `s`, after the ones it uses; None if any did not build."""
@@ -630,11 +644,11 @@ def main(
             systemlibs[s] = None
             if all(deps.values()):
                 try:
-                    entry = build_system_library(s, spec, toolchain, output, state, abi, base_url, cachedir, deps)
-                    systemlibs[s] = dict(spec, entry=entry, workdir=os.path.join(
-                        cachedir, "%s-%s-abi%d" % (s, spec["version"], entry["abi"])))
+                    entry = build_system_library(s, spec, toolchain, output, state, base_url, cachedir, deps)
+                    systemlibs[s] = dict(spec, entry=entry, workdir=system_workdir(cachedir, s, spec))
                 except subprocess.CalledProcessError as e:
                     print("System library %s did not build: %s" % (s, e), flush=True)
+                    failed.append(s)
         return systemlibs[s]
 
     libc = system_library(LIBC)
@@ -671,7 +685,7 @@ def main(
                                               old.get("zipfile") == built.get("zipfile")):
                     done[version] = dict(built, source=source)
                 continue
-            if old and old.get("source") == source and old.get("abi") == abi and old.get("recipe") == key:
+            if old and old.get("source") == source and old.get("recipe") == key and published(old, base_url):
                 continue
             print("Building wasm externals of %s %s" % (libname, version), flush=True)
             entry = build_library_version(libname, version, recipe, systemlibs, omc, toolchain,
@@ -685,6 +699,13 @@ def main(
             del state["libs"][libname]
         write_state(state, abi)
     write_state(state, abi)
+    if failed:
+        sys.exit("System libraries that did not build: %s" % ", ".join(sorted(failed)))
+
+
+def published(entry: dict, base_url: str) -> bool:
+    """Whether a built entry has no zip-file or one in this generation's directory."""
+    return "zipfile" not in entry or entry["zipfile"].startswith("%s%s/" % (base_url, GENERATION_DIR))
 
 
 def write_state(state: dict, abi: int) -> None:
