@@ -36,6 +36,7 @@ if [ ! -f "$matio/src/CMakeLists.txt" ]; then
   curl -sSfL "https://github.com/tbeu/matio/releases/download/v$MATIO_VERSION/matio-$MATIO_VERSION.tar.gz" |
     tar xz -C "$matio/src" --strip-components=1
 fi
+cp "$HERE/../wasi.h" "$matio/wasi.h"
 cat > "$matio/toolchain.cmake" <<TOOLCHAIN
 set(CMAKE_SYSTEM_NAME WASI)
 set(CMAKE_SYSTEM_PROCESSOR wasm32)
@@ -44,7 +45,7 @@ set(CMAKE_C_COMPILER_TARGET wasm32-wasip1)
 set(CMAKE_SYSROOT $SYSROOT)
 set(CMAKE_AR $AR)
 set(CMAKE_RANLIB $RANLIB)
-set(CMAKE_C_FLAGS_INIT "$CPU -fvisibility=hidden -include $HERE/../wasi.h")
+set(CMAKE_C_FLAGS_INIT "$CPU -fvisibility=hidden -include $matio/wasi.h")
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 TOOLCHAIN

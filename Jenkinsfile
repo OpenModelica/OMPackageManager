@@ -32,12 +32,15 @@ pipeline {
       sh 'test -f rawdata.json'
       sh 'python3 -m ompackagemanager updateinfo'
       sh 'python3 -m ompackagemanager genindex'
-      sh """
-      if test -n "${params.WASM_OMC}"; then
-        python3 -m ompackagemanager build-wasm --omc "${params.WASM_OMC}" --output www-data/precompiled/wasm32-wasip1
-        python3 -m ompackagemanager genindex
-      fi
-      """
+      script {
+        if (params.WASM_OMC) {
+          def status = sh(returnStatus: true, script: "python3 -m ompackagemanager build-wasm --omc '${params.WASM_OMC}' --output www-data/precompiled/wasm32-wasip1")
+          sh 'python3 -m ompackagemanager genindex'
+          if (status != 0) {
+            unstable('build-wasm did not build everything')
+          }
+        }
+      }
       stash name: 'files', includes: 'index.json, rawdata.json, wasmdata.json, www-data/precompiled/wasm32-wasip1/**', allowEmpty: true
     }
   }

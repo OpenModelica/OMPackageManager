@@ -24,6 +24,8 @@ CXXINC="-nostdinc++ -isystem $SYSLIB_libcxx/include/c++/v1"
 src=$OUT/src
 build=$OUT/build
 mkdir -p "$src" "$build" "$OUT/dist" "$OUT/include"
+rm -rf "$build/wasi-include"
+cp -r "$HERE/include" "$build/wasi-include"
 if [ ! -f "$src/Projects/CMakeLists.txt" ]; then
   curl -sSfL "https://github.com/modelica-3rdparty/ExternalMedia/archive/refs/tags/v$VERSION.tar.gz" |
     tar xz -C "$src" --strip-components=1
@@ -41,9 +43,9 @@ sources="$(ls "$src"/Projects/Sources/*.cpp | grep -v -e FluidProp_ -e fluidprop
 $(ls "$cp"/src/*.cpp | grep -v -e /CoolPropLib.cpp)
 $(find "$cp/src/Backends" -name '*.cpp' | grep -e /Cubics/ -e /IF97/ -e /Helmholtz/ -e /REFPROP/ -e /Incompressible/ -e /Tabular/ -e /PCSAFT/)"
 inc="-I$cp -I$cp/include -I$cp/src -I$cp/externals/Eigen -I$cp/externals/msgpack-c/include -I$cp/boost_CoolProp \
-  -I$cp/externals/fmtlib/include -I$cp/externals/fmtlib -I$src/Projects/Sources -I$HERE/include"
+  -I$cp/externals/fmtlib/include -I$cp/externals/fmtlib -I$src/Projects/Sources -I$build/wasi-include"
 mkdir -p "$build/obj"
-export CLANGXX CPU EH CXXINC SYSROOT inc build HERE
+export CLANGXX CPU EH CXXINC SYSROOT inc build
 echo "$sources" | xargs -P "$(nproc)" -I{} sh -c '
   o=$build/obj/$(echo "{}" | md5sum | cut -c1-16).o
   # shellcheck disable=SC2086

@@ -187,9 +187,10 @@ directories its script gets as `SYSLIB_<name>`. C++ sources compile against
 `libcxx` (libc++ with WebAssembly exceptions): its `cxxIncludes` are their
 headers, and linking its `links` puts `libc++.so` in the module's NEEDED.
 
-The modules of a version are zipped as `<Library>-wasm32-wasip1-<hash>.zip`, the
-hash of everything they were built from, so versions whose C code did not
-change share one zip-file. A library without external "C" code gets none.
+The modules of a version are zipped as
+`omc-<generation>/<Library>-wasm32-wasip1-<hash>.zip`, the hash of everything
+they were built from, so versions whose C code did not change share one
+zip-file. A library without external "C" code gets none.
 
 Everything is built against the package manager's own libc (the `libc` system
 library, shipped with every bundle, as one libc is loaded per simulation) and
