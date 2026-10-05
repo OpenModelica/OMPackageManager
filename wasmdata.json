@@ -465,6 +465,16 @@
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Arduino-wasm32-wasip1-60dafffb8598698f.zip"
       }
     },
+    "BL": {
+      "1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "7337ad9967f44b4ba3e9c23ee55d37d83b86aba5"
+      },
+      "1.0.0-main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
+      }
+    },
     "BLDC": {
       "1.0.0": {
         "recipe": "471b655901f2a5ac",
@@ -493,6 +503,22 @@
       "1.9.0": {
         "recipe": "471b655901f2a5ac",
         "source": "485efe8c9c0ac8d7e06edd146479f58564765d24"
+      }
+    },
+    "Battery": {
+      "main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
+      }
+    },
+    "BenchmarksForResizeableArrays": {
+      "1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "7337ad9967f44b4ba3e9c23ee55d37d83b86aba5"
+      },
+      "main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
       }
     },
     "BidiDCDC": {
@@ -3285,6 +3311,16 @@
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/IBPSA-wasm32-wasip1-fcbc331c12b93854.zip"
       }
     },
+    "IDADistricts": {
+      "1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "7337ad9967f44b4ba3e9c23ee55d37d83b86aba5"
+      },
+      "main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
+      }
+    },
     "IDEAS": {
       "1.0.0": {
         "failed": [
@@ -3650,6 +3686,26 @@
       "main": {
         "recipe": "471b655901f2a5ac",
         "source": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      }
+    },
+    "LSGreenH2Production": {
+      "1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "7337ad9967f44b4ba3e9c23ee55d37d83b86aba5"
+      },
+      "main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
+      }
+    },
+    "LargeInterfaces": {
+      "1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "7337ad9967f44b4ba3e9c23ee55d37d83b86aba5"
+      },
+      "main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
       }
     },
     "LargeTestSuite": {

@@ -10326,6 +10326,97 @@
       }
     }
   },
+  "OpenSCALING": {
+    "refs": {
+      "1.0.0": {
+        "libs": {
+          "BL": {
+            "convertFromVersion": [
+              "0.0.0"
+            ],
+            "path": "benchmark-models/Swegon_AcausalBenchmarks/BL",
+            "uses": {
+              "Buildings": "13.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "1.0.0"
+          },
+          "BenchmarksForResizeableArrays": {
+            "path": "benchmark-models/DLR_BenchmarksForResizableArrays/BenchmarksForResizeableArrays.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.0.0"
+          },
+          "IDADistricts": {
+            "path": "benchmark-models/IDA_DistrictsBenchmark/IDADistricts",
+            "version": "1.0.0"
+          },
+          "LSGreenH2Production": {
+            "path": "benchmark-models/ABB_LSGreenH2Production/LSGreenH2Production",
+            "uses": {
+              "Modelica": "4.0.0",
+              "PowerSystems": "2.0.0"
+            },
+            "version": "1.0.0"
+          },
+          "LargeInterfaces": {
+            "path": "benchmark-models/LTX_LargeInterfaces/LargeInterfaces",
+            "version": "1.0.0"
+          }
+        },
+        "sha": "7337ad9967f44b4ba3e9c23ee55d37d83b86aba5"
+      },
+      "main": {
+        "libs": {
+          "BL": {
+            "convertFromVersion": [
+              "0.0.0"
+            ],
+            "path": "benchmark-models/Swegon_AcausalBenchmarks/BL",
+            "uses": {
+              "Buildings": "13.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0"
+            },
+            "version": "1.0.0-main"
+          },
+          "Battery": {
+            "path": "benchmark-models/TLK_Battery/Battery",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          },
+          "BenchmarksForResizeableArrays": {
+            "path": "benchmark-models/DLR_BenchmarksForResizableArrays/BenchmarksForResizeableArrays.mo",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          },
+          "IDADistricts": {
+            "path": "benchmark-models/IDA_DistrictsBenchmark/IDADistricts",
+            "version": "main"
+          },
+          "LSGreenH2Production": {
+            "path": "benchmark-models/ABB_LSGreenH2Production/LSGreenH2Production",
+            "uses": {
+              "Modelica": "4.0.0",
+              "PowerSystems": "2.0.0"
+            },
+            "version": "main"
+          },
+          "LargeInterfaces": {
+            "path": "benchmark-models/LTX_LargeInterfaces/LargeInterfaces",
+            "version": "main"
+          }
+        },
+        "sha": "8c9649b78ecc0ff7b586f3fb22fef0872f2de529"
+      }
+    }
+  },
   "Optimisers": {
     "refs": {
       "master": {
