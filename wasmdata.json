@@ -979,6 +979,24 @@
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-3efbad47b723c767.zip"
       },
+      "11.1.2": {
+        "failed": [
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.constructor",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.destructor",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.exchange",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.getParameters",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.initialize"
+        ],
+        "generation": 1,
+        "recipe": "b1621c492072a8fd",
+        "sha256": "064a737bc2e498d5eb9c8b15cfe00b420fa063cd8ba35c4b3b3a2ae47db89686",
+        "source": "a1565a35d9d1c925a76712294b6c74f7379e9a80",
+        "systemLibraries": [
+          "cpython",
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-3efbad47b723c767.zip"
+      },
       "11.1.2-maint.11.x": {
         "failed": [
           "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.constructor",
@@ -1073,6 +1091,29 @@
           "libc"
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-3efbad47b723c767.zip"
+      },
+      "12.1.2": {
+        "failed": [
+          "Buildings.Obsolete.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.constructor",
+          "Buildings.Obsolete.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.destructor",
+          "Buildings.Obsolete.ThermalZones.EnergyPlus_9_6_0.BaseClasses.exchange",
+          "Buildings.Obsolete.ThermalZones.EnergyPlus_9_6_0.BaseClasses.getParameters",
+          "Buildings.Obsolete.ThermalZones.EnergyPlus_9_6_0.BaseClasses.initialize",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.SpawnExternalObject.constructor",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.SpawnExternalObject.destructor",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.exchange",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.getParameters",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.initialize"
+        ],
+        "generation": 1,
+        "recipe": "b1621c492072a8fd",
+        "sha256": "1643e6d43026ae2b01e5e68f462bd76bfa6a100920465a234328c7f153111c66",
+        "source": "4aa975ce468b1e48991c07936945d19c72e6a849",
+        "systemLibraries": [
+          "cpython",
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-1361c6356ef8a7f1.zip"
       },
       "12.1.2-maint.12.x": {
         "failed": [
@@ -3719,7 +3760,7 @@
       },
       "2.2.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "13f3a73e31261d57d68e74259d699f7306a4a69f"
+        "source": "117db671d7b912f1d0ac9d39e46452b7215f1f0f"
       },
       "2.3.0": {
         "recipe": "471b655901f2a5ac",
@@ -8782,7 +8823,7 @@
       },
       "2.2.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "13f3a73e31261d57d68e74259d699f7306a4a69f"
+        "source": "117db671d7b912f1d0ac9d39e46452b7215f1f0f"
       },
       "2.3.0": {
         "recipe": "471b655901f2a5ac",
