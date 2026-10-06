@@ -10539,6 +10539,14 @@
             },
             "version": "main"
           },
+          "DistrictHeating": {
+            "path": "benchmark-models/DLR_DistrictHeating/DistrictHeating.mo",
+            "uses": {
+              "Modelica": "4.1.0",
+              "ThermofluidStream": "1.2.0"
+            },
+            "version": "main"
+          },
           "IDADistricts": {
             "path": "benchmark-models/IDA_DistrictsBenchmark/IDADistricts",
             "version": "main"
@@ -10556,7 +10564,7 @@
             "version": "main"
           }
         },
-        "sha": "2a9f31688346e870c39956d02d042bbc4a43b219"
+        "sha": "70aadbfd22835bb7a96c6d0cfcb4c504cceede4e"
       }
     }
   },
