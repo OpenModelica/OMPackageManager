@@ -1252,12 +1252,13 @@
     ]
   },
   "OpenSCALING": {
-    "names": ["BL", "Battery", "BenchmarksForResizeableArrays", "IDADistricts", "LSGreenH2Production", "LargeInterfaces"],
+    "names": ["BL", "Battery", "BenchmarksForResizeableArrays", "DistrictHeating", "IDADistricts", "LSGreenH2Production", "LargeInterfaces"],
     "git": "https://gitlab.liu.se/openscaling/work-products/d3.2-open-source-benchmark-models-for_lss.git",
     "zipfile": "https://gitlab.liu.se/openscaling/work-products/d3.2-open-source-benchmark-models-for_lss/-/archive/{0}/d3.2-open-source-benchmark-models-for_lss-{0}.zip",
     "search-extra-paths": [
       "benchmark-models/ABB_LSGreenH2Production",
       "benchmark-models/DLR_BenchmarksForResizableArrays",
+      "benchmark-models/DLR_DistrictHeating",
       "benchmark-models/IDA_DistrictsBenchmark",
       "benchmark-models/LTX_LargeInterfaces",
       "benchmark-models/Swegon_AcausalBenchmarks",
