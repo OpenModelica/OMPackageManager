@@ -1015,6 +1015,24 @@
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-39cbce4e5f145d49.zip"
       },
+      "11.1.3-maint.11.x": {
+        "failed": [
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.constructor",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.destructor",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.exchange",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.getParameters",
+          "Buildings.ThermalZones.EnergyPlus_9_6_0.BaseClasses.initialize"
+        ],
+        "generation": 1,
+        "recipe": "cc501c6dd6f99741",
+        "sha256": "f5a4dd4f8985bf5ad0100c37459d7a88173ef2d7bf8a51f9814349081caeb88b",
+        "source": "b794a2b23355a0a83f266f6b7e8e8fc0d363e4b2",
+        "systemLibraries": [
+          "cpython",
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-39cbce4e5f145d49.zip"
+      },
       "12.0.0": {
         "failed": [
           "Buildings.Obsolete.ThermalZones.EnergyPlus_9_6_0.BaseClasses.SpawnExternalObject.constructor",
@@ -1241,6 +1259,23 @@
         "recipe": "cc501c6dd6f99741",
         "sha256": "330d054e14c387558c19d7096b1ecc60cea720e7820964441677104c40096beb",
         "source": "ad48324b74e9751e2e49dac5fe3c4dcb546755a2",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-5ea31497e343e520.zip"
+      },
+      "14.1.0-master": {
+        "failed": [
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.SpawnExternalObject.constructor",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.SpawnExternalObject.destructor",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.exchange",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.getParameters",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.initialize"
+        ],
+        "generation": 1,
+        "recipe": "cc501c6dd6f99741",
+        "sha256": "d0e545b9e24f6eca09cb82303041e02bb5a5588c6e99b4ba573a9c4870f989f1",
+        "source": "51cd741ce0c381b0e1fa1ca0c56263dd28eaa56b",
         "systemLibraries": [
           "libc"
         ],
@@ -2393,7 +2428,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "c425f0e1c1b160c51b183d1db8f67bdd3c19c8a1",
+        "source": "c46649f7ed0e773b2b5856ac8d154c174f6bb6b6",
         "systemLibraries": [
           "libc"
         ],
@@ -2403,7 +2438,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "c425f0e1c1b160c51b183d1db8f67bdd3c19c8a1",
+        "source": "c46649f7ed0e773b2b5856ac8d154c174f6bb6b6",
         "systemLibraries": [
           "libc"
         ],
@@ -8517,7 +8552,7 @@
       },
       "2.0.0-develop": {
         "recipe": "471b655901f2a5ac",
-        "source": "beae7748a855afc478e5abcfcb8625358ec175ac"
+        "source": "56b0a3c13b743bfef91c5110a0a8917a5012752d"
       },
       "2.0.0-issue11636": {
         "recipe": "471b655901f2a5ac",
