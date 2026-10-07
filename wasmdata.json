@@ -1153,8 +1153,8 @@
         ],
         "generation": 1,
         "recipe": "cc501c6dd6f99741",
-        "sha256": "08103d0f07d476d4c44a330c6442a76d2a28da8f44efe88446a780aa3b60bdf9",
-        "source": "50f28161b285d88696ed8761c3153c82ac6723f3",
+        "sha256": "f8e649e3ea3f51da50beb95a205f9dd23f29859a2ce66511353c3971b13f8a1e",
+        "source": "5173c8be1a143096f36e4191613eb532f703b54c",
         "systemLibraries": [
           "cpython",
           "libc"
@@ -1190,6 +1190,23 @@
         "recipe": "cc501c6dd6f99741",
         "sha256": "330d054e14c387558c19d7096b1ecc60cea720e7820964441677104c40096beb",
         "source": "3a4069890867437c9d23780f289de1d01d68d442",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-5ea31497e343e520.zip"
+      },
+      "13.0.2-maint.13.x": {
+        "failed": [
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.SpawnExternalObject.constructor",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.SpawnExternalObject.destructor",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.exchange",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.getParameters",
+          "Buildings.ThermalZones.EnergyPlus_24_2_0.BaseClasses.initialize"
+        ],
+        "generation": 1,
+        "recipe": "cc501c6dd6f99741",
+        "sha256": "b6934734705e79b316535a8638bbadfec31a0b0537d8df48cc84ecc15560fbd6",
+        "source": "07a7cc9283558f7d4f4c5824c27cb45758dd818f",
         "systemLibraries": [
           "libc"
         ],
@@ -2366,7 +2383,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "4013fa5c7c94b346fbd92619e418da298a1927d9",
+        "source": "dbf9fd60250bd65e122f869caee31d6cbaae2481",
         "systemLibraries": [
           "libc"
         ],
@@ -2376,7 +2393,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "4013fa5c7c94b346fbd92619e418da298a1927d9",
+        "source": "dbf9fd60250bd65e122f869caee31d6cbaae2481",
         "systemLibraries": [
           "libc"
         ],
