@@ -4028,7 +4028,7 @@
             "version": "1.8.0-nightly"
           }
         },
-        "sha": "6c7e694ab654296b539ebce5a5f9871c8b3a1852"
+        "sha": "4013fa5c7c94b346fbd92619e418da298a1927d9"
       },
       "nightly-release": {
         "libs": {
@@ -6757,6 +6757,18 @@
               "Modelica": "4.0.0"
             },
             "version": "1.2.3"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.4": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.4"
           }
         },
         "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
