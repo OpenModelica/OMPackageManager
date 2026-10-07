@@ -2379,11 +2379,21 @@
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-488b910bb49740ca.zip"
       },
+      "1.8.0-BUILD_DYNASWING_2": {
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "355c0e05105f0154a1b8d4bdb3e9369f870704000f679998f84c145f709d8569",
+        "source": "371cdf5f078cd727296fa78ace50b6ac5747e1a3",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-488b910bb49740ca.zip"
+      },
       "1.8.0-Master": {
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "dbf9fd60250bd65e122f869caee31d6cbaae2481",
+        "source": "c425f0e1c1b160c51b183d1db8f67bdd3c19c8a1",
         "systemLibraries": [
           "libc"
         ],
@@ -2393,7 +2403,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "dbf9fd60250bd65e122f869caee31d6cbaae2481",
+        "source": "c425f0e1c1b160c51b183d1db8f67bdd3c19c8a1",
         "systemLibraries": [
           "libc"
         ],
@@ -9271,6 +9281,10 @@
       "2.0.2-master": {
         "recipe": "471b655901f2a5ac",
         "source": "9c0bd25f9ed0ee6ebf0ed0504e1b6ec18f8682e0"
+      },
+      "2.0.3-master": {
+        "recipe": "471b655901f2a5ac",
+        "source": "87023dbad3dfe1b2152432592ad6e9811d1c377c"
       }
     },
     "URDFModelica": {

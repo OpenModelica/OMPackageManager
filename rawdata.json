@@ -4044,6 +4044,18 @@
         },
         "sha": "79311c4d1cd2035cf98feca6726d7fac97b9dc01"
       },
+      "BUILD_DYNASWING_2": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.8.0-BUILD_DYNASWING_2"
+          }
+        },
+        "sha": "371cdf5f078cd727296fa78ace50b6ac5747e1a3"
+      },
       "master": {
         "libs": {
           "Dynawo": {
@@ -4054,7 +4066,7 @@
             "version": "1.8.0-master"
           }
         },
-        "sha": "dbf9fd60250bd65e122f869caee31d6cbaae2481"
+        "sha": "c425f0e1c1b160c51b183d1db8f67bdd3c19c8a1"
       },
       "nightly": {
         "libs": {
@@ -4282,7 +4294,7 @@
             "version": "1.8.0-Master"
           }
         },
-        "sha": "dbf9fd60250bd65e122f869caee31d6cbaae2481"
+        "sha": "c425f0e1c1b160c51b183d1db8f67bdd3c19c8a1"
       }
     }
   },
@@ -14505,23 +14517,18 @@
               "1.3.1",
               "2.0.0"
             ],
-            "path": "TransiEnt 2.0.2-dev",
+            "path": "TransiEnt",
             "uses": {
-              "Buildings": "9.0.0",
-              "ClaRa": "1.8.0",
-              "DataFiles": "1.0.5",
-              "Design": "1.0.7",
+              "Buildings": "12.0.0",
+              "ClaRa": "1.8.1",
               "DymolaCommands": "1.11.0",
               "Modelica": "4.0.0",
-              "ModelicaReference": "4.0.0",
-              "Modelica_LinearSystems2": "2.4.0",
-              "Modelica_StateGraph2": "2.1.0",
-              "TILMedia": "1.8.0-ClaRa"
+              "TILMedia": "1.8.1-ClaRa"
             },
-            "version": "2.0.2-master"
+            "version": "2.0.3-master"
           }
         },
-        "sha": "9c0bd25f9ed0ee6ebf0ed0504e1b6ec18f8682e0"
+        "sha": "87023dbad3dfe1b2152432592ad6e9811d1c377c"
       }
     }
   },
