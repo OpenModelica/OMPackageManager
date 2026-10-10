@@ -2477,12 +2477,12 @@
       "2.0.0-nightly": {
         "generation": 1,
         "recipe": "471b655901f2a5ac",
-        "sha256": "931c8be42ae263d01d6156ca8de84b45a71c8ee74ea41fc753a27ad0afbd9de5",
-        "source": "6c9849b27ff2d833f5b94ecaec2aa4f10aa85461",
+        "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
+        "source": "f76114f2a4bae3ac18646cc770c536432ae88848",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-89b54733ef1fec36.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
       }
     },
     "EHPTexamples": {
