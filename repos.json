@@ -1069,6 +1069,14 @@
       ["*", "obsolete"]
     ]
   },
+  "ModelicaTutorial": {
+    "names": ["Debugging", "DynamicOptimization"],
+    "github": "OpenModelica/ModelicaTutorial",
+    "branches": {"master": "master"},
+    "support": [
+      ["*", "experimental"]
+    ]
+  },
   "ModelicaTableAdditions": {
     "names": ["ModelicaTableAdditions"],
     "github": "tbeu/ModelicaTableAdditions",
