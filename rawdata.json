@@ -1578,7 +1578,7 @@
             "version": "13.0.2-maint.13.x"
           }
         },
-        "sha": "1dcbd4f12b832b5ef7174b923ad100873aa1ca33"
+        "sha": "e4a9f891b0acf16e9b0219a60e1afd37e965880d"
       },
       "maint.7.0.x": {
         "libs": {
@@ -5982,15 +5982,16 @@
             "path": "HelmholtzMedia",
             "provides": [
               "1.0.0",
-              "2.0.0"
+              "2.0.0",
+              "2.1.0"
             ],
             "uses": {
               "Modelica": "4.1.0"
             },
-            "version": "2.1.0-main"
+            "version": "2.2.0-main"
           }
         },
-        "sha": "2045ee572a098a340f377b0902a2206ba2444680"
+        "sha": "4c6e2c52269505535c9f26f3dfa520013be19004"
       },
       "v0.5": {
         "libs": {
@@ -8571,6 +8572,48 @@
           }
         },
         "sha": "f1902539cc050242392441581a1520d6901ffe01"
+      }
+    }
+  },
+  "ModelicaTutorial": {
+    "refs": {
+      "master": {
+        "libs": {
+          "Debugging": {
+            "path": "Debugging.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "master"
+          },
+          "DynamicOptimization": {
+            "path": "DynamicOptimization.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "master"
+          }
+        },
+        "sha": "467375b877e5de1124e4a7ab01226232f71bedb8"
+      },
+      "v1.0.0": {
+        "libs": {
+          "Debugging": {
+            "path": "Debugging.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "1.0.0"
+          },
+          "DynamicOptimization": {
+            "path": "DynamicOptimization.mo",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "467375b877e5de1124e4a7ab01226232f71bedb8"
       }
     }
   },
