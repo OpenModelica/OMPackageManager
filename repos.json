@@ -1602,20 +1602,9 @@
     ]
   },
   "TAeZoSysPro": {
-    "names": ["TAeZoSysPro"],
-    "git": "https://gitlab.pam-retd.fr/TAeZoSysPro/taezosyspro.git",
-    "zipfile": "https://gitlab.pam-retd.fr/TAeZoSysPro/taezosyspro/-/archive/{0}/taezosyspro-{0}.zip",
-    "branches": {"master": "master"},
-    "support": [
-      ["prerelease", "noSupport"],
-      [">=3.1.0", "experimental"],
-      ["*", "obsolete"]
-    ]
-  },
-  "TAeZoSysPro_testsuite": {
-    "names": ["TAeZoSysPro_testsuite"],
-    "git": "https://gitlab.pam-retd.fr/TAeZoSysPro/taezosyspro_testsuite.git",
-    "zipfile": "https://gitlab.pam-retd.fr/TAeZoSysPro/taezosyspro_testsuite/-/archive/{0}/taezosyspro_testsuite-{0}.zip",
+    "names": ["TAeZoSysPro", "TAeZoSysPro_testsuite"],
+    "github": "EDF-Lab/TAeZoSysPro",
+    "search-extra-paths": ["src"],
     "branches": {"master": "master"},
     "support": [
       ["prerelease", "noSupport"],
