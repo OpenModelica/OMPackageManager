@@ -5983,15 +5983,16 @@
             "provides": [
               "1.0.0",
               "2.0.0",
-              "2.1.0"
+              "2.1.0",
+              "2.2.0"
             ],
             "uses": {
               "Modelica": "4.1.0"
             },
-            "version": "2.2.0-main"
+            "version": "3.0.0-main"
           }
         },
-        "sha": "028c4308dde1a557eb9b4d6a168f91eb29a7b42d"
+        "sha": "b2d558f2477a6be59e06d5dee61bc05395066c88"
       },
       "v0.5": {
         "libs": {
@@ -12390,7 +12391,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "56b0a3c13b743bfef91c5110a0a8917a5012752d"
+        "sha": "b5ba1a02985b22690fb1912ae8e0d0c60946bce4"
       },
       "issue11636": {
         "libs": {

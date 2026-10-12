@@ -3507,6 +3507,10 @@
       "2.2.0-main": {
         "recipe": "471b655901f2a5ac",
         "source": "028c4308dde1a557eb9b4d6a168f91eb29a7b42d"
+      },
+      "3.0.0-main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "b2d558f2477a6be59e06d5dee61bc05395066c88"
       }
     },
     "IBPSA": {
@@ -8610,7 +8614,7 @@
       },
       "2.0.0-develop": {
         "recipe": "471b655901f2a5ac",
-        "source": "56b0a3c13b743bfef91c5110a0a8917a5012752d"
+        "source": "b5ba1a02985b22690fb1912ae8e0d0c60946bce4"
       },
       "2.0.0-issue11636": {
         "recipe": "471b655901f2a5ac",
