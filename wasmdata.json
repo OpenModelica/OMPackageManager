@@ -3500,9 +3500,13 @@
         "recipe": "471b655901f2a5ac",
         "source": "2045ee572a098a340f377b0902a2206ba2444680"
       },
-      "2.2.0-main": {
+      "2.2.0": {
         "recipe": "471b655901f2a5ac",
         "source": "4c6e2c52269505535c9f26f3dfa520013be19004"
+      },
+      "2.2.0-main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "f453f13664e8353041963c3ae7254969493bf973"
       }
     },
     "IBPSA": {
@@ -8024,7 +8028,7 @@
       },
       "3.2.0-dev": {
         "recipe": "471b655901f2a5ac",
-        "source": "4df416b27860e1ae8c68c8602f3fb4fbe4c398b6"
+        "source": "13822aacc35412ca1857512923c8081fbbe55f8f"
       }
     },
     "OpenIWPI": {
