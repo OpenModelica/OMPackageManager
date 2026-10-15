@@ -1883,19 +1883,19 @@
     "CRML": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "abfa881799c5be9dfd557ea9cceaceac96480a6f"
+        "source": "2f167dc629244c151eb3bc405b2830a53d984d73"
       }
     },
     "CRML_test": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "abfa881799c5be9dfd557ea9cceaceac96480a6f"
+        "source": "2f167dc629244c151eb3bc405b2830a53d984d73"
       }
     },
     "CRMLtoModelica": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "abfa881799c5be9dfd557ea9cceaceac96480a6f"
+        "source": "2f167dc629244c151eb3bc405b2830a53d984d73"
       }
     },
     "ChaoticCircuits": {
@@ -2424,6 +2424,16 @@
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-89b54733ef1fec36.zip"
       },
+      "1.8.0": {
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
+        "source": "e47155d004b00c8e26c56331e189985d4a7d300d",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+      },
       "1.8.0-BUILD_DYNASWING_1": {
         "generation": 1,
         "recipe": "471b655901f2a5ac",
@@ -2478,7 +2488,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "aaef94d67395fd5f48091adb8ea00f4934a6ed66",
+        "source": "a877b649407e1d5fa2cb71ce047494b3479016d0",
         "systemLibraries": [
           "libc"
         ],
@@ -2488,7 +2498,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "aaef94d67395fd5f48091adb8ea00f4934a6ed66",
+        "source": "a877b649407e1d5fa2cb71ce047494b3479016d0",
         "systemLibraries": [
           "libc"
         ],

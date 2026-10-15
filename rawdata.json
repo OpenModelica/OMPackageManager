@@ -2768,7 +2768,7 @@
             "version": "main"
           }
         },
-        "sha": "abfa881799c5be9dfd557ea9cceaceac96480a6f"
+        "sha": "2f167dc629244c151eb3bc405b2830a53d984d73"
       }
     }
   },
@@ -4067,7 +4067,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "aaef94d67395fd5f48091adb8ea00f4934a6ed66"
+        "sha": "a877b649407e1d5fa2cb71ce047494b3479016d0"
       },
       "nightly": {
         "libs": {
@@ -4285,6 +4285,18 @@
         },
         "sha": "6211f2e9c98dd45c49fc4724aa9ae768a372af83"
       },
+      "v1.8.0": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "1.8.0"
+          }
+        },
+        "sha": "e47155d004b00c8e26c56331e189985d4a7d300d"
+      },
       "vMaster": {
         "libs": {
           "Dynawo": {
@@ -4295,7 +4307,7 @@
             "version": "2.0.0-Master"
           }
         },
-        "sha": "aaef94d67395fd5f48091adb8ea00f4934a6ed66"
+        "sha": "a877b649407e1d5fa2cb71ce047494b3479016d0"
       }
     }
   },
