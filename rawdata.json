@@ -2768,7 +2768,7 @@
             "version": "main"
           }
         },
-        "sha": "2f167dc629244c151eb3bc405b2830a53d984d73"
+        "sha": "d6493cf47ad5e8bc806d98e612a62b7c7cae9867"
       }
     }
   },
@@ -4067,7 +4067,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "a877b649407e1d5fa2cb71ce047494b3479016d0"
+        "sha": "4ddbbfe51d53f9ab1550dfa561489259cc966843"
       },
       "nightly": {
         "libs": {
@@ -4295,7 +4295,7 @@
             "version": "1.8.0"
           }
         },
-        "sha": "e47155d004b00c8e26c56331e189985d4a7d300d"
+        "sha": "1f31241aabc2e6e00546ad4552d91c7aa181b73f"
       },
       "vMaster": {
         "libs": {
@@ -4307,7 +4307,7 @@
             "version": "2.0.0-Master"
           }
         },
-        "sha": "a877b649407e1d5fa2cb71ce047494b3479016d0"
+        "sha": "4ddbbfe51d53f9ab1550dfa561489259cc966843"
       }
     }
   },
@@ -6004,7 +6004,7 @@
             "version": "3.0.0-main"
           }
         },
-        "sha": "65ed00318cec756c18787168e7eebc8afcbe24ce"
+        "sha": "d198ab321e20b375fa70cf7763f4c79d59b9ac06"
       },
       "v0.5": {
         "libs": {
@@ -14672,6 +14672,18 @@
         },
         "sha": "94772c90456490385d3442e58e841b92fecaa4a7"
       },
+      "0.3.6": {
+        "libs": {
+          "URDFModelica": {
+            "path": "URDFModelica",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "0.3.4"
+          }
+        },
+        "sha": "92541b6f6aa76fd510983a25afd3082377b4028f"
+      },
       "main": {
         "libs": {
           "URDFModelica": {
@@ -14682,7 +14694,7 @@
             "version": "0.3.4-main"
           }
         },
-        "sha": "94772c90456490385d3442e58e841b92fecaa4a7"
+        "sha": "92541b6f6aa76fd510983a25afd3082377b4028f"
       }
     }
   },
