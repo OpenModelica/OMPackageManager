@@ -1883,19 +1883,31 @@
     "CRML": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "d6493cf47ad5e8bc806d98e612a62b7c7cae9867"
+        "source": "0565b8068d677b6492c9c89d7b557cce750538f8"
+      },
+      "web-1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "0565b8068d677b6492c9c89d7b557cce750538f8"
       }
     },
     "CRML_test": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "d6493cf47ad5e8bc806d98e612a62b7c7cae9867"
+        "source": "0565b8068d677b6492c9c89d7b557cce750538f8"
+      },
+      "web-1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "0565b8068d677b6492c9c89d7b557cce750538f8"
       }
     },
     "CRMLtoModelica": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "d6493cf47ad5e8bc806d98e612a62b7c7cae9867"
+        "source": "0565b8068d677b6492c9c89d7b557cce750538f8"
+      },
+      "web-1.0.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "0565b8068d677b6492c9c89d7b557cce750538f8"
       }
     },
     "ChaoticCircuits": {
@@ -2129,11 +2141,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "d7bc3014466b6b8da11a220ffbb4309b0cd3b419"
+        "source": "4a181d148c1372bba99f85f727eb79a2d1783646"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8"
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b"
       }
     },
     "ComplexLib": {
@@ -4245,22 +4257,22 @@
       "4.2.0-dev": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "304c1af36dd4d21d09befc27d24fc622c61e21429b7258873153d0017d5dd63e",
-        "source": "d7bc3014466b6b8da11a220ffbb4309b0cd3b419",
+        "sha256": "09404698dad389e83a52546e005e4c9917fb98287e29cb145df640db5a30b848",
+        "source": "4a181d148c1372bba99f85f727eb79a2d1783646",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-1d438581fc5e2cd6.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-fe1b4fcd30477189.zip"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "304c1af36dd4d21d09befc27d24fc622c61e21429b7258873153d0017d5dd63e",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8",
+        "sha256": "09404698dad389e83a52546e005e4c9917fb98287e29cb145df640db5a30b848",
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-1d438581fc5e2cd6.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-fe1b4fcd30477189.zip"
       }
     },
     "ModelicaADS": {
@@ -4522,7 +4534,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8"
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b"
       }
     },
     "ModelicaServices": {
@@ -4576,11 +4588,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "d7bc3014466b6b8da11a220ffbb4309b0cd3b419"
+        "source": "4a181d148c1372bba99f85f727eb79a2d1783646"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8"
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b"
       }
     },
     "ModelicaTableAdditions": {
@@ -4716,13 +4728,13 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "d7bc3014466b6b8da11a220ffbb4309b0cd3b419"
+        "source": "4a181d148c1372bba99f85f727eb79a2d1783646"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
         "sha256": "e72065a0d170122638fec1b2e66e26d6f8bfd5462caa309b8059fd828afe3736",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8",
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b",
         "systemLibraries": [
           "libc"
         ],
@@ -4748,7 +4760,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8"
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b"
       }
     },
     "Modelica_DeviceDrivers": {
@@ -7898,7 +7910,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8"
+        "source": "f08fd040a7563a48b47ba9106599cdfeb113730b"
       }
     },
     "OpenBLDC": {

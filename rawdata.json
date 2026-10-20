@@ -2768,7 +2768,31 @@
             "version": "main"
           }
         },
-        "sha": "d6493cf47ad5e8bc806d98e612a62b7c7cae9867"
+        "sha": "0565b8068d677b6492c9c89d7b557cce750538f8"
+      },
+      "web-1.0.0": {
+        "libs": {
+          "CRML": {
+            "path": "libraries/modelica/CRML",
+            "uses": {
+              "Complex": "4.0.0",
+              "Modelica": "4.0.0"
+            },
+            "version": "web-1.0.0"
+          },
+          "CRML_test": {
+            "path": "libraries/modelica/CRML_test",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "web-1.0.0"
+          },
+          "CRMLtoModelica": {
+            "path": "libraries/modelica/CRMLtoModelica.mo",
+            "version": "web-1.0.0"
+          }
+        },
+        "sha": "0565b8068d677b6492c9c89d7b557cce750538f8"
       }
     }
   },
@@ -7445,7 +7469,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "d7bc3014466b6b8da11a220ffbb4309b0cd3b419"
+        "sha": "4a181d148c1372bba99f85f727eb79a2d1783646"
       },
       "trunk": {
         "libs": {
@@ -7527,7 +7551,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "b6eaa45738b32a5d777b0ce16ec8ebe1ab1ad5b8"
+        "sha": "f08fd040a7563a48b47ba9106599cdfeb113730b"
       },
       "v1.3.1": {
         "libs": {
