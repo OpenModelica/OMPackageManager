@@ -907,8 +907,8 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "60a18d45728ffa862889c88a022acd941010fc434683db8b76e318668ad18496",
-        "source": "55013d925b231ef95228b1adb0537a545312526e",
+        "sha256": "6f23247bfed464f9ed68f8a867c0f620be3d6d3b78adf7fcb7da50aff536e582",
+        "source": "72c10f56678a0fef9b200a60801952bb4817c80d",
         "systemLibraries": [
           "cpython",
           "libc"
@@ -1025,8 +1025,8 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "00bea3be2b3e6af64f15b7a91b92d21d141cd339b17037e0fd83d9ff3ee67940",
-        "source": "2a66b3fed0a01f701078e0b826efaf5e96767a57",
+        "sha256": "aa7b39fd9c9939b43876ca0594dd42677a7ce048de1202b77b3a27e4b0bd2508",
+        "source": "ff32923640c080db33da8b2092a0730b598abdc3",
         "systemLibraries": [
           "cpython",
           "libc"
@@ -1223,8 +1223,8 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "aa453138796e60286c12ea4d21a38d3c551008207b8b442249146860c9168369",
-        "source": "1ee21e584bc441d59375555239501ac887c51dc6",
+        "sha256": "462794be49662f4df1740dea539514ea32b2ff310c7782b214e369d33db74b55",
+        "source": "3e88e7b262753230ef2dc6e1ab9d3cd540aee339",
         "systemLibraries": [
           "libc"
         ],
@@ -3951,6 +3951,10 @@
         "source": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
       },
       "1.2.4": {
+        "recipe": "471b655901f2a5ac",
+        "source": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "1.2.5": {
         "recipe": "471b655901f2a5ac",
         "source": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
       },

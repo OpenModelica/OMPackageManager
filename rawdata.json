@@ -1472,7 +1472,7 @@
             "version": "10.1.2-maint.10.0.x"
           }
         },
-        "sha": "55013d925b231ef95228b1adb0537a545312526e"
+        "sha": "72c10f56678a0fef9b200a60801952bb4817c80d"
       },
       "maint.11.x": {
         "libs": {
@@ -1504,7 +1504,7 @@
             "version": "11.1.3-maint.11.x"
           }
         },
-        "sha": "2a66b3fed0a01f701078e0b826efaf5e96767a57"
+        "sha": "ff32923640c080db33da8b2092a0730b598abdc3"
       },
       "maint.12.x": {
         "libs": {
@@ -1578,7 +1578,7 @@
             "version": "13.0.2-maint.13.x"
           }
         },
-        "sha": "1ee21e584bc441d59375555239501ac887c51dc6"
+        "sha": "3e88e7b262753230ef2dc6e1ab9d3cd540aee339"
       },
       "maint.7.0.x": {
         "libs": {
@@ -6875,6 +6875,18 @@
               "Modelica": "4.0.0"
             },
             "version": "1.2.4"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.5": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.5"
           }
         },
         "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
