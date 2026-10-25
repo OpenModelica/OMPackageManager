@@ -8,6 +8,7 @@ import pygit2
 import re
 import requests
 import shutil
+import time
 import zipfile
 from github import Github, Auth
 from atlassian import Bitbucket
@@ -45,15 +46,46 @@ def allbranches(gitrepo: pygit2.Repository) -> list[Branch]:
             for e in gitrepo.branches.remote]
 
 
-def getgitrepo(url: str, repopath: str) -> pygit2.Repository:
+GIT_ATTEMPTS = 3
+GIT_RETRY_DELAY = 30  # seconds, doubled after each failed attempt
+unfetchedRepos = []  # the (url, error) of each repository whose cached clone was used instead
+
+
+def with_retries(action, what: str):
+    """Runs action(), retrying when the server fails (a 504 gateway timeout, a dropped connection)"""
+    delay = GIT_RETRY_DELAY
+    for attempt in range(1, GIT_ATTEMPTS + 1):
+        try:
+            return action()
+        except pygit2.GitError as e:
+            if attempt == GIT_ATTEMPTS:
+                raise pygit2.GitError("%s failed after %d attempts: %s" % (what, GIT_ATTEMPTS, e)) from e
+            print("%s failed (attempt %d of %d): %s; retrying in %d s" % (what, attempt, GIT_ATTEMPTS, e, delay))
+            time.sleep(delay)
+            delay *= 2
+
+
+def getgitrepo(url: str, repopath: str, sha: str = None) -> pygit2.Repository:
+    """The clone of url in repopath, fetched; when the server does not answer, the cached clone if it has sha"""
     if os.path.exists(repopath):
         gitrepo = pygit2.Repository(repopath)
         if len(gitrepo.remotes) != 1 or gitrepo.remotes[0].url != url:
             removerepo(url, repopath)
         else:
-            gitrepo.remotes[0].fetch()
+            try:
+                with_retries(gitrepo.remotes[0].fetch, "Fetching %s into %s" % (url, repopath))
+            except pygit2.GitError as e:
+                # One unreachable server must not stop the whole index update: keep what was fetched last time
+                if sha is not None and gitrepo.get(sha) is None:
+                    raise pygit2.GitError("%s; the cached clone does not have %s" % (e, sha)) from e
+                print("WARNING: %s; using the cached clone" % e)
+                unfetchedRepos.append((url, str(e)))
     if not os.path.exists(repopath):
-        pygit2.clone_repository(url, repopath)
+        def clone():
+            if os.path.exists(repopath):  # left half done by a failed attempt
+                shutil.rmtree(repopath)
+            return pygit2.clone_repository(url, repopath)
+        with_retries(clone, "Cloning %s into %s" % (url, repopath))
     gitrepo = pygit2.Repository(repopath)
     return gitrepo
 
@@ -362,7 +394,7 @@ def main():
                                 (zipurl, zipfilepath))
                             raise
                     else:
-                        gitrepo = getgitrepo(giturl, repopath + ".git")
+                        gitrepo = getgitrepo(giturl, repopath + ".git", sha)
                         try:
                             gitrepo.checkout_tree(
                                 gitrepo.get(sha),
@@ -465,6 +497,11 @@ def main():
     with open("rawdata.json", "w") as io:
         json.dump(serverdata, io, sort_keys=True, indent=2)
 
+    if unfetchedRepos:
+        print("\n%d repositories could not be fetched, their libraries are as of the previous run:" %
+              len(unfetchedRepos))
+        for url, error in unfetchedRepos:
+            print("  %s\n    %s" % (url, error))
     if duplicateWarnings:
         print("\n%d libraries were skipped because they are found more than once:" % len(duplicateWarnings))
         for warning in duplicateWarnings:
