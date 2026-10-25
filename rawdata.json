@@ -7481,7 +7481,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "7099c52f7048dbc19065ac9f76b7cf9be946190b"
+        "sha": "50d5aa14d6266ba6178a3a57d65ec261cf37349d"
       },
       "trunk": {
         "libs": {
@@ -7563,7 +7563,7 @@
             "version": "4.2.0-dev"
           }
         },
-        "sha": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2"
+        "sha": "8989adbd155b6265e7b866bf5f0ffa282f17ad24"
       },
       "v1.3.1": {
         "libs": {
@@ -10397,7 +10397,7 @@
             "version": "3.2.0-dev"
           }
         },
-        "sha": "1c677f8321ee5e44f0d4ceb223276cade5a82ee0"
+        "sha": "9a595ebfe42696650108dbaa47b112cf7afb24e1"
       },
       "v1.0.0": {
         "libs": {
@@ -13185,20 +13185,20 @@
           "LargeTestSuite": {
             "path": "LargeTestSuite",
             "uses": {
-              "Modelica": "4.0.0",
-              "ScalableTestSuite": "2.2.0"
+              "Modelica": "4.1.0",
+              "ScalableTestSuite": "2.4.0"
             },
-            "version": "2.2.0-master"
+            "version": "2.4.0-master"
           },
           "ScalableTestSuite": {
             "path": "ScalableTestSuite",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "2.2.0-master"
+            "version": "2.4.0-master"
           }
         },
-        "sha": "2e288e71eb0a7834310827144462726180d10500"
+        "sha": "878d01c27c2e4138cefff81819d9ca8a890b9dad"
       },
       "v1.0.0": {
         "libs": {

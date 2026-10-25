@@ -2158,11 +2158,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "7099c52f7048dbc19065ac9f76b7cf9be946190b"
+        "source": "50d5aa14d6266ba6178a3a57d65ec261cf37349d"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2"
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24"
       }
     },
     "ComplexLib": {
@@ -3999,6 +3999,10 @@
       "2.3.0": {
         "recipe": "471b655901f2a5ac",
         "source": "13f3a73e31261d57d68e74259d699f7306a4a69f"
+      },
+      "2.4.0-master": {
+        "recipe": "471b655901f2a5ac",
+        "source": "878d01c27c2e4138cefff81819d9ca8a890b9dad"
       }
     },
     "LibRAS": {
@@ -4278,8 +4282,8 @@
       "4.2.0-dev": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "21959bdf95b2a004133ee49450425dba813ea99f670a84ebc49b971e61f7dc1e",
-        "source": "7099c52f7048dbc19065ac9f76b7cf9be946190b",
+        "sha256": "6d9ac93b0443830d7f8ffc2cec3286226cd1fa1b8b9226600179957857c1322a",
+        "source": "50d5aa14d6266ba6178a3a57d65ec261cf37349d",
         "systemLibraries": [
           "libc"
         ],
@@ -4288,8 +4292,8 @@
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "21959bdf95b2a004133ee49450425dba813ea99f670a84ebc49b971e61f7dc1e",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2",
+        "sha256": "6d9ac93b0443830d7f8ffc2cec3286226cd1fa1b8b9226600179957857c1322a",
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24",
         "systemLibraries": [
           "libc"
         ],
@@ -4555,7 +4559,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2"
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24"
       }
     },
     "ModelicaServices": {
@@ -4609,11 +4613,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "7099c52f7048dbc19065ac9f76b7cf9be946190b"
+        "source": "50d5aa14d6266ba6178a3a57d65ec261cf37349d"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2"
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24"
       }
     },
     "ModelicaTableAdditions": {
@@ -4749,13 +4753,13 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "7099c52f7048dbc19065ac9f76b7cf9be946190b"
+        "source": "50d5aa14d6266ba6178a3a57d65ec261cf37349d"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
         "sha256": "e72065a0d170122638fec1b2e66e26d6f8bfd5462caa309b8059fd828afe3736",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2",
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24",
         "systemLibraries": [
           "libc"
         ],
@@ -4781,7 +4785,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2"
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24"
       }
     },
     "Modelica_DeviceDrivers": {
@@ -7931,7 +7935,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "c34afb3f63ec0e5f732b94f0356736f61c1ac8c2"
+        "source": "8989adbd155b6265e7b866bf5f0ffa282f17ad24"
       }
     },
     "OpenBLDC": {
@@ -8075,7 +8079,7 @@
       },
       "3.2.0-dev": {
         "recipe": "471b655901f2a5ac",
-        "source": "1c677f8321ee5e44f0d4ceb223276cade5a82ee0"
+        "source": "9a595ebfe42696650108dbaa47b112cf7afb24e1"
       }
     },
     "OpenIWPI": {
@@ -9062,6 +9066,10 @@
       "2.3.0": {
         "recipe": "471b655901f2a5ac",
         "source": "13f3a73e31261d57d68e74259d699f7306a4a69f"
+      },
+      "2.4.0-master": {
+        "recipe": "471b655901f2a5ac",
+        "source": "878d01c27c2e4138cefff81819d9ca8a890b9dad"
       }
     },
     "Servomechanisms": {
