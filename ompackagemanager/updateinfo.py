@@ -229,6 +229,38 @@ def normalize_version(version: str, tagName: str, entry: dict) -> str:
     return version
 
 
+def load_library(libname: str, tagName: str, path: str, omc: OMPython.OMCSessionZMQ) -> bool:
+    """Load the Modelica file of a library into omc.
+
+    OMPython raises OMCSessionException for every error omc reports, so a library
+    that does not load (e.g. a package.order or class name mismatch) has to be caught
+    here and skipped, it must not stop the update of the whole index.
+
+    Args:
+        libname (str): Library name
+        tagName (str): Name of Git tag
+        path (str): Modelica file of the library
+        omc (OMPython.OMCSessionZMQ): OMC session
+
+    Returns:
+        bool: True if the library was loaded.
+    """
+
+    try:
+        if not omc.sendExpression("loadFile(\"%s\", uses=false)" % path):
+            print("Failed to load file %s in %s" % (path, tagName))
+            return False
+        classNamesAfterLoad = omc.sendExpression("getClassNames()")
+    except OMPython.OMCSessionException as e:
+        print("Failed to load file %s in %s: %s" % (path, tagName, e))
+        return False
+    if libname not in classNamesAfterLoad:
+        print("Did not load the library? ")
+        print(classNamesAfterLoad)
+        return False
+    return True
+
+
 def new_libentry(libname: str,
                  tagName: str,
                  entry,
@@ -456,13 +488,7 @@ def main():
                             grammar = "latest"
                         omc.sendExpression("setCommandLineOptions(\"--std=%s\")" % grammar)
 
-                        if not omc.sendExpression("loadFile(\"%s\", uses=false)" % hits[0]):
-                            print("Failed to load file %s in %s" % (hits[0], tagName))
-                            continue
-                        classNamesAfterLoad = omc.sendExpression("getClassNames()")
-                        if libname not in classNamesAfterLoad:
-                            print("Did not load the library? ")
-                            print(classNamesAfterLoad)
+                        if not load_library(libname, tagName, hits[0], omc):
                             continue
 
                         libentry = new_libentry(libname, tagName, entry, hits, repopath, omc)
