@@ -472,7 +472,7 @@
       },
       "1.0.0-main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "BLDC": {
@@ -508,7 +508,7 @@
     "Battery": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "BenchmarksForResizeableArrays": {
@@ -518,7 +518,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "BidiDCDC": {
@@ -2321,7 +2321,7 @@
     "DistrictHeating": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "DriveControl": {
@@ -3585,7 +3585,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "IDEAS": {
@@ -3974,7 +3974,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "LargeInterfaces": {
@@ -3984,7 +3984,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "source": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     },
     "LargeTestSuite": {
@@ -8440,6 +8440,10 @@
       "3.1.0-master": {
         "recipe": "471b655901f2a5ac",
         "source": "fb085b1633a6256f7f709980d6b8188f0e3fc653"
+      },
+      "3.2.0-master": {
+        "recipe": "471b655901f2a5ac",
+        "source": "731ee349a24aabb88f0a1ecbdbc079cc5eb86372"
       }
     },
     "PhotoVoltaics_TGM": {
@@ -8542,6 +8546,10 @@
       "3.1.0-master": {
         "recipe": "471b655901f2a5ac",
         "source": "fb085b1633a6256f7f709980d6b8188f0e3fc653"
+      },
+      "3.2.0-master": {
+        "recipe": "471b655901f2a5ac",
+        "source": "731ee349a24aabb88f0a1ecbdbc079cc5eb86372"
       },
       "X.X.X": {
         "recipe": "471b655901f2a5ac",

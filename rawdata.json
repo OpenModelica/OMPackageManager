@@ -10719,7 +10719,7 @@
           "BenchmarksForResizeableArrays": {
             "path": "benchmark-models/DLR_BenchmarksForResizableArrays/BenchmarksForResizeableArrays.mo",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "main"
           },
@@ -10748,7 +10748,7 @@
             "version": "main"
           }
         },
-        "sha": "f921b7abc1524c26f8ab3316acee09fccb177d76"
+        "sha": "1591f51f991995d356f91f04efd86abc3083895f"
       }
     }
   },
@@ -11323,12 +11323,13 @@
             "provides": [
               "2.0.0",
               "2.1.0",
-              "3.0.0"
+              "3.0.0",
+              "3.1.0"
             ],
             "uses": {
               "Modelica": "4.0.0"
             },
-            "version": "3.1.0-master"
+            "version": "3.2.0-master"
           },
           "PhotoVoltaics_TGM": {
             "convertFromVersion": [
@@ -11348,17 +11349,18 @@
             "provides": [
               "2.0.0",
               "2.1.0",
-              "3.0.0"
+              "3.0.0",
+              "3.1.0"
             ],
             "uses": {
               "Buildings": "9.0.0",
               "Modelica": "4.0.0",
-              "PhotoVoltaics": "3.1.0"
+              "PhotoVoltaics": "3.2.0"
             },
-            "version": "3.1.0-master"
+            "version": "3.2.0-master"
           }
         },
-        "sha": "fb085b1633a6256f7f709980d6b8188f0e3fc653"
+        "sha": "731ee349a24aabb88f0a1ecbdbc079cc5eb86372"
       },
       "v0.1.0": {
         "libs": {
