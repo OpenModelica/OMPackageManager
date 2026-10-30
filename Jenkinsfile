@@ -3,6 +3,7 @@ pipeline {
   parameters {
     booleanParam(name: 'UPLOAD_AND_CACHE', defaultValue: true, description: 'Also do stages upload and cache')
     string(name: 'WASM_OMC', defaultValue: 'omc', description: 'An omc whose getExternalFunctions describes what the prebuilt wasm modules are built from; empty skips them')
+    string(name: 'PROBLEMS_EMAIL', defaultValue: 'adrian.pop@liu.se', description: 'Who gets the list of skipped libraries when the job goes unstable; empty sends no mail')
   }
   options {
     newContainerPerStage()
@@ -38,6 +39,18 @@ pipeline {
           sh 'python3 -m ompackagemanager genindex'
           if (status != 0) {
             unstable('build-wasm did not build everything')
+          }
+        }
+      }
+      script {
+        // updateinfo and genindex skip a library they cannot handle instead of failing, and list it here
+        def problems = sh(returnStdout: true, script: 'cat updateinfo-problems.txt genindex-problems.txt 2>/dev/null || true').trim()
+        if (problems) {
+          unstable('some libraries were skipped, see updateinfo-problems.txt and genindex-problems.txt')
+          if (params.PROBLEMS_EMAIL) {
+            emailext subject: "${env.JOB_NAME} #${env.BUILD_NUMBER}: libraries skipped",
+              body: "${problems}\n\n${env.BUILD_URL}console\n",
+              to: params.PROBLEMS_EMAIL
           }
         }
       }

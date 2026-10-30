@@ -1,4 +1,20 @@
+import os
 import semantic_version
+
+
+def write_problems(path: str, title: str, problems: list[str]) -> None:
+    """Write what a command skipped to path, for Jenkins to mark the job unstable and mail it.
+
+    The file is removed when nothing was skipped, so a stale one never outlives a clean run.
+    """
+    if not problems:
+        if os.path.exists(path):
+            os.remove(path)
+        return
+    with open(path, "w") as f:
+        f.write("%s\n\n" % title)
+        for problem in problems:
+            f.write("- %s\n" % problem)
 
 
 def VersionNumber(s: str) -> semantic_version.Version:

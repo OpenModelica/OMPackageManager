@@ -49,6 +49,8 @@ def allbranches(gitrepo: pygit2.Repository) -> list[Branch]:
 GIT_ATTEMPTS = 3
 GIT_RETRY_DELAY = 30  # seconds, doubled after each failed attempt
 unfetchedRepos = []  # the (url, error) of each repository whose cached clone was used instead
+failedLoads = []  # the (path, tagName, error) of each library file omc did not load
+PROBLEMS_FILE = "updateinfo-problems.txt"
 
 
 def with_retries(action, what: str):
@@ -249,14 +251,17 @@ def load_library(libname: str, tagName: str, path: str, omc: OMPython.OMCSession
     try:
         if not omc.sendExpression("loadFile(\"%s\", uses=false)" % path):
             print("Failed to load file %s in %s" % (path, tagName))
+            failedLoads.append((path, tagName, "loadFile returned false"))
             return False
         classNamesAfterLoad = omc.sendExpression("getClassNames()")
     except OMPython.OMCSessionException as e:
         print("Failed to load file %s in %s: %s" % (path, tagName, e))
+        failedLoads.append((path, tagName, str(e)))
         return False
     if libname not in classNamesAfterLoad:
         print("Did not load the library? ")
         print(classNamesAfterLoad)
+        failedLoads.append((path, tagName, "%s is not among the loaded classes %s" % (libname, classNamesAfterLoad)))
         return False
     return True
 
@@ -339,6 +344,7 @@ def main():
         os.mkdir("cache")
 
     duplicateWarnings = []
+    brokenRefs = []
 
     namesInFile = set()
     for key in data.keys():
@@ -505,6 +511,10 @@ def main():
                         if "libs" not in thisTagBackup:
                             del tagsDict[tagName]
                             refNames.discard(tagName)
+                            brokenRefs.append("%s %s: no library loaded, it is not in the index" % (key, tagName))
+                        else:
+                            brokenRefs.append("%s %s: no library loaded, the index keeps the previous entry" %
+                                              (key, tagName))
                         continue
                     thisTag["libs"] = provided
                     thisTag.update(refkeys)
@@ -532,3 +542,10 @@ def main():
         print("\n%d libraries were skipped because they are found more than once:" % len(duplicateWarnings))
         for warning in duplicateWarnings:
             print(warning)
+
+    problems = brokenRefs
+    problems += ["%s in %s did not load: %s" % (path, tagName, error) for (path, tagName, error) in failedLoads]
+    problems += ["%s could not be fetched, using the cached clone: %s" % (url, error)
+                 for (url, error) in unfetchedRepos]
+    problems += [warning.strip() for warning in duplicateWarnings]
+    common.write_problems(PROBLEMS_FILE, "updateinfo skipped these libraries:", problems)

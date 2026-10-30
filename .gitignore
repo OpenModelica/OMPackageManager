@@ -5,3 +5,5 @@ __pycache__
 /cache/
 index.json
 tests/tmp-cache/
+updateinfo-problems.txt
+genindex-problems.txt
