@@ -10738,7 +10738,7 @@
           "LSGreenH2Production": {
             "path": "benchmark-models/ABB_LSGreenH2Production/LSGreenH2Production",
             "uses": {
-              "Modelica": "4.0.0",
+              "Modelica": "4.1.0",
               "PowerSystems": "2.0.0"
             },
             "version": "main"
@@ -10748,7 +10748,7 @@
             "version": "main"
           }
         },
-        "sha": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "sha": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     }
   },

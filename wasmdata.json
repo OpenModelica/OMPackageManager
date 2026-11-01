@@ -472,7 +472,7 @@
       },
       "1.0.0-main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "BLDC": {
@@ -508,7 +508,7 @@
     "Battery": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "BenchmarksForResizeableArrays": {
@@ -518,7 +518,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "BidiDCDC": {
@@ -2321,7 +2321,7 @@
     "DistrictHeating": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "DriveControl": {
@@ -3585,7 +3585,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "IDEAS": {
@@ -3974,7 +3974,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "LargeInterfaces": {
@@ -3984,7 +3984,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "601fb869ad36cc8876f9e53f83e214b4de8dbc8d"
+        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
       }
     },
     "LargeTestSuite": {
