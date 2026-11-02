@@ -472,7 +472,7 @@
       },
       "1.0.0-main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "BLDC": {
@@ -508,7 +508,7 @@
     "Battery": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "BenchmarksForResizeableArrays": {
@@ -518,7 +518,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "BidiDCDC": {
@@ -2158,11 +2158,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "d74ce5ecd3db17776257189bc2425e1ef571440e"
+        "source": "4a2ce705a3925259c5ba97b258155094b910c78d"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b"
+        "source": "9e133fb337107090da578b9baddd8e29530697d2"
       }
     },
     "ComplexLib": {
@@ -2321,7 +2321,7 @@
     "DistrictHeating": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "DriveControl": {
@@ -3585,7 +3585,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "IDEAS": {
@@ -3974,7 +3974,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "LargeInterfaces": {
@@ -3984,7 +3984,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "07f4a8208e0ac0888b3c17a791cf073a22b76682"
+        "source": "33e34392fdc56dd85b2af9637391f48b6ff3166f"
       }
     },
     "LargeTestSuite": {
@@ -4286,22 +4286,22 @@
       "4.2.0-dev": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "a22f0c8ed47276f934e7633515a564e851a50737a3054cb42f52c9c829f96364",
-        "source": "d74ce5ecd3db17776257189bc2425e1ef571440e",
+        "sha256": "c8e33315a6142eec6e9d99345af8a22eb6679bd4a82c0837dd272ca607da888b",
+        "source": "4a2ce705a3925259c5ba97b258155094b910c78d",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-1d438581fc5e2cd6.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-fe1b4fcd30477189.zip"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "a22f0c8ed47276f934e7633515a564e851a50737a3054cb42f52c9c829f96364",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b",
+        "sha256": "c8e33315a6142eec6e9d99345af8a22eb6679bd4a82c0837dd272ca607da888b",
+        "source": "9e133fb337107090da578b9baddd8e29530697d2",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-1d438581fc5e2cd6.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-fe1b4fcd30477189.zip"
       }
     },
     "ModelicaADS": {
@@ -4563,7 +4563,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b"
+        "source": "9e133fb337107090da578b9baddd8e29530697d2"
       }
     },
     "ModelicaServices": {
@@ -4617,11 +4617,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "d74ce5ecd3db17776257189bc2425e1ef571440e"
+        "source": "4a2ce705a3925259c5ba97b258155094b910c78d"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b"
+        "source": "9e133fb337107090da578b9baddd8e29530697d2"
       }
     },
     "ModelicaTableAdditions": {
@@ -4757,13 +4757,13 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "d74ce5ecd3db17776257189bc2425e1ef571440e"
+        "source": "4a2ce705a3925259c5ba97b258155094b910c78d"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
         "sha256": "e72065a0d170122638fec1b2e66e26d6f8bfd5462caa309b8059fd828afe3736",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b",
+        "source": "9e133fb337107090da578b9baddd8e29530697d2",
         "systemLibraries": [
           "libc"
         ],
@@ -4789,7 +4789,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b"
+        "source": "9e133fb337107090da578b9baddd8e29530697d2"
       }
     },
     "Modelica_DeviceDrivers": {
@@ -7939,7 +7939,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "0e2a1c19c97bacc7edad3d52ce9dd94ac8adcb6b"
+        "source": "9e133fb337107090da578b9baddd8e29530697d2"
       }
     },
     "OpenBLDC": {
@@ -8083,7 +8083,7 @@
       },
       "3.2.0-dev": {
         "recipe": "471b655901f2a5ac",
-        "source": "9a595ebfe42696650108dbaa47b112cf7afb24e1"
+        "source": "7a44d9857846ba32b41d5c2bedaa38e984c94a1a"
       }
     },
     "OpenIWPI": {
