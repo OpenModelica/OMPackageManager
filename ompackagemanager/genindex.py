@@ -11,6 +11,9 @@ class DuplicateVersions(Exception):
     pass
 
 
+PROBLEMS_FILE = "genindex-problems.txt"
+
+
 def onlyVersioninSemVer(ver):
     ver.prerelease = []
     ver.build = []
@@ -138,6 +141,7 @@ def main():
     unusedExtraProvides = {(key, version) for (key, versions) in extraProvides.items() for version in versions}
 
     indexdata = {"libs": {}, "mirrors": ["https://libraries.openmodelica.org/cache/"]}
+    problems = []
     for firstKey in rawdata.keys():
         data = rawdata[firstKey]
         for refKey in data["refs"].keys():
@@ -145,7 +149,11 @@ def main():
             if "broken" in r:
                 continue
             if "libs" not in r:
-                raise Exception(firstKey + " " + refKey)
+                # A ref whose libraries did not load must not stop the index of all the others
+                problem = "%s %s has no libraries in rawdata.json, it is not in the index" % (firstKey, refKey)
+                print("WARNING: " + problem)
+                problems.append(problem)
+                continue
             for libName in r["libs"]:
                 lib = r["libs"][libName]
                 isgit = "github" in repos[firstKey] or "git" in repos[firstKey]
@@ -232,3 +240,5 @@ def main():
 
     with open("index.json", "w") as io:
         json.dump(indexdata, io, sort_keys=True, indent=0)
+
+    common.write_problems(PROBLEMS_FILE, "genindex skipped these library versions:", problems)
