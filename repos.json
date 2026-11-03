@@ -1828,6 +1828,14 @@
       ["*", "noSupport"]
     ]
   },
+  "DataReconciliationLibraries": {
+    "names": ["ModelicaDataReconciliationSimpleTests", "TSP_DataReconciliationSimpleTests"],
+    "github": "OpenModelica/DataReconciliationLibraries",
+    "branches": {"main": "main"},
+    "support": [
+      ["*", "noSupport"]
+    ]
+  },
   "Design": {
     "names": ["Design"],
     "github": "Modelica-OpenVendorSpecificLibraries/Design",
