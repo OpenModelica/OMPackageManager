@@ -4130,6 +4130,218 @@
         "source": "153232ace37ca23d40f27884bcbf51e5dda9ec54"
       }
     },
+    "MicroPythonMCU": {
+      "0.1.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "b4d144005f66e6cf80c3c32e2ed87b89d9c6abba0a65c80f41ba0fd993d9711f",
+        "source": "42f12cd607508d013c50b47208c03c9f71f7e248",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7d89fcf699bfdb23.zip"
+      },
+      "0.1.1": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "b4d144005f66e6cf80c3c32e2ed87b89d9c6abba0a65c80f41ba0fd993d9711f",
+        "source": "e82b96579a8da164c1ea20defc55d6b96fb576fe",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7d89fcf699bfdb23.zip"
+      },
+      "0.1.2": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "b4d144005f66e6cf80c3c32e2ed87b89d9c6abba0a65c80f41ba0fd993d9711f",
+        "source": "3e9be2d58e79bc0b6fd750fb34e4186abeaae2a9",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7d89fcf699bfdb23.zip"
+      },
+      "0.2.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "b4d144005f66e6cf80c3c32e2ed87b89d9c6abba0a65c80f41ba0fd993d9711f",
+        "source": "766999c07c9ab1bace3627c31a6e916642ce469b",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7d89fcf699bfdb23.zip"
+      },
+      "0.3.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "041e2b3d7d5603d9652ac765602781dacc86d7c4e418cb0e861bca89733285e4",
+        "source": "b70995c03b574d627a2d352d2071d0450aa4dee5",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-6f593521b076806d.zip"
+      },
+      "0.4.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "041e2b3d7d5603d9652ac765602781dacc86d7c4e418cb0e861bca89733285e4",
+        "source": "c3776420504f90e73306eb9f2d27d63e60a18cf1",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-6f593521b076806d.zip"
+      },
+      "0.5.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "433f951dc995010e6b070873058c93dfcaadfcbb71ee53dc4ab18c0b3e4eb994",
+        "source": "7fbe92d478fe35570ef904acb1faade5990c2e5a",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-78de27be2f5ce441.zip"
+      },
+      "0.5.1": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "433f951dc995010e6b070873058c93dfcaadfcbb71ee53dc4ab18c0b3e4eb994",
+        "source": "ded9da6e43836c8053d16124817d6c2bd6b1b029",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-78de27be2f5ce441.zip"
+      },
+      "0.5.2": {
+        "failed": [
+          "MicroPythonMCU.Internal.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.I2cDevice_sync",
+          "MicroPythonMCU.Internal.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.PyRuntime_sync",
+          "MicroPythonMCU.Internal.UartDevice.constructor",
+          "MicroPythonMCU.Internal.UartDevice.destructor",
+          "MicroPythonMCU.Internal.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "15e1acecea7dfe7c2ba24a407c76d13078004ffc6f6ddbac1fd2764b37545443",
+        "source": "9a54685da6aff8196f56d466ed05d9c800bdcfe0",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-d2b47d6606ec0145.zip"
+      },
+      "0.6.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.Runtime.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.Runtime.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.Runtime.I2cDevice_sync",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime_sync",
+          "MicroPythonMCU.Internal.Runtime.UartDevice.constructor",
+          "MicroPythonMCU.Internal.Runtime.UartDevice.destructor",
+          "MicroPythonMCU.Internal.Runtime.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "6486daa1ebe874035937d3260e0cde584cff57d13e725f89ebae3377c55b09d7",
+        "source": "57452b5a47b6f330014230debddd3cddb80a08b7",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7109b02b980609ef.zip"
+      }
+    },
     "ModPowerSystems": {
       "master": {
         "recipe": "471b655901f2a5ac",

@@ -7231,6 +7231,130 @@
       }
     }
   },
+  "MicroPythonMCU": {
+    "refs": {
+      "v0.1.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.1.0"
+          }
+        },
+        "sha": "42f12cd607508d013c50b47208c03c9f71f7e248"
+      },
+      "v0.1.1": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.1.1"
+          }
+        },
+        "sha": "e82b96579a8da164c1ea20defc55d6b96fb576fe"
+      },
+      "v0.1.2": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.1.2"
+          }
+        },
+        "sha": "3e9be2d58e79bc0b6fd750fb34e4186abeaae2a9"
+      },
+      "v0.2.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.2.0"
+          }
+        },
+        "sha": "766999c07c9ab1bace3627c31a6e916642ce469b"
+      },
+      "v0.3.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.3.0"
+          }
+        },
+        "sha": "b70995c03b574d627a2d352d2071d0450aa4dee5"
+      },
+      "v0.4.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.4.0"
+          }
+        },
+        "sha": "c3776420504f90e73306eb9f2d27d63e60a18cf1"
+      },
+      "v0.5.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.5.0"
+          }
+        },
+        "sha": "7fbe92d478fe35570ef904acb1faade5990c2e5a"
+      },
+      "v0.5.1": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.5.1"
+          }
+        },
+        "sha": "ded9da6e43836c8053d16124817d6c2bd6b1b029"
+      },
+      "v0.5.2": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.5.2"
+          }
+        },
+        "sha": "9a54685da6aff8196f56d466ed05d9c800bdcfe0"
+      },
+      "v0.6.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.6.0"
+          }
+        },
+        "sha": "57452b5a47b6f330014230debddd3cddb80a08b7"
+      }
+    }
+  },
   "ModPowerSystems": {
     "refs": {
       "master": {
