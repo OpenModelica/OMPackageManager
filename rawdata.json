@@ -1540,7 +1540,7 @@
             "version": "12.1.3-maint.12.x"
           }
         },
-        "sha": "433f4c16c8787e335ce09a99fa2963591fb67c07"
+        "sha": "7f3b1f003eb61048258c280f6ae90807003f250a"
       },
       "maint.13.x": {
         "libs": {
@@ -3874,6 +3874,52 @@
           }
         },
         "sha": "ab245c1f280f0bacd170413a208a4640e67b524d"
+      }
+    }
+  },
+  "DataReconciliationLibraries": {
+    "refs": {
+      "master": {
+        "libs": {
+          "ModelicaDataReconciliationSimpleTests": {
+            "path": "ModelicaDataReconciliationSimpleTests",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.0.0-master"
+          },
+          "TSP_DataReconciliationSimpleTests": {
+            "path": "TSP_DataReconciliationSimpleTests",
+            "uses": {
+              "Modelica": "4.1.0",
+              "ModelicaDataReconciliationSimpleTests": "4.0.0",
+              "ThermoSysPro": "4.2.0"
+            },
+            "version": "4.0.0-master"
+          }
+        },
+        "sha": "6992c50bba60eb150b532a0b0a43aa0e1bc83055"
+      },
+      "v4.0.0": {
+        "libs": {
+          "ModelicaDataReconciliationSimpleTests": {
+            "path": "ModelicaDataReconciliationSimpleTests",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.0.0"
+          },
+          "TSP_DataReconciliationSimpleTests": {
+            "path": "TSP_DataReconciliationSimpleTests",
+            "uses": {
+              "Modelica": "4.1.0",
+              "ModelicaDataReconciliationSimpleTests": "4.0.0",
+              "ThermoSysPro": "4.2.0"
+            },
+            "version": "4.0.0"
+          }
+        },
+        "sha": "6992c50bba60eb150b532a0b0a43aa0e1bc83055"
       }
     }
   },
