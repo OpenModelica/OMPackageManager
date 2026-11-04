@@ -1831,7 +1831,7 @@
   "DataReconciliationLibraries": {
     "names": ["ModelicaDataReconciliationSimpleTests", "TSP_DataReconciliationSimpleTests"],
     "github": "OpenModelica/DataReconciliationLibraries",
-    "branches": {"main": "main"},
+    "branches": {"master": "master"},
     "support": [
       ["*", "noSupport"]
     ]
