@@ -46,7 +46,9 @@ pipeline {
         // updateinfo and genindex skip a library they cannot handle instead of failing, and list it here
         def problems = sh(returnStdout: true, script: 'cat updateinfo-problems.txt genindex-problems.txt 2>/dev/null || true').trim()
         if (problems) {
-          unstable('some libraries were skipped, see updateinfo-problems.txt and genindex-problems.txt')
+          echo problems
+          archiveArtifacts artifacts: 'updateinfo-problems.txt, genindex-problems.txt', allowEmptyArchive: true
+          unstable('some libraries were skipped, see the archived updateinfo-problems.txt and genindex-problems.txt')
           if (params.PROBLEMS_EMAIL) {
             emailext subject: "${env.JOB_NAME} #${env.BUILD_NUMBER}: libraries skipped",
               body: "${problems}\n\n${env.BUILD_URL}console\n",
