@@ -472,7 +472,7 @@
       },
       "1.0.0-main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "BLDC": {
@@ -508,7 +508,7 @@
     "Battery": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "BenchmarksForResizeableArrays": {
@@ -518,7 +518,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "BidiDCDC": {
@@ -1223,8 +1223,8 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "89d2c5c92aa5679b9b3bb1453b5080b30a07c5826085baadcd04f5eaa158fac0",
-        "source": "5a2ae0f177897777c83935937a40d559fcc49d04",
+        "sha256": "eaff344fa67a24f6000ed88e3a86436e9f1bb1fa747f67dbbdb7d331d94bd434",
+        "source": "dfeabedb452fbf9f2fd571ee8de14fcd8397152e",
         "systemLibraries": [
           "libc"
         ],
@@ -2321,7 +2321,7 @@
     "DistrictHeating": {
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "DriveControl": {
@@ -3585,7 +3585,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "IDEAS": {
@@ -3974,7 +3974,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "LargeInterfaces": {
@@ -3984,7 +3984,7 @@
       },
       "main": {
         "recipe": "471b655901f2a5ac",
-        "source": "2551a0aac1984c366415d5617f11e1c50e3782fe"
+        "source": "a43f171ff166bf237e993d7bdad8059e2792e2d6"
       }
     },
     "LargeTestSuite": {
