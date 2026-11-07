@@ -33,6 +33,8 @@ of information:
   source tree of the git tag (`github-releases` field), see below.
 - Optional fixups for releases whose own version metadata is wrong
   (`semverTagOverridesAnnotation` and `extra-provides` fields), see below.
+- Optionally mark a library that stands in for the library of another tool
+  (`anyVersion` field), see below.
 - The level of support in OpenModelica of the various versions of the library
   (`support` field), see below.
 
@@ -127,6 +129,13 @@ is also how a version that was never released on its own stays loadable:
 These are merged with the versions from the conversion annotation, so an entry
 can be dropped again once a later release declares it upstream. `genindex`
 prints a line for every version listed here that no release has.
+
+A version only provides an older one if each library that both use is used at
+versions that one version of that library is compatible with. Otherwise
+`genindex` moves it to `convertFromVersion`. Libraries that stand in for the
+libraries of another tool, such as `DymolaCommands`, have only a branch and
+match any version. Mark them with `"anyVersion": true`, so that a change in
+their used version does not count.
 
 ### Prebuilt wasm modules for external "C" code
 

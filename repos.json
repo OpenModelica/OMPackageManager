@@ -1829,6 +1829,7 @@
   },
   "DataFiles": {
     "names": ["DataFiles"],
+    "anyVersion": true,
     "github": "Modelica-OpenVendorSpecificLibraries/DataFiles",
     "branches": {"master": "master"},
     "support": [
@@ -1845,6 +1846,7 @@
   },
   "Design": {
     "names": ["Design"],
+    "anyVersion": true,
     "github": "Modelica-OpenVendorSpecificLibraries/Design",
     "branches": {"master": "master"},
     "support": [
@@ -1853,6 +1855,7 @@
   },
   "DymolaCommands": {
     "names": ["DymolaCommands"],
+    "anyVersion": true,
     "github": "Modelica-OpenVendorSpecificLibraries/DymolaCommands",
     "branches": {"master": "master"},
     "support": [
@@ -1861,6 +1864,7 @@
   },
   "ModelManagement": {
     "names": ["ModelManagement"],
+    "anyVersion": true,
     "github": "Modelica-OpenVendorSpecificLibraries/ModelManagement",
     "branches": {"master": "master"},
     "support": [
@@ -1882,6 +1886,7 @@
   },
   "UserInteraction": {
     "names": ["UserInteraction"],
+    "anyVersion": true,
     "github": "Modelica-OpenVendorSpecificLibraries/UserInteraction",
     "branches": {"master": "master"},
     "support": [
