@@ -116,6 +116,67 @@ def checkProvides(libName, lib, indexdata):
         del lib['provides']
 
 
+def sameVersion(a, b):
+    """Equal versions, ignoring the build metadata."""
+    va, vb = common.VersionNumber(a), common.VersionNumber(b)
+    return (va.major, va.minor, va.patch, va.prerelease) == (vb.major, vb.minor, vb.patch, vb.prerelease)
+
+
+def entriesOfVersion(versions, version):
+    return [e for (key, e) in versions.items() if key == e['version'] and sameVersion(key, version)]
+
+
+def compatibleVersions(versions, wanted):
+    """The versions that are or provide `wanted`."""
+    return {key for (key, e) in versions.items() if key == e['version'] and (
+        sameVersion(key, wanted) or any(sameVersion(p, wanted) for p in e.get('provides', [])))}
+
+
+def brokenProvides(libs, libName, lib, old):
+    """The library that `old` and `lib` use at versions that no single version of it is compatible with."""
+    for oldLib in entriesOfVersion(libs[libName]['versions'], old):
+        for (dep, oldDepVersion) in oldLib.get('uses', {}).items():
+            newDepVersion = lib.get('uses', {}).get(dep)
+            if newDepVersion is None or sameVersion(oldDepVersion, newDepVersion):
+                continue
+            if libs.get(dep, {}).get('anyVersion'):
+                continue
+            if dep not in libs or not (compatibleVersions(libs[dep]['versions'], oldDepVersion)
+                                       & compatibleVersions(libs[dep]['versions'], newDepVersion)):
+                return (dep, oldDepVersion, newDepVersion)
+    return None
+
+
+def checkProvidesUses(indexdata):
+    """Move a provided version to convertFromVersion if a library it uses is not provided as well."""
+    libs = indexdata["libs"]
+    changed = True
+    while changed:
+        changed = False
+        for (libName, lib) in libs.items():
+            for (version, entry) in lib['versions'].items():
+                if version != entry['version']:
+                    continue
+                kept, moved = [], []
+                for old in entry.get('provides', []):
+                    broken = brokenProvides(libs, libName, entry, old)
+                    if broken is None:
+                        kept.append(old)
+                        continue
+                    print("%s %s does not provide %s: it uses %s %s, not %s" %
+                          (libName, version, old, broken[0], broken[2], broken[1]))
+                    moved.append(old)
+                if not moved:
+                    continue
+                changed = True
+                entry['convertFromVersion'] = sorted(set(entry.get('convertFromVersion', [])) | set(moved),
+                                                     key=common.VersionNumber)
+                if kept:
+                    entry['provides'] = kept
+                else:
+                    del entry['provides']
+
+
 def wasmEntry(wasm, abi):
     """The index entry of a library version's prebuilt wasm externals, keyed by ABI."""
     if not wasm or "zipfile" not in wasm:
@@ -166,6 +227,8 @@ def main():
                         indexdata["libs"][libName] = {"git": repos[firstKey]["git"], "versions": {}}
                     else:
                         indexdata["libs"][libName] = {"versions": {}}
+                    if repos[firstKey].get("anyVersion"):
+                        indexdata["libs"][libName]["anyVersion"] = True
                 libdict = indexdata["libs"][libName]["versions"]
                 if lib['version'] in libdict.keys():
                     prerelease = common.VersionNumber(refKey).prerelease
@@ -230,6 +293,7 @@ def main():
                     checkProvides(libName, lib, indexdata)
                 except MissingUses:
                     pass
+    checkProvidesUses(indexdata)
 
     systemLibraries = {name: {"wasm": {str(wasmdata["abi"]): {k: lib[k] for k in ("zipfile", "sha256", "version")}}}
                        for (name, lib) in sorted(wasmdata.get("systemLibraries", {}).items()) if "zipfile" in lib}
