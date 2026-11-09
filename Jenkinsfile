@@ -3,7 +3,7 @@ pipeline {
   parameters {
     booleanParam(name: 'UPLOAD_AND_CACHE', defaultValue: true, description: 'Also do stages upload and cache')
     string(name: 'WASM_OMC', defaultValue: 'omc', description: 'An omc whose getExternalFunctions describes what the prebuilt wasm modules are built from; empty skips them')
-    string(name: 'PROBLEMS_EMAIL', defaultValue: 'adrian.pop@liu.se', description: 'Who gets the list of skipped libraries when the job goes unstable; empty sends no mail')
+    string(name: 'PROBLEMS_EMAIL', defaultValue: 'adrian.pop@liu.se', description: 'Who gets a mail when the job fails, and when it goes unstable with skipped libraries that were not there in the previous run; empty sends no mail')
   }
   options {
     newContainerPerStage()
@@ -43,15 +43,34 @@ pipeline {
         }
       }
       script {
-        // updateinfo and genindex skip a library they cannot handle instead of failing, and list it here
-        def problems = sh(returnStdout: true, script: 'cat updateinfo-problems.txt genindex-problems.txt 2>/dev/null || true').trim()
+        // updateinfo and genindex skip a library they cannot handle instead of failing, and list it here.
+        // Most of these are for the library developers to fix and stay for many runs, so the mail
+        // goes out only when a line is not in the list of the previous run that had one.
+        def problems = sh(returnStdout: true, script: 'cat updateinfo-problems.txt genindex-problems.txt 2>/dev/null | sed "s|$WORKSPACE|.|g" || true').trim()
+        def previous = null
+        def build = currentBuild.previousBuild
+        for (int i = 0; build != null && previous == null && i < 50; i++) {
+          previous = build.buildVariables.PROBLEMS_LIST
+          build = build.previousBuild
+        }
+        // set on every run that gets here; 'none' rather than empty so a clean run ends the search above
+        env.PROBLEMS_LIST = problems ?: 'none'
         if (problems) {
           echo problems
           archiveArtifacts artifacts: 'updateinfo-problems.txt, genindex-problems.txt', allowEmptyArchive: true
           unstable('some libraries were skipped, see the archived updateinfo-problems.txt and genindex-problems.txt')
-          if (params.PROBLEMS_EMAIL) {
+          def known = (previous ?: '').readLines()
+          def newLines = []
+          for (line in problems.readLines()) {
+            if (line.startsWith('- ') && !known.contains(line)) {
+              newLines.add(line)
+            }
+          }
+          if (newLines.isEmpty()) {
+            echo 'no new skipped libraries since the previous run, no mail sent'
+          } else if (params.PROBLEMS_EMAIL) {
             emailext subject: "${env.JOB_NAME} #${env.BUILD_NUMBER}: libraries skipped",
-              body: "${problems}\n\n${env.BUILD_URL}console\n",
+              body: "New since the previous run:\n\n${newLines.join('\n')}\n\nAll of them:\n\n${problems}\n\n${env.BUILD_URL}console\n",
               to: params.PROBLEMS_EMAIL
           }
         }
@@ -116,5 +135,17 @@ pipeline {
       sh "du -csh /var/www/libraries.openmodelica.org/cache/*"
     }
   }
+  }
+  post {
+    failure {
+      script {
+        // every failure, unlike the skipped libraries these are ours to fix
+        if (params.PROBLEMS_EMAIL) {
+          emailext subject: "${env.JOB_NAME} #${env.BUILD_NUMBER} failed",
+            body: "${env.BUILD_URL}console\n\n" + '${BUILD_LOG, maxLines=100, escapeHtml=false}',
+            to: params.PROBLEMS_EMAIL
+        }
+      }
+    }
   }
 }
