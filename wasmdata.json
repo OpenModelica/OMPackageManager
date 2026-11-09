@@ -4350,6 +4350,27 @@
           "libc"
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7109b02b980609ef.zip"
+      },
+      "0.7.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.Runtime.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.Runtime.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.Runtime.I2cDevice_sync",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime_sync",
+          "MicroPythonMCU.Internal.Runtime.UartDevice.constructor",
+          "MicroPythonMCU.Internal.Runtime.UartDevice.destructor",
+          "MicroPythonMCU.Internal.Runtime.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "df6c72fbff02aa68335243947ca6990abe340d23f9ba8c080d3f198d97ff36a6",
+        "source": "110ce3c744f5d338b705f359e02bed5b9ddfbde3",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7109b02b980609ef.zip"
       }
     },
     "ModPowerSystems": {

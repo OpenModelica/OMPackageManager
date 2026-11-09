@@ -7364,6 +7364,18 @@
           }
         },
         "sha": "57452b5a47b6f330014230debddd3cddb80a08b7"
+      },
+      "v0.7.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "0.7.0"
+          }
+        },
+        "sha": "110ce3c744f5d338b705f359e02bed5b9ddfbde3"
       }
     }
   },
