@@ -2513,6 +2513,16 @@
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-89b54733ef1fec36.zip"
       },
+      "2.0.0-BUILD_DYNASWING_3": {
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
+        "source": "63c35ee30463572b1295e74630be5b98129fc0b6",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+      },
       "2.0.0-Master": {
         "generation": 1,
         "recipe": "471b655901f2a5ac",
@@ -4006,7 +4016,7 @@
       },
       "2.4.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "bfaeb344d62a68db334a5467b151f5b12eb2768f"
+        "source": "0aa5f10ffe376b9c03ea654753cb153720af4218"
       }
     },
     "LibRAS": {
@@ -9351,7 +9361,7 @@
       },
       "2.4.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "bfaeb344d62a68db334a5467b151f5b12eb2768f"
+        "source": "0aa5f10ffe376b9c03ea654753cb153720af4218"
       }
     },
     "Servomechanisms": {

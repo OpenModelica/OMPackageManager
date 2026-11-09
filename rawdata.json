@@ -4127,6 +4127,18 @@
         },
         "sha": "371cdf5f078cd727296fa78ace50b6ac5747e1a3"
       },
+      "BUILD_DYNASWING_3": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.0.0-BUILD_DYNASWING_3"
+          }
+        },
+        "sha": "63c35ee30463572b1295e74630be5b98129fc0b6"
+      },
       "master": {
         "libs": {
           "Dynawo": {
@@ -13622,7 +13634,7 @@
             "version": "2.4.0-master"
           }
         },
-        "sha": "bfaeb344d62a68db334a5467b151f5b12eb2768f"
+        "sha": "0aa5f10ffe376b9c03ea654753cb153720af4218"
       },
       "v1.0.0": {
         "libs": {
