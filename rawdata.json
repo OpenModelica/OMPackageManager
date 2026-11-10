@@ -13633,7 +13633,11 @@
           "LargeTestSuite": {
             "path": "LargeTestSuite",
             "uses": {
+              "Battery": "0.0.0-main",
+              "IDADistricts": "0.0.0-main",
+              "LSGreenH2Production": "0.0.0-main",
               "Modelica": "4.1.0",
+              "SOFCPoliMi": "0.0.0-master",
               "ScalableTestSuite": "2.4.0"
             },
             "version": "2.4.0-master"
@@ -13646,7 +13650,7 @@
             "version": "2.4.0-master"
           }
         },
-        "sha": "0aa5f10ffe376b9c03ea654753cb153720af4218"
+        "sha": "808718d5ef406c05e92dfd003a309f53bccf7086"
       },
       "v1.0.0": {
         "libs": {
