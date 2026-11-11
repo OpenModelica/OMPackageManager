@@ -80,6 +80,19 @@ class TestGitRetry(unittest.TestCase):
         self.assertIn("504", str(raised.exception))
         self.assertIn(second, str(raised.exception))
 
+    def test_tag_on_commit_no_branch_contains(self):
+        # a release tagged on a side branch that is gone by the next update (Pharmacolibrary v26.09-rc.1)
+        main = self.upstream.head.name
+        side = self.upstream.branches.local.create("side", self.upstream[self.first])
+        self.upstream.checkout(side)
+        tagged = commit_file(self.upstream, "b.mo")
+        self.upstream.references.create("refs/tags/v2.0.0-rc.1", tagged)
+        self.upstream.checkout(main)
+        self.upstream.branches.local["side"].delete()
+        gitrepo = getgitrepo(self.url, self.repopath, tagged)
+        self.assertIsNotNone(gitrepo.get(tagged))
+        self.assertIn("refs/tags/v2.0.0-rc.1", list(gitrepo.references))
+
     def test_failed_clone_is_retried_from_scratch(self):
         real_clone = pygit2.clone_repository
         calls = []
