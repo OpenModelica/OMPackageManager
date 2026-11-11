@@ -2158,11 +2158,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "778808ab58bddfe81e28e60592393b70a4632b1b"
+        "source": "22989cd9467a966af0e8b55dc04442e7c975108f"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086"
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75"
       }
     },
     "ComplexLib": {
@@ -4016,7 +4016,7 @@
       },
       "2.4.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "808718d5ef406c05e92dfd003a309f53bccf7086"
+        "source": "af18d300a1f559f9f95bb9b743d865650ec77c70"
       }
     },
     "LibRAS": {
@@ -4529,22 +4529,22 @@
       "4.2.0-dev": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "5c55f16ccb4b00d41485339b8f3c2c518fafffa2a694b01804a0d57b35d20e67",
-        "source": "778808ab58bddfe81e28e60592393b70a4632b1b",
+        "sha256": "2be4a02c50ba0d9a0211625809f66e18b8c67b65add3ac217d0cf5326685a5f8",
+        "source": "22989cd9467a966af0e8b55dc04442e7c975108f",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-9cd4bbc3c562bf52.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-68a54a139106d834.zip"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "5c55f16ccb4b00d41485339b8f3c2c518fafffa2a694b01804a0d57b35d20e67",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086",
+        "sha256": "2be4a02c50ba0d9a0211625809f66e18b8c67b65add3ac217d0cf5326685a5f8",
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-9cd4bbc3c562bf52.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Modelica-wasm32-wasip1-68a54a139106d834.zip"
       }
     },
     "ModelicaADS": {
@@ -4816,7 +4816,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086"
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75"
       }
     },
     "ModelicaServices": {
@@ -4870,11 +4870,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "778808ab58bddfe81e28e60592393b70a4632b1b"
+        "source": "22989cd9467a966af0e8b55dc04442e7c975108f"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086"
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75"
       }
     },
     "ModelicaTableAdditions": {
@@ -5010,13 +5010,13 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "778808ab58bddfe81e28e60592393b70a4632b1b"
+        "source": "22989cd9467a966af0e8b55dc04442e7c975108f"
       },
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
         "sha256": "e72065a0d170122638fec1b2e66e26d6f8bfd5462caa309b8059fd828afe3736",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086",
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75",
         "systemLibraries": [
           "libc"
         ],
@@ -5042,7 +5042,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086"
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75"
       }
     },
     "Modelica_DeviceDrivers": {
@@ -8192,7 +8192,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "e36f44d1f69cf36b02a46cf3448894232bd07086"
+        "source": "52c0a297ce4e3bdfdc36cacfc7c43d29b03f3a75"
       }
     },
     "OpenBLDC": {
@@ -9382,7 +9382,7 @@
       },
       "2.4.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "808718d5ef406c05e92dfd003a309f53bccf7086"
+        "source": "af18d300a1f559f9f95bb9b743d865650ec77c70"
       }
     },
     "Servomechanisms": {
