@@ -1291,8 +1291,8 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "806bd9bdc963e3fbd5f0eed69273d89f488fe26e69123fc4a7cf93cef4b1b916",
-        "source": "9c24faa0da3253d8bd1d5fd0e71ab85db053f168",
+        "sha256": "f7a9f8aa5192b4a606ebc813f0112f93f96d5c5a3248a4f3ef3301afe333cf40",
+        "source": "891a330d56ce6148806fe1fa90d431213ebd382e",
         "systemLibraries": [
           "libc"
         ],
@@ -4016,7 +4016,7 @@
       },
       "2.4.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "af18d300a1f559f9f95bb9b743d865650ec77c70"
+        "source": "4ff4bdc98a4d1d843ce4e789406178f3240b4bcc"
       }
     },
     "LibRAS": {
@@ -8583,6 +8583,10 @@
       "25.9.0-main": {
         "recipe": "471b655901f2a5ac",
         "source": "217dec8944ae0965e7d2363e57de720c5bb32c4b"
+      },
+      "26.9.0-rc.1": {
+        "recipe": "471b655901f2a5ac",
+        "source": "97c62323ebca570d049733e32a0b0ccaa0184b66"
       }
     },
     "PhotoVoltaics": {
@@ -9210,7 +9214,7 @@
     "SOFCPoliMi": {
       "master": {
         "recipe": "471b655901f2a5ac",
-        "source": "ac811c49c8afee7c814e2334d6967faeccbd60b8"
+        "source": "5eeaf7a1bee92ad67cec662146ceeb97b9a139eb"
       }
     },
     "ScalableTestGrids": {
@@ -9382,7 +9386,7 @@
       },
       "2.4.0-master": {
         "recipe": "471b655901f2a5ac",
-        "source": "af18d300a1f559f9f95bb9b743d865650ec77c70"
+        "source": "4ff4bdc98a4d1d843ce4e789406178f3240b4bcc"
       }
     },
     "Servomechanisms": {

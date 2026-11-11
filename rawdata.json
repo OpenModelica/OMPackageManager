@@ -1722,7 +1722,7 @@
             "version": "15.0.0-master"
           }
         },
-        "sha": "9c24faa0da3253d8bd1d5fd0e71ab85db053f168"
+        "sha": "891a330d56ce6148806fe1fa90d431213ebd382e"
       },
       "v1.4_build1": {
         "libs": {
@@ -11492,6 +11492,21 @@
           }
         },
         "sha": "94c8c6dc09a8a25e2b2fd14960bc716ea6a31549"
+      },
+      "v26.09-rc.1": {
+        "libs": {
+          "Pharmacolibrary": {
+            "convertFromVersion": [
+              "25.9.0"
+            ],
+            "path": "Pharmacolibrary",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "26.9.0-rc.1"
+          }
+        },
+        "sha": "97c62323ebca570d049733e32a0b0ccaa0184b66"
       }
     }
   },
@@ -13570,7 +13585,7 @@
             "version": "master"
           }
         },
-        "sha": "ac811c49c8afee7c814e2334d6967faeccbd60b8"
+        "sha": "5eeaf7a1bee92ad67cec662146ceeb97b9a139eb"
       }
     }
   },
@@ -13650,7 +13665,7 @@
             "version": "2.4.0-master"
           }
         },
-        "sha": "af18d300a1f559f9f95bb9b743d865650ec77c70"
+        "sha": "4ff4bdc98a4d1d843ce4e789406178f3240b4bcc"
       },
       "v1.0.0": {
         "libs": {
