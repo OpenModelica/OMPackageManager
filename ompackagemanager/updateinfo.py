@@ -67,6 +67,9 @@ def with_retries(action, what: str):
             delay *= 2
 
 
+fetchrefspecs = ["+refs/heads/*:refs/remotes/origin/*", "+refs/tags/*:refs/tags/*"]
+
+
 def getgitrepo(url: str, repopath: str, sha: str = None) -> pygit2.Repository:
     """The clone of url in repopath, fetched; when the server does not answer, the cached clone if it has sha"""
     if os.path.exists(repopath):
@@ -75,7 +78,10 @@ def getgitrepo(url: str, repopath: str, sha: str = None) -> pygit2.Repository:
             removerepo(url, repopath)
         else:
             try:
-                with_retries(gitrepo.remotes[0].fetch, "Fetching %s into %s" % (url, repopath))
+                # Fetch the tags explicitly: by default libgit2 only follows tags that point into fetched branches,
+                # so a tag on a commit no branch contains (a release tagged off a side branch) would never arrive
+                with_retries(lambda: gitrepo.remotes[0].fetch(fetchrefspecs),
+                             "Fetching %s into %s" % (url, repopath))
             except pygit2.GitError as e:
                 # One unreachable server must not stop the whole index update: keep what was fetched last time
                 if sha is not None and gitrepo.get(sha) is None:
@@ -449,16 +455,18 @@ def main():
                         except BaseException:
                             print("Failed to checkout %s from repo: %s with SHA %s" % (tagName, repopath, sha))
                             print("Usually this error happens if somebody force-pushed to a repository.")
-                            print("We will delete our own cache of %s now!", repopath)
+                            print("We will delete our own cache of %s now!" % repopath)
                             print("PLEASE RERUN THIS SCRIPT!")
-                            try:
-                                os.unlink(repopath)
-                            except BaseException:
-                                pass
-                            try:
-                                shutil.rmtree(repopath)
-                            except FileNotFoundError:
-                                pass
+                            # Remove the clone too, not only the checkout: the rerun has to clone afresh
+                            for path in (repopath, repopath + ".git"):
+                                try:
+                                    os.unlink(path)
+                                except BaseException:
+                                    pass
+                                try:
+                                    shutil.rmtree(path)
+                                except FileNotFoundError:
+                                    pass
                             raise
                     omc.sendExpression("OpenModelica.Scripting.getErrorString()")
 
