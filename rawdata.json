@@ -10428,14 +10428,14 @@
               "0.0.0"
             ],
             "uses": {
-              "Complex": "4.0.0",
-              "Modelica": "4.0.0",
-              "OpenIPSL": "3.0.1"
+              "Complex": "4.1.0",
+              "Modelica": "4.1.0",
+              "OpenIPSL": "3.1.0"
             },
             "version": "1.0.0-main"
           }
         },
-        "sha": "1cd5c314e84cb37ca7af60078cca65949671506c"
+        "sha": "6a6a7fb68a712e9a71c3b6b168346c72723b2370"
       },
       "v1.0.0": {
         "libs": {
