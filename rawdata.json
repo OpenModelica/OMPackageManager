@@ -10425,17 +10425,18 @@
           "OpenIMDML": {
             "path": "OpenIMDML",
             "provides": [
-              "0.0.0"
+              "1.0.0",
+              "1.0.0"
             ],
             "uses": {
               "Complex": "4.1.0",
               "Modelica": "4.1.0",
               "OpenIPSL": "3.1.0"
             },
-            "version": "1.0.0-main"
+            "version": "1.1.0-main"
           }
         },
-        "sha": "6a6a7fb68a712e9a71c3b6b168346c72723b2370"
+        "sha": "af3ddd1ce367e12951f5be07ddf9bc04a210650a"
       },
       "v1.0.0": {
         "libs": {
@@ -10453,6 +10454,24 @@
           }
         },
         "sha": "8c688f39200fe55c4736b871537dff4892013c13"
+      },
+      "v1.1.0": {
+        "libs": {
+          "OpenIMDML": {
+            "path": "OpenIMDML",
+            "provides": [
+              "1.0.0",
+              "1.0.0"
+            ],
+            "uses": {
+              "Complex": "4.1.0",
+              "Modelica": "4.1.0",
+              "OpenIPSL": "3.1.0"
+            },
+            "version": "1.1.0"
+          }
+        },
+        "sha": "af3ddd1ce367e12951f5be07ddf9bc04a210650a"
       }
     }
   },

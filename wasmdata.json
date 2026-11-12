@@ -8267,6 +8267,14 @@
       "1.0.0-main": {
         "recipe": "471b655901f2a5ac",
         "source": "6a6a7fb68a712e9a71c3b6b168346c72723b2370"
+      },
+      "1.1.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "af3ddd1ce367e12951f5be07ddf9bc04a210650a"
+      },
+      "1.1.0-main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "af3ddd1ce367e12951f5be07ddf9bc04a210650a"
       }
     },
     "OpenIPSL": {
