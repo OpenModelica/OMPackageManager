@@ -14740,6 +14740,29 @@
           }
         },
         "sha": "fcb92f2f4e5636ea9a36bff59d396cac720c6324"
+      },
+      "v1.2.0": {
+        "libs": {
+          "TRANSFORM": {
+            "path": "TRANSFORM",
+            "provides": [
+              "0.5.0",
+              "1.0.0",
+              "1.1.0-dev",
+              "1.1.0",
+              "1.2.0-dev"
+            ],
+            "uses": {
+              "Complex": "4.0.0",
+              "ExternalMedia": "4.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "SDF": "0.4.5"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "b0804ee35cbd6373fa3fffd3e3307759e9bb856a"
       }
     }
   },
