@@ -1242,8 +1242,9 @@
       "v0", "v0.8.1", "v0.8.0", "v0.8", "Tuto_ModProd_2016"
     ],
     "support": [
-      ["prerelease", "noSupport"],
-      [">=1.5.0", "support"],
+      ["prerelease", "fullSupport"],
+      [">=3.1.1", "fullSupport"],
+      [">=3.1.0", "support"],
       ["*", "obsolete"]
     ]
   },
