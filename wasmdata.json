@@ -8598,6 +8598,14 @@
         "recipe": "471b655901f2a5ac",
         "source": "217dec8944ae0965e7d2363e57de720c5bb32c4b"
       },
+      "26.11.0": {
+        "recipe": "471b655901f2a5ac",
+        "source": "4f678bfe9ee9571fc7a48e39316609b25282a202"
+      },
+      "26.11.0-main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "4f678bfe9ee9571fc7a48e39316609b25282a202"
+      },
       "26.9.0-rc.1": {
         "recipe": "471b655901f2a5ac",
         "source": "97c62323ebca570d049733e32a0b0ccaa0184b66"
