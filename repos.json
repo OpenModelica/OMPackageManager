@@ -809,18 +809,6 @@
       ["*", "obsolete"]
     ]
   },
-  "LEPSE": {
-    "branches": {
-      "main": "main"
-    },
-    "names": ["LEPSE"],
-    "github": "AndrejFlorinskii/LEPSE",
-    "ignore-tags": ["v1.1.0", "v1.2.1"],
-    "support": [
-      ["prerelease", "noSupport"],
-      ["*", "experimental"]
-    ]
-  },
   "LibRAS": {
     "branches": {"master": "master"},
     "names": ["LibRAS"],
@@ -1182,6 +1170,18 @@
     "support": [
       ["prerelease", "noSupport"],
       ["*", "obsolete"]
+    ]
+  },
+  "OMLET": {
+    "branches": {
+      "main": "main"
+    },
+    "names": ["OMLET"],
+    "github": "AndrejFlorinskii/OMLET",
+    "ignore-tags": ["v1.1.0", "v1.2.0", "v1.2.1", "v1.2.2", "v1.2.3", "v1.2.4", "v1.2.5", "v1.2.6"],
+    "support": [
+      ["prerelease", "noSupport"],
+      ["*", "experimental"]
     ]
   },
   "OpenBLDC": {
