@@ -6875,6 +6875,94 @@
       }
     }
   },
+  "LEPSE": {
+    "refs": {
+      "main": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "82ac339a6b174cd3bc2272d5c6e2ad8b4dd198a0"
+      },
+      "v1.2.0": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.0"
+          }
+        },
+        "sha": "c63c76470fe2ef8139c9851eb98be72f5a8d5edf"
+      },
+      "v1.2.2": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.2"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.3": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.3"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.4": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.4"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.5": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.5"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      },
+      "v1.2.6": {
+        "libs": {
+          "LEPSE": {
+            "path": "LEPSE",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.6"
+          }
+        },
+        "sha": "979cd7f6df0e8e5b1d6c16d75694bc219be78bdb"
+      }
+    }
+  },
   "LibRAS": {
     "refs": {
       "master": {
