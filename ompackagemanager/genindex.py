@@ -204,6 +204,10 @@ def main():
     indexdata = {"libs": {}, "mirrors": ["https://libraries.openmodelica.org/cache/"]}
     problems = []
     for firstKey in rawdata.keys():
+        if firstKey not in repos:
+            # Left over from a repository that was removed from repos.json; updateinfo removes it
+            print("Skipping %s in rawdata.json, it is not in repos.json" % firstKey)
+            continue
         data = rawdata[firstKey]
         for refKey in data["refs"].keys():
             r = data["refs"][refKey]

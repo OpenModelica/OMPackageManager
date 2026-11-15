@@ -328,6 +328,15 @@ def new_libentry(libname: str,
     return libentry
 
 
+def prune_removed_repos(serverdata: dict, repos: dict) -> list:
+    """Remove the stored data of the repositories that are no longer in repos.json; returns their keys."""
+    removed = sorted(key for key in serverdata if key not in repos)
+    for key in removed:
+        print("Removing the stored data for %s, it is no longer in repos.json" % key)
+        del serverdata[key]
+    return removed
+
+
 def main():
     """Generate up-to-date `rawdata.json` from `repos.json`.
 
@@ -538,6 +547,7 @@ def main():
             serverdata[key]["refs"] = tagsDict
         else:
             raise Exception("Don't know how to handle entry for %s: %s" % (key, entry))
+    prune_removed_repos(serverdata, data)
     with open("rawdata.json", "w") as io:
         json.dump(serverdata, io, sort_keys=True, indent=2)
 
