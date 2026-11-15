@@ -50,6 +50,29 @@ class TestGenindexSkipsRefWithoutLibs(InTempDir):
             self.assertIn("- LEPSE v1.2.1 has no libraries in rawdata.json", f.read())
 
 
+class TestRemovedRepo(InTempDir):
+    # A repository removed from repos.json (LEPSE, renamed to OMLET) was still in rawdata.json:
+    # genindex raised KeyError and stopped the job
+    def test_genindex_skips_it(self):
+        repos = {"OMLET": {"github": "example/OMLET", "names": ["OMLET"], "support": [["*", "support"]]}}
+        rawdata = {
+            "LEPSE": {"refs": {"v1.2.0": {"sha": "a" * 40, "libs": {"LEPSE": {"version": "1.2.0", "path": "LEPSE"}}}}},
+            "OMLET": {"refs": {"v1.2.7": {"sha": "b" * 40, "libs": {"OMLET": {"version": "1.2.7", "path": "OMLET"}}}}}}
+        with open("repos.json", "w") as f:
+            json.dump(repos, f)
+        with open("rawdata.json", "w") as f:
+            json.dump(rawdata, f)
+        genindex.main()
+        with open("index.json") as f:
+            index = json.load(f)
+        self.assertEqual(list(index["libs"]), ["OMLET"])
+
+    def test_updateinfo_prunes_it(self):
+        serverdata = {"LEPSE": {"refs": {}}, "OMLET": {"refs": {}}}
+        self.assertEqual(updateinfo.prune_removed_repos(serverdata, {"OMLET": {}}), ["LEPSE"])
+        self.assertEqual(list(serverdata), ["OMLET"])
+
+
 class FailingOMC:
     def sendExpression(self, expr):
         raise OMPython.OMCSessionException("[scripting:error:236] Expected the package to have name Co-simulation, "
