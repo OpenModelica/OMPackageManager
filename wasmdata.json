@@ -8113,6 +8113,16 @@
         "source": "37a441934d05330cf3d13e9ec551954d27eca84c"
       }
     },
+    "OMLET": {
+      "1.2.7": {
+        "recipe": "471b655901f2a5ac",
+        "source": "a301823dd5c5b38e5d8de3acd0165a8920e80cec"
+      },
+      "main": {
+        "recipe": "471b655901f2a5ac",
+        "source": "a301823dd5c5b38e5d8de3acd0165a8920e80cec"
+      }
+    },
     "ObjectStab": {
       "1.1.0-Dev": {
         "recipe": "471b655901f2a5ac",

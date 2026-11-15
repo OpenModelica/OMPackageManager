@@ -10088,6 +10088,34 @@
       }
     }
   },
+  "OMLET": {
+    "refs": {
+      "main": {
+        "libs": {
+          "OMLET": {
+            "path": "OMLET",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "main"
+          }
+        },
+        "sha": "a301823dd5c5b38e5d8de3acd0165a8920e80cec"
+      },
+      "v1.2.7": {
+        "libs": {
+          "OMLET": {
+            "path": "OMLET",
+            "uses": {
+              "Modelica": "4.0.0"
+            },
+            "version": "1.2.7"
+          }
+        },
+        "sha": "a301823dd5c5b38e5d8de3acd0165a8920e80cec"
+      }
+    }
+  },
   "ObjectStab": {
     "refs": {
       "master": {
