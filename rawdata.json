@@ -6393,7 +6393,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "f3a5a29de3eef266270265958ac0db26e60e19d8"
+        "sha": "3f1748606528dffb85a03fcf9faaf8424fd9e5b5"
       },
       "v3.0.0": {
         "libs": {
@@ -7288,6 +7288,18 @@
           }
         },
         "sha": "110ce3c744f5d338b705f359e02bed5b9ddfbde3"
+      },
+      "v1.0.0": {
+        "libs": {
+          "MicroPythonMCU": {
+            "path": "MicroPythonMCU",
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "1.0.0"
+          }
+        },
+        "sha": "d59814684e20c432bf48f8386a80f18d9fb3e070"
       }
     }
   },

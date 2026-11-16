@@ -3581,11 +3581,11 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "648854ed836474e6225f8ab5075bf0937e8da557f90f091969d4d1d14e9493a8",
-        "source": "f3a5a29de3eef266270265958ac0db26e60e19d8",
+        "source": "3f1748606528dffb85a03fcf9faaf8424fd9e5b5",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/IBPSA-wasm32-wasip1-fcbc331c12b93854.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/IBPSA-wasm32-wasip1-0ac5545097f41778.zip"
       }
     },
     "IDADistricts": {
@@ -4341,6 +4341,31 @@
           "libc"
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-7109b02b980609ef.zip"
+      },
+      "1.0.0": {
+        "failed": [
+          "MicroPythonMCU.Internal.Runtime.I2cDevice.constructor",
+          "MicroPythonMCU.Internal.Runtime.I2cDevice.destructor",
+          "MicroPythonMCU.Internal.Runtime.I2cDevice_sync",
+          "MicroPythonMCU.Internal.Runtime.LogicAnalyzerCapture.constructor",
+          "MicroPythonMCU.Internal.Runtime.LogicAnalyzerCapture.destructor",
+          "MicroPythonMCU.Internal.Runtime.LogicAnalyzer_finish",
+          "MicroPythonMCU.Internal.Runtime.LogicAnalyzer_record",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime.constructor",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime.destructor",
+          "MicroPythonMCU.Internal.Runtime.PyRuntime_sync",
+          "MicroPythonMCU.Internal.Runtime.UartDevice.constructor",
+          "MicroPythonMCU.Internal.Runtime.UartDevice.destructor",
+          "MicroPythonMCU.Internal.Runtime.UartDevice_sync"
+        ],
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "92860227e263089968ed9189e95960601fad27e10bfe67e2f0b6f19931f8508a",
+        "source": "d59814684e20c432bf48f8386a80f18d9fb3e070",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/MicroPythonMCU-wasm32-wasip1-ba84eab074468e27.zip"
       }
     },
     "ModPowerSystems": {
