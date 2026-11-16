@@ -6393,7 +6393,7 @@
             "version": "4.0.0-master"
           }
         },
-        "sha": "3f1748606528dffb85a03fcf9faaf8424fd9e5b5"
+        "sha": "caa7b023e85ac5fb0448ee7b351a025b73746424"
       },
       "v3.0.0": {
         "libs": {
@@ -14823,14 +14823,14 @@
       "v4.0.0-dev": {
         "libs": {
           "ThermoPower": {
-            "path": "ThermoPower 4.0.0",
+            "path": "ThermoPower",
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
             "version": "4.0.0-dev"
           }
         },
-        "sha": "28e29f9cabcd54fb8ae56836c52108abfabe734a"
+        "sha": "d828d71e0897a6f9bab1cb4b16b21a190d79502c"
       }
     }
   },
