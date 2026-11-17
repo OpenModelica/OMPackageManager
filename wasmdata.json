@@ -2527,21 +2527,21 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "7e91b3026b98ec23eaba0eaff7c7b28704119108",
+        "source": "d9c57913aee5f5ba62f2441a8246fa318cc55b8b",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-0b63a026e875e29d.zip"
       },
       "2.0.0-master": {
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "7e91b3026b98ec23eaba0eaff7c7b28704119108",
+        "source": "d9c57913aee5f5ba62f2441a8246fa318cc55b8b",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-0b63a026e875e29d.zip"
       },
       "2.0.0-nightly": {
         "generation": 1,
