@@ -907,13 +907,13 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "eb71c17c110b71a3963b65ebf3ab8545a6b1265e4821ed19995206b509db6265",
-        "source": "d80af632ca2d18c3f7e8617dbc700ae2e9f002d4",
+        "sha256": "5f414705e19ffa3220c5f55610b6c3e28af20041c0321fc65805cfbac1a312ee",
+        "source": "994f65168b1e08257ce69ad52b2e006ce934c5fb",
         "systemLibraries": [
           "cpython",
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-ded7c65e6aa52b07.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-175c5c1377aee67d.zip"
       },
       "11.0.0": {
         "failed": [
