@@ -6602,13 +6602,16 @@
               "1.2.0"
             ],
             "path": "IndustrialControlSystems",
+            "provides": [
+              "2.0.0"
+            ],
             "uses": {
-              "Modelica": "4.0.0"
+              "Modelica": "4.1.0"
             },
-            "version": "2.0.0-master"
+            "version": "2.0.1-master"
           }
         },
-        "sha": "148672debbeffe842dc7be441cc4b896ea677284"
+        "sha": "7964853154145f580cef775aaaa82458ec6fdee1"
       },
       "v1.0": {
         "libs": {
