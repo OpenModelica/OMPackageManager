@@ -4149,7 +4149,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "f1d2a3dbbbe9adc0391b1f0049bb322a3e7a5d0e"
+        "sha": "169304a6aa7e477a94c7298e83ecd2d11b4545ed"
       },
       "nightly": {
         "libs": {
@@ -4174,6 +4174,18 @@
           }
         },
         "sha": "acbe65a4c7b279914fedb911102416664f2227b7"
+      },
+      "openmodelica-1.24.5": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.0.0-openmodelica-1.24.5"
+          }
+        },
+        "sha": "f1d2a3dbbbe9adc0391b1f0049bb322a3e7a5d0e"
       },
       "v0.1.0": {
         "libs": {
@@ -4389,7 +4401,7 @@
             "version": "2.0.0-Master"
           }
         },
-        "sha": "f1d2a3dbbbe9adc0391b1f0049bb322a3e7a5d0e"
+        "sha": "169304a6aa7e477a94c7298e83ecd2d11b4545ed"
       }
     }
   },
@@ -12894,7 +12906,7 @@
             "version": "2.0.0-develop"
           }
         },
-        "sha": "1e30c19aec840120f39b8d31c8f4220f13e3ddd0"
+        "sha": "51ceeb1e11d04830b5b5e29c1550d41d6e57dbbb"
       },
       "issue11636": {
         "libs": {

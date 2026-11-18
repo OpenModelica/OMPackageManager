@@ -2527,21 +2527,21 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "f1d2a3dbbbe9adc0391b1f0049bb322a3e7a5d0e",
+        "source": "169304a6aa7e477a94c7298e83ecd2d11b4545ed",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-0b63a026e875e29d.zip"
       },
       "2.0.0-master": {
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "f1d2a3dbbbe9adc0391b1f0049bb322a3e7a5d0e",
+        "source": "169304a6aa7e477a94c7298e83ecd2d11b4545ed",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-0b63a026e875e29d.zip"
       },
       "2.0.0-nightly": {
         "generation": 1,
@@ -2552,6 +2552,16 @@
           "libc"
         ],
         "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
+      },
+      "2.0.0-openmodelica-1.24.5": {
+        "generation": 1,
+        "recipe": "471b655901f2a5ac",
+        "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
+        "source": "f1d2a3dbbbe9adc0391b1f0049bb322a3e7a5d0e",
+        "systemLibraries": [
+          "libc"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-0b63a026e875e29d.zip"
       }
     },
     "EHPTexamples": {
@@ -9009,7 +9019,7 @@
       },
       "2.0.0-develop": {
         "recipe": "471b655901f2a5ac",
-        "source": "1e30c19aec840120f39b8d31c8f4220f13e3ddd0"
+        "source": "51ceeb1e11d04830b5b5e29c1550d41d6e57dbbb"
       },
       "2.0.0-issue11636": {
         "recipe": "471b655901f2a5ac",
