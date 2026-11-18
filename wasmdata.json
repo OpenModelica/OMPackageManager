@@ -9761,6 +9761,28 @@
         ],
         "recipe": "471b655901f2a5ac",
         "source": "b0804ee35cbd6373fa3fffd3e3307759e9bb856a"
+      },
+      "1.3.0": {
+        "failed": [
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_deriv_x",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_deriv_xx",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_deriv_xy",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_deriv_xy_alt",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_deriv_y",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_deriv_yy",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bicubic.bicubic_eval_extrap",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_deriv_x",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_deriv_xx",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_deriv_xy",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_deriv_xy_alt",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_deriv_y",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_deriv_yy",
+          "TRANSFORM.Obsolete.Math.Interpolation.Bilinear.bilinear_eval_extrap"
+        ],
+        "recipe": "471b655901f2a5ac",
+        "source": "444d8b448a4c653d849418952aad5f3e42dfdbdb"
       }
     },
     "TSP_DataReconciliationSimpleTests": {

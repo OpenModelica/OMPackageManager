@@ -14748,6 +14748,31 @@
           }
         },
         "sha": "b0804ee35cbd6373fa3fffd3e3307759e9bb856a"
+      },
+      "v1.3.0": {
+        "libs": {
+          "TRANSFORM": {
+            "convertFromVersion": [
+              "0.5.0",
+              "1.0.0",
+              "1.1.0-dev",
+              "1.1.0",
+              "1.2.0-dev",
+              "1.2.0",
+              "1.3.0-dev"
+            ],
+            "path": "TRANSFORM",
+            "uses": {
+              "Complex": "4.0.0",
+              "ExternalMedia": "4.0.0",
+              "Modelica": "4.0.0",
+              "ModelicaServices": "4.0.0",
+              "SDF": "0.4.5"
+            },
+            "version": "1.3.0"
+          }
+        },
+        "sha": "444d8b448a4c653d849418952aad5f3e42dfdbdb"
       }
     }
   },
