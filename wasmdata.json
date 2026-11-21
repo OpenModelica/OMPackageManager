@@ -1025,8 +1025,8 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "f24c22bfca42f8f2c6fc8fc143a906fa5e4cf8e5e6fa31c1491d9810b4e888b4",
-        "source": "24afb396d423cfe2a2f8a39d543457b1bb6fd6ca",
+        "sha256": "40a678fe62ff702c0245a89aacf197147e7766c89690a3425ed0ca6013d6c21c",
+        "source": "ed5b0fde90226a0eaaf182c241935743ae2df1d7",
         "systemLibraries": [
           "cpython",
           "libc"
@@ -3591,11 +3591,11 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "648854ed836474e6225f8ab5075bf0937e8da557f90f091969d4d1d14e9493a8",
-        "source": "caa7b023e85ac5fb0448ee7b351a025b73746424",
+        "source": "e877f6b94227f5677007eb6c3881aaba86dc82fe",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/IBPSA-wasm32-wasip1-0ac5545097f41778.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/IBPSA-wasm32-wasip1-fcbc331c12b93854.zip"
       }
     },
     "IDADistricts": {
