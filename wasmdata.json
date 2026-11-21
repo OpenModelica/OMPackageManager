@@ -2547,11 +2547,11 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "b71a9e0468f8552e8e372d8ebce0922307f90af6",
+        "source": "a597a9f75b13757176bb02dceb42923155e0b242",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-0b63a026e875e29d.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Dynawo-wasm32-wasip1-4eb0d74d63821cf7.zip"
       },
       "2.0.0-openmodelica-1.24.5": {
         "generation": 1,
