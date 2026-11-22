@@ -1223,12 +1223,12 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "80b0d27e22d2886d76eed0ea8ffdef81f73af649b118514467586fde9db75c02",
-        "source": "2eba92292f4fda7ae67917aa432cbc81fd35484f",
+        "sha256": "5d1da0f9a25c2737eb9e818bb42d4dc1cc3d2e8e18e9c0540c5a0f60430e4454",
+        "source": "5e8282ae8930ed96008e01acc6096c08b0835edf",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-5ea31497e343e520.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-1240b3702c8b644e.zip"
       },
       "14.0.0": {
         "failed": [
