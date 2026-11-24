@@ -4163,6 +4163,18 @@
         },
         "sha": "3ca3ae06e33bc928f130fa5cd1bf4b31e1a469ed"
       },
+      "nightly-2292_om_1.24.4": {
+        "libs": {
+          "Dynawo": {
+            "path": "dynawo/sources/Models/Modelica/Dynawo",
+            "uses": {
+              "Modelica": "3.2.3"
+            },
+            "version": "2.0.0-nightly-2292_om_1.24.4"
+          }
+        },
+        "sha": "4048301e228ec2c25164d610673908de9b9f1a76"
+      },
       "nightly-release": {
         "libs": {
           "Dynawo": {
