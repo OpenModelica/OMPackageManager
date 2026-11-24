@@ -1291,12 +1291,12 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "007e2811dc3610fa423178e0ee30d20e45a2404969f0d7dc53157e924bd22d8b",
-        "source": "df6e42572e6685015d62bd287984dad550b2fe4b",
+        "sha256": "0eeedc1fdfc16e733dfaf817454443f4a3c7ea27c389d9bcba473131556944ea",
+        "source": "33331cc8e435fbe28b3c1d1e45d73ffa605bae59",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-1240b3702c8b644e.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-5ea31497e343e520.zip"
       },
       "2.0.0": {
         "failed": [
@@ -2547,7 +2547,7 @@
         "generation": 1,
         "recipe": "471b655901f2a5ac",
         "sha256": "abfbc4c7a83c7af72886aaa5d6f45e8ba409aa42ebc1baaf61a508a7514eb350",
-        "source": "a597a9f75b13757176bb02dceb42923155e0b242",
+        "source": "3ca3ae06e33bc928f130fa5cd1bf4b31e1a469ed",
         "systemLibraries": [
           "libc"
         ],
