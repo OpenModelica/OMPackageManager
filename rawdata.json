@@ -4149,7 +4149,7 @@
             "version": "2.0.0-master"
           }
         },
-        "sha": "72159cacdcab55e5a7630427f9a80793fa23b3d3"
+        "sha": "52edc299e61f3ba636cc406a6a73699cee8a3a37"
       },
       "nightly": {
         "libs": {
@@ -4413,7 +4413,7 @@
             "version": "2.0.0-Master"
           }
         },
-        "sha": "72159cacdcab55e5a7630427f9a80793fa23b3d3"
+        "sha": "52edc299e61f3ba636cc406a6a73699cee8a3a37"
       }
     }
   },
