@@ -2158,11 +2158,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "a2817d8a71a4244a305a85ce873abfd92736d7c6"
+        "source": "248fe70f343e84b90baaf8e54ae256afb84c4b80"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7"
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06"
       }
     },
     "ComplexLib": {
@@ -4548,8 +4548,8 @@
       "4.2.0-dev": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "84adf3edcda2261976774b7857dda82066333ef4ec2b303c03fe9027695b4834",
-        "source": "a2817d8a71a4244a305a85ce873abfd92736d7c6",
+        "sha256": "1eed301997c2433ffec1e2b33911ab8b7363a61f469ca2f3369b94dda49e55f9",
+        "source": "248fe70f343e84b90baaf8e54ae256afb84c4b80",
         "systemLibraries": [
           "libc"
         ],
@@ -4558,8 +4558,8 @@
       "trunk": {
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
-        "sha256": "84adf3edcda2261976774b7857dda82066333ef4ec2b303c03fe9027695b4834",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7",
+        "sha256": "1eed301997c2433ffec1e2b33911ab8b7363a61f469ca2f3369b94dda49e55f9",
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06",
         "systemLibraries": [
           "libc"
         ],
@@ -4835,7 +4835,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7"
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06"
       }
     },
     "ModelicaServices": {
@@ -4889,11 +4889,11 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "a2817d8a71a4244a305a85ce873abfd92736d7c6"
+        "source": "248fe70f343e84b90baaf8e54ae256afb84c4b80"
       },
       "trunk": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7"
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06"
       }
     },
     "ModelicaTableAdditions": {
@@ -5031,7 +5031,7 @@
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
         "sha256": "e72065a0d170122638fec1b2e66e26d6f8bfd5462caa309b8059fd828afe3736",
-        "source": "a2817d8a71a4244a305a85ce873abfd92736d7c6",
+        "source": "248fe70f343e84b90baaf8e54ae256afb84c4b80",
         "systemLibraries": [
           "libc"
         ],
@@ -5041,7 +5041,7 @@
         "generation": 1,
         "recipe": "25cf71eb48bcc2ea",
         "sha256": "e72065a0d170122638fec1b2e66e26d6f8bfd5462caa309b8059fd828afe3736",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7",
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06",
         "systemLibraries": [
           "libc"
         ],
@@ -5067,7 +5067,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7"
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06"
       }
     },
     "Modelica_DeviceDrivers": {
@@ -8227,7 +8227,7 @@
       },
       "4.2.0-dev": {
         "recipe": "25cf71eb48bcc2ea",
-        "source": "743836c93378c87ba097697e0ba4490eef6890c7"
+        "source": "8d0a6963123665f7cec0da12ffd1b3f9d8e42a06"
       }
     },
     "OpenBLDC": {
