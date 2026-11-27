@@ -1710,19 +1710,18 @@
               "12.1.1",
               "12.1.2",
               "13.0.0",
-              "13.0.1"
+              "13.0.1",
+              "14.0.0",
+              "14.1.0"
             ],
             "path": "Buildings",
-            "provides": [
-              "14.0.0"
-            ],
             "uses": {
               "Modelica": "4.1.0"
             },
             "version": "15.0.0-master"
           }
         },
-        "sha": "79f33d6612c84b4caf63992af72f21f05c67d931"
+        "sha": "bdc6ba43168f05e0c0f1c524a303791ddc0515bc"
       },
       "v1.4_build1": {
         "libs": {
@@ -5288,7 +5287,7 @@
   },
   "ExternalMedia": {
     "refs": {
-      "3.3.2": {
+      "v3.3.2": {
         "libs": {
           "ExternalMedia": {
             "path": "ExternalMedia",
@@ -5302,9 +5301,10 @@
             "version": "3.3.2"
           }
         },
+        "sha": "7d448258b3453ddd8adc38e03ec8d304fc345c6f",
         "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v3.3.2/ExternalMedia-3.3.2.zip"
       },
-      "4.0.0": {
+      "v4.0.0": {
         "libs": {
           "ExternalMedia": {
             "path": "ExternalMedia",
@@ -5319,9 +5319,10 @@
             "version": "4.0.0"
           }
         },
+        "sha": "a78cc3912f0d93a1951866b3fc28fa39d4794c67",
         "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip"
       },
-      "4.1.1": {
+      "v4.1.1": {
         "libs": {
           "ExternalMedia": {
             "path": "",
@@ -5335,7 +5336,26 @@
             "version": "4.1.1"
           }
         },
+        "sha": "e529e89a9096ababe60cdc0a2e5d6144af5b2104",
         "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.1.1/ExternalMedia-v4.1.1.zip"
+      },
+      "v4.1.2": {
+        "libs": {
+          "ExternalMedia": {
+            "path": "ExternalMedia",
+            "provides": [
+              "4.0.0",
+              "4.1.0",
+              "4.1.1"
+            ],
+            "uses": {
+              "Modelica": "4.1.0"
+            },
+            "version": "4.1.2"
+          }
+        },
+        "sha": "613f97aae371208cd82efc7f2354c707e1554e8f",
+        "zip": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.1.2/ExternalMedia-v4.1.2.zip"
       }
     }
   },

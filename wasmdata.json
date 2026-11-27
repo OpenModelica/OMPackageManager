@@ -1291,12 +1291,12 @@
         ],
         "generation": 1,
         "recipe": "95e5faa2565ca1b8",
-        "sha256": "1fd0d6174a607a312d332dde16c2dc55e23206968d90a4456cc1e78665d2194c",
-        "source": "79f33d6612c84b4caf63992af72f21f05c67d931",
+        "sha256": "67fc26c902f6f75d15168fb45ffec0e52bbbf4f7f819c5e7338f0998c1172127",
+        "source": "bdc6ba43168f05e0c0f1c524a303791ddc0515bc",
         "systemLibraries": [
           "libc"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-5ea31497e343e520.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/Buildings-wasm32-wasip1-1240b3702c8b644e.zip"
       },
       "2.0.0": {
         "failed": [
@@ -3062,39 +3062,51 @@
     "ExternalMedia": {
       "3.3.2": {
         "generation": 1,
-        "recipe": "7eaa0939aa734559",
+        "recipe": "3b6c45eaec420a2e",
         "sha256": "0bee35ad826d1494a54002351ca42fcb3819f81dff1473ca407372680211b359",
-        "source": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v3.3.2/ExternalMedia-3.3.2.zip",
+        "source": "7d448258b3453ddd8adc38e03ec8d304fc345c6f",
         "systemLibraries": [
           "ExternalMediaLib",
           "libc",
           "libcxx"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-1abee35678eb3440.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-999c36e474903d8e.zip"
       },
       "4.0.0": {
         "generation": 1,
-        "recipe": "7eaa0939aa734559",
+        "recipe": "3b6c45eaec420a2e",
         "sha256": "0bee35ad826d1494a54002351ca42fcb3819f81dff1473ca407372680211b359",
-        "source": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.0.0/ExternalMedia-4.0.0.zip",
+        "source": "a78cc3912f0d93a1951866b3fc28fa39d4794c67",
         "systemLibraries": [
           "ExternalMediaLib",
           "libc",
           "libcxx"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-1abee35678eb3440.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-999c36e474903d8e.zip"
       },
       "4.1.1": {
         "generation": 1,
-        "recipe": "7eaa0939aa734559",
+        "recipe": "3b6c45eaec420a2e",
         "sha256": "5528b01c8e2c559f218dbf066f537b732847205e7853a026079dd0e3fb42839b",
-        "source": "https://github.com/modelica-3rdparty/ExternalMedia/releases/download/v4.1.1/ExternalMedia-v4.1.1.zip",
+        "source": "e529e89a9096ababe60cdc0a2e5d6144af5b2104",
         "systemLibraries": [
           "ExternalMediaLib",
           "libc",
           "libcxx"
         ],
-        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-cf2a6fa6f332cde9.zip"
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-a6c825164c9f611a.zip"
+      },
+      "4.1.2": {
+        "generation": 1,
+        "recipe": "3b6c45eaec420a2e",
+        "sha256": "5528b01c8e2c559f218dbf066f537b732847205e7853a026079dd0e3fb42839b",
+        "source": "613f97aae371208cd82efc7f2354c707e1554e8f",
+        "systemLibraries": [
+          "ExternalMediaLib",
+          "libc",
+          "libcxx"
+        ],
+        "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/ExternalMedia-wasm32-wasip1-d56843eb7e66d438.zip"
       }
     },
     "ExternalMemoryLib": {
@@ -10125,10 +10137,10 @@
   },
   "systemLibraries": {
     "ExternalMediaLib": {
-      "sha256": "7213d22c49fca55696444b789770789fd6777abaf9ea408e27b4598f0055affa",
-      "spec": "ec3d490fa7efb5b8",
-      "version": "4.1.1",
-      "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/system/ExternalMediaLib-4.1.1-wasm32-wasip1-7213d22c49fca556.zip"
+      "sha256": "9b8dc9eb48cb7eb4ef0b600f6a6bc0bab8ba9ec697a9fe8e27b558ef888f9fb7",
+      "spec": "66a0e233673399fb",
+      "version": "4.1.2",
+      "zipfile": "https://libraries.openmodelica.org/precompiled/wasm32-wasip1/omc-1/system/ExternalMediaLib-4.1.2-wasm32-wasip1-9b8dc9eb48cb7eb4.zip"
     },
     "ModelicaSDF": {
       "sha256": "604e842ef088a1323e5bf11edc2855c0a38c88676a01dd9d7c0f4fef047cc580",
