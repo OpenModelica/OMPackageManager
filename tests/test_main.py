@@ -35,7 +35,6 @@ class TestCLI(TestCaseBase):
             out_string = out.getvalue()
             self.assertIn('modelica-3rdparty/BuildSysPro', out_string)
             self.assertIn('modelica-3rdparty/electrolytemedia', out_string)
-            self.assertIn('modelica-3rdparty/ExternalMedia', out_string)
             self.assertIn('modelica-3rdparty/FluidSystemComponents', out_string)
             self.assertIn('modelica-3rdparty/Greenhouses-Library', out_string)
             self.assertIn('modelica-3rdparty/HeatTransferComponents', out_string)

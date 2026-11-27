@@ -174,6 +174,10 @@ def collect_branches_tags(entry: dict, key: str, repopath: str,
             releases = entry.get("github-releases")
             if releases:
                 zipurls = collect_release_zips(repo, releases if isinstance(releases, str) else "*.zip")
+            if entry.get("github-releases-only"):
+                if not releases:
+                    raise Exception("\"github-releases-only\" needs \"github-releases\"")
+                tags = [tag for tag in tags if tag.name in zipurls]
         except BaseException:
             print("Failed to get github entry: %s" % entry["github"])
             raise
