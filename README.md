@@ -74,7 +74,8 @@ zip-file on GitHub contains more than that, e.g. pre-compiled binaries in
 The releases are read from the GitHub API, so new releases are picked up
 without editing [repos.json](repos.json). A tag whose release has no zip-file
 attached keeps being taken from git, so old releases predating the practice
-still work.
+still work. If the git tree cannot be used without what the zip-file adds,
+also add `"github-releases-only": true` to skip those tags.
 
 The asset to use is the one matching the glob pattern `*.zip`. If a release
 has several of those, `updateinfo` fails and the pattern has to be narrowed by
